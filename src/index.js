@@ -70,14 +70,6 @@ let questions = [
     blank: 'xxxx xxxxxxxxxxxxxx xxxxxxx',
     review: 'https://www.google.com',
   },
-  {
-    category: 'General',
-    question: 'What is a botnet?',
-    answer: 'Many compromised devices',
-    hint: 'Controlled by attackers',
-    blank: 'xxxx xxxxxxxxxxxxxx xxxxxxx',
-    review: 'https://www.google.com',
-  },
 ];
 
 function generatenew() {
@@ -109,8 +101,8 @@ client.on('messageCreate', (msg) => {
     msg.content.toLowerCase() === questions[randomNumber].answer.toLowerCase() &&
     askingQuestion
   ) {
-    msg.reply(`✅ You got it right! 🎉 \n \n ${questions[randomNumber].review}`);
-    msg.reply(`Your Score is ${score = score + 5}`);
+    msg.reply(`✅ You got it right! 🎉 \n \n Your Score is **${score}** \n ${questions[randomNumber].review}`);
+    console.log(user);
     askingQuestion = false;
   } else {
     msg.reply(`❌ You got it WRONG!`);
