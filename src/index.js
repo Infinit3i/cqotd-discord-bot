@@ -44,7 +44,7 @@ let questions = [
     answer: 'logically segment',
     hint: 'physical vs logical does what?',
     blank: 'xxxxxxxxx xxxxxxx',
-    review: 'https://www.google.com',
+    review: 'https://www.techtarget.com/searchnetworking/definition/virtual-LAN',
   },
   {
     category: 'General',
@@ -52,7 +52,7 @@ let questions = [
     answer: 'Email scam',
     hint: 'What is it sent over?',
     blank: 'xxxxx xxxx',
-    review: 'https://www.google.com',
+    review: 'https://www.cisco.com/c/en/us/products/security/email-security/what-is-phishing.html',
   },
   {
     category: 'General',
@@ -60,7 +60,7 @@ let questions = [
     answer: 'Denial of service',
     hint: 'What does it stop?',
     blank: 'xxxxxx xx xxxxxxx',
-    review: 'https://www.google.com',
+    review: 'https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/',
   },
   {
     category: 'General',
@@ -68,7 +68,7 @@ let questions = [
     answer: 'Many compromised devices',
     hint: 'Controlled by attackers',
     blank: 'xxxx xxxxxxxxxxxxxx xxxxxxx',
-    review: 'https://www.google.com',
+    review: 'https://www.paloaltonetworks.com/cyberpedia/what-is-botnet',
   },
 ];
 
@@ -78,7 +78,7 @@ function generatenew() {
   return randomNumber = Math.floor(numofkeys * Math.random())
 }
 
-let score = 0;
+let score = 5;
 const channelID = process.env.CQOTD_ID;
 let askingQuestion = false; // Flag to track if a question is being asked
 
@@ -102,7 +102,6 @@ client.on('messageCreate', (msg) => {
     askingQuestion
   ) {
     msg.reply(`✅ You got it right! 🎉 \n \n Your Score is **${score}** \n ${questions[randomNumber].review}`);
-    console.log(user);
     askingQuestion = false;
   } else {
     msg.reply(`❌ You got it WRONG!`);
