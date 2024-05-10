@@ -13,19 +13,23 @@ const client = new Client({
 const roles = [
     {
         id: '1214649494700818442', //OCO
-        label: 'OCO'
+        label: 'OCO',
+        emoji: '🥷'
     },
     {
         id: '1214649312189874186', //DCO
-        label: 'DCO'
+        label: 'DCO',
+        emoji: '🛠️'
     },
     {
         id: '1078464137065136249', //IT
-        label: 'IT'
+        label: 'IT',
+        emoji: '👾'
     },
     {
         id: '1071284956426407997', //Programmer
-        label: 'CODER'
+        label: 'CODER',
+        emoji: '🧑‍💻'
     }
 ]
     
@@ -39,7 +43,7 @@ client.on('ready', async (c) => {
 
         roles.forEach((role) => {
             row.components.push(
-                new ButtonBuilder().setCustomId(role.id).setLabel(role.label).setStyle(ButtonStyle.Primary)
+                new ButtonBuilder().setCustomId(role.id).setEmoji(role.emoji).setLabel(role.label).setStyle(ButtonStyle.Primary)
             );
         });
 
