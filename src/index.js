@@ -1,5 +1,6 @@
 require("dotenv").config();
 const { Client, IntentsBitField } = require("discord.js");
+const User = require("../models/User");
 
 const client = new Client({
   intents: [
@@ -79,12 +80,14 @@ function generatenew() {
 }
 
 let score = 5;
+let playerScore = User.score;
 const channelID = process.env.CQOTD_ID;
 let askingQuestion = false; // Flag to track if a question is being asked
 
 client.on("ready", (c) => {
   console.log(`✅ ${c.user.tag} is online.`);
 });
+
 
 //cqotd
 client.on('messageCreate', (msg) => {
@@ -120,6 +123,7 @@ client.on('interactionCreate', (interaction) => {
     interaction.reply({ content: `The blanks are ${questions[randomNumber].blank}`, ephemeral: true});
   } else if (interaction.commandName === "score") {
     interaction.reply({ content: `Your score is ${score}`, ephemeral: true});
+    console.log(playerScore)
   }
 })
 
