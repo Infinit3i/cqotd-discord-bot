@@ -1,6 +1,6 @@
 require("dotenv").config();
 const { Client, IntentsBitField } = require("discord.js");
-const User = require("../models/User");
+const User = require("./models/User");
 
 const client = new Client({
   intents: [
@@ -88,7 +88,6 @@ client.on("ready", (c) => {
   console.log(`✅ ${c.user.tag} is online.`);
 });
 
-
 //cqotd
 client.on('messageCreate', (msg) => {
   console.log(`${msg.author.displayName} said ${msg.content}`);
@@ -170,4 +169,3 @@ client.on("interactionCreate", async (interaction) => {
 })
 
 client.login(process.env.TOKEN);
-
