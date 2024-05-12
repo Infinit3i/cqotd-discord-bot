@@ -12,7 +12,7 @@ const client = new Client({
 
 const roles = [
     {
-        id: '1214649494700818442', //OCO
+        id: process.env.OCO_ROLE_ID , //OCO
         label: 'OCO',
         emoji: '🥷'
     },
@@ -22,14 +22,14 @@ const roles = [
         emoji: '🛠️'
     },
     {
+        id: '1071284956426407997', //Programmer
+        label: 'Programmer',
+        emoji: '🧑‍💻'
+    },
+    {
         id: '1078464137065136249', //IT
         label: 'IT',
         emoji: '👾'
-    },
-    {
-        id: '1071284956426407997', //Programmer
-        label: 'CODER',
-        emoji: '🧑‍💻'
     },
     {
         id: '1238652920510025778', //Hiker
@@ -46,7 +46,7 @@ const roles = [
 
 client.on('ready', async (c) => {
     try {
-        const channel = await client.channels.cache.get('1148717658905264258');
+        const channel = await client.channels.cache.get(process.env.RULES_AND_ROLES_CHID);
         if (!channel) return;
 
         const row = new ActionRowBuilder();
