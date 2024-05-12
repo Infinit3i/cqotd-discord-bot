@@ -30,6 +30,16 @@ const roles = [
         id: '1071284956426407997', //Programmer
         label: 'CODER',
         emoji: '🧑‍💻'
+    },
+    {
+        id: '1238652920510025778', //Hiker
+        label: 'Hiker',
+        emoji: '🥾'
+    },
+    {
+        id: '1238652791711596565', //Fighter
+        label: 'Fighter',
+        emoji: '🥊'
     }
 ]
     
