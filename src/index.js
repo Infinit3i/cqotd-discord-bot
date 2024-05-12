@@ -29,7 +29,7 @@ let questions = [
     answer: 'BeEF',
     hint: 'MOOOOO',
     blank: 'xxxx',
-    review: 'https://youtu.be/etqw6MpisYw?si=c2ae_m0xywwBGZan'
+    review: '<https://youtu.be/etqw6MpisYw?si=c2ae_m0xywwBGZan>'
   },
   {
     category: 'General',
@@ -37,7 +37,7 @@ let questions = [
     answer: 'Open Systems Interconnection',
     hint: 'https://aws.amazon.com/what-is/osi-model/',
     blank: 'xxxx xxxxxxx xxxxxxxxxxxxxxx',
-    review: 'https://youtu.be/Ilk7UXzV_Qc?si=eFvm1JMCByP6iwJ1',
+    review: '<https://youtu.be/Ilk7UXzV_Qc?si=eFvm1JMCByP6iwJ1>',
   },
   {
     category: 'General',
@@ -45,15 +45,15 @@ let questions = [
     answer: 'logically segment',
     hint: 'physical vs logical does what?',
     blank: 'xxxxxxxxx xxxxxxx',
-    review: 'https://www.techtarget.com/searchnetworking/definition/virtual-LAN',
+    review: '<https://www.techtarget.com/searchnetworking/definition/virtual-LAN>',
   },
   {
     category: 'General',
     question: 'What is Phishing?',
-    answer: 'Email scam',
+    answer: ['Email scam', 'email'],
     hint: 'What is it sent over?',
     blank: 'xxxxx xxxx',
-    review: 'https://www.cisco.com/c/en/us/products/security/email-security/what-is-phishing.html',
+    review: '<https://www.cisco.com/c/en/us/products/security/email-security/what-is-phishing.html>',
   },
   {
     category: 'General',
@@ -61,7 +61,7 @@ let questions = [
     answer: 'Denial of service',
     hint: 'What does it stop?',
     blank: 'xxxxxx xx xxxxxxx',
-    review: 'https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/',
+    review: '<https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/>',
   },
   {
     category: 'General',
@@ -69,8 +69,48 @@ let questions = [
     answer: 'Many compromised devices',
     hint: 'Controlled by attackers',
     blank: 'xxxx xxxxxxxxxxxxxx xxxxxxx',
-    review: 'https://www.paloaltonetworks.com/cyberpedia/what-is-botnet',
+    review: '<https://www.paloaltonetworks.com/cyberpedia/what-is-botnet>',
   },
+  {
+    category: 'General',
+    question: 'how many USABLE hosts can fit on a /26 subnet?',
+    answer: '62',
+    hint: 'amount subtract 1 for network address and one for broadcast address',
+    blank: 'xx',
+    review: '<https://aws.amazon.com/what-is/cidr/>',
+  },
+  {
+    category: 'General',
+    question: 'What is the difference between layer 2 switch and a layer 2 switch?',
+    answer: 'routing',
+    hint: 'Layer 3 act similiar to a router.',
+    blank: 'xxxxxxx',
+    review: '<https://planetechusa.com/layer-2-vs-layer-3-switches/>',
+  },
+  {
+    category: 'General',
+    question: 'What port is RDP?',
+    answer: '3389',
+    hint: 'remote desktop protocol.',
+    blank: 'xxxx',
+    review: '<https://www.cbtnuggets.com/common-ports/what-is-port-3389>',
+  },
+  {
+    category: 'General',
+    question: 'What port is LDAP?',
+    answer: '389',
+    hint: 'Lightweight Directory Access Protocol.',
+    blank: 'xxx',
+    review: '<https://www.cbtnuggets.com/blog/technology/networking/ldap-port-389-vs-636>',
+  },
+  {
+    category: 'General',
+    question: 'What port is LDAPS?',
+    answer: '636',
+    hint: 'Encrypted Lightweight Directory Access Protocol.',
+    blank: 'xxx',
+    review: '<https://www.cbtnuggets.com/blog/technology/networking/ldap-port-389-vs-636>',
+  }
 ];
 
 function generatenew() {
@@ -97,13 +137,13 @@ client.on('messageCreate', (msg) => {
     msg.content.toLowerCase() === "cqotd"
   ) {
     let randomNumber = generatenew();
-    msg.reply(questions[randomNumber].question);
+    msg.reply(`The category is **${questions[randomNumber].category}** \n \n ${questions[randomNumber].question}`);
     askingQuestion = true;
   } else if (
     msg.content.toLowerCase() === questions[randomNumber].answer.toLowerCase() &&
     askingQuestion
   ) {
-    msg.reply(`✅ You got it right! 🎉 \n \n Your Score is **${score}** \n ${questions[randomNumber].review}`);
+    msg.reply(`✅ You got it right! 🎉 \n \n Your Score is **${score}** \n \n ${questions[randomNumber].review}`);
     askingQuestion = false;
   } else {
     msg.reply(`❌ You got it WRONG!`);
