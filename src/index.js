@@ -73,7 +73,7 @@ client.on('interactionCreate', (interaction) => {
   if (interaction.commandName === "question") {
     interaction.reply({content: questions[randomNumber].question, ephemeral: true});
   } else if (interaction.commandName === "hint") {
-    interaction.reply({ content: `They hint is ${questions[randomNumber].hint}`, ephemeral: true});
+    interaction.reply({ content: `The hint is ${questions[randomNumber].hint}`, ephemeral: true});
   } else if (interaction.commandName === "blank") {
     interaction.reply({ content: `The blanks are ${questions[randomNumber].blank}`, ephemeral: true});
   } else if (interaction.commandName === "score") {
