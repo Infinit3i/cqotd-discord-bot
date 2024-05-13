@@ -81,7 +81,7 @@ let questions = [
   },
   {
     category: 'General',
-    question: 'What is the difference between layer 2 switch and a layer 2 switch?',
+    question: 'What is the difference between layer 2 switch and a layer 3 switch?',
     answer: 'routing',
     hint: 'Layer 3 act similiar to a router.',
     blank: 'xxxxxxx',
