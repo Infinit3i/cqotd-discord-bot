@@ -22,6 +22,7 @@ let playerScore = User.score;
 const channelID = process.env.CQOTD_ID;
 let askingQuestion = false; // Flag to track if a question is being asked
 const questionInputCommands = ["cqotd", "c", "q", "the question", "question","?"];
+// allow the multiple question banks to be parsed between to be picked at random
 let questions = {...generalquestions, ...gcihquestions, ...secquestions, ...ccnaquestions};
 
 //Login
