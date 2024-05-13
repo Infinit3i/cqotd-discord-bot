@@ -12,15 +12,7 @@
   },
 */
 
-let questions = [
-    {
-      category: 'GCIH',
-      question: 'What application uses hook.js to attack victims from the browser?',
-      answer: 'BeEF',
-      hint: 'MOOOOO',
-      blank: 'xxxx',
-      review: '<https://youtu.be/etqw6MpisYw?si=c2ae_m0xywwBGZan>'
-    },
+let allquestions = [
     {
       category: 'General',
       question: 'What is the OSI model?',
@@ -132,135 +124,7 @@ let questions = [
       hint: 'a is systems, networks, and applications must be functioning as they should and when they should',
       blank: 'xxxxxxxxxxx',
       review: '<https://informationsecurity.wustl.edu/items/confidentiality-integrity-and-availability-the-cia-triad/>',
-    },
-    {
-      category: 'CCNA',
-      question: 'What model of operation does Hot Standby Router Protocol (HSRP) use?',
-      answer: 'Active/passive',
-      hint: 'one router is on standby while the other is working',
-      blank: 'xxxxxx/xxxxxxx',
-      review: '<https://www.cisco.com/c/en/us/support/docs/ip/hot-standby-router-protocol-hsrp/9234-hsrpguidetoc.html>',
-    },
-    {
-      category: 'CCNA',
-      question: 'What layer # is port security and dynamic ARP inspection?',
-      answer: '2',
-      hint: 'NOT 3',
-      blank: 'x',
-      review: '<https://info.pivitglobal.com/resources/port-security-layer-2-protection>',
-    },
-    {
-      category: 'CCNA',
-      question: 'Which type of message is sent by DHCP client to ask to lease a specific IP address from a DHCP server?',
-      answer: 'Request',
-      hint: 'DORA',
-      blank: 'xxxxxxx',
-      review: '<https://notes.networklessons.com/dhcp-message-types>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'Which analysis framework provides the most explicit detail regarding how to mitigate or detect a given threat?',
-      answer: 'MITRE ATT&CK framework',
-      hint: 'Lockheed, diamond or MITRE',
-      blank: 'xxxxx xxx&xx xxxxxxxxx',
-      review: '<https://attack.mitre.org/>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'What encryption method is excellent at verifying disk & file integrity?',
-      answer: 'SHA-256',
-      hint: 'SHA-xxx',
-      blank: 'xxx-xxx',
-      review: '<https://support.google.com/google-ads/answer/9004655?hl=en>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'Which of the following types of data breaches would require that the US Department of Health and Human Services and the media be notified if more than 500 individuals are affected by a data breach?',
-      answer: 'Protected health information',
-      hint: 'PHI',
-      blank: 'xxxxxxxxx xxxxxx xxxxxxxxxxx',
-      review: '<https://www.niu.edu/doit/about/policies/hipaa-breach-notification-rule.shtml>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'Which type of threat actor can accidentally or inadvertently cause a security incident in your organization?',
-      answer: 'Insider threat',
-      hint: 'It could be you!',
-      blank: 'xxxxxxx xxxxxx',
-      review: '<https://www.opentext.com/what-is/insider-threat>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'What should be done NEXT if the final set of security controls does not eliminate all of the risks in a given system?',
-      answer: 'accept',
-      hint: 'can you do anything more?',
-      blank: 'xxxxxx',
-      review: '<>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'What technology would allow your company to provide a secure SSO solution for accessing both the corporate wireless network and its network resources?',
-      answer: 'RADIUS',
-      hint: 'not WPA2, WPS, or WEP',
-      blank: 'xxxxxx',
-      review: '<https://www.fortinet.com/resources/cyberglossary/radius-protocol>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'An attacker has been collecting credit card details by calling victims and using false pretexts to trick them?',
-      answer: 'Vishing',
-      hint: 'Voice what?',
-      blank: 'xxxxxxx',
-      review: '<https://www.terranovasecurity.com/solutions/security-awareness-training/what-is-vishing>',
-    },
-    {
-      category: 'CompTIA Security+',
-      question: 'What is the agreement that specify what is allowed during a penetration test?',
-      answer: 'Rules of engagement',
-      hint: 'ROE',
-      blank: 'xxxxx xx xxxxxxxxxxx',
-      review: '<https://csrc.nist.gov/glossary/term/rules_of_engagement>',
-    },
-    {
-        category: 'CompTIA Security+',  
-        question: 'If someone says you sent an email but you didn\'t; what kind of attack are you a victim of?',
-        answer: 'hijacked email',
-        hint: 'They compromised your email',
-        blank: 'xxxxxxxx xxxxx',
-        review: '<https://www.ibm.com/topics/business-email-compromise>',
-    },
-    {
-        category: 'CompTIA Security+',  
-        question: 'What technology would you implement to seperate an internal network from a guest network?',
-        answer: 'vlan',
-        hint: 'Virtual Segments',
-        blank: 'xxxx',
-        review: '<https://www.techtarget.com/searchnetworking/definition/virtual-LAN>',
-    },
-    {
-        category: 'CompTIA Security+',  
-        question: 'Which cryptographic algorithm is symmetric? \n (RSA, PGP, Blowfish, ECC)',
-        answer: 'Blowfish',
-        hint: 'one fish',
-        blank: 'xxxxxxxx',
-        review: '<https://www.techtarget.com/searchsecurity/definition/Blowfish>',
-    },
-    {
-        category: 'CompTIA Security+',  
-        question: 'Which of the following vulnerability scans would provide the best results if you want to determine if the target\'s configuration settings are correct?',
-        answer: 'Credentialed scan',
-        hint: 'non-credentialed vs credentialed',
-        blank: 'xxxxxxxxxxxx xxxx',
-        review: '<https://purplesec.us/learn/credentialed-scanning-vs-uncredentialed-scanning/>',
-    },
-    {
-        category: 'CompTIA Security+',  
-        question: 'What is it called when a user enters their username and password only once and is gained access to multiple applications',
-        answer: 'SSO',
-        hint: 'single what?',
-        blank: 'xxx',
-        review: '<https://www.techtarget.com/searchsecurity/definition/single-sign-on>',
     }
 ];
 
-module.exports = questions;
+module.exports = allquestions;
