@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { Client, IntentsBitField } = require("discord.js");
 const User = require("./models/User");
-const questions = require('./questionbank');
+const questions = require('./questions/questionbank');
 
 const client = new Client({
   intents: [

@@ -2,8 +2,8 @@
 //Question Bank
 /*
   {
-    category: 'General GCIH CCNA',     
-    difficulty: 'Easy Medium Hard'      
+    category: 'General GCIH CCNA CompTIA Security+',       
+    difficulty: 'Easy Medium Hard',    
     question: '',
     answer: '',
     hint: '',
@@ -220,6 +220,46 @@ let questions = [
       hint: 'ROE',
       blank: 'xxxxx xx xxxxxxxxxxx',
       review: '<https://csrc.nist.gov/glossary/term/rules_of_engagement>',
+    },
+    {
+        category: 'CompTIA Security+',  
+        question: 'If someone says you sent an email but you didn\'t; what kind of attack are you a victim of?',
+        answer: 'hijacked email',
+        hint: 'They compromised your email',
+        blank: 'xxxxxxxx xxxxx',
+        review: '<https://www.ibm.com/topics/business-email-compromise>',
+    },
+    {
+        category: 'CompTIA Security+',  
+        question: 'What technology would you implement to seperate an internal network from a guest network?',
+        answer: 'vlan',
+        hint: 'Virtual Segments',
+        blank: 'xxxx',
+        review: '<https://www.techtarget.com/searchnetworking/definition/virtual-LAN>',
+    },
+    {
+        category: 'CompTIA Security+',  
+        question: 'Which cryptographic algorithm is symmetric? \n (RSA, PGP, Blowfish, ECC)',
+        answer: 'Blowfish',
+        hint: 'one fish',
+        blank: 'xxxxxxxx',
+        review: '<https://www.techtarget.com/searchsecurity/definition/Blowfish>',
+    },
+    {
+        category: 'CompTIA Security+',  
+        question: 'Which of the following vulnerability scans would provide the best results if you want to determine if the target\'s configuration settings are correct?',
+        answer: 'Credentialed scan',
+        hint: 'non-credentialed vs credentialed',
+        blank: 'xxxxxxxxxxxx xxxx',
+        review: '<https://purplesec.us/learn/credentialed-scanning-vs-uncredentialed-scanning/>',
+    },
+    {
+        category: 'CompTIA Security+',  
+        question: 'What is it called when a user enters their username and password only once and is gained access to multiple applications',
+        answer: 'SSO',
+        hint: 'single what?',
+        blank: 'xxx',
+        review: '<https://www.techtarget.com/searchsecurity/definition/single-sign-on>',
     }
 ];
 
