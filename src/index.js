@@ -110,6 +110,30 @@ let questions = [
     hint: 'Encrypted Lightweight Directory Access Protocol.',
     blank: 'xxx',
     review: '<https://www.cbtnuggets.com/blog/technology/networking/ldap-port-389-vs-636>',
+  },
+  {
+    category: 'CCNA',
+    question: 'What model of operation does Hot Standby Router Protocol (HSRP) use?',
+    answer: 'Active/passive',
+    hint: 'one router is on standby while the other is working',
+    blank: 'xxxxxx/xxxxxxx',
+    review: '<https://www.cisco.com/c/en/us/support/docs/ip/hot-standby-router-protocol-hsrp/9234-hsrpguidetoc.html>',
+  },
+  {
+    category: 'CCNA',
+    question: 'What layer # is port security and dynamic ARP inspection?',
+    answer: '2',
+    hint: 'NOT 3',
+    blank: 'x',
+    review: '<https://info.pivitglobal.com/resources/port-security-layer-2-protection>',
+  },
+  {
+    category: 'CCNA',
+    question: 'Which type of message is sent by DHCP client to ask to lease a specific IP address from a DHCP server?',
+    answer: 'Request',
+    hint: 'DORA',
+    blank: 'xxxxxxx',
+    review: '<https://notes.networklessons.com/dhcp-message-types>',
   }
 ];
 
@@ -143,7 +167,7 @@ client.on('messageCreate', (msg) => {
     msg.content.toLowerCase() === questions[randomNumber].answer.toLowerCase() &&
     askingQuestion
   ) {
-    msg.reply(`✅ You got it right! 🎉 \n \n Your Score is **${score}** \n \n ${questions[randomNumber].review}`);
+    msg.reply(`✅ You got it right! 🎉 Your Score is **${score}** \n \n **REVIEW**: ${questions[randomNumber].review}`);
     askingQuestion = false;
   } else {
     msg.reply(`❌ You got it WRONG!`);
