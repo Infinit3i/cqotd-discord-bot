@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   discordbot:
-    container_name: cyber-nerd-discord-bot
+    container_name: CN-bot
     image: matthewiver/cyber-nerd-discord-bot:1.0
     volumes:
       - /mnt/user/appdata/cqotd-discord-bot:/app/:rw
@@ -11,7 +11,12 @@ services:
       dockerfile: ./Dockerfile
     environment:
       NODE_ENV: production
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: p@ssw0rd
+      ME_CONFIG_MONGODB_URL: mongodb://root:p@ssw0rd@10.13.20.60:27017/
+      ME_CONFIG_BASICAUTH: false
   mongo:
+    container_name: CN-MongoDB
     image: mongo
     volumes:
       - /mnt/user/appdata/cqotd-discord-bot-mongodb:/mongodb/:rw
@@ -19,15 +24,4 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: p@ssw0rd
-
-  mongo-express:
-    image: mongo-express
-    restart: always
-    ports:
-      - 8081:8081
-    environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: p@ssw0rd
-      ME_CONFIG_MONGODB_URL: mongodb://root:p@ssw0rd@10.13.20.60:27017/
-      ME_CONFIG_BASICAUTH: false
   
