@@ -6,4 +6,4 @@ RUN npm install --production --silent && mv node_modules ../
 COPY . .
 RUN chown -R node /usr/src/app
 USER node
-CMD ["nodemon", "src/index.js"]
+CMD ["node", "src/index.js"]
