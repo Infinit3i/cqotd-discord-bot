@@ -46,7 +46,7 @@ client.on('messageCreate', (msg) => {
     msg.content.toLowerCase() === questions[randomNumber].answer.toLowerCase() &&
     askingQuestion
   ) {
-    msg.reply(`✅ You got it right! 🎉 Your Score is **${playerScore = playerScore + score}** \n \n **REVIEW**: ${questions[randomNumber].review}`);
+    msg.reply(`✅ You got it right! 🎉 Your Score is **${score = 5 + score}** \n \n **REVIEW**: ${questions[randomNumber].review}`);
     askingQuestion = false;
   } else if (msg.content.toLowerCase() === "skip"){
     askingQuestion = false
