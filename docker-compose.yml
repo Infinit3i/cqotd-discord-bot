@@ -1,6 +1,20 @@
 version: '3.4'
 
 services:
+  mongo:
+    container_name: CN-MongoDB
+    image: mongo
+    volumes:
+      - /mnt/user/appdata/cqotd-discord-bot-mongodb:/mongodb/:rw
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+    ports:
+      - 27017:27017
+    networks:
+      default:
+        ipv4_address: 10.1.20.88
   discordbot:
     container_name: CN-bot
     image: matthewiver/cyber-nerd-discord-bot:1.0
@@ -10,23 +24,8 @@ services:
       context: .
       dockerfile: ./Dockerfile
     environment:
-      NODE_ENV: production
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: p@ssw0rd
-      ME_CONFIG_MONGODB_URL: mongodb://root:p@ssw0rd@10.13.20.60:27017/
-      ME_CONFIG_BASICAUTH: false
-  mongo:
-    container_name: CN-MongoDB
-    image: mongo
-    volumes:
-      - /mnt/user/appdata/cqotd-discord-bot-mongodb:/mongodb/:rw
-    restart: always
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: p@ssw0rd
-    ports:
-      - 27017:27017
-    networks:
-      vpcbr:
-        ipv4_address: 10.1.50.88
-  
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=${MONGO_USER}
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_PASSWORD}
+      - ME_CONFIG_MONGODB_URL=${MONGO_CONFIG}
+    depends_on:
+      - mongo
