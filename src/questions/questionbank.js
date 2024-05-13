@@ -12,7 +12,7 @@
   },
 */
 
-let allquestions = [
+let generalquestions = [
     {
       category: 'General',
       question: 'What is the OSI model?',
@@ -127,4 +127,4 @@ let allquestions = [
     }
 ];
 
-module.exports = allquestions;
+module.exports = generalquestions;

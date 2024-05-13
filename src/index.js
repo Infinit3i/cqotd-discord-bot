@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { Client, IntentsBitField } = require("discord.js");
 const User = require("./models/User");
-const allquestions = require('./questions/questionbank');
+const generalquestions = require('./questions/questionbank');
 const gcihquestions = require('./questions/gcihquestions');
 const secquestions = require('./questions/secquestions');
 const ccnaquestions = require('./questions/ccnaquestions');
@@ -22,7 +22,7 @@ let playerScore = User.score;
 const channelID = process.env.CQOTD_ID;
 let askingQuestion = false; // Flag to track if a question is being asked
 const questionInputCommands = ["cqotd", "c", "q", "the question", "question","?"];
-let questions = {...allquestions, ...gcihquestions, ...secquestions, ...ccnaquestions};
+let questions = {...generalquestions, ...gcihquestions, ...secquestions, ...ccnaquestions};
 
 //Login
 client.on("ready", (c) => {
