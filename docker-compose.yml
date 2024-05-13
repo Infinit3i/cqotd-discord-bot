@@ -24,4 +24,9 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: p@ssw0rd
+    ports:
+      - 27017:27017
+    networks:
+      vpcbr:
+        ipv4_address: 10.1.50.88
   
