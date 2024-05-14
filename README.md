@@ -17,7 +17,7 @@ Made by Matthew Iverson
 FUTURE
 
 rss
-scoreboard
+score for each user
 leaderboard of top 5
-assign roles for top 5
-assign role for #1
+assign roles for top 5 on leaderboard
+assign role for #1 on leaderboard
