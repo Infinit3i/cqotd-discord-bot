@@ -12,3 +12,12 @@ slash commands
 
 
 Made by Matthew Iverson
+
+
+FUTURE
+
+rss
+scoreboard
+leaderboard of top 5
+assign roles for top 5
+assign role for #1
