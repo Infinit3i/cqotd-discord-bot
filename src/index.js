@@ -22,6 +22,10 @@ let playerScore = User.score;
 const channelID = process.env.CQOTD_ID;
 let askingQuestion = false; // Flag to track if a question is being asked
 const questionInputCommands = ["cqotd", "c", "q", "the question", "question","?"];
+// who ASKED!
+const alleyOOP = ["https://tenor.com/view/luka-doncic-alley-oop-lob-kristaps-porzingis-pass-gif-17653538", "https://tenor.com/view/nba-players-alleyoop-dunk-nba-gif-11453933", "https://tenor.com/view/crawford-to-griffin-dunk-basketball-nba-gif-16061160"]
+let lastRandomIndex = -1;
+
 // allow the multiple question banks to be parsed between to be picked at random
 let questions = {...generalquestions, ...gcihquestions, ...secquestions, ...ccnaquestions};
 
@@ -43,7 +47,16 @@ client.on('messageCreate', (msg) => {
   console.log(`${msg.author.displayName} said ${msg.content}`);
   if (msg.author.bot || msg.channel.id !== channelID) {
     return;
-  } else if (questionInputCommands.includes(msg.content.toLowerCase())) {
+  } else if (msg.content.toLowerCase() === "who") {
+    let randomIndex;
+    do {
+        randomIndex = Math.floor(Math.random() * alleyOOP.length);
+    } while (randomIndex === lastRandomIndex); // Ensure the new random index is different from the last one
+    lastRandomIndex = randomIndex;
+
+    const randomAlleyOOP = alleyOOP[randomIndex];
+    msg.reply(`ASKED!!! \n \n ${randomAlleyOOP}`);
+} else if (questionInputCommands.includes(msg.content.toLowerCase())) {
     let randomNumber = generatenew();
     msg.reply(`The category is **${questions[randomNumber].category}** \n \n ${questions[randomNumber].question}`);
     askingQuestion = true;

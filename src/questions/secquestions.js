@@ -66,7 +66,7 @@ let secquestions = [
     {
         category: 'CompTIA Security+',  
         question: 'If someone says you sent an email but you didn\'t; what kind of attack are you a victim of?',
-        answer: 'hijacked email',
+        answer: 'hijacked email', //'impersonation',
         hint: 'They compromised your email',
         blank: 'xxxxxxxx xxxxx',
         review: '<https://www.ibm.com/topics/business-email-compromise>',
