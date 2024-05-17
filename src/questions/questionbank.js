@@ -124,6 +124,14 @@ let generalquestions = [
       hint: 'a is systems, networks, and applications must be functioning as they should and when they should',
       blank: 'xxxxxxxxxxx',
       review: '<https://informationsecurity.wustl.edu/items/confidentiality-integrity-and-availability-the-cia-triad/>',
+    },
+    {
+      category: 'General',
+      question: 'What is Pharming??',
+      answer: 'redirects a victim',
+      hint: 'A form of attack that redirects traffic from one website to a fake site without the user knowing',
+      blank: 'xxxxxxxxx x xxxxxx',
+      review: '<>',
     }
 ];
 
