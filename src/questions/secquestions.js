@@ -874,9 +874,9 @@ let secquestions = [
     {
         category: "CompTIA Security+",
         question: "What weak configuration involves leaving unnecessary network access points open?",
-        answer: "Open ports and services",
-        hint: "Leaving unnecessary network access points open",
-        blank: "xxxxx xxxx xxx xxxxxxxx",
+        answer: "Open ports",
+        hint: "sticky mac or disable the port",
+        blank: "xxxx xxxxs",
         review: "<>"
     },
     {
