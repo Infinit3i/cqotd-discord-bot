@@ -16,6 +16,7 @@ TODO
 
 - rss
 - score for each user
-- leaderboard of top 5
+- role of top 5
+- leaderboard for all
 - assign roles for top 5 on leaderboard
 - assign role for #1 on leaderboard
