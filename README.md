@@ -1,4 +1,5 @@
-Cyber Nerd Discord bot written in javascript
+# Cyber Nerd Discord bot
+
 commands currently
 cqotd - creates a game of question of the day
 
