@@ -11,13 +11,10 @@ slash commands
 
 
 
-Made by Matthew Iverson
+TODO
 
-
-FUTURE
-
-rss
-score for each user
-leaderboard of top 5
-assign roles for top 5 on leaderboard
-assign role for #1 on leaderboard
+- rss
+- score for each user
+- leaderboard of top 5
+- assign roles for top 5 on leaderboard
+- assign role for #1 on leaderboard
