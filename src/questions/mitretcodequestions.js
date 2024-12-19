@@ -30,6 +30,7 @@ module.exports = {
         question: `What is the code for "${techniqueName}"?`,
         answer: randomCode,
         hint: "Think 'T' followed by a number.",
+        blank: "T####",
         review: url,
       };
     } catch (error) {

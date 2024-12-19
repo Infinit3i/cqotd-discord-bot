@@ -20,21 +20,20 @@ module.exports = {
       return;
     }
 
+    // Retrieve the target user (default to the command user if none is provided)
     const targetUserId =
       interaction.options.get("user")?.value || interaction.member.id;
 
     await interaction.deferReply();
 
-    const user = await User.findOne({
-      userId: targetUserId,
-      guildId: interaction.guild.id,
-    });
+    // Find or create a user tied to their Discord ID and guild ID
+    const user = await User.findOneAndUpdate(
+      { userId: targetUserId, guildId: interaction.guild.id },
+      { $setOnInsert: { userId: targetUserId, guildId: interaction.guild.id, score: 0 } },
+      { upsert: true, new: true }
+    );
 
-    if (!user) {
-      interaction.editReply(`<@${targetUserId}> doesn't have a profile yet.`);
-      return;
-    }
-
+    // Respond with the user's score
     interaction.editReply(
       targetUserId === interaction.member.id
         ? `Your score is **${user.score}**`

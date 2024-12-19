@@ -2,27 +2,35 @@ require('dotenv').config();
 const { REST, Routes } = require('discord.js');
 
 const commands = [
-    {
-        name: 'hint',
-        description: 'Gives a hint for the current question.'
-    },
-    {
-        name: 'blank',
-        description: 'Shows the spaces for the answer.'
-    },
-    {
-        name: 'question',
-        description: 'Shows the current question again.'
-    },
-    {
-        name: 'score',
-        description: 'Shows your score.'
-    },
-    {
-        name: 'leaderboard',
-        description: 'Shows the leaderboard.'
-    },
+  {
+    name: "mitre",
+    description: "Fetch a random MITRE T-Code question",
+  },
+  {
+    name: "score",
+    description: "See someone's score.",
+    options: [
+      {
+        name: "user",
+        description: "The user whose score you want to check.",
+        type: 6, // USER type
+      },
+    ],
+  },
+  {
+    name: "hint",
+    description: "Get a hint for the current question.",
+  },
+  {
+    name: "blank",
+    description: "Get a blank version of the question.",
+  },
+  {
+    name: "question",
+    description: "Get the current question.",
+  },
 ];
+
 
 const rest = new REST({ version: '10'}).setToken(process.env.TOKEN);
 

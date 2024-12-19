@@ -111,40 +111,13 @@ function validateAnswer(userAnswer) {
 client.generateNewQuestion = generateNewQuestion;
 client.validateAnswer = validateAnswer;
 
-client.on('interactionCreate', async (interaction) => {
-  if (!interaction.isChatInputCommand()) return;
 
-  if (interaction.commandName === "mitre") {
-    try {
-      await interaction.deferReply(); // Acknowledge the interaction
-
-      const mitreQuestion = await fetchMitreQuestion(); // Fetch a random MITRE question
-      client.currentQuestion = mitreQuestion; // Set it as the current question
-
-      await interaction.editReply(
-        `🔔 **MITRE T-Code Question** 🔔\n\n**Category:** ${mitreQuestion.category}\n**Question:** ${mitreQuestion.question}`
-      );
-
-      console.log(`Fetched MITRE question: ${mitreQuestion.question}`);
-      console.log(`Answer: ${mitreQuestion.answer}`); // Log the correct answer to the terminal
-    } catch (error) {
-      console.error('Error handling /mitre command:', error);
-      await interaction.editReply('❌ An error occurred while fetching the MITRE question. Please try again later.');
-    }
-  }
-});
 
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
-const commands = [
-  {
-    name: 'mitre',
-    description: 'Fetch a random MITRE T-Code question',
-  },
-  // Add other commands here if needed
-];
+
 
 // Register the commands
 (async () => {
@@ -248,6 +221,28 @@ client.on('messageCreate', (msg) => {
   }
 });
 
+client.on('interactionCreate', async (interaction) => {
+  if (!interaction.isChatInputCommand()) return;
+
+  if (interaction.commandName === "mitre") {
+    try {
+      await interaction.deferReply(); // Acknowledge the interaction
+
+      const mitreQuestion = await fetchMitreQuestion(); // Fetch a random MITRE question
+      client.currentQuestion = mitreQuestion; // Set it as the current question
+
+      await interaction.editReply(
+        `🔔 **MITRE T-Code Question** 🔔\n\n**Category:** ${mitreQuestion.category}\n**Question:** ${mitreQuestion.question}`
+      );
+
+      console.log(`Fetched MITRE question: ${mitreQuestion.question}`);
+      console.log(`Answer: ${mitreQuestion.answer}`); // Log the correct answer to the terminal
+    } catch (error) {
+      console.error('Error handling /mitre command:', error);
+      await interaction.editReply('❌ An error occurred while fetching the MITRE question. Please try again later.');
+    }
+  }
+});
 
 //Commands for the Cyber Nerds Bot
 client.on('interactionCreate', async (interaction) => {
