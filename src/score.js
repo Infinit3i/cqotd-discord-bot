@@ -1,7 +1,7 @@
-const {
-  Client,
-  Interaction,
-  ApplicationcommandOptionType,
+const { 
+  Client, 
+  Interaction, 
+  ApplicationCommandOptionType 
 } = require("discord.js");
 const User = require("../models/User");
 
@@ -9,16 +9,17 @@ module.exports = {
   /**
    *
    * @param {Client} client
-   * @param {Interaction} interaciton
+   * @param {Interaction} interaction
    **/
   callback: async (client, interaction) => {
     if (!interaction.inGuild()) {
       interaction.reply({
         content: "You can only run this command inside of a server.",
-        ephermeral: true,
+        ephemeral: true,
       });
       return;
     }
+
     const targetUserId =
       interaction.options.get("user")?.value || interaction.member.id;
 
@@ -42,12 +43,12 @@ module.exports = {
   },
 
   name: "score",
-  description: "See someones score.",
+  description: "See someone's score.",
   options: [
     {
       name: "user",
-      description: "Someones score.",
-      type: ApplicationcommandOptionType.User,
+      description: "The user whose score you want to check.",
+      type: ApplicationCommandOptionType.User,
     },
   ],
 };

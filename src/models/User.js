@@ -9,13 +9,29 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
+  username: {
+    type: String,
+    required: false, // Optional but useful for logs and leaderboards
+  },
   score: {
+    type: Number,
+    default: 0,
+  },
+  questionsAnswered: {
     type: Number,
     default: 0,
   },
   lastDaily: {
     type: Date,
-    reqired: true,
+    required: true,
+  },
+  lastAnswered: {
+    type: Date,
+    default: null,
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
   },
 });
 

@@ -3,9 +3,11 @@
 
 # Dependency directories
 node_modules/
-
 .vscode
 
 # Local files
 config.json
 rss/
+
+package.json
+package-lock.json
