@@ -10,6 +10,17 @@ const ccnaquestions = require('./questions/ccnaquestions');
 const scheduleQuestions = require("./scheduleQuestions");
 const { fetchMitreQuestion } = require("./questions/mitretcodequestions");
 const multipleChoiceQuestion = require("./multipleChoiceQuestion");
+const mitreQuestions = require("./questions/mitretcodequestions");
+
+// Combine all questions into an array
+let questionsArray = [
+  ...Object.values(generalquestions),
+  ...Object.values(gcihquestions),
+  ...Object.values(secquestions),
+  ...Object.values(ccnaquestions),
+];
+
+
 
 
 
@@ -21,6 +32,24 @@ const client = new Client({
     IntentsBitField.Flags.MessageContent,
   ],
 });
+
+async function addMitreQuestion() {
+  try {
+    const mitreQuestion = await mitreQuestions.fetchMitreQuestion();
+    client.questionsArray.push(mitreQuestion);
+    console.log("MITRE question added:", mitreQuestion);
+  } catch (error) {
+    console.error("Failed to fetch MITRE question:", error.message);
+  }
+}
+
+// Attach questionsArray and currentQuestion to the client
+client.questionsArray = questionsArray;
+client.currentQuestion = null;
+
+
+// Add MITRE question periodically or on-demand
+addMitreQuestion(); // Add one at startup
 
 scheduleQuestions(client);
 multipleChoiceQuestion(client);
@@ -36,14 +65,6 @@ const questionInputCommands = ["cqotd", "c", "q", "the question", "question","?"
 // who ASKED!
 const alleyOOP = ["https://tenor.com/view/luka-doncic-alley-oop-lob-kristaps-porzingis-pass-gif-17653538", "https://tenor.com/view/nba-players-alleyoop-dunk-nba-gif-11453933", "https://tenor.com/view/crawford-to-griffin-dunk-basketball-nba-gif-16061160"]
 let lastRandomIndex = -1;
-
-// Combine all questions into an array
-let questionsArray = [
-  ...Object.values(generalquestions),
-  ...Object.values(gcihquestions),
-  ...Object.values(secquestions),
-  ...Object.values(ccnaquestions),
-];
 
 // Attach questionsArray to the client for global access
 client.questionsArray = questionsArray;
@@ -90,10 +111,54 @@ function validateAnswer(userAnswer) {
 client.generateNewQuestion = generateNewQuestion;
 client.validateAnswer = validateAnswer;
 
+client.on('interactionCreate', async (interaction) => {
+  if (!interaction.isChatInputCommand()) return;
+
+  if (interaction.commandName === "mitre") {
+    try {
+      await interaction.deferReply(); // Acknowledge the interaction
+
+      const mitreQuestion = await fetchMitreQuestion(); // Fetch a random MITRE question
+      client.currentQuestion = mitreQuestion; // Set it as the current question
+
+      await interaction.editReply(
+        `🔔 **MITRE T-Code Question** 🔔\n\n**Category:** ${mitreQuestion.category}\n**Question:** ${mitreQuestion.question}`
+      );
+
+      console.log(`Fetched MITRE question: ${mitreQuestion.question}`);
+      console.log(`Answer: ${mitreQuestion.answer}`); // Log the correct answer to the terminal
+    } catch (error) {
+      console.error('Error handling /mitre command:', error);
+      await interaction.editReply('❌ An error occurred while fetching the MITRE question. Please try again later.');
+    }
+  }
+});
 
 
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord-api-types/v9');
 
+const commands = [
+  {
+    name: 'mitre',
+    description: 'Fetch a random MITRE T-Code question',
+  },
+  // Add other commands here if needed
+];
 
+// Register the commands
+(async () => {
+  try {
+    const rest = new REST({ version: '9' }).setToken(process.env.TOKEN);
+    await rest.put(
+      Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
+      { body: commands }
+    );
+    console.log('✅ Slash commands registered successfully.');
+  } catch (error) {
+    console.error('❌ Error registering slash commands:', error);
+  }
+})();
 
 
 
@@ -185,7 +250,7 @@ client.on('messageCreate', (msg) => {
 
 
 //Commands for the Cyber Nerds Bot
-client.on('interactionCreate', (interaction) => {
+client.on('interactionCreate', async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
   if (interaction.commandName === "question") {
