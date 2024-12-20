@@ -14,6 +14,14 @@
 /hint
 ```
 
+### SETUP
+
+```
+extract
+cd CQOTD-DISCORD-BOT-MAIN
+npm install discord.js
+```
+
 
 TODO
 
