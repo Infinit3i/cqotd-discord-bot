@@ -20,6 +20,10 @@ const commands = [
     description: "Get a hint for the current question.",
   },
   {
+    name: "skip",
+    description: "Skip the current question.",
+  },
+  {
     name: "blank",
     description: "Get a blank version of the question.",
   },
