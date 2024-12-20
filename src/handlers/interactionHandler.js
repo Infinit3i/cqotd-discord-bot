@@ -11,6 +11,16 @@ async function interactionHandler(client) {
     if (!interaction.isChatInputCommand()) return;
 
     const guildId = interaction.guild?.id;
+    const cqotdChannelId = process.env.CQOTD_ID;
+
+    // Restrict commands to the CQOTD_ID channel
+    if (interaction.channelId !== cqotdChannelId) {
+      await interaction.reply({
+        content: `❌ This command can only be used in the <#${cqotdChannelId}>`,
+        ephemeral: true,
+      });
+      return;
+    }
 
     if (interaction.commandName === "question") {
       await handleQuestion(client, interaction);

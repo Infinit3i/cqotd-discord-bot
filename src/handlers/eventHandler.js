@@ -14,18 +14,19 @@ function eventHandler(client) {
 
     // Generate or display question
     if (showQuestionCommands.includes(content)) {
-      if (!client.currentQuestion) {
-        await generateNewQuestion(client, msg.channel.id);
+      if (msg.author.bot || msg.channel.id !== process.env.CQOTD_ID) return;
+      else if (!client.currentQuestion) {
+          await generateNewQuestion(client, msg.channel.id);
+        }
+        if (client.currentQuestion) {
+          msg.reply(
+            `🔔 **Question** 🔔\n**Category:** ${client.currentQuestion.category}\n**Question:** ${client.currentQuestion.question}`
+          );
+        } else {
+          msg.reply("❌ Failed to generate a new question. Please try again.");
+        }
+        return;
       }
-      if (client.currentQuestion) {
-        msg.reply(
-          `🔔 **Question** 🔔\n**Category:** ${client.currentQuestion.category}\n**Question:** ${client.currentQuestion.question}`
-        );
-      } else {
-        msg.reply("❌ Failed to generate a new question. Please try again.");
-      }
-      return;
-    }
 
     // Validate answer
     console.log(`User response: ${msg.content}`);
