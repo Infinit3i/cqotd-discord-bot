@@ -5,7 +5,12 @@ function eventHandler(client) {
     if (msg.author.bot || msg.channel.id !== process.env.CQOTD_ID) return;
 
     const content = msg.content.toLowerCase();
-    const showQuestionCommands = ["cqotd", "question", "question of the day", "?"];
+    const showQuestionCommands = [
+      "cqotd",
+      "question",
+      "question of the day",
+      "?",
+    ];
 
     // Generate or display question
     if (showQuestionCommands.includes(content)) {
@@ -24,7 +29,12 @@ function eventHandler(client) {
 
     // Validate answer
     console.log(`User response: ${msg.content}`);
-    const { isCorrect, user, correctAnswer } = await validateAnswer(client, msg.content, msg.author.id, msg.guild.id);
+    const { isCorrect, user, correctAnswer } = await validateAnswer(
+      client,
+      msg.content,
+      msg.author.id,
+      msg.guild.id
+    );
     if (isCorrect) {
       msg.reply(`✅ Correct answer! Your score is now **${user.score}**.`);
 
@@ -48,11 +58,13 @@ function eventHandler(client) {
         ];
 
         // Pick a random celebration gif
-        const randomGif = celebrationGifs[Math.floor(Math.random() * celebrationGifs.length)];
+        const randomGif =
+          celebrationGifs[Math.floor(Math.random() * celebrationGifs.length)];
 
         msg.channel.send(`${randomGif}`);
       }
 
+      // Generate and display the next question
       await generateNewQuestion(client, msg.channel.id);
       if (client.currentQuestion) {
         msg.reply(
@@ -63,6 +75,24 @@ function eventHandler(client) {
       msg.reply("❌ Wrong answer! Keep trying.");
     }
   });
+
+  // Periodic reminder every 3 to 5 hours
+  setInterval(() => {
+    const reminderChannel = client.channels.cache.get(process.env.CQOTD_ID);
+    const roleId = process.env.REMINDER_ROLE_ID; // Role ID to ping
+    if (reminderChannel) {
+      reminderChannel.send(
+        `<@&${roleId}> Don't forget to answer the daily questions to earn more points! 🏆`
+      );
+    }
+  }, getRandomInterval(3, 5)); // Random interval between 3 to 5 hours
+}
+
+// Helper function to get a random interval between min and max hours
+function getRandomInterval(minHours, maxHours) {
+  const minMilliseconds = minHours * 60 * 60 * 1000;
+  const maxMilliseconds = maxHours * 60 * 60 * 1000;
+  return Math.random() * (maxMilliseconds - minMilliseconds) + minMilliseconds;
 }
 
 module.exports = { eventHandler };
