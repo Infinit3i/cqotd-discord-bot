@@ -4,6 +4,7 @@ require("dotenv").config();
 
 const parser = new RSSParser();
 const channels = {}; // Tracks the latest published timestamps for each RSS feed
+const sentLinks = new Set(); // Tracks already sent links to prevent duplicates
 
 async function fetchRSSFeed(feedUrl) {
   try {
@@ -33,14 +34,25 @@ async function sendNewRSS(client, channelId, feedUrls) {
     if (!channels[feedUrl]) channels[feedUrl] = 0;
 
     for (const item of feed.items) {
+      const itemLink = item.link; // Unique identifier for each post
       const itemPublished = new Date(item.pubDate || item.isoDate).getTime();
-      if (itemPublished > channels[feedUrl]) {
-        // Send the new RSS entry to the channel
-        const content = `📢 **New Post from ${feed.title}**\n\n**${item.title}**\n${item.link}`;
-        await channel.send(content);
 
-        // Update the latest published timestamp for this feed
-        channels[feedUrl] = Math.max(channels[feedUrl], itemPublished);
+      // Skip already sent posts
+      if (sentLinks.has(itemLink)) continue;
+
+      // Only process new items
+      if (itemPublished > channels[feedUrl]) {
+        const content = `📢 **New Post from ${feed.title}**\n\n**${item.title}**\n${item.link}`;
+
+        // Check if the same content exists in the channel
+        const messages = await channel.messages.fetch({ limit: 100 });
+        const exists = messages.some((msg) => msg.content.includes(itemLink));
+
+        if (!exists) {
+          await channel.send(content);
+          sentLinks.add(itemLink); // Mark as sent
+          channels[feedUrl] = Math.max(channels[feedUrl], itemPublished); // Update timestamp
+        }
       }
     }
   }
