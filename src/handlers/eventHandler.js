@@ -34,6 +34,10 @@ function eventHandler(client) {
           "https://tenor.com/view/lilpotate-lil-potate-lilpotates-lil-potates-potate-gif-4155638923629851536",
           "https://tenor.com/view/baby-yoda-babyyoda-gif-906250813013085097",
           "https://tenor.com/view/awesome-gif-12345678",
+          "https://tenor.com/view/bwd-waddle-dee-kirby-celebrate-cute-gif-22246612",
+          "https://tenor.com/view/happy-dancing-celebrate-excited-gif-23223956",
+          "https://tenor.com/view/deadpool-dance-bye-bye-bye-deadpool-dancing-deadpool-and-wolverine-nsync-gif-574902272552011427",
+          "https://tenor.com/view/kirb-kirby-gif-6194484891581978780",
         ];
 
         // Pick a random celebration gif
