@@ -38,6 +38,13 @@ function eventHandler(client) {
           "https://tenor.com/view/happy-dancing-celebrate-excited-gif-23223956",
           "https://tenor.com/view/deadpool-dance-bye-bye-bye-deadpool-dancing-deadpool-and-wolverine-nsync-gif-574902272552011427",
           "https://tenor.com/view/kirb-kirby-gif-6194484891581978780",
+          "https://tenor.com/view/dhmis-dont-hug-me-im-gif-23391946",
+          "https://tenor.com/view/jax-dance-animiniz-celebrate-the-amazing-digital-circus-gif-13094019645236533904",
+          "https://tenor.com/view/funny-dance-pomni-the-amazing-pomni-digital-circus-dancing-pomni-pomni-and-the-witch-eyebrows-gif-12820093209985177039",
+          "https://tenor.com/view/eddie-birthday-gif-8810857366549109289",
+          "https://tenor.com/view/eddie-birthday-gif-8810857366549109289",
+          "https://tenor.com/view/bubble-the-amazing-digital-circus-the-amazing-digital-circus-bubble-dance-gif-10373237877753609843",
+          "https://tenor.com/view/the-amazing-digital-circus-tadc-pomni-ragatha-jax-gif-15752491151097277968",
         ];
 
         // Pick a random celebration gif

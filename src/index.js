@@ -5,7 +5,6 @@ require("dotenv").config();
 // Import Handlers
 const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
-const scheduleQuestions = require("./scheduleQuestions");
 const registerCommands = require("./commands/register-commands");
 
 // Initialize Client
@@ -38,7 +37,6 @@ client.currentQuestion = null;
 client.once("ready", () => {
   console.log(`✅ ${client.user.tag} is online.`);
   registerCommands(); // Remove client argument
-  scheduleQuestions(client);
 });
 
 // Attach Handlers
