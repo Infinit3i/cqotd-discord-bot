@@ -79,7 +79,7 @@ async function validateAnswer(client, answer, userId, guildId) {
   if (isCorrect) {
     user = await User.findOneAndUpdate(
       { userId, guildId },
-      { $inc: { score: 1 } },
+      { $inc: { score: 3 } },
       { upsert: true, new: true }
     );
     console.log(`User ${userId} score updated to ${user.score}`);
