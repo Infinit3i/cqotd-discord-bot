@@ -38,19 +38,29 @@ async function handleLeaderboard(client, interaction) {
     // Sort by score in descending order
     fullLeaderboard.sort((a, b) => b.score - a.score);
 
-    // Limit to top 50 users
-    const topLeaderboard = fullLeaderboard.slice(0, 50);
+    // Limit to top 20 users
+    const topLeaderboard = fullLeaderboard.slice(0, 20);
+
+    // Define emojis for ranks
+    const rankEmojis = [
+      "🥇", // 1st place
+      "🥈", // 2nd place
+      "🥉", // 3rd place
+      "🥷", // 4th place
+      "🥷", // 5th place
+      ...Array(15).fill("🤖"), // 6th to 20th place
+    ];
 
     // Format the leaderboard
     const leaderboard = topLeaderboard
-      .map(
-        (entry, index) =>
-          `${index + 1}. <@${entry.userId}> - **${entry.score}** 🏆`
-      )
+      .map((entry, index) => {
+        const emoji = rankEmojis[index] || ""; // Assign emoji for the rank, default to empty string
+        return `${index + 1}. ${emoji} <@${entry.userId}> - **${entry.score}**`;
+      })
       .join("\n");
 
     // Reply with the leaderboard
-    interaction.editReply(`🏆 **Top 50 Leaderboard** 🏆\n\n${leaderboard}`);
+    interaction.editReply(`🏆 **Top 20 Leaderboard** 🏆\n\n${leaderboard}`);
   } catch (error) {
     console.error("Error retrieving leaderboard:", error);
     interaction.editReply("❌ There was an error retrieving the leaderboard. Please try again later.");
