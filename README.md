@@ -17,5 +17,7 @@
 
 TODO
 
-- rss
-- add scheduled time for questions 3 times a day
+- add scheduled time for questions 3 times a day (10, 13, 16)
+- grab youtube videos from channels
+- add way more questions and categories
+- get it to be up all the time
