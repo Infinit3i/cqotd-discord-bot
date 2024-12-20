@@ -8,6 +8,7 @@ const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
 // const { sendNewVideos } = require("./content/sendvideos");
+const { scheduleSpecialQuestions, logSpecialQuestionTimes } = require("./handlers/questionHandler");
 
 
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
@@ -173,6 +174,17 @@ setInterval(async () => {
 
  */
 
+
+client.once("ready", async () => {
+  // Define special question times
+  const specialTimes = ["0900", "1000", "1200", "1300", "1400"];
+  // Log special times for debugging purposes
+  console.log("Special question times scheduled:");
+  specialTimes.forEach((time) => console.log(`- ${time}`));
+
+  // Schedule special questions
+  scheduleSpecialQuestions(client, specialTimes);
+});
 
 
 
