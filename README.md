@@ -1,7 +1,7 @@
 # Cyber Nerd Discord bot
 
 <div align="center">
-  <img src="https://git.infinit3i.com/matthew/Hunt-AI/raw/commit/4c3b0654cd4c5b94e8659f2d18f86e01b579ba87/Assets/threat_hunter.jpeg" alt="Threat Hunter" width="600">
+  <img src="https://github.com/Infinit3i/cqotd-discord-bot/blob/90e4005d6b0da13ec8f1cb67ff4bda5062bd5ed9/Assets/Discord_JS_Bot.jpeg" alt="Discord Bot" width="600">
 </div>
 
 ### slash commands
