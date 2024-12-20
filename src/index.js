@@ -75,7 +75,7 @@ client.once("ready", async () => {
   setInterval(async () => {
     console.log("Tried to grab RSS feeds.");
     await sendNewRSS(client, discordChannelId, feedUrls);
-  }, 300000); // Run every 5 minutes
+  }, 30 * 60 * 1000); // Run every 30 minutes
 });
 
 
