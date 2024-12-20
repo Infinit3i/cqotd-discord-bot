@@ -13,10 +13,10 @@
 
 ```
 /question - asks a question
-/blank
-/score
-/leaderboard
-/hint
+/blank - shows the xxx so if it is Phishing it would be xxxxxxxx
+/score - your score
+/leaderboard - WINNERS
+/hint - show a hint
 /skip - skips the current question and generates a new one
 ```
 
@@ -32,10 +32,10 @@ node src/index.js
 
 ## TODO
 
+- hints reduce the score for themselves down by only 1 point
 - add scheduled time for questions 3 times a day (10, 13, 16) - worth 15 points
   - alert the users 15 minutes before hand
 - grab youtube videos from channels
 - 1 point for multiple choice
-- hints reduce the score for themselves down by only 1 point
 
 - make the bot so it will be able to deploy on my server and stay up
