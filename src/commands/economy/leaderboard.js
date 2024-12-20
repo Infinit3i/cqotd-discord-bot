@@ -1,58 +1,38 @@
-const { Client, Interaction } = require("discord.js");
 const User = require("../../models/User");
 
-module.exports = {
-  /**
-   * Handles the leaderboard command.
-   * @param {Client} client
-   * @param {Interaction} interaction
-   */
-  callback: async (client, interaction) => {
-    if (!interaction.inGuild()) {
-      interaction.reply({
-        content: "You can only run this command inside of a server.",
-        ephemeral: true,
-      });
+async function handleLeaderboard(client, interaction) {
+  if (!interaction.inGuild()) {
+    interaction.reply({
+      content: "You can only use this command inside a server.",
+      ephemeral: true,
+    });
+    return;
+  }
+
+  console.log(`Fetching leaderboard for Guild ID: ${interaction.guild.id}`);
+
+  await interaction.deferReply();
+
+  try {
+    // Fetch all users in the current guild, sorted by score in descending order
+    const users = await User.find({ guildId: interaction.guild.id }).sort({ score: -1 });
+
+    if (users.length === 0) {
+      interaction.editReply("No scores available yet. Be the first to answer a question!");
       return;
     }
 
-    await interaction.deferReply(); // Acknowledge interaction immediately
+    // Format leaderboard
+    const leaderboard = users
+      .map((user, index) => `${index + 1}. <@${user.userId}> - **${user.score}** 🏆`)
+      .join("\n");
 
-    try {
-      const guild = interaction.guild;
+    // Reply with the leaderboard
+    interaction.editReply(`🏆 **Leaderboard** 🏆\n\n${leaderboard}`);
+  } catch (error) {
+    console.error("Error retrieving leaderboard:", error);
+    interaction.editReply("❌ There was an error retrieving the leaderboard. Please try again later.");
+  }
+}
 
-      // Fetch all members of the guild
-      const members = await guild.members.fetch();
-
-      // Fetch all users with scores in the database
-      const usersInDatabase = await User.find({ guildId: guild.id });
-
-      // Create a map of user IDs to scores
-      const userScores = new Map();
-      usersInDatabase.forEach((user) => {
-        userScores.set(user.userId, user.score);
-      });
-
-      // Build the leaderboard message
-      let leaderboard = "🏆 **Leaderboard** 🏆\n\n";
-      members.forEach((member) => {
-        const score = userScores.get(member.user.id) || 0; // Default to 0 if not in the database
-        leaderboard += `**${member.displayName}** - **${score}** points\n`;
-      });
-
-      // Limit the message length to prevent hitting Discord's character limit
-      if (leaderboard.length > 2000) {
-        leaderboard = leaderboard.substring(0, 1990) + "\n...and more!";
-      }
-
-      interaction.editReply(leaderboard); // Send the leaderboard
-    } catch (error) {
-      console.error(error); // Log the error
-      interaction.editReply("An error occurred while fetching the leaderboard. Please try again later.");
-    }
-  },
-
-  name: "leaderboard",
-  description: "View the scores of all users, even those with 0 points.",
-  options: [],
-};
+module.exports = { handleLeaderboard };

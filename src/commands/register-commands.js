@@ -24,6 +24,14 @@ const commands = [
     description: "Get a blank version of the question.",
   },
   {
+    name: "new",
+    description: "Gets a new question.",
+  },
+  {
+    name: "leaderboard",
+    description: "Displays the top scores in the server.",
+  },
+  {
     name: "question",
     description: "Get a question from a specific category or a random one.",
     options: [
