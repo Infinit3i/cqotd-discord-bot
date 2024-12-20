@@ -64,13 +64,17 @@ async function handleQuestion(client, interaction) {
 
 async function validateAnswer(client, answer, userId, guildId) {
   if (!client.currentQuestion) return { isCorrect: false, user: null };
-  const normalizedAnswer = answer.toLowerCase().replace(/^t/, '').trim();
-  const correctAnswer = client.currentQuestion.answer;
-  const normalizedCorrectAnswer = typeof correctAnswer === 'string' ? correctAnswer.toLowerCase().replace(/^t/, '').trim() : '';
-  console.log(`Normalized Answer received: ${normalizedAnswer}`);
-  console.log(`Normalized Correct Answer: ${normalizedCorrectAnswer}`);
-  const isCorrect = normalizedAnswer === normalizedCorrectAnswer;
-  console.log(`Answer received: ${answer}, Correct: ${isCorrect}`);
+
+  const userAnswer = answer.trim().toLowerCase();
+  const correctAnswers = Array.isArray(client.currentQuestion.answer)
+    ? client.currentQuestion.answer.map((ans) => ans.toLowerCase())
+    : [client.currentQuestion.answer.toLowerCase()];
+
+  console.log(`User response: ${userAnswer}`);
+  console.log(`Possible correct answers: ${correctAnswers}`);
+
+  const isCorrect = correctAnswers.includes(userAnswer);
+
   let user = null;
   if (isCorrect) {
     user = await User.findOneAndUpdate(
@@ -80,6 +84,7 @@ async function validateAnswer(client, answer, userId, guildId) {
     );
     console.log(`User ${userId} score updated to ${user.score}`);
   }
+
   return { isCorrect, user, correctAnswer: client.currentQuestion.answer };
 }
 
