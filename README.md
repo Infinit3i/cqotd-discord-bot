@@ -30,12 +30,11 @@ npm install discord.js
 - add way more questions and categories
   - gmon
   - event codes
-  - sysmon codes
   - splunk knowledge
   - firewall knowledge
   - network+ knowledge
   - CASP+ knowledge
   - gpen knowledge
   - oscp knowlege
-- get it to be up all the time
+
 - make the bot so it will be able to deploy on my server and stay up
