@@ -6,6 +6,7 @@ require("dotenv").config();
 const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
+const { sendNewRSS } = require("./utils/sendrss");
 
 // Initialize Client
 const client = new Client({
@@ -42,6 +43,29 @@ client.once("ready", () => {
 // Attach Handlers
 eventHandler(client);
 interactionHandler(client);
+
+client.once("ready", async () => {
+  console.log(`${client.user.tag} is online!`);
+
+  // Provide RSS feed URLs and channel ID
+  const feedUrls = [
+    "https://www.bleepingcomputer.com/feed/",
+    "https://www.cisa.gov/blog.xml",
+    "https://www.blackhillsinfosec.com/feed/",
+    "https://www.cisa.gov/news.xml",
+    "https://feedpress.me/CiscoSecurity",
+    "https://feeds.feedburner.com/cyber-security-news",
+  ];
+  const discordChannelId = process.env.NEWS_ID;
+
+  // Check RSS feeds periodically
+  setInterval(async () => {
+    console.log("Tried to grab RSS feeds.");
+    await sendNewRSS(client, discordChannelId, feedUrls);
+  }, 600000); // Run every 10 minutes
+});
+
+
 
 // Login Bot
 client.login(process.env.TOKEN);
