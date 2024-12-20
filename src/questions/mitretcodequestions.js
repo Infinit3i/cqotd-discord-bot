@@ -2,11 +2,12 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 module.exports = {
+  category: "mitre",
   /**
    * Fetches a random MITRE T-Code and its corresponding title.
    * @returns {Promise<{category: string, question: string, answer: string, hint: string, review: string}>}
    */
-  fetchMitreQuestion: async () => {
+  fetchQuestion: async () => {
     try {
       // Generate a random T-Code within a reasonable range (e.g., T1000 to T1599)
       const randomCode = `T${Math.floor(1000 + Math.random() * 600)}`;
@@ -21,12 +22,12 @@ module.exports = {
 
       // If no technique is found, retry with another code
       if (!techniqueName) {
-        return await module.exports.fetchMitreQuestion();
+        return await module.exports.fetchQuestion();
       }
 
       // Construct the question
       return {
-        category: "MITRE T-Code",
+        category: "mitre",
         question: `What is the code for "${techniqueName}"?`,
         answer: randomCode,
         hint: "Think 'T' followed by a number.",

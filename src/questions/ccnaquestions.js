@@ -25,4 +25,10 @@ let ccnaquestions = [
       }
 ];
 
-module.exports = ccnaquestions;
+module.exports = {
+  category: 'CCNA',
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * ccnaquestions.length);
+    return ccnaquestions[randomIndex];
+  }
+};

@@ -1001,4 +1001,10 @@ let secquestions = [
     },
 ];
 
-module.exports = secquestions;
+module.exports = {
+    category: 'SEC',
+    fetchQuestion: async () => {
+      const randomIndex = Math.floor(Math.random() * secquestions.length);
+      return secquestions[randomIndex];
+    }
+  };

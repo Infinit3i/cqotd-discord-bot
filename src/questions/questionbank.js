@@ -135,4 +135,10 @@ let generalquestions = [
     }
 ];
 
-module.exports = generalquestions;
+module.exports = {
+  category: 'General',
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * generalquestions.length);
+    return generalquestions[randomIndex];
+  }
+};
