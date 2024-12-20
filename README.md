@@ -29,12 +29,5 @@ npm install discord.js
 - grab youtube videos from channels
 - add way more questions and categories
   - gmon
-  - event codes
-  - splunk knowledge
-  - firewall knowledge
-  - network+ knowledge
-  - CASP+ knowledge
-  - gpen knowledge
-  - oscp knowlege
 
 - make the bot so it will be able to deploy on my server and stay up
