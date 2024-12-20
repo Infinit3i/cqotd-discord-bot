@@ -17,7 +17,5 @@
 
 TODO
 
-- assign roles for top 5 on leaderboard
-- assign role for #1 on leaderboard
 - rss
 - add scheduled time for questions 3 times a day
