@@ -21,3 +21,4 @@ TODO
 - grab youtube videos from channels
 - add way more questions and categories
 - get it to be up all the time
+- make the bot so it will be able to deploy on my server and stay up
