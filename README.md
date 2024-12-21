@@ -34,3 +34,12 @@ node src/index.js
 
 - grab youtube videos from channels
 - testing
+
+### more questions
+- gigamon
+- digital forensics
+- programming
+- c programming language
+- python programming
+- cisco switch commands
+- palo alto firewall commands
