@@ -34,19 +34,16 @@ function generateMultipleChoice(questionPool, currentAnswer) {
     })
     .filter((ans) => ans && ans.toLowerCase() !== currentAnswer.toLowerCase());
 
-  // Shuffle and pick three random incorrect answers
+  // Shuffle and pick four random incorrect answers
   const incorrectAnswers = allAnswers
     .sort(() => 0.5 - Math.random())
-    .slice(0, 3);
+    .slice(0, 4);
 
   // Combine correct and incorrect answers and shuffle them
   const choices = [...incorrectAnswers, currentAnswer].sort(() => 0.5 - Math.random());
 
   return choices;
 }
-
-
-
 
 // Handle multiple-choice question
 async function handleMultipleChoiceQuestion(client, interaction) {
