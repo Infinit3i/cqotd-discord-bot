@@ -118,7 +118,12 @@ async function handleButtonInteraction(client, interaction) {
 
   const choiceIndex = parseInt(interaction.customId.split("_")[1], 10);
   const selectedChoice = currentQuestion.choices[choiceIndex];
-  const isCorrect = selectedChoice.toLowerCase() === currentQuestion.answer.toLowerCase();
+
+  // Ensure correct type comparison
+  const isCorrect =
+    typeof selectedChoice === "string" &&
+    typeof currentQuestion.answer === "string" &&
+    selectedChoice.toLowerCase() === currentQuestion.answer.toLowerCase();
 
   try {
     if (isCorrect) {
@@ -128,16 +133,14 @@ async function handleButtonInteraction(client, interaction) {
         { upsert: true, new: true }
       );
 
-      // Update the interaction with a "Correct" message
       await interaction.update({
         content: `✅ **Correct!** The answer was: ${currentQuestion.answer}\n🎉 **Your score is now ${user.score}.**`,
-        components: [], // Remove buttons
+        components: [],
       });
 
-      // Clear the current question
       client.currentMultipleChoiceQuestion = null;
 
-      // Generate a new question and send it
+      // Fetch a new question
       const questionPool = [];
       for (const handler of Object.values(questionHandlers)) {
         const questions = await handler.getAllQuestions?.();
@@ -149,10 +152,7 @@ async function handleButtonInteraction(client, interaction) {
           questionPool[Math.floor(Math.random() * questionPool.length)];
         const choices = generateMultipleChoice(questionPool, randomQuestion.answer);
 
-        client.currentMultipleChoiceQuestion = {
-          ...randomQuestion,
-          choices,
-        };
+        client.currentMultipleChoiceQuestion = { ...randomQuestion, choices };
 
         const buttons = choices.map((choice, index) =>
           new ButtonBuilder()
@@ -193,7 +193,6 @@ async function handleButtonInteraction(client, interaction) {
     }
   }
 }
-
 
 module.exports = {
   handleMultipleChoiceQuestion,
