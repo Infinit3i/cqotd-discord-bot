@@ -177,7 +177,7 @@ setInterval(async () => {
 
 client.once("ready", async () => {
   // Define special question times
-  const specialTimes = ["0900", "1000", "1200", "1300", "1400"];
+  const specialTimes = ["0900", "1000", "1200", "1300", "1400", "2000"];
   // Log special times for debugging purposes
   console.log("Special question times scheduled:");
   specialTimes.forEach((time) => console.log(`- ${time}`));
