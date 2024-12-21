@@ -25,6 +25,10 @@ const userSchema = new Schema({
     type: Date,
     default: null,
   },
+  lastDaily: {
+    type: Date,
+    default: null, // Set a default value
+  },
   createdAt: {
     type: Date,
     default: Date.now,
