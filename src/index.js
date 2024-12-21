@@ -12,6 +12,26 @@ const { scheduleSpecialQuestions, logSpecialQuestionTimes } = require("./handler
 
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
 
+
+
+// MongoDB Connection
+const mongoUri = process.env.MONGODB_URI;
+if (!mongoUri) {
+  console.error('❌ MongoDB URI is not defined.');
+  process.exit(1);
+}
+
+mongoose
+  .connect(mongoUri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log('✅ Connected to MongoDB'))
+  .catch((err) => {
+    console.error(`❌ Error connecting to DB: ${err.message}`);
+    process.exit(1);
+  });
+
 // Initialize Client
 const client = new Client({
   intents: [
@@ -26,17 +46,10 @@ const client = new Client({
 client.questionsArray = [];
 client.currentQuestion = null;
 
-// MongoDB Connection
-(async () => {
-  try {
-    mongoose.set("strictQuery", false);
-    await mongoose.connect(process.env.MONGODB_URI);
-    console.log("✅ Connected to DB.");
-  } catch (error) {
-    console.error(`❌ Error connecting to DB: ${error.message}`);
-    process.exit(1);
-  }
-})();
+client.login(process.env.TOKEN).catch((err) => {
+  console.error("❌ Error logging in Discord bot:", err.message);
+  process.exit(1);
+});
 
 // Schedule Questions and Register Events
 client.once("ready", () => {

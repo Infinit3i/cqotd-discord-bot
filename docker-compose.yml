@@ -1,31 +1,21 @@
-version: '3.4'
+version: '3.8'
 
 services:
   mongo:
     container_name: CN-MongoDB
-    image: mongo
-    volumes:
-      - /mnt/user/appdata/cqotd-discord-bot-mongodb:/mongodb/:rw
-    restart: always
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER}
-      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+    image: mongo:5.0
     ports:
-      - 27017:27017
-    networks:
-      default:
-        ipv4_address: 10.1.20.88
+      - "27017:27017"
+
   discordbot:
-    container_name: CN-bot
-    image: matthewiver/cyber-nerd-discord-bot:1.0
-    volumes:
-      - /mnt/user/appdata/cqotd-discord-bot:/app/:rw
+    container_name: CN-DiscordBot
     build:
       context: .
-      dockerfile: ./Dockerfile
-    environment:
-      - ME_CONFIG_MONGODB_ADMINUSERNAME=${MONGO_USER}
-      - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_PASSWORD}
-      - ME_CONFIG_MONGODB_URL=${MONGO_CONFIG}
     depends_on:
       - mongo
+    environment:
+      - TOKEN=${TOKEN}
+      - CLIENT_ID=${CLIENT_ID}
+      - GUILD_ID=${GUILD_ID}
+      - CQOTD_ID=${CQOTD_ID}
+      - MONGODB_URI=mongodb://mongo:27017/cqotd

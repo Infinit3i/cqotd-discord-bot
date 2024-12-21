@@ -51,6 +51,12 @@ const commands = [
 
 // Function to register commands
 async function registerCommands() {
+  // Validate required environment variables
+  if (!process.env.CLIENT_ID || !process.env.GUILD_ID) {
+    console.error("❌ CLIENT_ID or GUILD_ID is missing. Please check your .env file.");
+    process.exit(1);
+  }
+
   const rest = new REST({ version: "10" }).setToken(process.env.TOKEN);
 
   try {
