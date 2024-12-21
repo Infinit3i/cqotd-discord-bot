@@ -182,7 +182,96 @@ let eventLogQuestions = [
     review:
       "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=6008>",
   },
-  // Add 10 more questions here for additional key events...
+  {
+    category: "Windows Event Logs",
+    question: "What event log ID tracks user password changes?",
+    answer: "4723",
+    hint: "Account management in the 4700 range.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4723>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "Which event log ID indicates a user password reset?",
+    answer: "4724",
+    hint: "Similar to password change but by another user.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4724>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "What event log ID records changes to local group memberships?",
+    answer: "4732",
+    hint: "Involves modifications to local groups.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4732>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "What event log ID monitors privilege use attempts?",
+    answer: "4673",
+    hint: "Tracks sensitive privilege usage.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4673>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "Which event log ID tracks the clearing of security logs?",
+    answer: "1102",
+    hint: "Occurs when the security log is cleared.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=1102>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "What event log ID is associated with system time changes?",
+    answer: "4616",
+    hint: "Tracks manual or automatic clock changes.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4616>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "Which event log ID tracks registry key changes?",
+    answer: "4657",
+    hint: "Monitors modifications to the registry.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4657>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "Which event log ID indicates a policy change in audit settings?",
+    answer: "4902",
+    hint: "A 4900-series event for audit settings.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4902>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "Which event log ID monitors removable storage device access?",
+    answer: "4660",
+    hint: "Tracks deletion attempts or access to removable devices.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4660>",
+  },
+  {
+    category: "Windows Event Logs",
+    question: "Which event log ID records changes to system audit policy?",
+    answer: "4715",
+    hint: "Used for audit policy modifications.",
+    blank: "xxxx",
+    review:
+      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4715>",
+  },
 ];
 
 module.exports = {
