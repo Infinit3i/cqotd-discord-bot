@@ -19,7 +19,7 @@ let generalquestions = [
   {
     category: "General",
     question: "What is Phishing?",
-    answer: ["Email scam", "email"],
+    answer: "Email scam",
     hint: "What is it sent over?",
     blank: "xxxxx xxxx",
     review:
