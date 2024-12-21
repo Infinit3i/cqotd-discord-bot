@@ -34,6 +34,5 @@ node src/index.js
 
 - grab youtube videos from channels
 - testing
-- add more questions
 
 - make the bot so it will be able to deploy on my server and stay up
