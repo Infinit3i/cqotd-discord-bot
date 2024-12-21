@@ -22,10 +22,22 @@ console.log(
 
 // Dynamically generate multiple-choice options
 function generateMultipleChoice(questionPool, currentAnswer) {
+  // Ensure `currentAnswer` is a string
+  if (typeof currentAnswer !== "string") {
+    console.error("generateMultipleChoice: currentAnswer is not a string:", currentAnswer);
+    currentAnswer = String(currentAnswer); // Convert it to a string as a fallback
+  }
+
   // Collect all valid string answers from the question pool
   const allAnswers = questionPool
-    .map((q) => (typeof q.answer === "string" ? q.answer : null)) // Ensure answers are strings
-    .filter((ans) => ans && ans.toLowerCase() !== currentAnswer.toLowerCase()); // Remove null/undefined and the current answer
+    .map((q) => {
+      if (typeof q.answer !== "string") {
+        console.warn("Non-string answer found in question pool:", q.answer);
+        return String(q.answer); // Convert non-strings to strings
+      }
+      return q.answer;
+    })
+    .filter((ans) => ans && ans.toLowerCase() !== currentAnswer.toLowerCase());
 
   // Shuffle and pick three random incorrect answers
   const incorrectAnswers = allAnswers
@@ -37,6 +49,8 @@ function generateMultipleChoice(questionPool, currentAnswer) {
 
   return choices;
 }
+
+
 
 
 // Handle multiple-choice question

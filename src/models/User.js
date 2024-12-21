@@ -21,10 +21,6 @@ const userSchema = new Schema({
     type: Number,
     default: 0,
   },
-  lastDaily: {
-    type: Date,
-    required: true,
-  },
   lastAnswered: {
     type: Date,
     default: null,
