@@ -249,11 +249,13 @@ let gmonQuestions = [
     }
   ];
   
-  module.exports = {
-    category: "GMON",
-    fetchQuestion: async () => {
-      const randomIndex = Math.floor(Math.random() * gmonQuestions.length);
-      return gmonQuestions[randomIndex];
-    }
-  };
-  
+module.exports = {
+  category: "GMON",
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * gmonQuestions.length);
+    return gmonQuestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return gmonQuestions;
+  },
+};  

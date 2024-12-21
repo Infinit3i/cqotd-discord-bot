@@ -30,5 +30,8 @@ module.exports = {
   fetchQuestion: async () => {
     const randomIndex = Math.floor(Math.random() * ccnaquestions.length);
     return ccnaquestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return ccnaquestions;
   }
 };

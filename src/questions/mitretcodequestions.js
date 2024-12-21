@@ -39,4 +39,7 @@ module.exports = {
       throw new Error("Failed to fetch MITRE T-Code. Please try again later.");
     }
   },
+  getAllQuestions: async () => {
+    return mitreQuestions;
+  },
 };

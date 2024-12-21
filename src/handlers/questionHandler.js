@@ -157,7 +157,7 @@ async function generateNewQuestion(client, channelId, multiplier = 1) {
     const question = await questionHandlers[randomCategory].fetchQuestion();
     console.log(`Fetched question from category ${randomCategory}:`, question);
 
-    if (!question || !question.question || !question.answer) {
+    if (!question || !question.question || !question.answer || !question.hint) {
       console.error("Invalid question format:", question);
       return;
     }
@@ -181,6 +181,7 @@ async function generateNewQuestion(client, channelId, multiplier = 1) {
     );
   }
 }
+
 
 function scheduleSpecialQuestions(client, specialTimes) {
   setInterval(() => {

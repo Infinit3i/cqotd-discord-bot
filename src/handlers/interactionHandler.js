@@ -1,4 +1,4 @@
-const { handleQuestion } = require("./questionHandler");
+const { handleMultipleChoiceQuestion } = require("./multipleChoiceHandler");
 const { handleScore } = require("../commands/economy/score");
 const { handleLeaderboard } = require("../commands/economy/leaderboard");
 const { handleHint } = require("./hintHandler");
@@ -23,7 +23,7 @@ async function interactionHandler(client) {
     }
 
     if (interaction.commandName === "question") {
-      await handleQuestion(client, interaction);
+      await handleMultipleChoiceQuestion(client, interaction);
       if (guildId) await assignRoles(client, guildId);
     } else if (interaction.commandName === "hint") {
       await handleHint(client, interaction);

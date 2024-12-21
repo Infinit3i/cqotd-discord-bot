@@ -24,12 +24,12 @@ const commands = [
     description: "Skip the current question.",
   },
   {
-    name: "blank",
-    description: "Get a blank version of the question.",
+    name: "new", // Alias for "skip"
+    description: "Gets a new question.",
   },
   {
-    name: "new",
-    description: "Gets a new question.",
+    name: "blank",
+    description: "Get a blank version of the question.",
   },
   {
     name: "leaderboard",
@@ -41,12 +41,12 @@ const commands = [
     options: [
       {
         name: "category",
-        description: "The category of the question (e.g., mitre, ccna, sec, etc.)",
+        description: "The category of the question (e.g., CompTIA CASP+, CCNA, CISSP, Net+, Event Logs, Firewall).",
         type: 3, // STRING type
         required: false,
       },
     ],
-  }
+  },
 ];
 
 // Function to register commands

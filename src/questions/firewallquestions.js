@@ -161,11 +161,13 @@ let firewallQuestions = [
     }
   ];
   
-  module.exports = {
-    category: "Firewall",
-    fetchQuestion: async () => {
-      const randomIndex = Math.floor(Math.random() * firewallQuestions.length);
-      return firewallQuestions[randomIndex];
-    }
-  };
-  
+module.exports = {
+  category: "Firewall",
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * firewallQuestions.length);
+    return firewallQuestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return firewallQuestions;
+  },
+};  

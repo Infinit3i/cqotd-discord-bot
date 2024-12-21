@@ -241,11 +241,13 @@ let oscpQuestions = [
     }
   ];
   
-  module.exports = {
-    category: "OSCP",
-    fetchQuestion: async () => {
-      const randomIndex = Math.floor(Math.random() * oscpQuestions.length);
-      return oscpQuestions[randomIndex];
-    }
-  };
-  
+module.exports = {
+  category: "OSCP",
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * oscpQuestions.length);
+    return oscpQuestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return oscpQuestions;
+  },
+};  

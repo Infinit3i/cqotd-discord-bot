@@ -465,11 +465,13 @@ let cisspquestions = [
     }
   ];
   
-  module.exports = {
-    category: 'CISSP',
-    fetchQuestion: async () => {
-      const randomIndex = Math.floor(Math.random() * cisspquestions.length);
-      return cisspquestions[randomIndex];
-    }
-  };
-  
+module.exports = {
+  category: 'CISSP',
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * cisspquestions.length);
+    return cisspquestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return cisspquestions;
+  }
+};

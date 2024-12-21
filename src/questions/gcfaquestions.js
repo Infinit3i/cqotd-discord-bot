@@ -161,11 +161,13 @@ let gcfaquestions = [
     }
   ];
   
-  module.exports = {
-    category: "GCFA",
-    fetchQuestion: async () => {
-      const randomIndex = Math.floor(Math.random() * gcfaquestions.length);
-      return gcfaquestions[randomIndex];
-    }
-  };
-  
+module.exports = {
+  category: "GCFA",
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * gcfaquestions.length);
+    return gcfaquestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return gcfaquestions;
+  },
+};

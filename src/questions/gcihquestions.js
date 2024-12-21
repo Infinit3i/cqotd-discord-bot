@@ -166,5 +166,8 @@ module.exports = {
   fetchQuestion: async () => {
     const randomIndex = Math.floor(Math.random() * gcihquestions.length);
     return gcihquestions[randomIndex];
-  }
+  },
+  getAllQuestions: async () => {
+    return gcihquestions;
+  },
 };

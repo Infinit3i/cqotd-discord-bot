@@ -241,11 +241,13 @@ let caspQuestions = [
     }
   ];
   
-  module.exports = {
-    category: "CompTIA CASP+",
-    fetchQuestion: async () => {
-      const randomIndex = Math.floor(Math.random() * caspQuestions.length);
-      return caspQuestions[randomIndex];
-    }
-  };
-  
+module.exports = {
+  category: "CompTIA CASP+",
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * caspQuestions.length);
+    return caspQuestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return caspQuestions;
+  }
+};

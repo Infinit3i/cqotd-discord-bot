@@ -162,11 +162,13 @@ let eventLogQuestions = [
     // Add 10 more questions here for additional key events...
   ];
   
-  module.exports = {
-    category: "Event Logs",
-    fetchQuestion: async () => {
-      const randomIndex = Math.floor(Math.random() * eventLogQuestions.length);
-      return eventLogQuestions[randomIndex];
-    }
-  };
-  
+module.exports = {
+  category: "Event Logs",
+  fetchQuestion: async () => {
+    const randomIndex = Math.floor(Math.random() * eventLogQuestions.length);
+    return eventLogQuestions[randomIndex];
+  },
+  getAllQuestions: async () => {
+    return eventLogQuestions;
+  },
+};
