@@ -84,7 +84,7 @@ let gcihquestions = [
     question: "What type of malware locks users out of their system until payment is made?",
     answer: "Ransomware",
     hint: "Encrypts your files and demands payment.",
-    blank: "xxxx",
+    blank: "xxxxxxxxxx",
     review: "<https://www.cisa.gov/ransomware>"
   },
   {
