@@ -10,7 +10,6 @@ const { sendNewRSS } = require("./content/sendrss");
 // const { sendNewVideos } = require("./content/sendvideos");
 const { scheduleSpecialQuestions, logSpecialQuestionTimes } = require("./handlers/questionHandler");
 
-
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
 
 // Initialize Client

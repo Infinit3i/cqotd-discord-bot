@@ -15,11 +15,6 @@ for (const file of questionFiles) {
   questionHandlers[handlerName] = handler;
 }
 
-console.log(
-  "Available categories:",
-  Object.values(questionHandlers).map((handler) => handler.category)
-);
-
 // Dynamically generate multiple-choice options
 function generateMultipleChoice(questionPool, currentAnswer) {
   // Ensure `currentAnswer` is a string

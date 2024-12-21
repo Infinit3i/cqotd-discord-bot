@@ -14,10 +14,6 @@ for (const file of questionFiles) {
   questionHandlers[handlerName] = handler;
 }
 
-console.log(
-  "Available categories:",
-  Object.values(questionHandlers).map((handler) => handler.category)
-);
 
 async function handleQuestion(client, interaction) {
   try {
