@@ -34,10 +34,10 @@ function eventHandler(client) {
       client,
       msg.content,
       msg.author.id,
-      msg.guild.id
+      msg.guild.id,
+      msg
     );
     if (isCorrect) {
-      msg.reply(`✅ Correct answer! Your score is now **${user.score}**.`);
 
       // Check if the score is a multiple of 5
       if (user.score % 5 === 0) {
@@ -80,7 +80,7 @@ function eventHandler(client) {
   // Periodic reminder every 3 to 5 hours
   setInterval(() => {
     const reminderChannel = client.channels.cache.get(process.env.CQOTD_ID);
-    const roleId = process.env.REMINDER_ROLE_ID; // Role ID to ping
+    const roleId = process.env.TOP_20;
     if (reminderChannel) {
       reminderChannel.send(
         `<@&${roleId}> Don't forget to answer the daily questions to earn more points! 🏆`
