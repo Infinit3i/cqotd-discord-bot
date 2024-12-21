@@ -43,3 +43,10 @@ node src/index.js
 - python programming
 - cisco switch commands
 - palo alto firewall commands
+- cyber threat intel
+- threat emulation
+- APTs
+- networking
+- IOT
+- OT
+- cyber management
