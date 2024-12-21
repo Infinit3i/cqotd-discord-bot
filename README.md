@@ -33,8 +33,7 @@ node src/index.js
 ## TODO
 
 - grab youtube videos from channels
-- 1 point for multiple choice
 - testing
-- refine answers
+- add more questions
 
 - make the bot so it will be able to deploy on my server and stay up
