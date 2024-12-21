@@ -5,7 +5,8 @@ let networkPlusQuestions = [
     answer: "Router",
     hint: "Forwards packets",
     blank: "xxxxxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-a-router.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-a-router.html>",
   },
   {
     category: "CompTIA Network+",
@@ -13,7 +14,7 @@ let networkPlusQuestions = [
     answer: "DNS",
     hint: "Name resolution",
     blank: "xxx",
-    review: "<https://www.cloudflare.com/learning/dns/what-is-dns/>"
+    review: "<https://www.cloudflare.com/learning/dns/what-is-dns/>",
   },
   {
     category: "CompTIA Network+",
@@ -21,7 +22,8 @@ let networkPlusQuestions = [
     answer: "Star",
     hint: "Central connection",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/searchnetworking/definition/star-topology>"
+    review:
+      "<https://www.techtarget.com/searchnetworking/definition/star-topology>",
   },
   {
     category: "CompTIA Network+",
@@ -29,7 +31,8 @@ let networkPlusQuestions = [
     answer: "ICMP",
     hint: "Ping uses it",
     blank: "xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/glossary/internet-control-message-protocol-icmp/>"
+    review:
+      "<https://www.cloudflare.com/learning/ddos/glossary/internet-control-message-protocol-icmp/>",
   },
   {
     category: "CompTIA Network+",
@@ -37,7 +40,7 @@ let networkPlusQuestions = [
     answer: "Transport",
     hint: "Segments data",
     blank: "xxxxxxxx",
-    review: "<https://www.comptia.org/blog/osi-model-layers-explained>"
+    review: "<https://www.comptia.org/blog/osi-model-layers-explained>",
   },
   {
     category: "CompTIA Network+",
@@ -45,7 +48,8 @@ let networkPlusQuestions = [
     answer: "Fiber optic",
     hint: "Glass strands",
     blank: "xxxxx xxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/optical-networking/what-is-fiber-optic.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/products/optical-networking/what-is-fiber-optic.html>",
   },
   {
     category: "CompTIA Network+",
@@ -53,7 +57,8 @@ let networkPlusQuestions = [
     answer: "Switch",
     hint: "Layer 2",
     blank: "xxxxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/what-is-a-network-switch.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/what-is-a-network-switch.html>",
   },
   {
     category: "CompTIA Network+",
@@ -61,7 +66,8 @@ let networkPlusQuestions = [
     answer: "Latency",
     hint: "Time delay",
     blank: "xxxxxxx",
-    review: "<https://www.cloudflare.com/learning/performance/what-is-latency/>"
+    review:
+      "<https://www.cloudflare.com/learning/performance/what-is-latency/>",
   },
   {
     category: "CompTIA Network+",
@@ -69,7 +75,7 @@ let networkPlusQuestions = [
     answer: "SFTP",
     hint: "Secure FTP",
     blank: "xxxx",
-    review: "<https://www.ssh.com/academy/ssh/sftp>"
+    review: "<https://www.ssh.com/academy/ssh/sftp>",
   },
   {
     category: "CompTIA Network+",
@@ -77,7 +83,7 @@ let networkPlusQuestions = [
     answer: "80",
     hint: "Web port",
     blank: "xx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-port-80/>"
+    review: "<https://www.cloudflare.com/learning/ddos/what-is-port-80/>",
   },
   {
     category: "CompTIA Network+",
@@ -85,7 +91,8 @@ let networkPlusQuestions = [
     answer: "MAC address",
     hint: "Physical ID",
     blank: "xxx xxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/17404-ethernet-mac-address-usage.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/17404-ethernet-mac-address-usage.html>",
   },
   {
     category: "CompTIA Network+",
@@ -93,7 +100,8 @@ let networkPlusQuestions = [
     answer: "DHCP",
     hint: "Dynamic IP",
     blank: "xxxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/dhcp.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/dhcp.html>",
   },
   {
     category: "CompTIA Network+",
@@ -101,7 +109,8 @@ let networkPlusQuestions = [
     answer: "1 Gbps",
     hint: "Gigabit speed",
     blank: "x xxxx",
-    review: "<https://www.cablematters.com/Blog/Network/what-is-cat5e-ethernet-cable>"
+    review:
+      "<https://www.cablematters.com/Blog/Network/what-is-cat5e-ethernet-cable>",
   },
   {
     category: "CompTIA Network+",
@@ -109,7 +118,7 @@ let networkPlusQuestions = [
     answer: "Presentation",
     hint: "Layer 6",
     blank: "xxxxxxxxxxxx",
-    review: "<https://www.comptia.org/blog/osi-model-layers-explained>"
+    review: "<https://www.comptia.org/blog/osi-model-layers-explained>",
   },
   {
     category: "CompTIA Network+",
@@ -117,7 +126,7 @@ let networkPlusQuestions = [
     answer: "Ping",
     hint: "ICMP echo",
     blank: "xxxx",
-    review: "<https://www.comptia.org/blog/what-is-ping-in-networking>"
+    review: "<https://www.comptia.org/blog/what-is-ping-in-networking>",
   },
   {
     category: "CompTIA Network+",
@@ -125,7 +134,8 @@ let networkPlusQuestions = [
     answer: "WPA3",
     hint: "Latest wireless security",
     blank: "xxxxx",
-    review: "<https://www.comptia.org/blog/understanding-wireless-encryption-standards>"
+    review:
+      "<https://www.comptia.org/blog/understanding-wireless-encryption-standards>",
   },
   {
     category: "CompTIA Network+",
@@ -133,7 +143,8 @@ let networkPlusQuestions = [
     answer: "Repeater",
     hint: "Boosts signal",
     blank: "xxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/what-is-a-network-repeater.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/what-is-a-network-repeater.html>",
   },
   {
     category: "CompTIA Network+",
@@ -141,7 +152,7 @@ let networkPlusQuestions = [
     answer: "IMAP",
     hint: "Retrieves mail",
     blank: "xxxx",
-    review: "<https://www.imap.org/>"
+    review: "<https://www.imap.org/>",
   },
   {
     category: "CompTIA Network+",
@@ -149,7 +160,7 @@ let networkPlusQuestions = [
     answer: "Load balancing",
     hint: "Traffic distribution",
     blank: "xxxx xxxxxxxxx",
-    review: "<https://www.citrix.com/solutions/load-balancing.html>"
+    review: "<https://www.citrix.com/solutions/load-balancing.html>",
   },
   {
     category: "CompTIA Network+",
@@ -157,7 +168,8 @@ let networkPlusQuestions = [
     answer: "Ring",
     hint: "Loop connection",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/searchnetworking/definition/ring-topology>"
+    review:
+      "<https://www.techtarget.com/searchnetworking/definition/ring-topology>",
   },
   {
     category: "CompTIA Network+",
@@ -165,7 +177,7 @@ let networkPlusQuestions = [
     answer: "HTTPS",
     hint: "Secure web traffic",
     blank: "xxxxx",
-    review: "<https://www.cloudflare.com/learning/ssl/what-is-https/>"
+    review: "<https://www.cloudflare.com/learning/ssl/what-is-https/>",
   },
   {
     category: "CompTIA Network+",
@@ -173,7 +185,8 @@ let networkPlusQuestions = [
     answer: "Twisted pair",
     hint: "Twisted wires",
     blank: "xxxxxxx xxxx",
-    review: "<https://www.cablematters.com/blog/Network/what-is-twisted-pair-cable>"
+    review:
+      "<https://www.cablematters.com/blog/Network/what-is-twisted-pair-cable>",
   },
   {
     category: "CompTIA Network+",
@@ -181,7 +194,7 @@ let networkPlusQuestions = [
     answer: "Cable tester",
     hint: "Signal measurement",
     blank: "xxxxx xxxxxx",
-    review: "<https://www.flukenetworks.com/datacom-cabling/what-cable-tester>"
+    review: "<https://www.flukenetworks.com/datacom-cabling/what-cable-tester>",
   },
   {
     category: "CompTIA Network+",
@@ -189,7 +202,8 @@ let networkPlusQuestions = [
     answer: "SNMP",
     hint: "Device management",
     blank: "xxxx",
-    review: "<https://www.cisco.com/c/en/us/products/ios-nx-os-software/snmp.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/products/ios-nx-os-software/snmp.html>",
   },
   {
     category: "CompTIA Network+",
@@ -197,7 +211,8 @@ let networkPlusQuestions = [
     answer: "Switch",
     hint: "Layer 2 device",
     blank: "xxxxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/what-is-a-network-switch.html>"
+    review:
+      "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/what-is-a-network-switch.html>",
   },
   {
     category: "CompTIA Network+",
@@ -205,15 +220,17 @@ let networkPlusQuestions = [
     answer: "255.255.255.0",
     hint: "Class C",
     blank: "xxx.xxx.xxx.x",
-    review: "<https://www.techtarget.com/searchnetworking/definition/subnet-mask>"
+    review:
+      "<https://www.techtarget.com/searchnetworking/definition/subnet-mask>",
   },
   {
     category: "CompTIA Network+",
-    question: "What layer of the OSI model establishes, manages, and terminates connections?",
+    question:
+      "What layer of the OSI model establishes, manages, and terminates connections?",
     answer: "Session",
     hint: "Layer 5",
     blank: "xxxxxx",
-    review: "<https://www.comptia.org/blog/osi-model-layers-explained>"
+    review: "<https://www.comptia.org/blog/osi-model-layers-explained>",
   },
   {
     category: "CompTIA Network+",
@@ -221,7 +238,8 @@ let networkPlusQuestions = [
     answer: "10 Gbps",
     hint: "High-speed",
     blank: "xx xxxxx",
-    review: "<https://www.cablematters.com/blog/Network/what-is-cat6-ethernet-cable>"
+    review:
+      "<https://www.cablematters.com/blog/Network/what-is-cat6-ethernet-cable>",
   },
   {
     category: "CompTIA Network+",
@@ -229,7 +247,7 @@ let networkPlusQuestions = [
     answer: "Netstat",
     hint: "Network statistics",
     blank: "xxxxxxx",
-    review: "<https://www.comptia.org/blog/what-is-netstat>"
+    review: "<https://www.comptia.org/blog/what-is-netstat>",
   },
   {
     category: "CompTIA Network+",
@@ -237,10 +255,11 @@ let networkPlusQuestions = [
     answer: "ARP",
     hint: "IP to MAC",
     blank: "xxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-arp.html>"
-  }
+    review:
+      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-arp.html>",
+  },
 ];
-  
+
 module.exports = {
   category: "CompTIA Network+",
   fetchQuestion: async () => {
@@ -249,5 +268,5 @@ module.exports = {
   },
   getAllQuestions: async () => {
     return networkPlusQuestions;
-  }
-};  
+  },
+};
