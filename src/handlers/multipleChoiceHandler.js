@@ -22,17 +22,22 @@ console.log(
 
 // Dynamically generate multiple-choice options
 function generateMultipleChoice(questionPool, currentAnswer) {
+  // Collect all valid string answers from the question pool
   const allAnswers = questionPool
-    .map((q) => q.answer)
-    .filter((ans) => ans.toLowerCase() !== currentAnswer.toLowerCase());
+    .map((q) => (typeof q.answer === "string" ? q.answer : null)) // Ensure answers are strings
+    .filter((ans) => ans && ans.toLowerCase() !== currentAnswer.toLowerCase()); // Remove null/undefined and the current answer
 
+  // Shuffle and pick three random incorrect answers
   const incorrectAnswers = allAnswers
     .sort(() => 0.5 - Math.random())
     .slice(0, 3);
 
+  // Combine correct and incorrect answers and shuffle them
   const choices = [...incorrectAnswers, currentAnswer].sort(() => 0.5 - Math.random());
+
   return choices;
 }
+
 
 // Handle multiple-choice question
 async function handleMultipleChoiceQuestion(client, interaction) {

@@ -9,23 +9,17 @@ module.exports = {
    */
   fetchQuestion: async () => {
     try {
-      // Generate a random T-Code within a reasonable range (e.g., T1000 to T1599)
       const randomCode = `T${Math.floor(1000 + Math.random() * 600)}`;
       const url = `https://attack.mitre.org/techniques/${randomCode}/`;
 
-      // Fetch the webpage
       const { data } = await axios.get(url);
-
-      // Parse the HTML to extract the technique name from the title
       const $ = cheerio.load(data);
-      const techniqueName = $("h1").text().trim(); // The title is in the <h1> tag
+      const techniqueName = $("h1").text().trim();
 
-      // If no technique is found, retry with another code
       if (!techniqueName) {
         return await module.exports.fetchQuestion();
       }
 
-      // Construct the question
       return {
         category: "mitre",
         question: `What is the code for "${techniqueName}"?`,
@@ -38,8 +32,5 @@ module.exports = {
       console.error("Error fetching MITRE T-Code:", error.message);
       throw new Error("Failed to fetch MITRE T-Code. Please try again later.");
     }
-  },
-  getAllQuestions: async () => {
-    return mitreQuestions;
   },
 };
