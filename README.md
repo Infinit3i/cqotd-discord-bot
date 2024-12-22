@@ -20,6 +20,7 @@
 /skip - skips the current question and generates a new one
 ```
 
+[Join my server](https://discord.gg/rzSTrk39yE)
 
 ### SETUP
 
