@@ -131,15 +131,6 @@ let firewallQuestions = [
   },
   {
     category: "Firewall",
-    question: "What is the term for testing firewall rules?",
-    answer: "Penetration testing",
-    hint: "Tests security",
-    blank: "xxxxxxxxxxxx xxxxxxx",
-    review:
-      "<https://www.kaspersky.com/resource-center/definitions/penetration-testing>",
-  },
-  {
-    category: "Firewall",
     question: "What is a term for bypassing a firewall?",
     answer: "Tunneling",
     hint: "Bypass rules",

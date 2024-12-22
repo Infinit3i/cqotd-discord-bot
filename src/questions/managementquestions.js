@@ -113,14 +113,6 @@ let managementquestions = [
     },
     {
       category: "Cybersecurity Management",
-      question: "What does MFA stand for?",
-      answer: "Multi-Factor Authentication",
-      hint: "Adds extra layers of security.",
-      blank: "xxxx-xxxxxx xxxxxxxxxxxxxx",
-      review: "<https://www.okta.com/multi-factor-authentication/>",
-    },
-    {
-      category: "Cybersecurity Management",
       question: "What is a phishing attack?",
       answer: "Email-based deception",
       hint: "Tricks users into providing sensitive information.",

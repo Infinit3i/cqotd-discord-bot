@@ -554,14 +554,6 @@ let caspQuestions = [
   },
   {
     category: "CompTIA CASP+",
-    question: "What does MFA require?",
-    answer: "Multiple factors",
-    hint: "Adds security layers.",
-    blank: "xxxxxxxx xxxxxxx",
-    review: "<https://www.okta.com/multi-factor-authentication/>",
-  },
-  {
-    category: "CompTIA CASP+",
     question: "What mitigates insider threats?",
     answer: "Access control",
     hint: "Restrict privileges.",

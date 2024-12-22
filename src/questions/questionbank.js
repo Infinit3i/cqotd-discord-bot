@@ -222,15 +222,6 @@ let generalquestions = [
   },
   {
     category: "General",
-    question: "What is MAC in networking?",
-    answer: "Media Access Control",
-    hint: "Controls data flow.",
-    blank: "xxxxx xxxxxx xxxxxxx",
-    review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-a-mac-address.html>",
-  },
-  {
-    category: "General",
     question: "What layer is IP in OSI?",
     answer: "3",
     hint: "Network layer.",

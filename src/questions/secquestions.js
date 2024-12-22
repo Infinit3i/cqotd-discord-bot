@@ -467,14 +467,6 @@ let secquestions = [
   },
   {
     category: "CompTIA Security+",
-    question: "What type of attacks exploit vulnerabilities in APIs?",
-    answer: "Application programming interface (API) attacks",
-    hint: "Exploiting API vulnerabilities",
-    blank: "Application programming interface (API) attacks",
-    review: "<>",
-  },
-  {
-    category: "CompTIA Security+",
     question:
       "What type of attack involves depleting an application's resources?",
     answer: "Resource exhaustion",
