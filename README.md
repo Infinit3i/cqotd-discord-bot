@@ -32,5 +32,6 @@ node src/index.js
 
 ## TODO
 
-- grab youtube videos from channels
+- if a user gets a answer wrong on a multiple of 5 is should not push the gif again
+- grab youtube videos from channels every 30 minutes
 - testing
