@@ -1082,14 +1082,6 @@ let secquestions = [
   },
   {
     category: "CompTIA Security+",
-    question: "What are potential consequences of security breaches?",
-    answer: "Impacts",
-    hint: "Potential consequences of security breaches",
-    blank: "xxxxxx",
-    review: "<>",
-  },
-  {
-    category: "CompTIA Security+",
     question:
       "What can occur when sensitive information is accessed by unauthorized parties?",
     answer: "Data loss",
