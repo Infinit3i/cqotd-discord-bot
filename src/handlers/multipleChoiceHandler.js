@@ -100,7 +100,7 @@ async function handleMultipleChoiceQuestion(client, interaction) {
 }
 
 async function handleButtonInteraction(client, interaction) {
-  if (!interaction.isButton()) return;
+  if (!interaction.isButton()) return { isCorrect: false };
 
   const currentQuestion = client.currentMultipleChoiceQuestion;
   if (!currentQuestion) {
@@ -110,17 +110,21 @@ async function handleButtonInteraction(client, interaction) {
         ephemeral: true,
       });
     }
-    return;
+    return { isCorrect: false };
   }
 
   const choiceIndex = parseInt(interaction.customId.split("_")[1], 10);
   const selectedChoice = currentQuestion.choices[choiceIndex];
 
-  // Ensure correct type comparison
+  console.log(`[handleButtonInteraction] Selected Choice: ${selectedChoice}`);
+  console.log(`[handleButtonInteraction] Correct Answer: ${currentQuestion.answer}`);
+
   const isCorrect =
     typeof selectedChoice === "string" &&
     typeof currentQuestion.answer === "string" &&
-    selectedChoice.toLowerCase() === currentQuestion.answer.toLowerCase();
+    selectedChoice.trim().toLowerCase() === currentQuestion.answer.trim().toLowerCase();
+
+  console.log(`[handleButtonInteraction] Is Correct: ${isCorrect}`);
 
   try {
     if (isCorrect) {
@@ -131,7 +135,7 @@ async function handleButtonInteraction(client, interaction) {
       );
 
       await interaction.update({
-        content: `✅ **Correct!** The answer was: ${currentQuestion.answer}\n${currentQuestion.review}\n🎉 **Your score is now ${user.score}.**`,
+        content: `✅ **Correct!**\n${currentQuestion.question}\nThe answer was: **${currentQuestion.answer}**\n${currentQuestion.review}\n🎉 **Your score is now ${user.score}.**`,
         components: [],
       });
 
@@ -189,7 +193,11 @@ async function handleButtonInteraction(client, interaction) {
       });
     }
   }
+
+  // Return the result of the interaction
+  return { isCorrect };
 }
+
 
 module.exports = {
   handleMultipleChoiceQuestion,
