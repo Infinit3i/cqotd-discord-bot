@@ -33,7 +33,5 @@ node src/index.js
 
 ## TODO
 
-- when you get it right show the reference to it
-- if a user gets a answer wrong on a multiple of 5 is should not push the gif again
 - grab youtube videos from channels every 30 minutes
 - testing
