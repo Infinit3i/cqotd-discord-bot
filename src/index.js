@@ -8,16 +8,17 @@ const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
 // const { sendNewVideos } = require("./content/sendvideos");
-const { scheduleSpecialQuestions, logSpecialQuestionTimes } = require("./handlers/questionHandler");
+const {
+  scheduleSpecialQuestions,
+  logSpecialQuestionTimes,
+} = require("./handlers/questionHandler");
 
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
-
-
 
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
 if (!mongoUri) {
-  console.error('❌ MongoDB URI is not defined.');
+  console.error("❌ MongoDB URI is not defined.");
   process.exit(1);
 }
 
@@ -26,7 +27,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log('✅ Connected to MongoDB'))
+  .then(() => console.log("✅ Connected to MongoDB"))
   .catch((err) => {
     console.error(`❌ Error connecting to DB: ${err.message}`);
     process.exit(1);
@@ -91,17 +92,6 @@ client.once("ready", async () => {
   }, 30 * 60 * 1000); // Run every 30 minutes
 });
 
-
-
-
-
-
-
-
-
-
-
-
 // SEND 1 VIDEO
 client.once("ready", async () => {
   console.log(`✅ ${client.user.tag} is ready to push a few youtube videos!`);
@@ -119,23 +109,8 @@ client.once("ready", async () => {
   setInterval(async () => {
     console.log("Checking for new YouTube videos...");
     await sendLatestYouTubeVideo(client, discordChannelId, youtubeChannelUrls);
-  },60 * 60 * 1000); // Run every 1 hour
+  }, 60 * 60 * 1000); // Run every 1 hour
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 
@@ -183,9 +158,7 @@ setInterval(async () => {
   }
 }, 100000 * 60 * 1000); // Run every 10 minutes
 
-
- */
-
+*/
 
 client.once("ready", async () => {
   // Define special question times
@@ -197,9 +170,6 @@ client.once("ready", async () => {
   // Schedule special questions
   scheduleSpecialQuestions(client, specialTimes);
 });
-
-
-
 
 // Login Bot
 client.login(process.env.TOKEN);
