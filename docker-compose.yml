@@ -11,6 +11,7 @@ services:
     container_name: CN-DiscordBot
     build:
       context: .
+      dockerfile: ./Dockerfile
     depends_on:
       - mongo
     environment:
@@ -18,4 +19,4 @@ services:
       - CLIENT_ID=${CLIENT_ID}
       - GUILD_ID=${GUILD_ID}
       - CQOTD_ID=${CQOTD_ID}
-      - MONGODB_URI=mongodb://mongo:27017/cqotd
+      - MONGODB_URI=${MONGODB_URI}
