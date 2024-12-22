@@ -131,7 +131,7 @@ async function handleButtonInteraction(client, interaction) {
       );
 
       await interaction.update({
-        content: `✅ **Correct!** The answer was: ${currentQuestion.answer}\n🎉 **Your score is now ${user.score}.**`,
+        content: `✅ **Correct!** The answer was: ${currentQuestion.answer}\n${currentQuestion.review}\n🎉 **Your score is now ${user.score}.**`,
         components: [],
       });
 
