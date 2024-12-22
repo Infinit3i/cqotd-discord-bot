@@ -173,29 +173,11 @@ let cisspquestions = [
   },
   {
     category: "CISSP",
-    question: "What does VPN stand for?",
-    answer: "Network",
-    hint: "Secures online connections.",
-    blank: "xxxxxx",
-    review:
-      "<https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html>",
-  },
-  {
-    category: "CISSP",
     question: "What does GDPR stand for?",
-    answer: "Privacy",
+    answer: "General Data Protection Regulation",
     hint: "European privacy law.",
     blank: "xxxxxxx",
     review: "<https://gdpr-info.eu>",
-  },
-  {
-    category: "CISSP",
-    question: "What is zero trust security?",
-    answer: "Verify",
-    hint: "Strict access policies.",
-    blank: "xxxxxx",
-    review:
-      "<https://www.csoonline.com/article/3247848/what-is-zero-trust.html>",
   },
   {
     category: "CISSP",
@@ -674,6 +656,251 @@ let cisspquestions = [
     blank: "xxxxxxxxxx xxxxxxxx",
     review:
       "<https://www.techtarget.com/searchsecurity/definition/vulnerability-scan>",
+  },
+  {
+    category: "CISSP",
+    question: "What is data encryption?",
+    answer: "Scramble data",
+    hint: "Protects sensitive information.",
+    blank: "xxxxxxxx xxxxx",
+    review: "<https://www.cisa.gov/encryption-basics>",
+  },
+  {
+    category: "CISSP",
+    question: "What is an attack vector?",
+    answer: "Entry point",
+    hint: "Path used by attackers.",
+    blank: "xxxxx xxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/attack-vector>",
+  },
+  {
+    category: "CISSP",
+    question: "What does risk assessment evaluate?",
+    answer: "Threats",
+    hint: "Analyzes potential dangers.",
+    blank: "xxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/risk-assessment>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a zero-day vulnerability?",
+    answer: "Unknown flaw",
+    hint: "Exploited before discovery.",
+    blank: "xxxxxxx xxxx",
+    review:
+      "<https://www.kaspersky.com/resource-center/threats/zero-day-exploit>",
+  },
+  {
+    category: "CISSP",
+    question: "What does WAF stand for?",
+    answer: "Web Application Firewall",
+    hint: "Protects web apps.",
+    blank: "xxx xxxxxxxxxx xxxxxxxx",
+    review:
+      "<https://www.cloudflare.com/learning/security/glossary/web-application-firewall-waf/>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a supply chain attack?",
+    answer: "Third-party exploit",
+    hint: "Targets vendors or suppliers.",
+    blank: "xxxxxxxxxx xxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/supply-chain-attack>",
+  },
+  {
+    category: "CISSP",
+    question: "What is an APT?",
+    answer: "Persistent attacker",
+    hint: "Long-term targeted attack.",
+    blank: "xxxxxxxxxx xxxxxxxx",
+    review:
+      "<https://www.csoonline.com/article/2124681/what-is-an-advanced-persistent-threat.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is endpoint detection?",
+    answer: "Monitor endpoints",
+    hint: "Protects devices like laptops.",
+    blank: "xxxxxxx xxxxxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/endpoint-security/index.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is two-factor authentication?",
+    answer: "MFA",
+    hint: "Requires two forms of proof.",
+    blank: "xxx",
+    review:
+      "<https://www.okta.com/identity-101/what-is-multi-factor-authentication/>",
+  },
+  {
+    category: "CISSP",
+    question: "What does SSL secure?",
+    answer: "Web traffic",
+    hint: "Encrypts online communications.",
+    blank: "xxx xxxxxxx",
+    review: "<https://www.cloudflare.com/learning/ssl/what-is-ssl/>",
+  },
+  {
+    category: "CISSP",
+    question: "What does DRP stand for?",
+    answer: "Disaster Recovery Plan",
+    hint: "For system restoration.",
+    blank: "xxxxxxx xxxxxxxxx xxxxx",
+    review:
+      "<https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery-plan>",
+  },
+  {
+    category: "CISSP",
+    question: "What is the goal of data classification?",
+    answer: "Organize",
+    hint: "Prioritize data by sensitivity.",
+    blank: "xxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/data-classification>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a digital certificate?",
+    answer: "Authentication",
+    hint: "Verifies identities.",
+    blank: "xxxxxxxxxxxxx",
+    review: "<https://www.digicert.com/resources/what-is-digital-certificate>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a vulnerability scan?",
+    answer: "Weakness detection",
+    hint: "Finds security gaps.",
+    blank: "xxxxxxxxxx xxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/vulnerability-scan>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a common phishing tactic?",
+    answer: "Email spoofing",
+    hint: "Pretends to be legitimate.",
+    blank: "xxxxx xxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/email-spoofing>",
+  },
+  {
+    category: "CISSP",
+    question: "What is the purpose of a honeynet?",
+    answer: "Decoy network",
+    hint: "Lures attackers to study.",
+    blank: "xxxxx xxxxxxx",
+    review:
+      "<https://www.csoonline.com/article/2118426/what-is-a-honeynet.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is the purpose of IDS?",
+    answer: "Monitor threats",
+    hint: "Detects suspicious activities.",
+    blank: "xxxxxxx xxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/index.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is least privilege?",
+    answer: "Minimize access",
+    hint: "Restrict unnecessary permissions.",
+    blank: "xxxxxxx xxxxxxx",
+    review: "<https://www.cisa.gov/uscert/ncas/tips/ST04-001>",
+  },
+  {
+    category: "CISSP",
+    question: "What does AAA stand for in security?",
+    answer: "Authentication, Authorization, Accounting",
+    hint: "Three security principles.",
+    blank: "xxxxxxxxxxxxxx xxxxxxxxxxxx xxxxxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/AAA-authentication-authorization-and-accounting>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a botnet?",
+    answer: "Infected devices",
+    hint: "Controlled by an attacker.",
+    blank: "xxxxxxxx xxxxxxx",
+    review: "<https://www.cloudflare.com/learning/ddos/glossary/botnet/>",
+  },
+  {
+    category: "CISSP",
+    question: "What is malware obfuscation?",
+    answer: "Hide malware",
+    hint: "Avoid detection.",
+    blank: "xxxx xxxxxxx",
+    review:
+      "<https://www.csoonline.com/article/2117845/malware-obfuscation.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a penetration test?",
+    answer: "Simulated attack",
+    hint: "Checks vulnerabilities.",
+    blank: "xxxxxxxx xxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/penetration-testing>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a sandbox in cybersecurity?",
+    answer: "Test environment",
+    hint: "Isolate threats.",
+    blank: "xxxxx xxxxxxxxxx",
+    review: "<https://www.cisco.com/c/en/us/products/security/sandboxing.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a rootkit?",
+    answer: "Hidden control",
+    hint: "Hides malicious processes.",
+    blank: "xxxxxx xxxxxxx",
+    review: "<https://www.kaspersky.com/resource-center/threats/rootkits>",
+  },
+  {
+    category: "CISSP",
+    question: "What is a SOC in cybersecurity?",
+    answer: "Security operations center",
+    hint: "Monitors and responds to threats.",
+    blank: "xxxxxxx xxxxxxxxxx xxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/security-operations-center-SOC>",
+  },
+  {
+    category: "CISSP",
+    question: "What is the principle of defense in depth?",
+    answer: "Layered security",
+    hint: "Multiple security measures.",
+    blank: "xxxxxxx xxxxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/defense-in-depth.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is an insider threat?",
+    answer: "Employee risk",
+    hint: "Internal user posing risk.",
+    blank: "xxxxxxxxx xxxx",
+    review:
+      "<https://www.csoonline.com/article/2117841/what-is-an-insider-threat.html>",
+  },
+  {
+    category: "CISSP",
+    question: "What is data exfiltration?",
+    answer: "Data theft",
+    hint: "Unauthorized data transfer.",
+    blank: "xxxx xxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/data-exfiltration>",
   },
 ];
 
