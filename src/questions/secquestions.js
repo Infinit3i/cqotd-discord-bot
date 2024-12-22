@@ -1098,6 +1098,215 @@ let secquestions = [
     blank: "xxxxxx",
     review: "<>",
   },
+  {
+    category: "CompTIA Security+",
+    question: "What does a firewall's ACL control?",
+    answer: "Access",
+    hint: "Controls access to resources",
+    blank: "xxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/what-is-a-firewall.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question:
+      "What is the difference between application and network firewalls?",
+    answer: "Scope",
+    hint: "Application focuses on specific apps.",
+    blank: "xxxxx",
+    review:
+      "<https://www.cloudflare.com/learning/firewall/what-is-a-firewall/>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What does a stateful firewall track?",
+    answer: "Sessions",
+    hint: "Tracks connections",
+    blank: "xxxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchnetworking/definition/stateful-firewall>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What rule denies traffic not explicitly allowed?",
+    answer: "Implicit deny",
+    hint: "Default action",
+    blank: "xxxxxxxxx xxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/what-is-a-firewall.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What VPN mode encrypts the entire IP packet?",
+    answer: "Tunnel",
+    hint: "Secures the whole packet.",
+    blank: "xxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/vpn.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What protocol provides encryption and authentication for VPNs?",
+    answer: "IPSec",
+    hint: "Internet Protocol",
+    blank: "xxxxx",
+    review: "<https://www.cisco.com/c/en/us/products/security/ipsec.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What does AH provide in IPSec?",
+    answer: "Integrity",
+    hint: "Authenticates packets.",
+    blank: "xxxxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchnetworking/definition/Authentication-Header>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What is the purpose of split tunneling?",
+    answer: "Partial routing",
+    hint: "Routes select traffic.",
+    blank: "xxxxxx xxxxxxx",
+    review: "<https://www.cisco.com/c/en/us/products/security/vpn.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What identifies suspicious activities in NIDS?",
+    answer: "Signatures",
+    hint: "Matches known patterns.",
+    blank: "xxxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What is a heuristic-based detection?",
+    answer: "Behavior",
+    hint: "Analyzes actions.",
+    blank: "xxxxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/heuristic-analysis>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What is the key difference between inline and passive NIDS?",
+    answer: "Placement",
+    hint: "Passive doesn't block.",
+    blank: "xxxxxxxxx",
+    review:
+      "<https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What does an ACL on a router define?",
+    answer: "Permissions",
+    hint: "Allowed or denied.",
+    blank: "xxxxxxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/access-control.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What prevents packet flooding in switches?",
+    answer: "Flood guard",
+    hint: "Limits traffic.",
+    blank: "xxxxxxxxxxxxxx",
+    review: "<https://www.cisco.com/c/en/us/products/security/switches.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What does a proxy server do?",
+    answer: "Filter",
+    hint: "Filters client requests.",
+    blank: "xxxxxxxxxxx",
+    review: "<https://www.cloudflare.com/learning/cdn/what-is-a-proxy-server/>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What is the role of a reverse proxy?",
+    answer: "Server shield",
+    hint: "Protects servers.",
+    blank: "xxxxxxxxxxxxxxxx",
+    review:
+      "<https://www.cloudflare.com/learning/cdn/what-is-a-reverse-proxy/>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What load balancing type ensures active/passive configurations?",
+    answer: "Failover",
+    hint: "Backup mode.",
+    blank: "xxxxxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/load-balancing.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What setting does an access point broadcast?",
+    answer: "SSID",
+    hint: "Network name.",
+    blank: "xxxxxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/what-is-ssid.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What prevents unauthorized MAC addresses from connecting?",
+    answer: "MAC filtering",
+    hint: "Whitelists MACs.",
+    blank: "xxxxxxxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/mac-filtering.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What does SIEM correlate?",
+    answer: "Logs",
+    hint: "Links events.",
+    blank: "xxxxxxxxxxx",
+    review: "<https://www.splunk.com/en_us/solutions/what-is-siem.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What blocks USB devices in DLP?",
+    answer: "Endpoint",
+    hint: "DLP category.",
+    blank: "xxxxxxxxxxxxxx",
+    review:
+      "<https://www.cisco.com/c/en/us/products/security/data-loss-prevention.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What is the difference between dissolvable and permanent NAC?",
+    answer: "Duration",
+    hint: "Temporary vs. persistent.",
+    blank: "xxxxxxxxxxxxxxxxxx",
+    review: "<https://www.cisco.com/c/en/us/products/security/nac.html>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What protects mail servers from spam?",
+    answer: "Spam filters",
+    hint: "Stops unwanted mail.",
+    blank: "xxxxxxxxxxxx",
+    review:
+      "<https://www.cloudflare.com/learning/email-security/what-is-spam/>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What accelerates SSL/TLS?",
+    answer: "SSL/TLS accelerators",
+    hint: "Hardware for encryption.",
+    blank: "xxxxxxxxxxxxxxxxxx",
+    review: "<https://www.cloudflare.com/learning/ssl/what-is-ssl/>",
+  },
+  {
+    category: "CompTIA Security+",
+    question: "What mitigates man-in-the-middle attacks?",
+    answer: "Encryption",
+    hint: "Secures data in transit.",
+    blank: "xxxxxxxxxxxxxx",
+    review: "<https://www.cloudflare.com/learning/ssl/ssl-vs-tls/>",
+  },
 ];
 
 module.exports = {
