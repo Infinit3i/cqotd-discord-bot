@@ -59,12 +59,28 @@ function eventHandler(client) {
               "https://tenor.com/view/gtr-r35-gtr35-gtrrari-gif-24979183",
               "https://tenor.com/view/nissan-gtr-r35-gtr-r35gtr-r35-gtr-backfire-gif-23170757",
             ];
+
+            const catchPhrases = [
+              "Congrats!",
+              "Way to go!",
+              "Awesome work!",
+              "Keep it up!",
+              "You are doing great!",
+              "Don't stop now!",
+              "Fantastic!",
+              "Well done!",
+              "Great job!",
+              "You nailed it!",
+            ];
+
             const randomGif =
               celebrationGifs[Math.floor(Math.random() * celebrationGifs.length)];
+            const randomPhrase =
+              catchPhrases[Math.floor(Math.random() * catchPhrases.length)];
 
             try {
               await interaction.followUp({
-                content: randomGif,
+                content: `${randomPhrase} ${randomGif}`,
                 ephemeral: true,
               });
 
