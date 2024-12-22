@@ -109,11 +109,6 @@ function eventHandler(client) {
 
           const randomGif =
             celebrationGifs[Math.floor(Math.random() * celebrationGifs.length)];
-          logDebug(
-            "eventHandler.js",
-            "interactionCreate",
-            `Celebration triggered with GIF: ${randomGif}`
-          );
 
           // Send the GIF
           if (!interaction.replied && !interaction.deferred) {
