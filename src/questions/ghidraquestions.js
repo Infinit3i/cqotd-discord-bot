@@ -5,7 +5,7 @@ let ghidraquestions = [
       answer: "Reverse engineering",
       hint: "Analyzing binary code.",
       blank: "xxxxxx xxxxxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -13,7 +13,7 @@ let ghidraquestions = [
       answer: "NSA",
       hint: "A U.S. government agency.",
       blank: "xxx",
-      review: "<https://www.nsa.gov/ghidra/>",
+      review: "https://www.nsa.gov/ghidra/",
     },
     {
       category: "Ghidra",
@@ -21,7 +21,7 @@ let ghidraquestions = [
       answer: "Java",
       hint: "Runs on a virtual machine.",
       blank: "xxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -29,7 +29,7 @@ let ghidraquestions = [
       answer: "PE",
       hint: "Windows Portable Executable.",
       blank: "xx",
-      review: "<https://docs.microsoft.com/en-us/windows/win32/debug/pe-format>",
+      review: "https://docs.microsoft.com/en-us/windows/win32/debug/pe-format",
     },
     {
       category: "Ghidra",
@@ -37,7 +37,7 @@ let ghidraquestions = [
       answer: "Converts binaries to source code",
       hint: "Translates machine code.",
       blank: "xxxxxxxx xxxxxxxx xx xxxxx xxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -45,7 +45,7 @@ let ghidraquestions = [
       answer: "Version tracking",
       hint: "Tracks changes in shared projects.",
       blank: "xxxxxxx xxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -53,7 +53,7 @@ let ghidraquestions = [
       answer: "Python",
       hint: "A popular language for automation.",
       blank: "xxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -61,7 +61,7 @@ let ghidraquestions = [
       answer: "Patch Manager",
       hint: "Edits the binary file.",
       blank: "xxxxx xxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -69,7 +69,7 @@ let ghidraquestions = [
       answer: "Function analysis",
       hint: "Focuses on procedures.",
       blank: "xxxxxxx xxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -77,7 +77,7 @@ let ghidraquestions = [
       answer: "FLIRT",
       hint: "Function identification tool.",
       blank: "xxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -85,7 +85,7 @@ let ghidraquestions = [
       answer: "Project archive",
       hint: "Stores analysis data.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -93,7 +93,7 @@ let ghidraquestions = [
       answer: "Code Browser",
       hint: "Displays disassembled code.",
       blank: "xxxx xxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -101,7 +101,7 @@ let ghidraquestions = [
       answer: "GZP",
       hint: "Ghidra Zip Project.",
       blank: "xxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -109,7 +109,7 @@ let ghidraquestions = [
       answer: "Ghidra Plugins",
       hint: "Enhances functionality.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -117,7 +117,7 @@ let ghidraquestions = [
       answer: "Stores identifiers",
       hint: "Tracks variables and functions.",
       blank: "xxxxxx xxxxxxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -125,7 +125,7 @@ let ghidraquestions = [
       answer: "Executable files",
       hint: "Binary formats.",
       blank: "xxxxxxxxxx xxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -133,7 +133,7 @@ let ghidraquestions = [
       answer: "Windows, macOS, Linux",
       hint: "Cross-platform compatibility.",
       blank: "xxxxxxx, xxxxx, xxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -141,7 +141,7 @@ let ghidraquestions = [
       answer: "XREF",
       hint: "Tracks references to symbols.",
       blank: "xxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -149,7 +149,7 @@ let ghidraquestions = [
       answer: "Control Flow Graph",
       hint: "Visualizes program flow.",
       blank: "xxxxxx xxxx xxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -157,7 +157,7 @@ let ghidraquestions = [
       answer: "Java API",
       hint: "Built on Java.",
       blank: "xxxx xxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -165,7 +165,7 @@ let ghidraquestions = [
       answer: "Transaction rollback",
       hint: "Reverts edits.",
       blank: "xxxxxxxxxx xxxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -173,7 +173,7 @@ let ghidraquestions = [
       answer: "ELF, PE, Mach-O",
       hint: "Linux, Windows, macOS formats.",
       blank: "xxx, xx, xxxx-x",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -181,7 +181,7 @@ let ghidraquestions = [
       answer: "Visualize function calls",
       hint: "Tracks function relationships.",
       blank: "xxxxxxxx xxxxxxxx xxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -189,7 +189,7 @@ let ghidraquestions = [
       answer: "User-defined types",
       hint: "Tracks custom data structures.",
       blank: "xxxx-xxxxxxx xxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -197,7 +197,7 @@ let ghidraquestions = [
       answer: "analyzeHeadless",
       hint: "Runs analysis without a GUI.",
       blank: "xxxxxxxxxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -205,7 +205,7 @@ let ghidraquestions = [
       answer: "Debugger",
       hint: "Step through code execution.",
       blank: "xxxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -213,7 +213,7 @@ let ghidraquestions = [
       answer: "Organize code structure",
       hint: "Displays program segments.",
       blank: "xxxxxxxxx xxxx xxxxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -221,7 +221,7 @@ let ghidraquestions = [
       answer: "Binary Diffing",
       hint: "Compares two files.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -229,7 +229,7 @@ let ghidraquestions = [
       answer: "Task Scheduler",
       hint: "Manages automated tasks.",
       blank: "xxxx xxxxxxxxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
     {
       category: "Ghidra",
@@ -237,7 +237,7 @@ let ghidraquestions = [
       answer: "ghidra.prj",
       hint: "Project configuration file.",
       blank: "xxxxxx.xxx",
-      review: "<https://ghidra-sre.org/>",
+      review: "https://ghidra-sre.org/",
     },
   ];
   

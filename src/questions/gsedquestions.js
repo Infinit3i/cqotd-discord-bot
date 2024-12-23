@@ -5,7 +5,7 @@ let gsedQuestions = [
       answer: "SFTP",
       hint: "SSH-based file transfer.",
       blank: "xxxx",
-      review: "<https://www.ssh.com/academy/ssh/sftp>",
+      review: "https://www.ssh.com/academy/ssh/sftp",
     },
     {
       category: "SANS GSED",
@@ -13,7 +13,7 @@ let gsedQuestions = [
       answer: "Transport",
       hint: "Secure transport layer.",
       blank: "xxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Transport_Layer_Security>",
+      review: "https://en.wikipedia.org/wiki/Transport_Layer_Security",
     },
     {
       category: "SANS GSED",
@@ -21,7 +21,7 @@ let gsedQuestions = [
       answer: "Splunk",
       hint: "Search and analyze data.",
       blank: "xxxxxx",
-      review: "<https://www.splunk.com>",
+      review: "https://www.splunk.com",
     },
     {
       category: "SANS GSED",
@@ -29,7 +29,7 @@ let gsedQuestions = [
       answer: "Security Information Event Management",
       hint: "Monitors and analyzes logs.",
       blank: "xxxxxxxx xxxxxxxxxxxx xxxxxx xxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/siem.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/siem.html",
     },
     {
       category: "SANS GSED",
@@ -37,7 +37,7 @@ let gsedQuestions = [
       answer: "Snort",
       hint: "Open-source intrusion detection.",
       blank: "xxxxx",
-      review: "<https://www.snort.org>",
+      review: "https://www.snort.org",
     },
     {
       category: "SANS GSED",
@@ -45,7 +45,7 @@ let gsedQuestions = [
       answer: "443",
       hint: "Secure web traffic.",
       blank: "xxx",
-      review: "<https://en.wikipedia.org/wiki/HTTPS>",
+      review: "https://en.wikipedia.org/wiki/HTTPS",
     },
     {
       category: "SANS GSED",
@@ -53,7 +53,7 @@ let gsedQuestions = [
       answer: "Unauthorized traffic",
       hint: "Monitors network traffic.",
       blank: "xxxxxxxxxxx xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/firewalls.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/firewalls.html",
     },
     {
       category: "SANS GSED",
@@ -61,7 +61,7 @@ let gsedQuestions = [
       answer: "Volatility",
       hint: "Memory forensics framework.",
       blank: "xxxxxxxxxx",
-      review: "<https://www.volatilityfoundation.org>",
+      review: "https://www.volatilityfoundation.org",
     },
     {
       category: "SANS GSED",
@@ -69,7 +69,7 @@ let gsedQuestions = [
       answer: "Denial of Service",
       hint: "Overloads a target.",
       blank: "xxxxxx xx xxxxxxx",
-      review: "<https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/>",
+      review: "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/",
     },
     {
       category: "SANS GSED",
@@ -77,7 +77,7 @@ let gsedQuestions = [
       answer: "DNS",
       hint: "Domain name system.",
       blank: "xxx",
-      review: "<https://www.cloudflare.com/learning/dns/what-is-dns/>",
+      review: "https://www.cloudflare.com/learning/dns/what-is-dns/",
     },
     {
       category: "SANS GSED",
@@ -85,7 +85,7 @@ let gsedQuestions = [
       answer: "Secure communication",
       hint: "Encrypts IP traffic.",
       blank: "xxxxxx xxxxxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/ipsec.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/ipsec.html",
     },
     {
       category: "SANS GSED",
@@ -93,7 +93,7 @@ let gsedQuestions = [
       answer: "Decoy system",
       hint: "Attracts attackers.",
       blank: "xxxxx xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/honeypots.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/honeypots.html",
     },
     {
       category: "SANS GSED",
@@ -101,7 +101,7 @@ let gsedQuestions = [
       answer: "Nessus",
       hint: "Popular vulnerability scanner.",
       blank: "xxxxxx",
-      review: "<https://www.tenable.com/products/nessus>",
+      review: "https://www.tenable.com/products/nessus",
     },
     {
       category: "SANS GSED",
@@ -109,7 +109,7 @@ let gsedQuestions = [
       answer: "25",
       hint: "Email protocol.",
       blank: "xx",
-      review: "<https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>",
+      review: "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol",
     },
     {
       category: "SANS GSED",
@@ -117,7 +117,7 @@ let gsedQuestions = [
       answer: "Data Loss Prevention",
       hint: "Protects sensitive information.",
       blank: "xxxx xxxx xxxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/dlp.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/dlp.html",
     },
     {
       category: "SANS GSED",
@@ -125,7 +125,7 @@ let gsedQuestions = [
       answer: "Proactive detection",
       hint: "Finds hidden threats.",
       blank: "xxxxxxxx xxxxxxxxx",
-      review: "<https://www.sans.org/cyber-security-skills/threat-hunting/>",
+      review: "https://www.sans.org/cyber-security-skills/threat-hunting/",
     },
     {
       category: "SANS GSED",
@@ -133,7 +133,7 @@ let gsedQuestions = [
       answer: "NTP",
       hint: "Network Time Protocol.",
       blank: "xxx",
-      review: "<https://en.wikipedia.org/wiki/Network_Time_Protocol>",
+      review: "https://en.wikipedia.org/wiki/Network_Time_Protocol",
     },
     {
       category: "SANS GSED",
@@ -141,7 +141,7 @@ let gsedQuestions = [
       answer: "Nmap",
       hint: "Network scanning tool.",
       blank: "xxxx",
-      review: "<https://nmap.org>",
+      review: "https://nmap.org",
     },
     {
       category: "SANS GSED",
@@ -149,7 +149,7 @@ let gsedQuestions = [
       answer: "Fake email",
       hint: "Tricks users for data.",
       blank: "xxxx xxxxx",
-      review: "<https://www.cisa.gov/phishing>",
+      review: "https://www.cisa.gov/phishing",
     },
     {
       category: "SANS GSED",
@@ -158,7 +158,7 @@ let gsedQuestions = [
       hint: "Handle security breaches.",
       blank: "xxxxxxx xxxxxxxxx",
       review:
-        "<https://www.sans.org/cyber-security-skills/incident-response-training/>",
+        "https://www.sans.org/cyber-security-skills/incident-response-training/",
     },
   ];
   

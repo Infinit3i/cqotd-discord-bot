@@ -6,7 +6,7 @@ let networkingquestions = [
     hint: "Connects multiple networks.",
     blank: "xxxxx xxxxx xxxxxxx xxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-a-router.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-a-router.html",
   },
   {
     category: "Computer Networking",
@@ -14,7 +14,7 @@ let networkingquestions = [
     answer: "Domain Name System",
     hint: "Resolves domain names to IP addresses.",
     blank: "xxxxxx xxxx xxxxxx",
-    review: "<https://www.cloudflare.com/learning/dns/what-is-dns/>",
+    review: "https://www.cloudflare.com/learning/dns/what-is-dns/",
   },
   {
     category: "Computer Networking",
@@ -22,7 +22,7 @@ let networkingquestions = [
     answer: "Divide networks",
     hint: "Separates network and host portions.",
     blank: "xxxxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/subnet-mask>",
+    review: "https://www.techtarget.com/whatis/definition/subnet-mask",
   },
   {
     category: "Computer Networking",
@@ -30,7 +30,7 @@ let networkingquestions = [
     answer: "TCP",
     hint: "Reliable transmission.",
     blank: "xxx",
-    review: "<https://www.cloudflare.com/learning/ddos/glossary/http-tcp/>",
+    review: "https://www.cloudflare.com/learning/ddos/glossary/http-tcp/",
   },
   {
     category: "Computer Networking",
@@ -38,7 +38,7 @@ let networkingquestions = [
     answer: "Network layer",
     hint: "Responsible for routing.",
     blank: "xxxxxx xxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/OSI-model>",
+    review: "https://www.techtarget.com/whatis/definition/OSI-model",
   },
   {
     category: "Computer Networking",
@@ -46,7 +46,7 @@ let networkingquestions = [
     answer: "443",
     hint: "Secure web communication.",
     blank: "xxx",
-    review: "<https://www.cloudflare.com/learning/ssl/what-is-https/>",
+    review: "https://www.cloudflare.com/learning/ssl/what-is-https/",
   },
   {
     category: "Computer Networking",
@@ -55,7 +55,7 @@ let networkingquestions = [
     hint: "Maps IP to MAC addresses.",
     blank: "xxxxxx xxxxxxxxxx xxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-arp.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-arp.html",
   },
   {
     category: "Computer Networking",
@@ -64,7 +64,7 @@ let networkingquestions = [
     hint: "Operates at Layer 2.",
     blank: "xxxxxx xxxxxxx xx x xxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/switches/what-is-a-switch.html>",
+      "https://www.cisco.com/c/en/us/products/switches/what-is-a-switch.html",
   },
   {
     category: "Computer Networking",
@@ -73,7 +73,7 @@ let networkingquestions = [
     hint: "Uniquely identifies network devices.",
     blank: "xxxxxxx xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/17404-ethernet-mac-address-usage.html>",
+      "https://www.cisco.com/c/en/us/support/docs/lan-switching/ethernet/17404-ethernet-mac-address-usage.html",
   },
   {
     category: "Computer Networking",
@@ -81,7 +81,7 @@ let networkingquestions = [
     answer: "Star topology",
     hint: "Centralized design.",
     blank: "xxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/star-topology>",
+    review: "https://www.techtarget.com/whatis/definition/star-topology",
   },
   {
     category: "Computer Networking",
@@ -90,7 +90,7 @@ let networkingquestions = [
     hint: "Converts private to public IPs.",
     blank: "xxxxxxxx xx xxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-nat.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-nat.html",
   },
   {
     category: "Computer Networking",
@@ -98,7 +98,7 @@ let networkingquestions = [
     answer: "Dynamic Host Configuration Protocol",
     hint: "Assigns IP addresses automatically.",
     blank: "xxxxxxx xxxx xxxxxxxxxxxxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/DHCP>",
+    review: "https://www.techtarget.com/whatis/definition/DHCP",
   },
   {
     category: "Computer Networking",
@@ -106,7 +106,7 @@ let networkingquestions = [
     answer: "SSH",
     hint: "Replaces Telnet.",
     blank: "xxx",
-    review: "<https://www.ssh.com/academy/ssh>",
+    review: "https://www.ssh.com/academy/ssh",
   },
   {
     category: "Computer Networking",
@@ -115,7 +115,7 @@ let networkingquestions = [
     hint: "Virtual network division.",
     blank: "xxxxxxx xxxxxxxx xxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html",
   },
   {
     category: "Computer Networking",
@@ -123,7 +123,7 @@ let networkingquestions = [
     answer: "DNS",
     hint: "Name to IP resolution.",
     blank: "xxx",
-    review: "<https://www.cloudflare.com/learning/dns/what-is-dns/>",
+    review: "https://www.cloudflare.com/learning/dns/what-is-dns/",
   },
   {
     category: "Computer Networking",
@@ -132,7 +132,7 @@ let networkingquestions = [
     hint: "Defines packet size.",
     blank: "xxxxxxx xxxxxxxxxxx xxxx",
     review:
-      "<https://www.techtarget.com/whatis/definition/Maximum-Transmission-Unit-MTU>",
+      "https://www.techtarget.com/whatis/definition/Maximum-Transmission-Unit-MTU",
   },
   {
     category: "Computer Networking",
@@ -141,7 +141,7 @@ let networkingquestions = [
     hint: "Allows or blocks traffic.",
     blank: "xxxxxx xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html>",
+      "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html",
   },
   {
     category: "Computer Networking",
@@ -149,7 +149,7 @@ let networkingquestions = [
     answer: "Error reporting",
     hint: "Ping uses this protocol.",
     blank: "xxxxx xxxxxxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/ICMP>",
+    review: "https://www.techtarget.com/whatis/definition/ICMP",
   },
   {
     category: "Computer Networking",
@@ -157,7 +157,7 @@ let networkingquestions = [
     answer: "DDoS",
     hint: "Distributed attack.",
     blank: "xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/>",
+    review: "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/",
   },
   {
     category: "Computer Networking",
@@ -166,7 +166,7 @@ let networkingquestions = [
     hint: "Acts on behalf of clients.",
     blank: "xxxxxxxxxxx xxxxxxx",
     review:
-      "<https://www.techtarget.com/searchnetworking/definition/proxy-server>",
+      "https://www.techtarget.com/searchnetworking/definition/proxy-server",
   },
   {
     category: "Computer Networking",
@@ -174,7 +174,7 @@ let networkingquestions = [
     answer: "25",
     hint: "Used for email delivery.",
     blank: "xx",
-    review: "<https://www.lifewire.com/what-is-smtp-817950>",
+    review: "https://www.lifewire.com/what-is-smtp-817950",
   },
   {
     category: "Computer Networking",
@@ -182,7 +182,7 @@ let networkingquestions = [
     answer: "127.0.0.1",
     hint: "Used for testing network stack.",
     blank: "xxx.x.x.x",
-    review: "<https://www.techtarget.com/whatis/definition/loopback-address>",
+    review: "https://www.techtarget.com/whatis/definition/loopback-address",
   },
   {
     category: "Computer Networking",
@@ -191,7 +191,7 @@ let networkingquestions = [
     hint: "Ensures important data gets priority.",
     blank: "xxxxxxxx xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/qos.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/qos.html",
   },
   {
     category: "Computer Networking",
@@ -199,7 +199,7 @@ let networkingquestions = [
     answer: "Access point",
     hint: "Connects different networks.",
     blank: "xxxxxx xxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/gateway>",
+    review: "https://www.techtarget.com/whatis/definition/gateway",
   },
   {
     category: "Computer Networking",
@@ -208,7 +208,7 @@ let networkingquestions = [
     hint: "Layer 6.",
     blank: "xxxxxxxxxxxxxx xxxxx",
     review:
-      "<https://www.techtarget.com/searchnetworking/definition/OSI-model>",
+      "https://www.techtarget.com/searchnetworking/definition/OSI-model",
   },
   {
     category: "Computer Networking",
@@ -216,7 +216,7 @@ let networkingquestions = [
     answer: "Enable internet communication",
     hint: "Foundation of the internet.",
     blank: "xxxxx xxxxxxxx xxxxxxxxxxxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/TCP-IP>",
+    review: "https://www.techtarget.com/whatis/definition/TCP-IP",
   },
   {
     category: "Computer Networking",
@@ -225,7 +225,7 @@ let networkingquestions = [
     hint: "Used for routing between ISPs.",
     blank: "xxxxxx xxxxxxx xxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/service-provider/bgp.html>",
+      "https://www.cisco.com/c/en/us/solutions/service-provider/bgp.html",
   },
   {
     category: "Computer Networking",
@@ -233,7 +233,7 @@ let networkingquestions = [
     answer: "Secure communication",
     hint: "Encrypts data between sites.",
     blank: "xxxxxx xxxxxxxxxxxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/IPsec>",
+    review: "https://www.techtarget.com/searchsecurity/definition/IPsec",
   },
   {
     category: "Computer Networking",
@@ -241,7 +241,7 @@ let networkingquestions = [
     answer: "Network segment",
     hint: "Devices share broadcast traffic.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/broadcast-domain>",
+    review: "https://www.techtarget.com/whatis/definition/broadcast-domain",
   },
   {
     category: "Computer Networking",
@@ -249,7 +249,7 @@ let networkingquestions = [
     answer: "Shared transmission medium",
     hint: "Devices compete for access.",
     blank: "xxxxxx xxxxxxxxxxx xxxxxx",
-    review: "<https://www.techtarget.com/whatis/definition/collision-domain>",
+    review: "https://www.techtarget.com/whatis/definition/collision-domain",
   },
 ];
 

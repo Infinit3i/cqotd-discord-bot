@@ -5,7 +5,7 @@ const threathuntingquestions = [
       answer: "Windows Event Logs",
       hint: "Look for Event ID 4625.",
       blank: "xxxxxxx xxxxx xxxx",
-      review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625>",
+      review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625",
     },
     {
       category: "Threat Hunting",
@@ -13,7 +13,7 @@ const threathuntingquestions = [
       answer: "ConvertFrom-Base64",
       hint: "Used to analyze encoded scripts.",
       blank: "xxxxxxxxxx-xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-string>",
+      review: "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-string",
     },
     {
       category: "Threat Hunting",
@@ -21,7 +21,7 @@ const threathuntingquestions = [
       answer: "SMB",
       hint: "Port 445.",
       blank: "xxx",
-      review: "<https://attack.mitre.org/techniques/T1570/>",
+      review: "https://attack.mitre.org/techniques/T1570/",
     },
     {
       category: "Threat Hunting",
@@ -29,7 +29,7 @@ const threathuntingquestions = [
       answer: "CyberChef",
       hint: "Known as the 'Cyber Swiss Army Knife'.",
       blank: "xxxxxxxx",
-      review: "<https://gchq.github.io/CyberChef/>",
+      review: "https://gchq.github.io/CyberChef/",
     },
     {
       category: "Threat Hunting",
@@ -37,7 +37,7 @@ const threathuntingquestions = [
       answer: "4624",
       hint: "Check for suspicious accounts logging in.",
       blank: "xxxx",
-      review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624>",
+      review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624",
     },
     {
       category: "Threat Hunting",
@@ -45,7 +45,7 @@ const threathuntingquestions = [
       answer: "Get-ScheduledTask",
       hint: "Used to identify persistence mechanisms.",
       blank: "xxx-xxxxxxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/get-scheduledtask>",
+      review: "https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/get-scheduledtask",
     },
     {
       category: "Threat Hunting",
@@ -53,7 +53,7 @@ const threathuntingquestions = [
       answer: "CommandLine",
       hint: "Logs command-line arguments.",
       blank: "xxxxxxxxxx",
-      review: "<https://attack.mitre.org/techniques/T1059/001/>",
+      review: "https://attack.mitre.org/techniques/T1059/001/",
     },
     {
       category: "Threat Hunting",
@@ -61,7 +61,7 @@ const threathuntingquestions = [
       answer: "3389",
       hint: "Default RDP port.",
       blank: "xxxx",
-      review: "<https://attack.mitre.org/techniques/T1021/001/>",
+      review: "https://attack.mitre.org/techniques/T1021/001/",
     },
     {
       category: "Threat Hunting",
@@ -69,7 +69,7 @@ const threathuntingquestions = [
       answer: "LogParser",
       hint: "Microsoft tool for log analysis.",
       blank: "xxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/logparser>",
+      review: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/logparser",
     },
     {
       category: "Threat Hunting",
@@ -77,7 +77,7 @@ const threathuntingquestions = [
       answer: "Log cleared",
       hint: "Indicates potential log tampering.",
       blank: "xxxx xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102>",
+      review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102",
     },
     {
       category: "Threat Hunting",
@@ -85,7 +85,7 @@ const threathuntingquestions = [
       answer: "Base64 encoding",
       hint: "Common in malicious scripts.",
       blank: "xxxxxx xxxxxxxxx",
-      review: "<https://attack.mitre.org/techniques/T1059/001/>",
+      review: "https://attack.mitre.org/techniques/T1059/001/",
     },
     {
       category: "Threat Hunting",
@@ -93,7 +93,7 @@ const threathuntingquestions = [
       answer: "oletools",
       hint: "Python library for Office analysis.",
       blank: "xxxxxxxx",
-      review: "<https://github.com/decalage2/oletools>",
+      review: "https://github.com/decalage2/oletools",
     },
     {
       category: "Threat Hunting",
@@ -101,7 +101,7 @@ const threathuntingquestions = [
       answer: "Admin$ share",
       hint: "Used for remote file transfers.",
       blank: "xxxxx$ xxxxx",
-      review: "<https://attack.mitre.org/techniques/T1570/>",
+      review: "https://attack.mitre.org/techniques/T1570/",
     },
     {
       category: "Threat Hunting",
@@ -109,7 +109,7 @@ const threathuntingquestions = [
       answer: "Microsoft-Windows-Sysmon/Operational",
       hint: "Use this log source for detailed process monitoring.",
       blank: "xxxxxxxxx-xxxxxxxx-xxxxxxxx/xxxxxxxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
     },
     {
       category: "Threat Hunting",
@@ -117,7 +117,7 @@ const threathuntingquestions = [
       answer: "4688",
       hint: "Look for wmiprvse.exe.",
       blank: "xxxx",
-      review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688>",
+      review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688",
     },
     {
       category: "Threat Hunting",
@@ -125,7 +125,7 @@ const threathuntingquestions = [
       answer: "Set-ExecutionPolicy",
       hint: "Used to configure execution policies.",
       blank: "xxx-xxxxxxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy>",
+      review: "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy",
     },
     {
       category: "Threat Hunting",
@@ -133,7 +133,7 @@ const threathuntingquestions = [
       answer: "grep -E",
       hint: "Looks for patterns.",
       blank: "xxxx -x",
-      review: "<https://linux.die.net/man/1/grep>",
+      review: "https://linux.die.net/man/1/grep",
     },
     {
       category: "Threat Hunting",
@@ -141,7 +141,7 @@ const threathuntingquestions = [
       answer: "4688",
       hint: "Key for process monitoring.",
       blank: "xxxx",
-      review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688>",
+      review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688",
     },
     {
       category: "Threat Hunting",
@@ -149,7 +149,7 @@ const threathuntingquestions = [
       answer: "Security logs",
       hint: "Contains Event ID 4624.",
       blank: "xxxxxxxx xxxx",
-      review: "<https://attack.mitre.org/techniques/T1003/>",
+      review: "https://attack.mitre.org/techniques/T1003/",
     },
     {
       category: "Threat Hunting",
@@ -157,7 +157,7 @@ const threathuntingquestions = [
       answer: "JSDetox",
       hint: "Specializes in malicious JS.",
       blank: "xxxxxxxx",
-      review: "<https://github.com/dzzie/jsdetox>",
+      review: "https://github.com/dzzie/jsdetox",
     },
     {
       category: "Threat Hunting",
@@ -165,7 +165,7 @@ const threathuntingquestions = [
       answer: "Scheduled tasks",
       hint: "Often configured by attackers.",
       blank: "xxxxxxxx xxxxxx",
-      review: "<https://attack.mitre.org/techniques/T1053/>",
+      review: "https://attack.mitre.org/techniques/T1053/",
     },
     {
       category: "Threat Hunting",
@@ -173,7 +173,7 @@ const threathuntingquestions = [
       answer: "netstat",
       hint: "Shows active TCP connections.",
       blank: "xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat>",
+      review: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat",
     },
     {
       category: "Threat Hunting",
@@ -181,7 +181,7 @@ const threathuntingquestions = [
       answer: "DNS",
       hint: "Used to tunnel data.",
       blank: "xxx",
-      review: "<https://attack.mitre.org/techniques/T1071/004/>",
+      review: "https://attack.mitre.org/techniques/T1071/004/",
     },
     {
       category: "Threat Hunting",
@@ -189,7 +189,7 @@ const threathuntingquestions = [
       answer: "crontab -l",
       hint: "Checks for persistence.",
       blank: "xxxxxxx -x",
-      review: "<https://linux.die.net/man/1/crontab>",
+      review: "https://linux.die.net/man/1/crontab",
     },
     {
       category: "Threat Hunting",
@@ -197,7 +197,7 @@ const threathuntingquestions = [
       answer: "7045",
       hint: "Used for persistence.",
       blank: "xxxx",
-      review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-7045>",
+      review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-7045",
     },
     {
       category: "Threat Hunting",
@@ -205,7 +205,7 @@ const threathuntingquestions = [
       answer: "Security logs",
       hint: "Detects credential access.",
       blank: "xxxxxxxx xxxx",
-      review: "<https://attack.mitre.org/software/S0002/>",
+      review: "https://attack.mitre.org/software/S0002/",
     },
     {
       category: "Threat Hunting",
@@ -213,7 +213,7 @@ const threathuntingquestions = [
       answer: "Sysmon",
       hint: "Provides detailed event monitoring.",
       blank: "xxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
     },
     {
       category: "Threat Hunting",
@@ -221,7 +221,7 @@ const threathuntingquestions = [
       answer: "SSH keys",
       hint: "Uses private keys for access.",
       blank: "xxx xxxx",
-      review: "<https://attack.mitre.org/techniques/T1570/>",
+      review: "https://attack.mitre.org/techniques/T1570/",
     },
     {
       category: "Threat Hunting",
@@ -229,7 +229,7 @@ const threathuntingquestions = [
       answer: "Wireshark",
       hint: "Packet analysis tool.",
       blank: "xxxxxxxxx",
-      review: "<https://www.wireshark.org/>",
+      review: "https://www.wireshark.org/",
     },
     {
         category: "Threat Hunting",
@@ -237,7 +237,7 @@ const threathuntingquestions = [
         answer: "4719",
         hint: "Occurs during policy tampering.",
         blank: "xxxx",
-        review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4719>",
+        review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4719",
       },
       {
         category: "Threat Hunting",
@@ -245,7 +245,7 @@ const threathuntingquestions = [
         answer: "ps aux",
         hint: "Useful for detecting suspicious processes.",
         blank: "xx xxx",
-        review: "<https://linux.die.net/man/1/ps>",
+        review: "https://linux.die.net/man/1/ps",
       },
       {
         category: "Threat Hunting",
@@ -253,7 +253,7 @@ const threathuntingquestions = [
         answer: "4728",
         hint: "Indicates a potential privilege escalation.",
         blank: "xxxx",
-        review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4728>",
+        review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4728",
       },
       {
         category: "Threat Hunting",
@@ -261,7 +261,7 @@ const threathuntingquestions = [
         answer: "Procmon",
         hint: "Tracks real-time system activity.",
         blank: "xxxxxxx",
-        review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/procmon>",
+        review: "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon",
       },
       {
         category: "Threat Hunting",
@@ -269,7 +269,7 @@ const threathuntingquestions = [
         answer: "443",
         hint: "Secure web traffic.",
         blank: "xxx",
-        review: "<https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-port-443/>",
+        review: "https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-port-443/",
       },
       {
         category: "Threat Hunting",
@@ -277,7 +277,7 @@ const threathuntingquestions = [
         answer: "sc query",
         hint: "Checks for suspicious services.",
         blank: "xx xxxxx",
-        review: "<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-query>",
+        review: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-query",
       },
       {
         category: "Threat Hunting",
@@ -285,7 +285,7 @@ const threathuntingquestions = [
         answer: "Get-FileHash",
         hint: "Generates hash values.",
         blank: "xxx-xxxxxxxx",
-        review: "<https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash>",
+        review: "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash",
       },
       {
         category: "Threat Hunting",
@@ -293,7 +293,7 @@ const threathuntingquestions = [
         answer: "Kibana",
         hint: "Used with the ELK stack.",
         blank: "xxxxxx",
-        review: "<https://www.elastic.co/kibana>",
+        review: "https://www.elastic.co/kibana",
       },
       {
         category: "Threat Hunting",
@@ -301,7 +301,7 @@ const threathuntingquestions = [
         answer: "Authentication logs",
         hint: "Monitor failed login attempts.",
         blank: "xxxxxxxxxxxxxx xxxx",
-        review: "<https://attack.mitre.org/techniques/T1110/>",
+        review: "https://attack.mitre.org/techniques/T1110/",
       },
       {
         category: "Threat Hunting",
@@ -309,7 +309,7 @@ const threathuntingquestions = [
         answer: "DNS logs",
         hint: "Monitors unusual DNS queries.",
         blank: "xxx xxxx",
-        review: "<https://attack.mitre.org/techniques/T1071/004/>",
+        review: "https://attack.mitre.org/techniques/T1071/004/",
       },
       {
         category: "Threat Hunting",
@@ -317,7 +317,7 @@ const threathuntingquestions = [
         answer: "find / -perm",
         hint: "Searches for potential backdoors.",
         blank: "xxxx / -xxxx",
-        review: "<https://linux.die.net/man/1/find>",
+        review: "https://linux.die.net/man/1/find",
       },
       {
         category: "Threat Hunting",
@@ -325,7 +325,7 @@ const threathuntingquestions = [
         answer: "Volatility",
         hint: "Memory forensics tool.",
         blank: "xxxxxxxxxx",
-        review: "<https://www.volatilityfoundation.org/>",
+        review: "https://www.volatilityfoundation.org/",
       },
       {
         category: "Threat Hunting",
@@ -333,7 +333,7 @@ const threathuntingquestions = [
         answer: "4698",
         hint: "Indicates persistence mechanisms.",
         blank: "xxxx",
-        review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4698>",
+        review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4698",
       },
       {
         category: "Threat Hunting",
@@ -341,7 +341,7 @@ const threathuntingquestions = [
         answer: "RDP",
         hint: "Default port is 3389.",
         blank: "xxx",
-        review: "<https://attack.mitre.org/techniques/T1021/001/>",
+        review: "https://attack.mitre.org/techniques/T1021/001/",
       },
       {
         category: "Threat Hunting",
@@ -349,7 +349,7 @@ const threathuntingquestions = [
         answer: "lsmod",
         hint: "Monitors for malicious drivers.",
         blank: "xxxxx",
-        review: "<https://linux.die.net/man/8/lsmod>",
+        review: "https://linux.die.net/man/8/lsmod",
       },
       {
         category: "Threat Hunting",
@@ -357,7 +357,7 @@ const threathuntingquestions = [
         answer: "krbtgt",
         hint: "Abused for domain persistence.",
         blank: "xxxxxx",
-        review: "<https://attack.mitre.org/techniques/T1558/001/>",
+        review: "https://attack.mitre.org/techniques/T1558/001/",
       },
       {
         category: "Threat Hunting",
@@ -365,7 +365,7 @@ const threathuntingquestions = [
         answer: "1102",
         hint: "Potential sign of tampering.",
         blank: "xxxx",
-        review: "<https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102>",
+        review: "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102",
       },
       {
         category: "Threat Hunting",
@@ -373,7 +373,7 @@ const threathuntingquestions = [
         answer: "grep -E",
         hint: "Finds encoded strings.",
         blank: "xxxx -x",
-        review: "<https://linux.die.net/man/1/grep>",
+        review: "https://linux.die.net/man/1/grep",
       },
       {
         category: "Threat Hunting",
@@ -381,7 +381,7 @@ const threathuntingquestions = [
         answer: "Script block logging",
         hint: "Monitors for suspicious commands.",
         blank: "xxxxxx xxxxx xxxxxxx",
-        review: "<https://attack.mitre.org/techniques/T1059/001/>",
+        review: "https://attack.mitre.org/techniques/T1059/001/",
       },
       {
         category: "Threat Hunting",
@@ -389,7 +389,7 @@ const threathuntingquestions = [
         answer: "445",
         hint: "Used for file sharing.",
         blank: "xxx",
-        review: "<https://attack.mitre.org/techniques/T1021/002/>",
+        review: "https://attack.mitre.org/techniques/T1021/002/",
       },
   ];
   

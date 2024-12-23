@@ -6,7 +6,7 @@ let sysinternalsquestions = [
       hint: "It provides a detailed view of running processes.",
       blank: "xxxxxxx xxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
     },
     {
       category: "Sysinternals",
@@ -15,7 +15,7 @@ let sysinternalsquestions = [
       hint: "Short for Process Monitor.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/procmon>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon",
     },
     {
       category: "Sysinternals",
@@ -24,7 +24,7 @@ let sysinternalsquestions = [
       hint: "Tracks TCP connections.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview",
     },
     {
       category: "Sysinternals",
@@ -33,7 +33,7 @@ let sysinternalsquestions = [
       hint: "Windows debugger.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/>",
+        "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/",
     },
     {
       category: "Sysinternals",
@@ -42,7 +42,7 @@ let sysinternalsquestions = [
       hint: "Shows startup programs.",
       blank: "xxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns",
     },
     {
       category: "Sysinternals",
@@ -51,7 +51,7 @@ let sysinternalsquestions = [
       hint: "Shows system details on the desktop.",
       blank: "xxxxxxx xxxxxx xxxxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo",
     },
     {
       category: "Sysinternals",
@@ -60,7 +60,7 @@ let sysinternalsquestions = [
       hint: "Shows directory sizes.",
       blank: "xxxx xxxxx (xx)",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/du>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/du",
     },
     {
       category: "Sysinternals",
@@ -69,7 +69,7 @@ let sysinternalsquestions = [
       hint: "Execute processes remotely.",
       blank: "xxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/psexec>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/psexec",
     },
     {
       category: "Sysinternals",
@@ -78,7 +78,7 @@ let sysinternalsquestions = [
       hint: "Checks access rights for files, folders, and registry keys.",
       blank: "xxxx xxxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk",
     },
     {
       category: "Sysinternals",
@@ -87,7 +87,7 @@ let sysinternalsquestions = [
       hint: "Provides details on NTFS metadata.",
       blank: "xxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/ntfsinfo>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/ntfsinfo",
     },
     {
       category: "Sysinternals",
@@ -96,7 +96,7 @@ let sysinternalsquestions = [
       hint: "Lists loaded DLLs.",
       blank: "xxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls",
     },
     {
       category: "Sysinternals",
@@ -105,7 +105,7 @@ let sysinternalsquestions = [
       hint: "Checks file handles.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/handle>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/handle",
     },
     {
       category: "Sysinternals",
@@ -114,7 +114,7 @@ let sysinternalsquestions = [
       hint: "Overwrites data for secure removal.",
       blank: "xxxxxxx xxxxxx xxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete",
     },
     {
       category: "Sysinternals",
@@ -123,7 +123,7 @@ let sysinternalsquestions = [
       hint: "Manages services.",
       blank: "xxxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/psservice>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/psservice",
     },
     {
       category: "Sysinternals",
@@ -132,7 +132,7 @@ let sysinternalsquestions = [
       hint: "Great for presentations.",
       blank: "xxxxxx xxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit",
     },
     {
       category: "Sysinternals",
@@ -141,7 +141,7 @@ let sysinternalsquestions = [
       hint: "Tracks handle usage.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/handle>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/handle",
     },
     {
       category: "Sysinternals",
@@ -150,7 +150,7 @@ let sysinternalsquestions = [
       hint: "Details physical memory allocation.",
       blank: "xxxxxx xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/rammap>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/rammap",
     },
     {
       category: "Sysinternals",
@@ -159,7 +159,7 @@ let sysinternalsquestions = [
       hint: "Memory usage analysis.",
       blank: "xxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/vmmap>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/vmmap",
     },
     {
       category: "Sysinternals",
@@ -168,7 +168,7 @@ let sysinternalsquestions = [
       hint: "Tracks network traffic.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview",
     },
     {
       category: "Sysinternals",
@@ -177,7 +177,7 @@ let sysinternalsquestions = [
       hint: "Startup program analysis.",
       blank: "xxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns",
     },
     {
       category: "Sysinternals",
@@ -186,7 +186,7 @@ let sysinternalsquestions = [
       hint: "Real-time system activity.",
       blank: "xxxx xxx xxxxxxxxx xxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/procmon>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/procmon",
     },
     {
       category: "Sysinternals",
@@ -195,7 +195,7 @@ let sysinternalsquestions = [
       hint: "Checks digital signatures.",
       blank: "xxxxxx xxxx xxxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck",
     },
     {
       category: "Sysinternals",
@@ -204,7 +204,7 @@ let sysinternalsquestions = [
       hint: "Graphical disk visualization.",
       blank: "xxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/disk2vhd>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/disk2vhd",
     },
     {
       category: "Sysinternals",
@@ -213,7 +213,7 @@ let sysinternalsquestions = [
       hint: "Collection of remote utilities.",
       blank: "xxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/pstools>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/pstools",
     },
     {
       category: "Sysinternals",
@@ -222,7 +222,7 @@ let sysinternalsquestions = [
       hint: "Shows processor features.",
       blank: "xxxxxx xxx xxxxxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/coreinfo>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/coreinfo",
     },
     {
       category: "Sysinternals",
@@ -231,7 +231,7 @@ let sysinternalsquestions = [
       hint: "Debugging crashes.",
       blank: "xxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/procdump>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/procdump",
     },
     {
       category: "Sysinternals",
@@ -240,7 +240,7 @@ let sysinternalsquestions = [
       hint: "Memory analysis.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/procdump>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/procdump",
     },
     {
       category: "Sysinternals",
@@ -249,7 +249,7 @@ let sysinternalsquestions = [
       hint: "Analyzes kernel dumps.",
       blank: "xxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/livekd>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/livekd",
     },
     {
       category: "Sysinternals",
@@ -258,7 +258,7 @@ let sysinternalsquestions = [
       hint: "Finds duplicate files.",
       blank: "xxxxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/dupfinder>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/dupfinder",
     },
     {
       category: "Sysinternals",
@@ -267,7 +267,7 @@ let sysinternalsquestions = [
       hint: "Writes all buffers to disk.",
       blank: "xxxxx xxxx xxxxxx xxxxxxx",
       review:
-        "<https://learn.microsoft.com/en-us/sysinternals/downloads/sync>",
+        "https://learn.microsoft.com/en-us/sysinternals/downloads/sync",
     },
     {
       category: "Sysinternals",
@@ -275,7 +275,7 @@ let sysinternalsquestions = [
       answer: "DiskMon",
       hint: "Monitors I/O operations.",
       blank: "xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/diskmon>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/diskmon",
   },
   {
       category: "Sysinternals",
@@ -283,7 +283,7 @@ let sysinternalsquestions = [
       answer: "SDelete",
       hint: "Overwrites free space.",
       blank: "xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete",
   },
   {
       category: "Sysinternals",
@@ -291,7 +291,7 @@ let sysinternalsquestions = [
       answer: "Virtual desktops",
       hint: "Multiple workspaces.",
       blank: "xxxxxxx xxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/desktops>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/desktops",
   },
   {
       category: "Sysinternals",
@@ -299,7 +299,7 @@ let sysinternalsquestions = [
       answer: "SyncToy",
       hint: "Synchronizes file systems.",
       blank: "xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/synctoy>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/synctoy",
   },
   {
       category: "Sysinternals",
@@ -307,7 +307,7 @@ let sysinternalsquestions = [
       answer: "Text strings",
       hint: "Searches executables for readable text.",
       blank: "xxxx xxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/strings>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/strings",
   },
   {
       category: "Sysinternals",
@@ -315,7 +315,7 @@ let sysinternalsquestions = [
       answer: "Regedit",
       hint: "Modifies Windows Registry.",
       blank: "xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg>",
+      review: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg",
   },
   {
       category: "Sysinternals",
@@ -323,7 +323,7 @@ let sysinternalsquestions = [
       answer: "Debug message monitoring",
       hint: "Tracks application debugging output.",
       blank: "xxxxx xxxxx xxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/debugview>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/debugview",
   },
   {
       category: "Sysinternals",
@@ -331,7 +331,7 @@ let sysinternalsquestions = [
       answer: "LogonSessions",
       hint: "Lists logged-in users.",
       blank: "xxxxxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/logonsessions>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/logonsessions",
   },
   {
       category: "Sysinternals",
@@ -339,7 +339,7 @@ let sysinternalsquestions = [
       answer: "CPU features",
       hint: "Lists processor capabilities.",
       blank: "xxx xxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/coreinfo>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/coreinfo",
   },
   {
       category: "Sysinternals",
@@ -347,7 +347,7 @@ let sysinternalsquestions = [
       answer: "PsExec",
       hint: "Execute remotely or sandboxed.",
       blank: "xxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/psexec>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/psexec",
   },
   {
       category: "Sysinternals",
@@ -355,7 +355,7 @@ let sysinternalsquestions = [
       answer: "Convert hex to decimal",
       hint: "Number conversion utility.",
       blank: "xxxxxxx xxx xx xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/hex2dec>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/hex2dec",
   },
   {
       category: "Sysinternals",
@@ -363,7 +363,7 @@ let sysinternalsquestions = [
       answer: "Sigcheck",
       hint: "Checks certificate chains.",
       blank: "xxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck",
   },
   {
       category: "Sysinternals",
@@ -371,7 +371,7 @@ let sysinternalsquestions = [
       answer: "Active Directory calls",
       hint: "Used for troubleshooting LDAP.",
       blank: "xxxxxx xxxxxxxxx xxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/adinsight>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/adinsight",
   },
   {
       category: "Sysinternals",
@@ -379,7 +379,7 @@ let sysinternalsquestions = [
       answer: "Display system information",
       hint: "Overlay system details on the desktop.",
       blank: "xxxxxxx xxxxxx xxxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo",
   },
   {
       category: "Sysinternals",
@@ -387,7 +387,7 @@ let sysinternalsquestions = [
       answer: "DNSQuerySniffer",
       hint: "Tracks domain name resolutions.",
       blank: "xxxxxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/dnsquerysniffer>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/dnsquerysniffer",
   },
   {
       category: "Sysinternals",
@@ -395,7 +395,7 @@ let sysinternalsquestions = [
       answer: "File fragmentation",
       hint: "Defragment specific files.",
       blank: "xxxx xxxxxxxxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/contig>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/contig",
   },
   {
       category: "Sysinternals",
@@ -403,7 +403,7 @@ let sysinternalsquestions = [
       answer: "ProcDump",
       hint: "Debugging services or apps.",
       blank: "xxxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/procdump>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/procdump",
   },
   {
       category: "Sysinternals",
@@ -411,7 +411,7 @@ let sysinternalsquestions = [
       answer: "Disk sector map",
       hint: "Visual representation of disk usage.",
       blank: "xxxx xxxxxx xxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/diskview>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/diskview",
   },
   {
       category: "Sysinternals",
@@ -419,7 +419,7 @@ let sysinternalsquestions = [
       answer: "Filemon",
       hint: "Monitors file activity.",
       blank: "xxxxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/filemon>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/filemon",
   },
   {
       category: "Sysinternals",
@@ -427,7 +427,7 @@ let sysinternalsquestions = [
       answer: "System crash",
       hint: "Generates BSODs for testing.",
       blank: "xxxxxx xxxxx",
-      review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/bluescreen>",
+      review: "https://learn.microsoft.com/en-us/sysinternals/downloads/bluescreen",
   },
   ];
   

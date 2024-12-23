@@ -6,7 +6,7 @@ let caspQuestions = [
     answer: "Bell-LaPadula",
     hint: "Focuses on confidentiality.",
     blank: "xxxx-xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model>",
+    review: "https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model",
   },
   {
     category: "CompTIA CASP+",
@@ -15,7 +15,7 @@ let caspQuestions = [
     answer: "Symmetric",
     hint: "One key for both.",
     blank: "xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Symmetric-key_algorithm>",
+    review: "https://en.wikipedia.org/wiki/Symmetric-key_algorithm",
   },
   {
     category: "CompTIA CASP+",
@@ -23,7 +23,7 @@ let caspQuestions = [
     answer: "NIST",
     hint: "National framework.",
     blank: "xxxx",
-    review: "<https://www.nist.gov/>",
+    review: "https://www.nist.gov/",
   },
   {
     category: "CompTIA CASP+",
@@ -32,7 +32,7 @@ let caspQuestions = [
     hint: "Strengthen security.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-hardening.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-hardening.html",
   },
   {
     category: "CompTIA CASP+",
@@ -40,7 +40,7 @@ let caspQuestions = [
     answer: "TLS",
     hint: "Successor to SSL.",
     blank: "xxx",
-    review: "<https://www.cloudflare.com/learning/ssl/what-is-tls/>",
+    review: "https://www.cloudflare.com/learning/ssl/what-is-tls/",
   },
   {
     category: "CompTIA CASP+",
@@ -48,7 +48,7 @@ let caspQuestions = [
     answer: "Zero-day",
     hint: "Exploited before patching.",
     blank: "xxxx-xxx",
-    review: "<https://en.wikipedia.org/wiki/Zero-day_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Zero-day_(computing)",
   },
   {
     category: "CompTIA CASP+",
@@ -58,7 +58,7 @@ let caspQuestions = [
     hint: "Restrict access.",
     blank: "xxxxx xxxxxxxxx",
     review:
-      "<https://www.cisa.gov/cybersecurity-training-principle-least-privilege>",
+      "https://www.cisa.gov/cybersecurity-training-principle-least-privilege",
   },
   {
     category: "CompTIA CASP+",
@@ -66,7 +66,7 @@ let caspQuestions = [
     answer: "Ransomware",
     hint: "Demands payment.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/ransomware>",
+    review: "https://www.cisa.gov/ransomware",
   },
   {
     category: "CompTIA CASP+",
@@ -75,7 +75,7 @@ let caspQuestions = [
     hint: "Minimize damage.",
     blank: "xxxxxxxxxxx",
     review:
-      "<https://www.sans.org/information-security-training/incident-handling-steps/>",
+      "https://www.sans.org/information-security-training/incident-handling-steps/",
   },
   {
     category: "CompTIA CASP+",
@@ -83,7 +83,7 @@ let caspQuestions = [
     answer: "Nmap",
     hint: "Open-source scanner.",
     blank: "xxxx",
-    review: "<https://nmap.org/>",
+    review: "https://nmap.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -91,7 +91,7 @@ let caspQuestions = [
     answer: "PCI DSS",
     hint: "Payment compliance.",
     blank: "xxx xxx",
-    review: "<https://www.pcisecuritystandards.org/>",
+    review: "https://www.pcisecuritystandards.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -99,7 +99,7 @@ let caspQuestions = [
     answer: "DDoS",
     hint: "Distributed attack.",
     blank: "xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/>",
+    review: "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/",
   },
   {
     category: "CompTIA CASP+",
@@ -107,7 +107,7 @@ let caspQuestions = [
     answer: "Assessment",
     hint: "Analyze security.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.nist.gov/itl/cybersecurity-framework>",
+    review: "https://www.nist.gov/itl/cybersecurity-framework",
   },
   {
     category: "CompTIA CASP+",
@@ -115,7 +115,7 @@ let caspQuestions = [
     answer: "Security Information and Event Management",
     hint: "Security monitoring tool.",
     blank: "xxxxxxxx xxxxxxxxxx xxx xxxxx xxxxxxxxx",
-    review: "<https://www.ibm.com/security/siem>",
+    review: "https://www.ibm.com/security/siem",
   },
   {
     category: "CompTIA CASP+",
@@ -123,7 +123,7 @@ let caspQuestions = [
     answer: "Hashing",
     hint: "One-way function.",
     blank: "xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Cryptographic_hash_function>",
+    review: "https://en.wikipedia.org/wiki/Cryptographic_hash_function",
   },
   {
     category: "CompTIA CASP+",
@@ -131,7 +131,7 @@ let caspQuestions = [
     answer: "Steganography",
     hint: "Hidden in plain sight.",
     blank: "xxxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Steganography>",
+    review: "https://en.wikipedia.org/wiki/Steganography",
   },
   {
     category: "CompTIA CASP+",
@@ -140,7 +140,7 @@ let caspQuestions = [
     hint: "Virtual segments.",
     blank: "xxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html",
   },
   {
     category: "CompTIA CASP+",
@@ -148,7 +148,7 @@ let caspQuestions = [
     answer: "Authentication",
     hint: "Prove who you are.",
     blank: "xxxxxxxxxxxxxx",
-    review: "<https://www.okta.com/identity-101/what-is-authentication/>",
+    review: "https://www.okta.com/identity-101/what-is-authentication/",
   },
   {
     category: "CompTIA CASP+",
@@ -157,7 +157,7 @@ let caspQuestions = [
     hint: "Encrypts sessions.",
     blank: "xxxxxxx xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/wpa3.html>",
+      "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/wpa3.html",
   },
   {
     category: "CompTIA CASP+",
@@ -165,7 +165,7 @@ let caspQuestions = [
     answer: "Log management",
     hint: "Centralized logs.",
     blank: "xxx xxxxxxxxxx",
-    review: "<https://www.splunk.com/en_us/data-insights/log-management.html>",
+    review: "https://www.splunk.com/en_us/data-insights/log-management.html",
   },
   {
     category: "CompTIA CASP+",
@@ -173,7 +173,7 @@ let caspQuestions = [
     answer: "Testing",
     hint: "Validate backups.",
     blank: "xxxxxxx",
-    review: "<https://www.veritas.com/backup-testing>",
+    review: "https://www.veritas.com/backup-testing",
   },
   {
     category: "CompTIA CASP+",
@@ -181,7 +181,7 @@ let caspQuestions = [
     answer: "Private cloud",
     hint: "Exclusive use.",
     blank: "xxxxxxx xxxxx",
-    review: "<https://aws.amazon.com/private-cloud/>",
+    review: "https://aws.amazon.com/private-cloud/",
   },
   {
     category: "CompTIA CASP+",
@@ -189,7 +189,7 @@ let caspQuestions = [
     answer: "Asymmetric",
     hint: "Public and private keys.",
     blank: "xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Public-key_cryptography>",
+    review: "https://en.wikipedia.org/wiki/Public-key_cryptography",
   },
   {
     category: "CompTIA CASP+",
@@ -198,7 +198,7 @@ let caspQuestions = [
     hint: "Security configuration.",
     blank: "xxxxxxxx",
     review:
-      "<https://csrc.nist.gov/glossary/term/security_configuration_baseline>",
+      "https://csrc.nist.gov/glossary/term/security_configuration_baseline",
   },
   {
     category: "CompTIA CASP+",
@@ -207,7 +207,7 @@ let caspQuestions = [
     hint: "Network protection.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/firewalls/what-is-a-firewall/>",
+      "https://www.cloudflare.com/learning/firewalls/what-is-a-firewall/",
   },
   {
     category: "CompTIA CASP+",
@@ -215,7 +215,7 @@ let caspQuestions = [
     answer: "443",
     hint: "Secure web traffic.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/HTTPS>",
+    review: "https://en.wikipedia.org/wiki/HTTPS",
   },
   {
     category: "CompTIA CASP+",
@@ -223,7 +223,7 @@ let caspQuestions = [
     answer: "Multi-factor authentication",
     hint: "Uses multiple factors.",
     blank: "xxxxx-xxxx xxxxxxxxxxxxx",
-    review: "<https://www.okta.com/multi-factor-authentication/>",
+    review: "https://www.okta.com/multi-factor-authentication/",
   },
   {
     category: "CompTIA CASP+",
@@ -231,7 +231,7 @@ let caspQuestions = [
     answer: "Separation of duties",
     hint: "Divide responsibilities.",
     blank: "xxxxxxxxx xx xxxxxx",
-    review: "<https://www.cisa.gov/separation-of-duties>",
+    review: "https://www.cisa.gov/separation-of-duties",
   },
   {
     category: "CompTIA CASP+",
@@ -239,7 +239,7 @@ let caspQuestions = [
     answer: "Threat modeling",
     hint: "Identify risks.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://owasp.org/www-community/Threat_Modeling>",
+    review: "https://owasp.org/www-community/Threat_Modeling",
   },
   {
     category: "CompTIA CASP+",
@@ -248,7 +248,7 @@ let caspQuestions = [
     hint: "Manage mobile security.",
     blank: "xxx",
     review:
-      "<https://www.vmware.com/topics/glossary/content/mobile-device-management.html>",
+      "https://www.vmware.com/topics/glossary/content/mobile-device-management.html",
   },
   {
     category: "CompTIA CASP+",
@@ -257,7 +257,7 @@ let caspQuestions = [
     hint: "Protects data in transit.",
     blank: "xxxxxx xxxxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html>",
+      "https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html",
   },
   {
     category: "CompTIA CASP+",
@@ -265,7 +265,7 @@ let caspQuestions = [
     answer: "Non-repudiation",
     hint: "Cannot deny actions.",
     blank: "xxx-xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Non-repudiation>",
+    review: "https://en.wikipedia.org/wiki/Non-repudiation",
   },
   {
     category: "CompTIA CASP+",
@@ -275,7 +275,7 @@ let caspQuestions = [
     hint: "Ethical hacking.",
     blank: "xxxxxxxxxxx xxxxxxx",
     review:
-      "<https://www.crowdstrike.com/cybersecurity-101/penetration-testing/>",
+      "https://www.crowdstrike.com/cybersecurity-101/penetration-testing/",
   },
   {
     category: "CompTIA CASP+",
@@ -283,7 +283,7 @@ let caspQuestions = [
     answer: "Encryption",
     hint: "Secures data.",
     blank: "xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Encryption>",
+    review: "https://en.wikipedia.org/wiki/Encryption",
   },
   {
     category: "CompTIA CASP+",
@@ -292,7 +292,7 @@ let caspQuestions = [
     hint: "Deeply embedded.",
     blank: "xxxxxxxx xxxxxxx",
     review:
-      "<https://www.csoonline.com/article/3255386/what-is-a-rootkit-and-how-to-remove-it.html>",
+      "https://www.csoonline.com/article/3255386/what-is-a-rootkit-and-how-to-remove-it.html",
   },
   {
     category: "CompTIA CASP+",
@@ -300,7 +300,7 @@ let caspQuestions = [
     answer: "LDAP",
     hint: "Lightweight directory.",
     blank: "xxxx",
-    review: "<https://ldap.com/>",
+    review: "https://ldap.com/",
   },
   {
     category: "CompTIA CASP+",
@@ -310,7 +310,7 @@ let caspQuestions = [
     hint: "Detects malicious activity.",
     blank: "xxxxxxxx xxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/index.html",
   },
   {
     category: "CompTIA CASP+",
@@ -319,7 +319,7 @@ let caspQuestions = [
     hint: "Protects internal systems.",
     blank: "xxxxxxxx xxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/ddos/glossary/dmz-demilitarized-zone/>",
+      "https://www.cloudflare.com/learning/ddos/glossary/dmz-demilitarized-zone/",
   },
   {
     category: "CompTIA CASP+",
@@ -327,7 +327,7 @@ let caspQuestions = [
     answer: "Resource sharing",
     hint: "Shared infrastructure.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://aws.amazon.com/what-is-multi-tenancy/>",
+    review: "https://aws.amazon.com/what-is-multi-tenancy/",
   },
   {
     category: "CompTIA CASP+",
@@ -336,7 +336,7 @@ let caspQuestions = [
     hint: "Monitors activities.",
     blank: "xxxxxxx",
     review:
-      "<https://www.kaspersky.com/resource-center/threats/what-is-spyware>",
+      "https://www.kaspersky.com/resource-center/threats/what-is-spyware",
   },
   {
     category: "CompTIA CASP+",
@@ -345,7 +345,7 @@ let caspQuestions = [
     hint: "Divide and protect.",
     blank: "xxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/segmentation.html>",
+      "https://www.cisco.com/c/en/us/products/security/segmentation.html",
   },
   {
     category: "CompTIA CASP+",
@@ -353,7 +353,7 @@ let caspQuestions = [
     answer: "Data protection",
     hint: "Privacy for individuals.",
     blank: "xxxx xxxxxxxxxx",
-    review: "<https://gdpr-info.eu/>",
+    review: "https://gdpr-info.eu/",
   },
   {
     category: "CompTIA CASP+",
@@ -361,7 +361,7 @@ let caspQuestions = [
     answer: "Trojan horse",
     hint: "Hidden threat.",
     blank: "xxxxxx xxxxx",
-    review: "<https://www.avast.com/c-trojan>",
+    review: "https://www.avast.com/c-trojan",
   },
   {
     category: "CompTIA CASP+",
@@ -371,7 +371,7 @@ let caspQuestions = [
     hint: "Cryptographic algorithm.",
     blank: "xxxxxx-xxxxxxxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>",
+      "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange",
   },
   {
     category: "CompTIA CASP+",
@@ -379,7 +379,7 @@ let caspQuestions = [
     answer: "Code injection",
     hint: "Injects malicious code.",
     blank: "xxxx xxxxxxxxx",
-    review: "<https://owasp.org/www-community/attacks/Buffer_Overflow>",
+    review: "https://owasp.org/www-community/attacks/Buffer_Overflow",
   },
   {
     category: "CompTIA CASP+",
@@ -388,7 +388,7 @@ let caspQuestions = [
     hint: "Unique features.",
     blank: "xxxxxx xxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/security/biometric-authentication.html>",
+      "https://www.cisco.com/c/en/us/solutions/security/biometric-authentication.html",
   },
   {
     category: "CompTIA CASP+",
@@ -397,7 +397,7 @@ let caspQuestions = [
     answer: "Risk assessment",
     hint: "Evaluate threats.",
     blank: "xxxx xxxxxxxxxx",
-    review: "<https://www.nist.gov/itl/applied-cybersecurity/risk-management>",
+    review: "https://www.nist.gov/itl/applied-cybersecurity/risk-management",
   },
   {
     category: "CompTIA CASP+",
@@ -405,7 +405,7 @@ let caspQuestions = [
     answer: "AES",
     hint: "Advanced encryption standard.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/IEEE_802.11i-2004>",
+    review: "https://en.wikipedia.org/wiki/IEEE_802.11i-2004",
   },
   {
     category: "CompTIA CASP+",
@@ -414,7 +414,7 @@ let caspQuestions = [
     answer: "Resilience",
     hint: "Bounce back.",
     blank: "xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Resilience_(network)>",
+    review: "https://en.wikipedia.org/wiki/Resilience_(network)",
   },
   {
     category: "CompTIA CASP+",
@@ -422,7 +422,7 @@ let caspQuestions = [
     answer: "Awareness training",
     hint: "Educate users.",
     blank: "xxxxxxxxx xxxxxxx",
-    review: "<https://www.cisa.gov/phishing-awareness>",
+    review: "https://www.cisa.gov/phishing-awareness",
   },
   {
     category: "CompTIA CASP+",
@@ -430,7 +430,7 @@ let caspQuestions = [
     answer: "Confidentiality, integrity, availability",
     hint: "Three core security principles.",
     blank: "xxxxxxxxxxxxxxx, xxxxxxxxx, xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Information_security>",
+    review: "https://en.wikipedia.org/wiki/Information_security",
   },
   {
     category: "CompTIA CASP+",
@@ -438,7 +438,7 @@ let caspQuestions = [
     answer: "Authentication",
     hint: "Verify identity.",
     blank: "xxxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Authentication>",
+    review: "https://en.wikipedia.org/wiki/Authentication",
   },
   {
     category: "CompTIA CASP+",
@@ -446,7 +446,7 @@ let caspQuestions = [
     answer: "Confidentiality",
     hint: "Keeps data private.",
     blank: "xxxxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Encryption>",
+    review: "https://en.wikipedia.org/wiki/Encryption",
   },
   {
     category: "CompTIA CASP+",
@@ -454,7 +454,7 @@ let caspQuestions = [
     answer: "Intrusion detection system",
     hint: "Monitors for threats.",
     blank: "xxxxxxxx xxxxxxxxx xxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/ids/index.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/ids/index.html",
   },
   {
     category: "CompTIA CASP+",
@@ -462,7 +462,7 @@ let caspQuestions = [
     answer: "Encryption",
     hint: "Protects in transit.",
     blank: "xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Data_loss_prevention>",
+    review: "https://en.wikipedia.org/wiki/Data_loss_prevention",
   },
   {
     category: "CompTIA CASP+",
@@ -470,7 +470,7 @@ let caspQuestions = [
     answer: "DNS spoofing",
     hint: "Tampered DNS responses.",
     blank: "xxx xxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/dns/dns-spoofing/>",
+    review: "https://www.cloudflare.com/learning/dns/dns-spoofing/",
   },
   {
     category: "CompTIA CASP+",
@@ -478,7 +478,7 @@ let caspQuestions = [
     answer: "Integrity",
     hint: "No tampering.",
     blank: "xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Data_integrity>",
+    review: "https://en.wikipedia.org/wiki/Data_integrity",
   },
   {
     category: "CompTIA CASP+",
@@ -486,7 +486,7 @@ let caspQuestions = [
     answer: "Identify risks",
     hint: "Discover threats and vulnerabilities.",
     blank: "xxxxxxxx xxxxx",
-    review: "<https://www.nist.gov/itl/risk-assessment>",
+    review: "https://www.nist.gov/itl/risk-assessment",
   },
   {
     category: "CompTIA CASP+",
@@ -494,7 +494,7 @@ let caspQuestions = [
     answer: "Data in transit",
     hint: "Secures communication.",
     blank: "xxxx xx xxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/vpn/index.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/vpn/index.html",
   },
   {
     category: "CompTIA CASP+",
@@ -502,7 +502,7 @@ let caspQuestions = [
     answer: "ARP spoofing",
     hint: "Misleads MAC addresses.",
     blank: "xxx xxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/security/arp-spoofing/>",
+    review: "https://www.cloudflare.com/learning/security/arp-spoofing/",
   },
   {
     category: "CompTIA CASP+",
@@ -510,7 +510,7 @@ let caspQuestions = [
     answer: "Phishing",
     hint: "Email-based attack.",
     blank: "xxxxxxxx",
-    review: "<https://www.cisa.gov/phishing>",
+    review: "https://www.cisa.gov/phishing",
   },
   {
     category: "CompTIA CASP+",
@@ -518,7 +518,7 @@ let caspQuestions = [
     answer: "Accountability",
     hint: "Tracking activity.",
     blank: "xxxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Accountability>",
+    review: "https://en.wikipedia.org/wiki/Accountability",
   },
   {
     category: "CompTIA CASP+",
@@ -526,7 +526,7 @@ let caspQuestions = [
     answer: "Demilitarized zone",
     hint: "Isolates public-facing services.",
     blank: "xxxxxxxxxxxxx xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/glossary/dmz/>",
+    review: "https://www.cloudflare.com/learning/ddos/glossary/dmz/",
   },
   {
     category: "CompTIA CASP+",
@@ -534,7 +534,7 @@ let caspQuestions = [
     answer: "Firewall",
     hint: "Applies network rules.",
     blank: "xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Firewall_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Firewall_(computing)",
   },
   {
     category: "CompTIA CASP+",
@@ -542,7 +542,7 @@ let caspQuestions = [
     answer: "Access control",
     hint: "Restrict data access.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Access_control>",
+    review: "https://en.wikipedia.org/wiki/Access_control",
   },
   {
     category: "CompTIA CASP+",
@@ -550,7 +550,7 @@ let caspQuestions = [
     answer: "Secure sockets layer",
     hint: "Protects web traffic.",
     blank: "xxxxxx xxxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Transport_Layer_Security>",
+    review: "https://en.wikipedia.org/wiki/Transport_Layer_Security",
   },
   {
     category: "CompTIA CASP+",
@@ -558,7 +558,7 @@ let caspQuestions = [
     answer: "Access control",
     hint: "Restrict privileges.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.cisa.gov/insider-threat>",
+    review: "https://www.cisa.gov/insider-threat",
   },
   {
     category: "CompTIA CASP+",
@@ -566,7 +566,7 @@ let caspQuestions = [
     answer: "Integrity",
     hint: "Verify data.",
     blank: "xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Cryptographic_hash_function>",
+    review: "https://en.wikipedia.org/wiki/Cryptographic_hash_function",
   },
   {
     category: "CompTIA CASP+",
@@ -574,7 +574,7 @@ let caspQuestions = [
     answer: "NIST CSF",
     hint: "American standard.",
     blank: "xxxx xxx",
-    review: "<https://www.nist.gov/cyberframework>",
+    review: "https://www.nist.gov/cyberframework",
   },
   {
     category: "CompTIA CASP+",
@@ -582,7 +582,7 @@ let caspQuestions = [
     answer: "Network traffic",
     hint: "Encrypts communication.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/IPsec>",
+    review: "https://en.wikipedia.org/wiki/IPsec",
   },
   {
     category: "CompTIA CASP+",
@@ -591,7 +591,7 @@ let caspQuestions = [
     hint: "Be ready.",
     blank: "xxxxxxxxxx",
     review:
-      "<https://www.sans.org/information-security-training/incident-handling-steps/>",
+      "https://www.sans.org/information-security-training/incident-handling-steps/",
   },
   {
     category: "CompTIA CASP+",
@@ -599,7 +599,7 @@ let caspQuestions = [
     answer: "Availability",
     hint: "Prevent downtime.",
     blank: "xxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Availability>",
+    review: "https://en.wikipedia.org/wiki/Availability",
   },
   {
     category: "CompTIA CASP+",
@@ -607,7 +607,7 @@ let caspQuestions = [
     answer: "DNS",
     hint: "Domain Name System.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Domain_Name_System>",
+    review: "https://en.wikipedia.org/wiki/Domain_Name_System",
   },
   {
     category: "CompTIA CASP+",
@@ -615,7 +615,7 @@ let caspQuestions = [
     answer: "Encryption",
     hint: "Locks stored files.",
     blank: "xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Encryption>",
+    review: "https://en.wikipedia.org/wiki/Encryption",
   },
   {
     category: "CompTIA CASP+",
@@ -623,7 +623,7 @@ let caspQuestions = [
     answer: "Application",
     hint: "Operates at Layer 7.",
     blank: "xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Firewall_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Firewall_(computing)",
   },
   {
     category: "CompTIA CASP+",
@@ -631,7 +631,7 @@ let caspQuestions = [
     answer: "Access control",
     hint: "Unauthorized login.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.cisa.gov/default-credentials-risk>",
+    review: "https://www.cisa.gov/default-credentials-risk",
   },
   {
     category: "CompTIA CASP+",
@@ -639,7 +639,7 @@ let caspQuestions = [
     answer: "HTTPS",
     hint: "Secured web traffic.",
     blank: "xxxxx",
-    review: "<https://en.wikipedia.org/wiki/HTTPS>",
+    review: "https://en.wikipedia.org/wiki/HTTPS",
   },
   {
     category: "CompTIA CASP+",
@@ -647,7 +647,7 @@ let caspQuestions = [
     answer: "Ransomware",
     hint: "Demands payment.",
     blank: "xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Ransomware>",
+    review: "https://en.wikipedia.org/wiki/Ransomware",
   },
   {
     category: "CompTIA CASP+",
@@ -656,7 +656,7 @@ let caspQuestions = [
     hint: "Personal devices at work.",
     blank: "xxxxx xxxx xxxx xxxxxx",
     review:
-      "<https://www.techtarget.com/definition/BYOD-bring-your-own-device>",
+      "https://www.techtarget.com/definition/BYOD-bring-your-own-device",
   },
   {
     category: "CompTIA CASP+",
@@ -665,7 +665,7 @@ let caspQuestions = [
     answer: "Parameterized queries",
     hint: "Also known as prepared statements.",
     blank: "xxxxxxxxxxx xxxxxxx",
-    review: "<https://owasp.org/www-community/attacks/SQL_Injection>",
+    review: "https://owasp.org/www-community/attacks/SQL_Injection",
   },
   {
     category: "CompTIA CASP+",
@@ -673,7 +673,7 @@ let caspQuestions = [
     answer: "API management",
     hint: "Handles API security.",
     blank: "xxx xxxxxxxxxx",
-    review: "<https://www.ibm.com/topics/api-gateway>",
+    review: "https://www.ibm.com/topics/api-gateway",
   },
   {
     category: "CompTIA CASP+",
@@ -681,7 +681,7 @@ let caspQuestions = [
     answer: "Containerization",
     hint: "Lightweight virtual machines.",
     blank: "xxxxxxxxxxxxxx",
-    review: "<https://www.docker.com/resources/what-container>",
+    review: "https://www.docker.com/resources/what-container",
   },
   {
     category: "CompTIA CASP+",
@@ -689,7 +689,7 @@ let caspQuestions = [
     answer: "CERT Java Secure Coding",
     hint: "CERT for Java.",
     blank: "xxxx xxxx xxxxxx xxxxxx",
-    review: "<https://wiki.sei.cmu.edu/confluence/display/java>",
+    review: "https://wiki.sei.cmu.edu/confluence/display/java",
   },
   {
     category: "CompTIA CASP+",
@@ -697,7 +697,7 @@ let caspQuestions = [
     answer: "Dependency scanning",
     hint: "Ensures no vulnerable libraries.",
     blank: "xxxxxxxxxxx xxxxxxx",
-    review: "<https://owasp.org/www-project-dependency-check/>",
+    review: "https://owasp.org/www-project-dependency-check/",
   },
   {
     category: "CompTIA CASP+",
@@ -706,7 +706,7 @@ let caspQuestions = [
     hint: "Interactive security testing.",
     blank: "xxxx",
     review:
-      "<https://www.veracode.com/security/interactive-application-security-testing>",
+      "https://www.veracode.com/security/interactive-application-security-testing",
   },
   {
     category: "CompTIA CASP+",
@@ -714,7 +714,7 @@ let caspQuestions = [
     answer: "SAST",
     hint: "Static analysis.",
     blank: "xxxx",
-    review: "<https://owasp.org/www-community/Static_Code_Analysis>",
+    review: "https://owasp.org/www-community/Static_Code_Analysis",
   },
   {
     category: "CompTIA CASP+",
@@ -723,7 +723,7 @@ let caspQuestions = [
     hint: "Connects diverse systems.",
     blank: "xxxxxxxxxx xxxxxxx",
     review:
-      "<https://www.techtarget.com/searcherp/tip/How-to-integrate-ERP-and-CRM>",
+      "https://www.techtarget.com/searcherp/tip/How-to-integrate-ERP-and-CRM",
   },
   {
     category: "CompTIA CASP+",
@@ -731,7 +731,7 @@ let caspQuestions = [
     answer: "SecDevOps",
     hint: "Security + DevOps.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.ibm.com/topics/devsecops>",
+    review: "https://www.ibm.com/topics/devsecops",
   },
   {
     category: "CompTIA CASP+",
@@ -739,7 +739,7 @@ let caspQuestions = [
     answer: "Authentication tokens",
     hint: "Validates API requests.",
     blank: "xxxxxxxxxxxxx xxxxxx",
-    review: "<https://oauth.net/2/>",
+    review: "https://oauth.net/2/",
   },
   {
     category: "CompTIA CASP+",
@@ -748,7 +748,7 @@ let caspQuestions = [
     hint: "Data sanitization.",
     blank: "xxxxxx xxxxx",
     review:
-      "<https://www.nist.gov/publications/special-publication-800-88-revision-1-guidelines-media-sanitization>",
+      "https://www.nist.gov/publications/special-publication-800-88-revision-1-guidelines-media-sanitization",
   },
   {
     category: "CompTIA CASP+",
@@ -756,7 +756,7 @@ let caspQuestions = [
     answer: "Code signing",
     hint: "Authenticates developers.",
     blank: "xxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Code_signing>",
+    review: "https://en.wikipedia.org/wiki/Code_signing",
   },
   {
     category: "CompTIA CASP+",
@@ -764,7 +764,7 @@ let caspQuestions = [
     answer: "OWASP Secure Headers",
     hint: "OWASP recommendation.",
     blank: "xxxxx xxxxxx xxxxxxx",
-    review: "<https://owasp.org/www-project-secure-headers/>",
+    review: "https://owasp.org/www-project-secure-headers/",
   },
   {
     category: "CompTIA CASP+",
@@ -772,7 +772,7 @@ let caspQuestions = [
     answer: "Configuration Management Database",
     hint: "CMDB",
     blank: "xxxxxxxxxxxxx xxxxxxxxxx xxxxxxxx",
-    review: "<https://www.servicenow.com/products/cmdb.html>",
+    review: "https://www.servicenow.com/products/cmdb.html",
   },
   {
     category: "CompTIA CASP+",
@@ -780,7 +780,7 @@ let caspQuestions = [
     answer: "Regression testing",
     hint: "Ensures no unintended changes.",
     blank: "xxxxxxxxxx xxxxxxx",
-    review: "<https://www.ibm.com/topics/regression-testing>",
+    review: "https://www.ibm.com/topics/regression-testing",
   },
   {
     category: "CompTIA CASP+",
@@ -789,7 +789,7 @@ let caspQuestions = [
     hint: "Verifies module connections.",
     blank: "xxxxxxxxxxx xxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsoftwarequality/definition/integration-testing>",
+      "https://www.techtarget.com/searchsoftwarequality/definition/integration-testing",
   },
   {
     category: "CompTIA CASP+",
@@ -797,7 +797,7 @@ let caspQuestions = [
     answer: "Unit testing",
     hint: "Isolated function testing.",
     blank: "xxxx xxxxxxx",
-    review: "<https://www.ibm.com/topics/unit-testing>",
+    review: "https://www.ibm.com/topics/unit-testing",
   },
   {
     category: "CompTIA CASP+",
@@ -805,7 +805,7 @@ let caspQuestions = [
     answer: "Enterprise Service Bus",
     hint: "ESB",
     blank: "xxxxxxxxxx xxxxxxx xxx",
-    review: "<https://www.ibm.com/cloud/learn/enterprise-service-bus>",
+    review: "https://www.ibm.com/cloud/learn/enterprise-service-bus",
   },
   {
     category: "CompTIA CASP+",
@@ -813,7 +813,7 @@ let caspQuestions = [
     answer: "Directory services",
     hint: "Active Directory.",
     blank: "xxxxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Directory_service>",
+    review: "https://en.wikipedia.org/wiki/Directory_service",
   },
   {
     category: "CompTIA CASP+",
@@ -821,7 +821,7 @@ let caspQuestions = [
     answer: "Continuous delivery",
     hint: "CD",
     blank: "xxxxxxxxxx xxxxxxxx",
-    review: "<https://www.redhat.com/en/topics/devops/what-is-ci-cd>",
+    review: "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
   },
   {
     category: "CompTIA CASP+",
@@ -829,7 +829,7 @@ let caspQuestions = [
     answer: "Agile",
     hint: "Iterative approach.",
     blank: "xxxxx",
-    review: "<https://www.atlassian.com/agile>",
+    review: "https://www.atlassian.com/agile",
   },
   {
     category: "CompTIA CASP+",
@@ -837,7 +837,7 @@ let caspQuestions = [
     answer: "Risk analysis",
     hint: "Identifies risks in loops.",
     blank: "xxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Spiral_model>",
+    review: "https://en.wikipedia.org/wiki/Spiral_model",
   },
   {
     category: "CompTIA CASP+",
@@ -845,7 +845,7 @@ let caspQuestions = [
     answer: "Integration middleware",
     hint: "Connects apps.",
     blank: "xxxxxxxxxxx xxxxxxxxxx",
-    review: "<https://www.ibm.com/products/middleware>",
+    review: "https://www.ibm.com/products/middleware",
   },
   {
     category: "CompTIA CASP+",
@@ -853,7 +853,7 @@ let caspQuestions = [
     answer: "Disposal",
     hint: "End of lifecycle.",
     blank: "xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Software_lifecycle>",
+    review: "https://en.wikipedia.org/wiki/Software_lifecycle",
   },
   {
     category: "CompTIA CASP+",
@@ -862,7 +862,7 @@ let caspQuestions = [
     hint: "HSTS",
     blank: "xxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxx",
     review:
-      "<https://owasp.org/www-project-secure-headers/#http-strict-transport-security>",
+      "https://owasp.org/www-project-secure-headers/#http-strict-transport-security",
   },
   {
     category: "CompTIA CASP+",
@@ -870,7 +870,7 @@ let caspQuestions = [
     answer: "Data masking",
     hint: "Obscures sensitive data.",
     blank: "xxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Data_masking>",
+    review: "https://en.wikipedia.org/wiki/Data_masking",
   },
   {
     category: "CompTIA CASP+",
@@ -878,7 +878,7 @@ let caspQuestions = [
     answer: "Low-level APIs",
     hint: "Close to hardware.",
     blank: "xxx-xxxxx xxxx",
-    review: "<https://www.techtarget.com/searchsoftwarequality/definition/API>",
+    review: "https://www.techtarget.com/searchsoftwarequality/definition/API",
   },
   {
     category: "CompTIA CASP+",
@@ -887,7 +887,7 @@ let caspQuestions = [
     hint: "Adds DNS validation.",
     blank: "xxxxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions>",
+      "https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions",
   },
   {
     category: "CompTIA CASP+",
@@ -895,7 +895,7 @@ let caspQuestions = [
     answer: "Continuous integration",
     hint: "CI.",
     blank: "xxxxxxxxxx xxxxxxxxxxxx",
-    review: "<https://www.redhat.com/en/topics/devops/what-is-ci-cd>",
+    review: "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
   },
   {
     category: "CompTIA CASP+",
@@ -903,7 +903,7 @@ let caspQuestions = [
     answer: "Operational",
     hint: "Short-term intelligence.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/information-sharing-operational-intelligence>",
+    review: "https://www.cisa.gov/information-sharing-operational-intelligence",
   },
   {
     category: "CompTIA CASP+",
@@ -911,7 +911,7 @@ let caspQuestions = [
     answer: "Strategic",
     hint: "High-level insights.",
     blank: "xxxxxxxxx",
-    review: "<https://www.ncsc.gov.uk/information/strategic-cyber-intelligence>",
+    review: "https://www.ncsc.gov.uk/information/strategic-cyber-intelligence",
   },
   {
     category: "CompTIA CASP+",
@@ -919,7 +919,7 @@ let caspQuestions = [
     answer: "Ransomware",
     hint: "Off-the-shelf attack.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/ransomware>",
+    review: "https://www.cisa.gov/ransomware",
   },
   {
     category: "CompTIA CASP+",
@@ -927,7 +927,7 @@ let caspQuestions = [
     answer: "Tactical",
     hint: "Case-specific insights.",
     blank: "xxxxxxxx",
-    review: "<https://www.crowdstrike.com/cybersecurity-101/cyber-threat-intelligence/>",
+    review: "https://www.crowdstrike.com/cybersecurity-101/cyber-threat-intelligence/",
   },
   {
     category: "CompTIA CASP+",
@@ -935,7 +935,7 @@ let caspQuestions = [
     answer: "Targeted attacks",
     hint: "Not general malware.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/targeted-attack>",
+    review: "https://www.techtarget.com/searchsecurity/definition/targeted-attack",
   },
   {
     category: "CompTIA CASP+",
@@ -943,7 +943,7 @@ let caspQuestions = [
     answer: "Threat emulation",
     hint: "Simulating attacks.",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<https://www.sans.org/white-papers/threat-emulation/>",
+    review: "https://www.sans.org/white-papers/threat-emulation/",
   },
   {
     category: "CompTIA CASP+",
@@ -951,7 +951,7 @@ let caspQuestions = [
     answer: "Proactive threat detection",
     hint: "Search for hidden threats.",
     blank: "xxxxxxxx xxxxxx xxxxxxxxx",
-    review: "<https://www.crowdstrike.com/cybersecurity-101/what-is-threat-hunting/>",
+    review: "https://www.crowdstrike.com/cybersecurity-101/what-is-threat-hunting/",
   },
   {
     category: "CompTIA CASP+",
@@ -959,7 +959,7 @@ let caspQuestions = [
     answer: "Advanced persistent threat",
     hint: "APT",
     blank: "xxxxxxxx xxxxxxxxx xxxxxx",
-    review: "<https://www.cisa.gov/advanced-persistent-threat>",
+    review: "https://www.cisa.gov/advanced-persistent-threat",
   },
   {
     category: "CompTIA CASP+",
@@ -967,7 +967,7 @@ let caspQuestions = [
     answer: "Insider threat",
     hint: "Internal attackers.",
     blank: "xxxxxxx xxxxxx",
-    review: "<https://www.cisa.gov/insider-threat>",
+    review: "https://www.cisa.gov/insider-threat",
   },
   {
     category: "CompTIA CASP+",
@@ -975,7 +975,7 @@ let caspQuestions = [
     answer: "Hacktivist",
     hint: "Political hackers.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.cisa.gov/hacktivist>",
+    review: "https://www.cisa.gov/hacktivist",
   },
   {
     category: "CompTIA CASP+",
@@ -983,7 +983,7 @@ let caspQuestions = [
     answer: "Script kiddie",
     hint: "Low skill level.",
     blank: "xxxxx xxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/script-kiddies.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/script-kiddies.html",
   },
   {
     category: "CompTIA CASP+",
@@ -991,7 +991,7 @@ let caspQuestions = [
     answer: "Organized crime",
     hint: "Financially motivated.",
     blank: "xxxxxxxxx xxxxx",
-    review: "<https://www.cisa.gov/cybercrime>",
+    review: "https://www.cisa.gov/cybercrime",
   },
   {
     category: "CompTIA CASP+",
@@ -999,7 +999,7 @@ let caspQuestions = [
     answer: "Resources",
     hint: "Supports operations.",
     blank: "xxxxxxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/cyber-threat-actors>",
+    review: "https://www.techtarget.com/searchsecurity/definition/cyber-threat-actors",
   },
   {
     category: "CompTIA CASP+",
@@ -1007,7 +1007,7 @@ let caspQuestions = [
     answer: "Time",
     hint: "Dedicated efforts.",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/threat-actors>",
+    review: "https://www.techtarget.com/searchsecurity/definition/threat-actors",
   },
   {
     category: "CompTIA CASP+",
@@ -1015,7 +1015,7 @@ let caspQuestions = [
     answer: "Supply chain access",
     hint: "Third-party vulnerabilities.",
     blank: "xxxxxx xxxxxx xxxxxx",
-    review: "<https://www.cisa.gov/supply-chain-security>",
+    review: "https://www.cisa.gov/supply-chain-security",
   },
   {
     category: "CompTIA CASP+",
@@ -1023,7 +1023,7 @@ let caspQuestions = [
     answer: "Open-source intelligence",
     hint: "OSINT.",
     blank: "xxxx-xxxxxx xxxxxxxxxx",
-    review: "<https://osintframework.com/>",
+    review: "https://osintframework.com/",
   },
   {
     category: "CompTIA CASP+",
@@ -1031,7 +1031,7 @@ let caspQuestions = [
     answer: "HUMINT",
     hint: "Human intelligence.",
     blank: "xxxxxx",
-    review: "<https://www.cia.gov/about/intelligence/human-intelligence/>",
+    review: "https://www.cia.gov/about/intelligence/human-intelligence/",
   },
   {
     category: "CompTIA CASP+",
@@ -1039,7 +1039,7 @@ let caspQuestions = [
     answer: "Proprietary intelligence",
     hint: "Paid intelligence.",
     blank: "xxxxxxxxxxx xxxxxxxxxxx",
-    review: "<https://www.ibm.com/security/security-intelligence>",
+    review: "https://www.ibm.com/security/security-intelligence",
   },
   {
     category: "CompTIA CASP+",
@@ -1047,7 +1047,7 @@ let caspQuestions = [
     answer: "MITRE ATT&CK",
     hint: "Adversary techniques.",
     blank: "xxxxx xxxxxxx",
-    review: "<https://attack.mitre.org/>",
+    review: "https://attack.mitre.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -1055,7 +1055,7 @@ let caspQuestions = [
     answer: "ATT&CK for ICS",
     hint: "Industrial systems.",
     blank: "xxxxx xxx xxx",
-    review: "<https://attack.mitre.org/matrices/ics/>",
+    review: "https://attack.mitre.org/matrices/ics/",
   },
   {
     category: "CompTIA CASP+",
@@ -1063,7 +1063,7 @@ let caspQuestions = [
     answer: "Diamond Model",
     hint: "Four key components.",
     blank: "xxxxxxx xxxxxx",
-    review: "<https://www.activeresponse.org/the-diamond-model-of-intrusion-analysis/>",
+    review: "https://www.activeresponse.org/the-diamond-model-of-intrusion-analysis/",
   },
   {
     category: "CompTIA CASP+",
@@ -1071,7 +1071,7 @@ let caspQuestions = [
     answer: "Cyber Kill Chain",
     hint: "Lockheed Martin.",
     blank: "xxxxx xxxx xxxxx",
-    review: "<https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html>",
+    review: "https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html",
   },
   {
     category: "CompTIA CASP+",
@@ -1079,7 +1079,7 @@ let caspQuestions = [
     answer: "Create vulnerabilities",
     hint: "Introduce security gaps.",
     blank: "xxxxxx xxxxxxxxxxxxxx",
-    review: "<https://www.nist.gov/security/create-vulnerabilities>",
+    review: "https://www.nist.gov/security/create-vulnerabilities",
   },
   {
     category: "CompTIA CASP+",
@@ -1087,7 +1087,7 @@ let caspQuestions = [
     answer: "Deep web",
     hint: "Hidden sites.",
     blank: "xxxx xxxx",
-    review: "<https://www.csoonline.com/article/3330368/deep-web-and-dark-web.html>",
+    review: "https://www.csoonline.com/article/3330368/deep-web-and-dark-web.html",
   },
   {
     category: "CompTIA CASP+",
@@ -1095,7 +1095,7 @@ let caspQuestions = [
     answer: "Threat intelligence feeds",
     hint: "Live updates.",
     blank: "xxxxxx xxxxxxxxxx xxxxxx",
-    review: "<https://www.crowdstrike.com/cybersecurity-101/threat-intelligence/>",
+    review: "https://www.crowdstrike.com/cybersecurity-101/threat-intelligence/",
   },
   {
     category: "CompTIA CASP+",
@@ -1103,7 +1103,7 @@ let caspQuestions = [
     answer: "Competitor",
     hint: "Business rivals.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.techtarget.com/competitor-intelligence>",
+    review: "https://www.techtarget.com/competitor-intelligence",
   },
   {
     category: "CompTIA CASP+",
@@ -1111,7 +1111,7 @@ let caspQuestions = [
     answer: "Capabilities",
     hint: "Level of sophistication.",
     blank: "xxxxxxxxxxxxx",
-    review: "<https://www.cisa.gov/cyber-actors>",
+    review: "https://www.cisa.gov/cyber-actors",
   },
   {
     category: "CompTIA CASP+",
@@ -1119,7 +1119,7 @@ let caspQuestions = [
     answer: "Diamond Model",
     hint: "Four key aspects.",
     blank: "xxxxxxx xxxxxx",
-    review: "<https://www.cisa.gov/diamond-model>",
+    review: "https://www.cisa.gov/diamond-model",
   },
   {
     category: "CompTIA CASP+",
@@ -1127,7 +1127,7 @@ let caspQuestions = [
     answer: "ATT&CK for ICS",
     hint: "Focuses on industrial systems.",
     blank: "xxxxx xxx xxx",
-    review: "<https://attack.mitre.org/matrices/ics/>",
+    review: "https://attack.mitre.org/matrices/ics/",
   },
   {
     category: "CompTIA CASP+",
@@ -1135,7 +1135,7 @@ let caspQuestions = [
     answer: "MITRE ATT&CK",
     hint: "Common tactics and techniques.",
     blank: "xxxxx xxxxxxx",
-    review: "<https://attack.mitre.org/>",
+    review: "https://attack.mitre.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -1143,7 +1143,7 @@ let caspQuestions = [
     answer: "Credentialed",
     hint: "Provides deeper insights into configurations.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.techtarget.com/credentialed-vulnerability-scan>",
+    review: "https://www.techtarget.com/credentialed-vulnerability-scan",
   },
   {
     category: "CompTIA CASP+",
@@ -1151,7 +1151,7 @@ let caspQuestions = [
     answer: "Non-credentialed",
     hint: "Limited insights.",
     blank: "xxx-xxxxxxxxxxx",
-    review: "<https://www.techtarget.com/credentialed-vs-non-credentialed-scans>",
+    review: "https://www.techtarget.com/credentialed-vs-non-credentialed-scans",
   },
   {
     category: "CompTIA CASP+",
@@ -1159,7 +1159,7 @@ let caspQuestions = [
     answer: "Agent-based",
     hint: "Requires local agents.",
     blank: "xxxxxx-xxxxx",
-    review: "<https://www.techtarget.com/agent-based-scanning>",
+    review: "https://www.techtarget.com/agent-based-scanning",
   },
   {
     category: "CompTIA CASP+",
@@ -1167,7 +1167,7 @@ let caspQuestions = [
     answer: "Server-based",
     hint: "Runs from a single server.",
     blank: "xxxxxx-xxxxx",
-    review: "<https://www.cisa.gov/server-based-scans>",
+    review: "https://www.cisa.gov/server-based-scans",
   },
   {
     category: "CompTIA CASP+",
@@ -1175,7 +1175,7 @@ let caspQuestions = [
     answer: "Criticality ranking",
     hint: "Determines priority.",
     blank: "xxxxxxxxxx xxxxxxx",
-    review: "<https://www.cvss.org/>",
+    review: "https://www.cvss.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -1183,7 +1183,7 @@ let caspQuestions = [
     answer: "Active scan",
     hint: "Engages with target systems.",
     blank: "xxxxxx xxxx",
-    review: "<https://www.cisa.gov/active-passive-scans>",
+    review: "https://www.cisa.gov/active-passive-scans",
   },
   {
     category: "CompTIA CASP+",
@@ -1191,7 +1191,7 @@ let caspQuestions = [
     answer: "Passive scan",
     hint: "Non-intrusive observation.",
     blank: "xxxxxxx xxxx",
-    review: "<https://www.cisa.gov/passive-scan-definition>",
+    review: "https://www.cisa.gov/passive-scan-definition",
   },
   {
     category: "CompTIA CASP+",
@@ -1199,7 +1199,7 @@ let caspQuestions = [
     answer: "SCAP",
     hint: "Security Content Automation Protocol.",
     blank: "xxxx",
-    review: "<https://nvlpubs.nist.gov/scap-introduction>",
+    review: "https://nvlpubs.nist.gov/scap-introduction",
   },
   {
     category: "CompTIA CASP+",
@@ -1207,7 +1207,7 @@ let caspQuestions = [
     answer: "XCCDF",
     hint: "Extensible Configuration Checklist.",
     blank: "xxxxx",
-    review: "<https://csrc.nist.gov/xccdf-definition>",
+    review: "https://csrc.nist.gov/xccdf-definition",
   },
   {
     category: "CompTIA CASP+",
@@ -1215,7 +1215,7 @@ let caspQuestions = [
     answer: "OVAL",
     hint: "Open Vulnerability Assessment Language.",
     blank: "xxxx",
-    review: "<https://oval.mitre.org/>",
+    review: "https://oval.mitre.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -1223,7 +1223,7 @@ let caspQuestions = [
     answer: "CVE",
     hint: "Common Vulnerabilities and Exposures.",
     blank: "xxx",
-    review: "<https://cve.mitre.org/>",
+    review: "https://cve.mitre.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -1231,7 +1231,7 @@ let caspQuestions = [
     answer: "CVSS",
     hint: "Common Vulnerability Scoring System.",
     blank: "xxxx",
-    review: "<https://www.first.org/cvss/>",
+    review: "https://www.first.org/cvss/",
   },
   {
     category: "CompTIA CASP+",
@@ -1239,7 +1239,7 @@ let caspQuestions = [
     answer: "CCE",
     hint: "Common Configuration Enumeration.",
     blank: "xxx",
-    review: "<https://cce.mitre.org/>",
+    review: "https://cce.mitre.org/",
   },
   {
     category: "CompTIA CASP+",
@@ -1247,7 +1247,7 @@ let caspQuestions = [
     answer: "ARF",
     hint: "Asset Reporting Format.",
     blank: "xxx",
-    review: "<https://nvd.nist.gov/asset-reporting-format>",
+    review: "https://nvd.nist.gov/asset-reporting-format",
   },
   {
     category: "CompTIA CASP+",
@@ -1255,7 +1255,7 @@ let caspQuestions = [
     answer: "Self-assessment",
     hint: "Performed internally.",
     blank: "xxxx-xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/self-assessment-tools>",
+    review: "https://www.cisa.gov/self-assessment-tools",
   },
   {
     category: "CompTIA CASP+",
@@ -1263,7 +1263,7 @@ let caspQuestions = [
     answer: "Third-party vendor assessment",
     hint: "Outsourced assessment.",
     blank: "xxxx-xxxxx xxxxxx xxxxxxxxxxx",
-    review: "<https://www.techtarget.com/third-party-security-assessment>",
+    review: "https://www.techtarget.com/third-party-security-assessment",
   },
   {
     category: "CompTIA CASP+",
@@ -1271,7 +1271,7 @@ let caspQuestions = [
     answer: "Patch management",
     hint: "Maintains system updates.",
     blank: "xxxxx xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/patch-management-best-practices>",
+    review: "https://www.cisa.gov/patch-management-best-practices",
   },
   {
     category: "CompTIA CASP+",
@@ -1279,7 +1279,7 @@ let caspQuestions = [
     answer: "Advisories",
     hint: "Issued by trusted entities.",
     blank: "xxxxxxxxxx",
-    review: "<https://us-cert.cisa.gov/advisories>",
+    review: "https://us-cert.cisa.gov/advisories",
   },
   {
     category: "CompTIA CASP+",
@@ -1287,7 +1287,7 @@ let caspQuestions = [
     answer: "Financial Services ISAC",
     hint: "FS-ISAC.",
     blank: "xxxxxxxx xxxxxxxx xxxxx",
-    review: "<https://www.fsisac.com/>",
+    review: "https://www.fsisac.com/",
   },
   {
     category: "CompTIA CASP+",
@@ -1295,7 +1295,7 @@ let caspQuestions = [
     answer: "Vendor websites",
     hint: "Direct from suppliers.",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<https://www.microsoft.com/security-updates>",
+    review: "https://www.microsoft.com/security-updates",
   },
   {
     category: "CompTIA CASP+",
@@ -1303,7 +1303,7 @@ let caspQuestions = [
     answer: "False positive",
     hint: "Mistakenly identified as a threat.",
     blank: "xxxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/false-positives>",
+    review: "https://www.cisa.gov/false-positives",
   },
   {
     category: "CompTIA CASP+",
@@ -1311,7 +1311,7 @@ let caspQuestions = [
     answer: "False negative",
     hint: "Missed threat detection.",
     blank: "xxxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/false-negatives>",
+    review: "https://www.cisa.gov/false-negatives",
   },
   {
     category: "CompTIA CASP+",
@@ -1319,7 +1319,7 @@ let caspQuestions = [
     answer: "True positive",
     hint: "Accurate detection of threats.",
     blank: "xxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/true-positives>",
+    review: "https://www.techtarget.com/true-positives",
   },
   {
     category: "CompTIA CASP+",
@@ -1327,7 +1327,7 @@ let caspQuestions = [
     answer: "True negative",
     hint: "Correctly not flagged as a threat.",
     blank: "xxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/true-negatives>",
+    review: "https://www.cisa.gov/true-negatives",
   },
   {
     category: "CompTIA CASP+",
@@ -1335,7 +1335,7 @@ let caspQuestions = [
     answer: "Triage",
     hint: "Sorting events by urgency.",
     blank: "xxxxxx",
-    review: "<https://www.sans.org/incident-triage>",
+    review: "https://www.sans.org/incident-triage",
   },
   {
     category: "CompTIA CASP+",
@@ -1343,7 +1343,7 @@ let caspQuestions = [
     answer: "Preescalation tasks",
     hint: "Initial steps in event handling.",
     blank: "xxxxxxxxxxxxx xxxxx",
-    review: "<https://www.techtarget.com/preescalation-tasks>",
+    review: "https://www.techtarget.com/preescalation-tasks",
   },
   {
     category: "CompTIA CASP+",
@@ -1351,7 +1351,7 @@ let caspQuestions = [
     answer: "Preparation",
     hint: "Get ready before an incident.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/incident-preparation>",
+    review: "https://www.cisa.gov/incident-preparation",
   },
   {
     category: "CompTIA CASP+",
@@ -1359,7 +1359,7 @@ let caspQuestions = [
     answer: "Detection",
     hint: "Identify suspicious activity.",
     blank: "xxxxxxxxx",
-    review: "<https://www.sans.org/detection-process>",
+    review: "https://www.sans.org/detection-process",
   },
   {
     category: "CompTIA CASP+",
@@ -1367,7 +1367,7 @@ let caspQuestions = [
     answer: "Analysis",
     hint: "Understanding the incident.",
     blank: "xxxxxxxx",
-    review: "<https://www.techtarget.com/incident-analysis>",
+    review: "https://www.techtarget.com/incident-analysis",
   },
   {
     category: "CompTIA CASP+",
@@ -1375,7 +1375,7 @@ let caspQuestions = [
     answer: "Containment",
     hint: "Prevent further harm.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/incident-containment>",
+    review: "https://www.cisa.gov/incident-containment",
   },
   {
     category: "CompTIA CASP+",
@@ -1383,7 +1383,7 @@ let caspQuestions = [
     answer: "Recovery",
     hint: "Get back to normal.",
     blank: "xxxxxxxxx",
-    review: "<https://www.nist.gov/incident-recovery>",
+    review: "https://www.nist.gov/incident-recovery",
   },
   {
     category: "CompTIA CASP+",
@@ -1391,7 +1391,7 @@ let caspQuestions = [
     answer: "Lessons learned",
     hint: "Reflect and improve.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.cisa.gov/lessons-learned>",
+    review: "https://www.cisa.gov/lessons-learned",
   },
   {
     category: "CompTIA CASP+",
@@ -1399,7 +1399,7 @@ let caspQuestions = [
     answer: "Playbook",
     hint: "Guides for incident response.",
     blank: "xxxxxxxx",
-    review: "<https://www.techtarget.com/playbook-definition>",
+    review: "https://www.techtarget.com/playbook-definition",
   },
   {
     category: "CompTIA CASP+",
@@ -1407,7 +1407,7 @@ let caspQuestions = [
     answer: "Automated response",
     hint: "Uses automation for quick action.",
     blank: "xxxxxxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/automated-response-methods>",
+    review: "https://www.cisa.gov/automated-response-methods",
   },
   {
     category: "CompTIA CASP+",
@@ -1415,7 +1415,7 @@ let caspQuestions = [
     answer: "Non-automated response",
     hint: "Manual incident handling.",
     blank: "xxx-xxxxxxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/manual-response-methods>",
+    review: "https://www.techtarget.com/manual-response-methods",
   },
   {
     category: "CompTIA CASP+",
@@ -1423,7 +1423,7 @@ let caspQuestions = [
     answer: "SOAR",
     hint: "Security Orchestration, Automation, and Response.",
     blank: "xxxx",
-    review: "<https://www.crowdstrike.com/what-is-soar>",
+    review: "https://www.crowdstrike.com/what-is-soar",
   },
   {
     category: "CompTIA CASP+",
@@ -1431,7 +1431,7 @@ let caspQuestions = [
     answer: "Communication plan",
     hint: "Who talks to whom, and how.",
     blank: "xxxxxxxxxxxxx xxxx",
-    review: "<https://www.techtarget.com/communication-plan>",
+    review: "https://www.techtarget.com/communication-plan",
   },
   {
     category: "CompTIA CASP+",
@@ -1439,7 +1439,7 @@ let caspQuestions = [
     answer: "Stakeholder management",
     hint: "Engage and inform relevant parties.",
     blank: "xxxxxxxxxxx xxxxxxxxxxx",
-    review: "<https://www.cisa.gov/stakeholder-management>",
+    review: "https://www.cisa.gov/stakeholder-management",
   },
   {
     category: "CompTIA CASP+",
@@ -1447,7 +1447,7 @@ let caspQuestions = [
     answer: "Ransomware playbook",
     hint: "Focuses on ransomware-specific procedures.",
     blank: "xxxxxxxxxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/ransomware-playbook>",
+    review: "https://www.cisa.gov/ransomware-playbook",
   },
   {
     category: "CompTIA CASP+",
@@ -1455,7 +1455,7 @@ let caspQuestions = [
     answer: "Runbook",
     hint: "Detailed task instructions.",
     blank: "xxxxxxxx",
-    review: "<https://www.techtarget.com/runbook-definition>",
+    review: "https://www.techtarget.com/runbook-definition",
   },
   {
     category: "CompTIA CASP+",
@@ -1463,7 +1463,7 @@ let caspQuestions = [
     answer: "Application control",
     hint: "Enforces app restrictions.",
     blank: "xxxxxxxxxx xxxxxxx",
-    review: "<https://www.cisa.gov/application-control>",
+    review: "https://www.cisa.gov/application-control",
   },
   {
     category: "CompTIA CASP+",
@@ -1471,7 +1471,7 @@ let caspQuestions = [
     answer: "MFA",
     hint: "Multi-factor authentication.",
     blank: "xxx",
-    review: "<https://www.okta.com/mfa/>",
+    review: "https://www.okta.com/mfa/",
   },
   {
     category: "CompTIA CASP+",
@@ -1479,7 +1479,7 @@ let caspQuestions = [
     answer: "Token-based access",
     hint: "Relies on tokens for entry.",
     blank: "xxxxxx-xxxxx xxxxxx",
-    review: "<https://www.cisa.gov/token-based-access>",
+    review: "https://www.cisa.gov/token-based-access",
   },
   {
     category: "CompTIA CASP+",
@@ -1487,7 +1487,7 @@ let caspQuestions = [
     answer: "Patch repository",
     hint: "Central location for updates.",
     blank: "xxxxx xxxxxxxxxx",
-    review: "<https://www.techtarget.com/patch-management>",
+    review: "https://www.techtarget.com/patch-management",
   },
   {
     category: "CompTIA CASP+",
@@ -1495,7 +1495,7 @@ let caspQuestions = [
     answer: "Firmware Over-the-Air (OTA)",
     hint: "Wireless firmware updates.",
     blank: "xxxxxxxx xxxx-xxx-xxx (xxx)",
-    review: "<https://www.cisa.gov/firmware-ota>",
+    review: "https://www.cisa.gov/firmware-ota",
   },
   {
     category: "CompTIA CASP+",
@@ -1503,7 +1503,7 @@ let caspQuestions = [
     answer: "Remote wipe",
     hint: "Deletes data from a distance.",
     blank: "xxxxxx xxxx",
-    review: "<https://www.techtarget.com/remote-wipe>",
+    review: "https://www.techtarget.com/remote-wipe",
   },
   {
     category: "CompTIA CASP+",
@@ -1511,7 +1511,7 @@ let caspQuestions = [
     answer: "WPA2/WPA3",
     hint: "WiFi Protected Access.",
     blank: "xxxx/xxxx",
-    review: "<https://www.cisco.com/wifi-security>",
+    review: "https://www.cisco.com/wifi-security",
   },
   {
     category: "CompTIA CASP+",
@@ -1519,7 +1519,7 @@ let caspQuestions = [
     answer: "Device certificates",
     hint: "Digital certificates for devices.",
     blank: "xxxxxx xxxxxxxxxxxx",
-    review: "<https://www.ssl.com/device-certificates>",
+    review: "https://www.ssl.com/device-certificates",
   },
   {
     category: "CompTIA CASP+",
@@ -1527,7 +1527,7 @@ let caspQuestions = [
     answer: "NFC",
     hint: "Near-field communication.",
     blank: "xxx",
-    review: "<https://www.techtarget.com/nfc>",
+    review: "https://www.techtarget.com/nfc",
   },
   {
     category: "CompTIA CASP+",
@@ -1535,7 +1535,7 @@ let caspQuestions = [
     answer: "Geofencing",
     hint: "Location-based restrictions.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.techtarget.com/geofencing>",
+    review: "https://www.techtarget.com/geofencing",
   },
   {
     category: "CompTIA CASP+",
@@ -1543,7 +1543,7 @@ let caspQuestions = [
     answer: "Full device encryption",
     hint: "Encrypts all device data.",
     blank: "xxxx xxxxxx xxxxxxxxx",
-    review: "<https://www.cisa.gov/device-encryption>",
+    review: "https://www.cisa.gov/device-encryption",
   },
   {
     category: "CompTIA CASP+",
@@ -1551,7 +1551,7 @@ let caspQuestions = [
     answer: "Airplane mode",
     hint: "Disables wireless communications.",
     blank: "xxxxxxxx xxxx",
-    review: "<https://www.techtarget.com/airplane-mode>",
+    review: "https://www.techtarget.com/airplane-mode",
   },
   {
     category: "CompTIA CASP+",
@@ -1559,7 +1559,7 @@ let caspQuestions = [
     answer: "Location services",
     hint: "Manages GPS settings.",
     blank: "xxxxxxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/location-services-security>",
+    review: "https://www.cisa.gov/location-services-security",
   },
   {
     category: "CompTIA CASP+",
@@ -1567,7 +1567,7 @@ let caspQuestions = [
     answer: "DNS over HTTPS (DoH)",
     hint: "Secures DNS communication.",
     blank: "xxx xxxx xxxxx (xxx)",
-    review: "<https://www.cloudflare.com/dns-over-https/>",
+    review: "https://www.cloudflare.com/dns-over-https/",
   },
   {
     category: "CompTIA CASP+",
@@ -1575,7 +1575,7 @@ let caspQuestions = [
     answer: "BYOD",
     hint: "Bring your own device.",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/byod-policy>",
+    review: "https://www.techtarget.com/byod-policy",
   },
   {
     category: "CompTIA CASP+",
@@ -1583,7 +1583,7 @@ let caspQuestions = [
     answer: "COPE",
     hint: "Corporate-owned, personally enabled.",
     blank: "xxxx",
-    review: "<https://www.cisco.com/cope-devices>",
+    review: "https://www.cisco.com/cope-devices",
   },
   {
     category: "CompTIA CASP+",
@@ -1591,7 +1591,7 @@ let caspQuestions = [
     answer: "CYOD",
     hint: "Choose your own device.",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/cyod-policy>",
+    review: "https://www.techtarget.com/cyod-policy",
   },
   {
     category: "CompTIA CASP+",
@@ -1599,7 +1599,7 @@ let caspQuestions = [
     answer: "Unauthorized application stores",
     hint: "Third-party app sources.",
     blank: "xxxxxxxxxxxxxxx xxxxxxxxxxx xxxxxx",
-    review: "<https://www.cisa.gov/application-store-risks>",
+    review: "https://www.cisa.gov/application-store-risks",
   },
   {
     category: "CompTIA CASP+",
@@ -1607,7 +1607,7 @@ let caspQuestions = [
     answer: "Containerization",
     hint: "Data isolation strategy.",
     blank: "xxxxxxxxxxxxxxxx",
-    review: "<https://www.techtarget.com/containerization>",
+    review: "https://www.techtarget.com/containerization",
   },
   {
     category: "CompTIA CASP+",
@@ -1615,7 +1615,7 @@ let caspQuestions = [
     answer: "eFuse",
     hint: "Electronic anti-tampering technology.",
     blank: "xxxxx",
-    review: "<https://www.cisa.gov/efuse-security>",
+    review: "https://www.cisa.gov/efuse-security",
   },
   {
     category: "CompTIA CASP+",
@@ -1623,7 +1623,7 @@ let caspQuestions = [
     answer: "Removing unneeded services",
     hint: "Eliminate unused software.",
     blank: "xxxxxxxx xxxxxxxx xxxxxxx",
-    review: "<https://www.techtarget.com/hardening-techniques>",
+    review: "https://www.techtarget.com/hardening-techniques",
   },
   {
     category: "CompTIA CASP+",
@@ -1631,7 +1631,7 @@ let caspQuestions = [
     answer: "Disabling unused accounts",
     hint: "Remove inactive users.",
     blank: "xxxxxxxxx xxxxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/account-hardening>",
+    review: "https://www.cisa.gov/account-hardening",
   },
   {
     category: "CompTIA CASP+",
@@ -1639,7 +1639,7 @@ let caspQuestions = [
     answer: "Images/templates",
     hint: "Predefined system setups.",
     blank: "xxxxxx/xxxxxxxx",
-    review: "<https://www.cisa.gov/secure-images>",
+    review: "https://www.cisa.gov/secure-images",
   },
   {
     category: "CompTIA CASP+",
@@ -1647,7 +1647,7 @@ let caspQuestions = [
     answer: "Remove end-of-life devices",
     hint: "Obsolete devices.",
     blank: "xxxxxx xxxx-xx-xxxx xxxxxxx",
-    review: "<https://www.techtarget.com/eol-management>",
+    review: "https://www.techtarget.com/eol-management",
   },
   {
     category: "CompTIA CASP+",
@@ -1655,7 +1655,7 @@ let caspQuestions = [
     answer: "Local drive encryption",
     hint: "Encrypt storage.",
     blank: "xxxxx xxxxx xxxxxxxxxx",
-    review: "<https://www.cisa.gov/drive-encryption>",
+    review: "https://www.cisa.gov/drive-encryption",
   },
   {
     category: "CompTIA CASP+",
@@ -1663,7 +1663,7 @@ let caspQuestions = [
     answer: "NX/XN bit",
     hint: "No execute/execute never.",
     blank: "xx/xx xxx",
-    review: "<https://www.techtarget.com/nx-bit>",
+    review: "https://www.techtarget.com/nx-bit",
   },
   {
     category: "CompTIA CASP+",
@@ -1671,7 +1671,7 @@ let caspQuestions = [
     answer: "Disabling CPU virtualization support",
     hint: "Reduce attack surface.",
     blank: "xxxxxxxxx xxx xxxxxxxxxxxxxxx xxxxxxx",
-    review: "<https://www.techtarget.com/cpu-virtualization-security>",
+    review: "https://www.techtarget.com/cpu-virtualization-security",
   },
   {
     category: "CompTIA CASP+",
@@ -1679,7 +1679,7 @@ let caspQuestions = [
     answer: "Secure encrypted enclaves",
     hint: "Encrypt memory regions.",
     blank: "xxxxxx xxxxxxxxx xxxxxxx",
-    review: "<https://www.intel.com/encrypted-enclaves>",
+    review: "https://www.intel.com/encrypted-enclaves",
   },
   {
     category: "CompTIA CASP+",
@@ -1687,7 +1687,7 @@ let caspQuestions = [
     answer: "Shell restrictions",
     hint: "Limit shell usage.",
     blank: "xxxxx xxxxxxxxxxxx",
-    review: "<https://www.cisa.gov/shell-restrictions>",
+    review: "https://www.cisa.gov/shell-restrictions",
   },
   {
     category: "CompTIA CASP+",
@@ -1695,7 +1695,7 @@ let caspQuestions = [
     answer: "Address space layout randomization (ASLR)",
     hint: "Randomize memory layout.",
     blank: "xxxxxx xxxxx xxxxxx xxxxxxxxxxxxxx (xxxx)",
-    review: "<https://www.techtarget.com/aslr>",
+    review: "https://www.techtarget.com/aslr",
   },
   {
     category: "CompTIA CASP+",
@@ -1703,7 +1703,7 @@ let caspQuestions = [
     answer: "Firmware patching",
     hint: "Updates device firmware.",
     blank: "xxxxxxxx xxxxxxxx",
-    review: "<https://www.cisa.gov/firmware-patching>",
+    review: "https://www.cisa.gov/firmware-patching",
   },
   {
     category: "CompTIA CASP+",
@@ -1711,7 +1711,7 @@ let caspQuestions = [
     answer: "SELinux",
     hint: "Linux security framework.",
     blank: "xxxxxx",
-    review: "<https://www.redhat.com/selinux>",
+    review: "https://www.redhat.com/selinux",
   },
   {
     category: "CompTIA CASP+",
@@ -1719,7 +1719,7 @@ let caspQuestions = [
     answer: "TPM",
     hint: "Trusted Platform Module.",
     blank: "xxx",
-    review: "<https://www.techtarget.com/tpm-security>",
+    review: "https://www.techtarget.com/tpm-security",
   },
   {
     category: "CompTIA CASP+",
@@ -1727,7 +1727,7 @@ let caspQuestions = [
     answer: "Secure Boot",
     hint: "Protects boot process.",
     blank: "xxxxxx xxxx",
-    review: "<https://www.microsoft.com/secure-boot>",
+    review: "https://www.microsoft.com/secure-boot",
   },
   {
     category: "CompTIA CASP+",
@@ -1735,7 +1735,7 @@ let caspQuestions = [
     answer: "UEFI",
     hint: "Unified Extensible Firmware Interface.",
     blank: "xxxx",
-    review: "<https://www.cisa.gov/uefi-security>",
+    review: "https://www.cisa.gov/uefi-security",
   },
   {
     category: "CompTIA CASP+",
@@ -1743,7 +1743,7 @@ let caspQuestions = [
     answer: "HSM",
     hint: "Hardware security module.",
     blank: "xxx",
-    review: "<https://www.techtarget.com/hardware-security-module>",
+    review: "https://www.techtarget.com/hardware-security-module",
   },
   {
     category: "CompTIA CASP+",
@@ -1751,7 +1751,7 @@ let caspQuestions = [
     answer: "SEDs",
     hint: "Self-encrypting drives.",
     blank: "xxxx",
-    review: "<https://www.cisa.gov/self-encrypting-drives>",
+    review: "https://www.cisa.gov/self-encrypting-drives",
   },
   {
     category: "CompTIA CASP+",
@@ -1759,7 +1759,7 @@ let caspQuestions = [
     answer: "HIDS",
     hint: "Host-based intrusion detection.",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/hids>",
+    review: "https://www.techtarget.com/hids",
   },
   {
     category: "CompTIA CASP+",
@@ -1767,7 +1767,7 @@ let caspQuestions = [
     answer: "EDR",
     hint: "Endpoint detection and response.",
     blank: "xxx",
-    review: "<https://www.cisa.gov/endpoint-detection-response>",
+    review: "https://www.cisa.gov/endpoint-detection-response",
   },
   {
     category: "CompTIA CASP+",
@@ -1775,7 +1775,7 @@ let caspQuestions = [
     answer: "Self-healing hardware",
     hint: "Automated hardware recovery.",
     blank: "xxxx-xxxxxxx xxxxxxx",
-    review: "<https://www.techtarget.com/self-healing-hardware>",
+    review: "https://www.techtarget.com/self-healing-hardware",
   },
   {
     category: "CompTIA CASP+",
@@ -1783,7 +1783,7 @@ let caspQuestions = [
     answer: "MTBF",
     hint: "Mean time between failures.",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/mtbf>",
+    review: "https://www.techtarget.com/mtbf",
   },
   {
     category: "CompTIA CASP+",
@@ -1791,7 +1791,7 @@ let caspQuestions = [
     answer: "SLE",
     hint: "Single loss expectancy.",
     blank: "xxx",
-    review: "<https://www.techtarget.com/sle>",
+    review: "https://www.techtarget.com/sle",
   },
   {
     category: "CompTIA CASP+",
@@ -1799,7 +1799,7 @@ let caspQuestions = [
     answer: "ALE",
     hint: "Annualized loss expectancy.",
     blank: "xxx",
-    review: "<https://www.techtarget.com/ale>",
+    review: "https://www.techtarget.com/ale",
   },
   {
     category: "CompTIA CASP+",
@@ -1807,7 +1807,7 @@ let caspQuestions = [
     answer: "Residual risk",
     hint: "Remaining risk.",
     blank: "xxxxxxxx xxxx",
-    review: "<https://www.techtarget.com/residual-risk>",
+    review: "https://www.techtarget.com/residual-risk",
   },
   {
     category: "CompTIA CASP+",
@@ -1815,7 +1815,7 @@ let caspQuestions = [
     answer: "Avoid",
     hint: "Stop risky activities.",
     blank: "xxxxx",
-    review: "<https://www.cisa.gov/risk-handling>",
+    review: "https://www.cisa.gov/risk-handling",
   },
   {
     category: "CompTIA CASP+",
@@ -1823,7 +1823,7 @@ let caspQuestions = [
     answer: "ROI",
     hint: "Return on investment.",
     blank: "xxx",
-    review: "<https://www.techtarget.com/roi>",
+    review: "https://www.techtarget.com/roi",
   },
   {
     category: "CompTIA CASP+",
@@ -1831,7 +1831,7 @@ let caspQuestions = [
     answer: "Identify",
     hint: "First step.",
     blank: "xxxxxxxx",
-    review: "<https://www.cisa.gov/risk-management-life-cycle>",
+    review: "https://www.cisa.gov/risk-management-life-cycle",
   },
   {
     category: "CompTIA CASP+",
@@ -1839,7 +1839,7 @@ let caspQuestions = [
     answer: "Risk register",
     hint: "Centralized tracking.",
     blank: "xxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/risk-register>",
+    review: "https://www.techtarget.com/risk-register",
   },
   {
     category: "CompTIA CASP+",
@@ -1847,7 +1847,7 @@ let caspQuestions = [
     answer: "MTTR",
     hint: "Mean time to recovery.",
     blank: "xxxx",
-    review: "<https://www.techtarget.com/mttr>",
+    review: "https://www.techtarget.com/mttr",
   },
   {
     category: "CompTIA CASP+",
@@ -1855,7 +1855,7 @@ let caspQuestions = [
     answer: "Inherent risk",
     hint: "Initial risk.",
     blank: "xxxxxxxx xxxx",
-    review: "<https://www.techtarget.com/inherent-risk>",
+    review: "https://www.techtarget.com/inherent-risk",
   },
   {
     category: "CompTIA CASP+",
@@ -1863,7 +1863,7 @@ let caspQuestions = [
     answer: "Gap analysis",
     hint: "Identify gaps.",
     blank: "xxxx xxxxxxx",
-    review: "<https://www.cisa.gov/gap-analysis>",
+    review: "https://www.cisa.gov/gap-analysis",
   },
   {
     category: "CompTIA CASP+",
@@ -1871,7 +1871,7 @@ let caspQuestions = [
     answer: "Review",
     hint: "Final step.",
     blank: "xxxxxx",
-    review: "<https://www.cisa.gov/risk-management-review>",
+    review: "https://www.cisa.gov/risk-management-review",
   },
   {
     category: "CompTIA CASP+",
@@ -1879,7 +1879,7 @@ let caspQuestions = [
     answer: "Risk appetite vs. risk tolerance",
     hint: "Tradeoff analysis.",
     blank: "xxxx xxxxxxxx xx xxxx xxxxxxxxx",
-    review: "<https://www.techtarget.com/risk-appetite-vs-tolerance>",
+    review: "https://www.techtarget.com/risk-appetite-vs-tolerance",
   },
   {
     category: "CompTIA CASP+",
@@ -1887,7 +1887,7 @@ let caspQuestions = [
     answer: "Risk appetite",
     hint: "Acceptable risk level.",
     blank: "xxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/risk-appetite>",
+    review: "https://www.techtarget.com/risk-appetite",
   },
   {
     category: "CompTIA CASP+",
@@ -1895,7 +1895,7 @@ let caspQuestions = [
     answer: "Risk tolerance",
     hint: "Maximum acceptable risk.",
     blank: "xxxx xxxxxxxxx",
-    review: "<https://www.techtarget.com/risk-tolerance>",
+    review: "https://www.techtarget.com/risk-tolerance",
   },
   {
     category: "CompTIA CASP+",
@@ -1903,7 +1903,7 @@ let caspQuestions = [
     answer: "Separation of duties",
     hint: "Reduce fraud.",
     blank: "xxxxxxxxx xx xxxxxx",
-    review: "<https://www.techtarget.com/separation-of-duties>",
+    review: "https://www.techtarget.com/separation-of-duties",
   },
   {
     category: "CompTIA CASP+",
@@ -1911,7 +1911,7 @@ let caspQuestions = [
     answer: "Job rotation",
     hint: "Periodic employee changes.",
     blank: "xxx xxxxxxx",
-    review: "<https://www.cisa.gov/job-rotation>",
+    review: "https://www.cisa.gov/job-rotation",
   },
   {
     category: "CompTIA CASP+",
@@ -1919,7 +1919,7 @@ let caspQuestions = [
     answer: "ARO",
     hint: "Annualized rate of occurrence.",
     blank: "xxx",
-    review: "<https://www.techtarget.com/aro>",
+    review: "https://www.techtarget.com/aro",
   },
   {
     category: "CompTIA CASP+",
@@ -1927,7 +1927,7 @@ let caspQuestions = [
     answer: "Risk tracking",
     hint: "Monitor risks.",
     blank: "xxxx xxxxxxxx",
-    review: "<https://www.techtarget.com/risk-tracking>",
+    review: "https://www.techtarget.com/risk-tracking",
   },
   {
     category: "CompTIA CASP+",
@@ -1935,7 +1935,7 @@ let caspQuestions = [
     answer: "Training and awareness",
     hint: "Educate users.",
     blank: "xxxxxxxx xxx xxxxxxxxx",
-    review: "<https://www.cisa.gov/security-training-awareness>",
+    review: "https://www.cisa.gov/security-training-awareness",
   },
   {
     category: "CompTIA CASP+",
@@ -1943,7 +1943,7 @@ let caspQuestions = [
     answer: "Recovery time objective",
     hint: "How long it takes to restore operations.",
     blank: "xxxxxxxx xxxx xxxxxxxxx",
-    review: "<https://www.techtarget.com/rto>",
+    review: "https://www.techtarget.com/rto",
   },
   {
     category: "CompTIA CASP+",
@@ -1951,7 +1951,7 @@ let caspQuestions = [
     answer: "Recovery point objective",
     hint: "RPO.",
     blank: "xxxxxxxx xxxx xxxxxxxxx",
-    review: "<https://www.techtarget.com/rpo>",
+    review: "https://www.techtarget.com/rpo",
   },
   {
     category: "CompTIA CASP+",
@@ -1959,7 +1959,7 @@ let caspQuestions = [
     answer: "Hot site",
     hint: "Most expensive option.",
     blank: "xxx xxxx",
-    review: "<https://www.techtarget.com/hot-site>",
+    review: "https://www.techtarget.com/hot-site",
   },
   {
     category: "CompTIA CASP+",
@@ -1967,7 +1967,7 @@ let caspQuestions = [
     answer: "Cold site",
     hint: "Cheapest option.",
     blank: "xxxx xxxx",
-    review: "<https://www.techtarget.com/cold-site>",
+    review: "https://www.techtarget.com/cold-site",
   },
   {
     category: "CompTIA CASP+",
@@ -1975,7 +1975,7 @@ let caspQuestions = [
     answer: "Warm site",
     hint: "A middle ground.",
     blank: "xxxx xxxx",
-    review: "<https://www.techtarget.com/warm-site>",
+    review: "https://www.techtarget.com/warm-site",
   },
   {
     category: "CompTIA CASP+",
@@ -1983,7 +1983,7 @@ let caspQuestions = [
     answer: "Mobile site",
     hint: "Movable disaster recovery.",
     blank: "xxxxxx xxxx",
-    review: "<https://www.techtarget.com/mobile-site>",
+    review: "https://www.techtarget.com/mobile-site",
   },
   {
     category: "CompTIA CASP+",
@@ -1991,7 +1991,7 @@ let caspQuestions = [
     answer: "Tabletop exercises",
     hint: "Simulated discussions.",
     blank: "xxxxxxxx xxxxxxxxx",
-    review: "<https://www.techtarget.com/tabletop-exercises>",
+    review: "https://www.techtarget.com/tabletop-exercises",
   },
   {
     category: "CompTIA CASP+",
@@ -1999,7 +1999,7 @@ let caspQuestions = [
     answer: "Full interruption test",
     hint: "Interrupts actual operations.",
     blank: "xxxx xxxxxxxxxxxx xxxx",
-    review: "<https://www.techtarget.com/full-interruption-test>",
+    review: "https://www.techtarget.com/full-interruption-test",
   },
   {
     category: "CompTIA CASP+",
@@ -2007,7 +2007,7 @@ let caspQuestions = [
     answer: "Parallel test",
     hint: "Runs alongside active systems.",
     blank: "xxxxxxx xxxx",
-    review: "<https://www.techtarget.com/parallel-test>",
+    review: "https://www.techtarget.com/parallel-test",
   },
   {
     category: "CompTIA CASP+",
@@ -2015,7 +2015,7 @@ let caspQuestions = [
     answer: "After-action report",
     hint: "Conducted post-incident.",
     blank: "xxxxx-xxxxxx xxxxxx",
-    review: "<https://www.techtarget.com/after-action-report>",
+    review: "https://www.techtarget.com/after-action-report",
   },
   {
     category: "CompTIA CASP+",
@@ -2023,7 +2023,7 @@ let caspQuestions = [
     answer: "Privacy impact assessment",
     hint: "Focuses on data protection.",
     blank: "xxxxxx xxxxxx xxxxxxxxxx",
-    review: "<https://www.techtarget.com/privacy-impact-assessment>",
+    review: "https://www.techtarget.com/privacy-impact-assessment",
   },
   {
     category: "CompTIA CASP+",
@@ -2031,7 +2031,7 @@ let caspQuestions = [
     answer: "Incident response lead",
     hint: "Leadership role in IR.",
     blank: "xxxxxxxx xxxxxxxx xxxx",
-    review: "<https://www.techtarget.com/incident-response-lead>",
+    review: "https://www.techtarget.com/incident-response-lead",
   },
   {
     category: "CompTIA CASP+",
@@ -2039,7 +2039,7 @@ let caspQuestions = [
     answer: "Checklist",
     hint: "Simple and low cost.",
     blank: "xxxxxxxx",
-    review: "<https://www.techtarget.com/drp-checklist>",
+    review: "https://www.techtarget.com/drp-checklist",
   },
   {
     category: "CompTIA CASP+",
@@ -2047,7 +2047,7 @@ let caspQuestions = [
     answer: "Maintain operations",
     hint: "Keep business running during disruptions.",
     blank: "xxxxxxx xxxxxxxxx",
-    review: "<https://www.techtarget.com/bcp>",
+    review: "https://www.techtarget.com/bcp",
   },
   {
     category: "CompTIA CASP+",
@@ -2055,7 +2055,7 @@ let caspQuestions = [
     answer: "Walk-through",
     hint: "Step-by-step rehearsal.",
     blank: "xxxx-xxxxxxx",
-    review: "<https://www.techtarget.com/walk-through>",
+    review: "https://www.techtarget.com/walk-through",
   },
 ];
 

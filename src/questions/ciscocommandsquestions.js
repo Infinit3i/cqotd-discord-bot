@@ -5,7 +5,7 @@ let ciscocommandsquestions = [
       answer: "show running-config",
       hint: "Shows the active configuration.",
       blank: "xxxx xxxxxxxxxx-xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/td/docs/ios/12_2/configfun/command/reference/cfn_s2.html>",
+      review: "https://www.cisco.com/c/en/us/td/docs/ios/12_2/configfun/command/reference/cfn_s2.html",
     },
     {
       category: "Cisco Commands",
@@ -13,7 +13,7 @@ let ciscocommandsquestions = [
       answer: "copy running-config startup-config",
       hint: "Copies the active configuration to the saved configuration.",
       blank: "xxxx xxxxxxxxxx-xxxxxx xxxxxxxxxx-xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-112/41232-config-save.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-112/41232-config-save.html",
     },
     {
       category: "Cisco Commands",
@@ -21,7 +21,7 @@ let ciscocommandsquestions = [
       answer: "configure terminal",
       hint: "Used to access configuration settings.",
       blank: "xxxxxxxx xxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/configuration-guides/202684-configuring-a-router.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/configuration-guides/202684-configuring-a-router.html",
     },
     {
       category: "Cisco Commands",
@@ -29,7 +29,7 @@ let ciscocommandsquestions = [
       answer: "reload",
       hint: "Restarts the device.",
       blank: "xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/switches/catalyst-2950-series-switches/24083-148.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/switches/catalyst-2950-series-switches/24083-148.html",
     },
     {
       category: "Cisco Commands",
@@ -37,7 +37,7 @@ let ciscocommandsquestions = [
       answer: "show ip interface brief",
       hint: "Displays IP address and operational status.",
       blank: "xxxx xx xxxxxxxxx xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-122-mainline/20473-90.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-122-mainline/20473-90.html",
     },
     {
       category: "Cisco Commands",
@@ -45,7 +45,7 @@ let ciscocommandsquestions = [
       answer: "no shutdown",
       hint: "Reactivates a disabled interface.",
       blank: "xx xxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/interface/configuration/15-mt/ir-15-mt-book/ir_no_shut.html>",
+      review: "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/interface/configuration/15-mt/ir-15-mt-book/ir_no_shut.html",
     },
     {
       category: "Cisco Commands",
@@ -53,7 +53,7 @@ let ciscocommandsquestions = [
       answer: "ip address [IP] [Subnet]",
       hint: "Used in interface configuration mode.",
       blank: "xx xxxxxxx [xx] [xxxxxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/13762-12.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/13762-12.html",
     },
     {
       category: "Cisco Commands",
@@ -61,7 +61,7 @@ let ciscocommandsquestions = [
       answer: "hostname [name]",
       hint: "Sets a unique device identifier.",
       blank: "xxxxxxxx [xxxxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/configuration-guides/202684-configuring-a-router.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/configuration-guides/202684-configuring-a-router.html",
     },
     {
       category: "Cisco Commands",
@@ -69,7 +69,7 @@ let ciscocommandsquestions = [
       answer: "show mac address-table",
       hint: "Lists MAC addresses and associated interfaces.",
       blank: "xxxx xxx xxxxxxx-xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/switches/catalyst-2900-xl-series-switches/24033-28.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/switches/catalyst-2900-xl-series-switches/24033-28.html",
     },
     {
       category: "Cisco Commands",
@@ -77,7 +77,7 @@ let ciscocommandsquestions = [
       answer: "shutdown",
       hint: "Opposite of enabling an interface.",
       blank: "xxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/interface/configuration/15-mt/ir-15-mt-book/ir_shut.html>",
+      review: "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/interface/configuration/15-mt/ir-15-mt-book/ir_shut.html",
     },
     {
       category: "Cisco Commands",
@@ -85,7 +85,7 @@ let ciscocommandsquestions = [
       answer: "switchport access vlan [VLAN_ID]",
       hint: "Used in interface configuration mode.",
       blank: "xxxxxxxxxx xxxxxx xxxxx [xxxx_xx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/lan-switching/8021q/21022-132.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/lan-switching/8021q/21022-132.html",
     },
     {
       category: "Cisco Commands",
@@ -93,7 +93,7 @@ let ciscocommandsquestions = [
       answer: "ip ssh version 2",
       hint: "Configures secure shell access.",
       blank: "xx xxx xxxxxxx x",
-      review: "<https://www.cisco.com/c/en/us/support/docs/security-vpn/ssh/4145-ssh.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/security-vpn/ssh/4145-ssh.html",
     },
     {
       category: "Cisco Commands",
@@ -101,7 +101,7 @@ let ciscocommandsquestions = [
       answer: "ping [IP]",
       hint: "ICMP utility.",
       blank: "xxxx [xx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13714-ping-traceroute.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13714-ping-traceroute.html",
     },
     {
       category: "Cisco Commands",
@@ -109,7 +109,7 @@ let ciscocommandsquestions = [
       answer: "show vlan brief",
       hint: "Lists VLANs and interfaces.",
       blank: "xxxx xxxx xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/lan-switching/vlan-configuration/12014-27.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/lan-switching/vlan-configuration/12014-27.html",
     },
     {
       category: "Cisco Commands",
@@ -117,7 +117,7 @@ let ciscocommandsquestions = [
       answer: "write erase",
       hint: "Removes all configurations.",
       blank: "xxxxx xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-management/20065-using-write-erase.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-management/20065-using-write-erase.html",
     },
     {
       category: "Cisco Commands",
@@ -125,7 +125,7 @@ let ciscocommandsquestions = [
       answer: "line console 0",
       hint: "Enter console line configuration mode.",
       blank: "xxxx xxxxxxx x",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/configuration-guides/202684-configuring-a-router.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/configuration-guides/202684-configuring-a-router.html",
     },
     {
       category: "Cisco Commands",
@@ -133,7 +133,7 @@ let ciscocommandsquestions = [
       answer: "show spanning-tree",
       hint: "Displays STP information.",
       blank: "xxxx xxxxxxxxxx-xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/5234-5.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/5234-5.html",
     },
     {
       category: "Cisco Commands",
@@ -141,7 +141,7 @@ let ciscocommandsquestions = [
       answer: "switchport port-security",
       hint: "Used in interface configuration mode.",
       blank: "xxxxxxxxxx xxxx-xxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/lan-switching/port-security/12013-17.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/lan-switching/port-security/12013-17.html",
     },
     {
       category: "Cisco Commands",
@@ -149,7 +149,7 @@ let ciscocommandsquestions = [
       answer: "show ip route",
       hint: "Lists paths to networks.",
       blank: "xxxx xx xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13714-ip-routing-table.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13714-ip-routing-table.html",
     },
     {
       category: "Cisco Commands",
@@ -157,7 +157,7 @@ let ciscocommandsquestions = [
       answer: "description [text]",
       hint: "Used in interface configuration mode.",
       blank: "xxxxxxxxxxx [xxxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-xml/ios/interface/configuration/15-mt/ir-15-mt-book/ir-int-descr.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-xml/ios/interface/configuration/15-mt/ir-15-mt-book/ir-int-descr.html",
     },
     {
       category: "Cisco Commands",
@@ -165,7 +165,7 @@ let ciscocommandsquestions = [
       answer: "switchport mode dynamic desirable",
       hint: "Configures a port for trunking.",
       blank: "xxxxxxxxxx xxxx xxxxxxx xxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/lan-switching/trunking/24063-185.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/lan-switching/trunking/24063-185.html",
     },
     {
       category: "Cisco Commands",
@@ -173,7 +173,7 @@ let ciscocommandsquestions = [
       answer: "ip dhcp pool [name]",
       hint: "Configures a DHCP pool.",
       blank: "xx xxxx xxxx [xxxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/dynamic-address-allocation-resolution/11014-dhcp.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/dynamic-address-allocation-resolution/11014-dhcp.html",
     },
     {
       category: "Cisco Commands",
@@ -181,7 +181,7 @@ let ciscocommandsquestions = [
       answer: "show cdp neighbors",
       hint: "Lists directly connected devices.",
       blank: "xxxx xxx xxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cdp/9308-cdp.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cdp/9308-cdp.html",
     },
     {
       category: "Cisco Commands",
@@ -189,7 +189,7 @@ let ciscocommandsquestions = [
       answer: "logging on",
       hint: "Turns on log generation.",
       blank: "xxxxxxx xx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-message-logging/20078-logging-on.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-message-logging/20078-logging-on.html",
     },
     {
       category: "Cisco Commands",
@@ -197,7 +197,7 @@ let ciscocommandsquestions = [
       answer: "no cdp run",
       hint: "Turns off device discovery.",
       blank: "xx xxx xxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cdp/10512-cdp.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cdp/10512-cdp.html",
     },
     {
       category: "Cisco Commands",
@@ -205,7 +205,7 @@ let ciscocommandsquestions = [
       answer: "show etherchannel summary",
       hint: "Lists port-channel details.",
       blank: "xxxx xxxxxxxxxxxx xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/lan-switching/etherchannel/12023-4.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/lan-switching/etherchannel/12023-4.html",
     },
     {
       category: "Cisco Commands",
@@ -213,7 +213,7 @@ let ciscocommandsquestions = [
       answer: "ip routing",
       hint: "Allows the switch to forward packets.",
       blank: "xx xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13714-ip-routing.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13714-ip-routing.html",
     },
     {
       category: "Cisco Commands",
@@ -221,7 +221,7 @@ let ciscocommandsquestions = [
       answer: "ip route [network] [mask] [next-hop]",
       hint: "Used in global configuration mode.",
       blank: "xx xxxxx [xxxxxxx] [xxxx] [xxxx-xxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/static-routing/118006-config-static-routes.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/static-routing/118006-config-static-routes.html",
     },
     {
       category: "Cisco Commands",
@@ -229,7 +229,7 @@ let ciscocommandsquestions = [
       answer: "no logging console",
       hint: "Stops logging to console.",
       blank: "xx xxxxxxx xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-message-logging/20078-logging-console.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-message-logging/20078-logging-console.html",
     },
     {
       category: "Cisco Commands",
@@ -237,7 +237,7 @@ let ciscocommandsquestions = [
       answer: "ip default-gateway [IP]",
       hint: "Used in global config mode.",
       blank: "xx xxxxxxx-xxxxxxx [xx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/13718-defaultgateway.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/13718-defaultgateway.html",
     },
     {
       category: "Cisco Commands",
@@ -245,7 +245,7 @@ let ciscocommandsquestions = [
       answer: "ip route [network] [mask] [next-hop]",
       hint: "Sets a static route.",
       blank: "xx xxxxx [xxxxxxx] [xxxx] [xxxx-xxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/static-routing/118006-config-static-routes.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/static-routing/118006-config-static-routes.html",
     },
     {
       category: "Cisco Commands",
@@ -253,7 +253,7 @@ let ciscocommandsquestions = [
       answer: "show ip nat translations",
       hint: "Displays NAT mappings.",
       blank: "xxxx xx xxx xxxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/10103-cisco-nat.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/10103-cisco-nat.html",
     },
     {
       category: "Cisco Commands",
@@ -261,7 +261,7 @@ let ciscocommandsquestions = [
       answer: "ipv6 unicast-routing",
       hint: "Turns on IPv6 routing.",
       blank: "xxxxx xxxxxxx-xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/ipv6/116108-qanda-ipv6-00.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/ipv6/116108-qanda-ipv6-00.html",
     },
     {
       category: "Cisco Commands",
@@ -269,7 +269,7 @@ let ciscocommandsquestions = [
       answer: "show processes cpu",
       hint: "Monitors CPU utilization.",
       blank: "xxxx xxxxxxxxx xxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cpu-usage/21422-cpuusage.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cpu-usage/21422-cpuusage.html",
     },
     {
       category: "Cisco Commands",
@@ -277,7 +277,7 @@ let ciscocommandsquestions = [
       answer: "router ospf [process-id]",
       hint: "Starts OSPF process.",
       blank: "xxxxxx xxxx [xxxxxx-xx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/13684-1.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/13684-1.html",
     },
     {
       category: "Cisco Commands",
@@ -285,7 +285,7 @@ let ciscocommandsquestions = [
       answer: "clock set [time] [date]",
       hint: "Adjusts system time.",
       blank: "xxxxx xxxx [xxxx] [xxxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-122-mainline/21683-ntpclockset.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-122-mainline/21683-ntpclockset.html",
     },
     {
       category: "Cisco Commands",
@@ -293,7 +293,7 @@ let ciscocommandsquestions = [
       answer: "show clock",
       hint: "Shows system time.",
       blank: "xxxx xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-management/20022-clock.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-management/20022-clock.html",
     },
     {
       category: "Cisco Commands",
@@ -301,7 +301,7 @@ let ciscocommandsquestions = [
       answer: "show ip arp",
       hint: "Lists IP-to-MAC mappings.",
       blank: "xxxx xx xxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/address-resolution-protocol-arp/118630-technote-arp-00.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/address-resolution-protocol-arp/118630-technote-arp-00.html",
     },
     {
       category: "Cisco Commands",
@@ -309,7 +309,7 @@ let ciscocommandsquestions = [
       answer: "ip route 0.0.0.0 0.0.0.0 [next-hop]",
       hint: "Used in global config mode.",
       blank: "xx xxxxx x.x.x.x x.x.x.x [xxxx-xxx]",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/11605-default-route.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/ip-routing/11605-default-route.html",
     },
     {
       category: "Cisco Commands",
@@ -317,7 +317,7 @@ let ciscocommandsquestions = [
       answer: "show sessions",
       hint: "Displays remote connections.",
       blank: "xxxx xxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-management/20078-sessions.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-management/20078-sessions.html",
     },
     {
       category: "Cisco Commands",
@@ -325,7 +325,7 @@ let ciscocommandsquestions = [
       answer: "clear ip nat translations *",
       hint: "Resets NAT entries.",
       blank: "xxxxx xx xxx xxxxxxxxxxx *",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/10103-cisco-nat.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/10103-cisco-nat.html",
     },
     {
       category: "Cisco Commands",
@@ -333,7 +333,7 @@ let ciscocommandsquestions = [
       answer: "show logging",
       hint: "Displays system logs.",
       blank: "xxxx xxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-message-logging/20078-logging-console.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/system-message-logging/20078-logging-console.html",
     },
     {
       category: "Cisco Commands",
@@ -341,7 +341,7 @@ let ciscocommandsquestions = [
       answer: "show startup-config",
       hint: "Displays saved configuration.",
       blank: "xxxx xxxxxxx-xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/td/docs/ios/12_2/configfun/command/reference/cfn_s2.html>",
+      review: "https://www.cisco.com/c/en/us/td/docs/ios/12_2/configfun/command/reference/cfn_s2.html",
     },
     {
       category: "Cisco Commands",
@@ -349,7 +349,7 @@ let ciscocommandsquestions = [
       answer: "debug ip packet",
       hint: "Logs packet flow details.",
       blank: "xxxxxx xx xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/network-management/12790-debug-ip-packet.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/network-management/12790-debug-ip-packet.html",
     },
     {
       category: "Cisco Commands",
@@ -357,7 +357,7 @@ let ciscocommandsquestions = [
       answer: "no debug all",
       hint: "Turns off all debugs.",
       blank: "xx xxxxx xxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/debugging/13739-debugging.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/debugging/13739-debugging.html",
     },
     {
       category: "Cisco Commands",
@@ -365,7 +365,7 @@ let ciscocommandsquestions = [
       answer: "debug cdp packets",
       hint: "Logs CDP packet activity.",
       blank: "xxxxxx xxx xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cdp/10512-cdp.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/cdp/10512-cdp.html",
     },
     {
       category: "Cisco Commands",
@@ -373,7 +373,7 @@ let ciscocommandsquestions = [
       answer: "clear counters",
       hint: "Resets traffic stats.",
       blank: "xxxxx xxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe/20078-clear-counters.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe/20078-clear-counters.html",
     },
     {
       category: "Cisco Commands",
@@ -381,7 +381,7 @@ let ciscocommandsquestions = [
       answer: "show control-plane",
       hint: "Displays interface stats.",
       blank: "xxxx xxxxxxx-xxxxx",
-      review: "<https://www.cisco.com/c/en/us/support/docs/ip/port-configuration/20078-control-plane.html>",
+      review: "https://www.cisco.com/c/en/us/support/docs/ip/port-configuration/20078-control-plane.html",
     },
   ];
   

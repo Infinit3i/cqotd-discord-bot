@@ -5,7 +5,7 @@ let pythonquestions = [
       answer: "General-purpose programming",
       hint: "Used for web development, data analysis, and more.",
       blank: "xxxxxx-xxxxxxx xxxxxxxxxxx",
-      review: "<https://www.python.org/about/>",
+      review: "https://www.python.org/about/",
     },
     {
       category: "Python",
@@ -13,7 +13,7 @@ let pythonquestions = [
       answer: "[]",
       hint: "Uses square brackets.",
       blank: "[]",
-      review: "<https://docs.python.org/3/tutorial/datastructures.html>",
+      review: "https://docs.python.org/3/tutorial/datastructures.html",
     },
     {
       category: "Python",
@@ -21,7 +21,7 @@ let pythonquestions = [
       answer: "pip install",
       hint: "Python package manager.",
       blank: "xxx xxxxxxx",
-      review: "<https://pip.pypa.io/en/stable/>",
+      review: "https://pip.pypa.io/en/stable/",
     },
     {
       category: "Python",
@@ -29,7 +29,7 @@ let pythonquestions = [
       answer: "Key-value pairs",
       hint: "Maps keys to values.",
       blank: "xxx-xxxxx xxxxx",
-      review: "<https://docs.python.org/3/tutorial/datastructures.html>",
+      review: "https://docs.python.org/3/tutorial/datastructures.html",
     },
     {
       category: "Python",
@@ -37,7 +37,7 @@ let pythonquestions = [
       answer: "Python Enhancement Proposal",
       hint: "Guides Python's development.",
       blank: "xxxxxx xxxxxxxxxxx xxxxxxxx",
-      review: "<https://peps.python.org/>",
+      review: "https://peps.python.org/",
     },
     {
       category: "Python",
@@ -45,7 +45,7 @@ let pythonquestions = [
       answer: "Returns length",
       hint: "Counts elements in a sequence.",
       blank: "xxxxxxx xxxxxxx",
-      review: "<https://docs.python.org/3/library/functions.html#len>",
+      review: "https://docs.python.org/3/library/functions.html#len",
     },
     {
       category: "Python",
@@ -53,7 +53,7 @@ let pythonquestions = [
       answer: "Anonymous function",
       hint: "Defined without a name.",
       blank: "xxxxxxxx xxxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions>",
+      review: "https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions",
     },
     {
       category: "Python",
@@ -61,7 +61,7 @@ let pythonquestions = [
       answer: "Assign a value",
       hint: "No type declaration required.",
       blank: "xxxxxx x xxxxx",
-      review: "<https://docs.python.org/3/tutorial/introduction.html#numbers>",
+      review: "https://docs.python.org/3/tutorial/introduction.html#numbers",
     },
     {
       category: "Python",
@@ -69,7 +69,7 @@ let pythonquestions = [
       answer: "Define a function",
       hint: "Used for creating reusable code.",
       blank: "xxxxxx x xxxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/controlflow.html#defining-functions>",
+      review: "https://docs.python.org/3/tutorial/controlflow.html#defining-functions",
     },
     {
       category: "Python",
@@ -77,7 +77,7 @@ let pythonquestions = [
       answer: "8",
       hint: "Exponentiation operator.",
       blank: "x",
-      review: "<https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations>",
+      review: "https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations",
     },
     {
       category: "Python",
@@ -85,7 +85,7 @@ let pythonquestions = [
       answer: "Lists are mutable",
       hint: "Tuples cannot be changed.",
       blank: "xxxxx xxx xxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences>",
+      review: "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences",
     },
     {
       category: "Python",
@@ -93,7 +93,7 @@ let pythonquestions = [
       answer: "Includes modules",
       hint: "Loads external code.",
       blank: "xxxxxxx xxxxxxx",
-      review: "<https://docs.python.org/3/reference/import.html>",
+      review: "https://docs.python.org/3/reference/import.html",
     },
     {
       category: "Python",
@@ -101,7 +101,7 @@ let pythonquestions = [
       answer: "Isolated Python environment",
       hint: "Keeps dependencies separate.",
       blank: "xxxxxxxx xxxxxx xxxxxxxxx",
-      review: "<https://docs.python.org/3/library/venv.html>",
+      review: "https://docs.python.org/3/library/venv.html",
     },
     {
       category: "Python",
@@ -109,7 +109,7 @@ let pythonquestions = [
       answer: "Sequence of numbers",
       hint: "Useful in loops.",
       blank: "xxxxxxxx xx xxxxxxx",
-      review: "<https://docs.python.org/3/library/functions.html#func-range>",
+      review: "https://docs.python.org/3/library/functions.html#func-range",
     },
     {
       category: "Python",
@@ -117,7 +117,7 @@ let pythonquestions = [
       answer: "Initialize objects",
       hint: "Constructor for classes.",
       blank: "xxxxxxxxxx xxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/classes.html#class-objects>",
+      review: "https://docs.python.org/3/tutorial/classes.html#class-objects",
     },
     {
       category: "Python",
@@ -125,7 +125,7 @@ let pythonquestions = [
       answer: "Handles exceptions",
       hint: "Used with `except`.",
       blank: "xxxxxx xxxxxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/errors.html#handling-exceptions>",
+      review: "https://docs.python.org/3/tutorial/errors.html#handling-exceptions",
     },
     {
       category: "Python",
@@ -133,7 +133,7 @@ let pythonquestions = [
       answer: "Modify functions",
       hint: "Uses `@` syntax.",
       blank: "xxxxxx xxxxxxxxx",
-      review: "<https://docs.python.org/3/glossary.html#term-decorator>",
+      review: "https://docs.python.org/3/glossary.html#term-decorator",
     },
     {
       category: "Python",
@@ -141,7 +141,7 @@ let pythonquestions = [
       answer: "Opens files",
       hint: "Used for file I/O.",
       blank: "xxxxx xxxxx",
-      review: "<https://docs.python.org/3/library/functions.html#open>",
+      review: "https://docs.python.org/3/library/functions.html#open",
     },
     {
       category: "Python",
@@ -149,7 +149,7 @@ let pythonquestions = [
       answer: "`is` checks identity",
       hint: "Equality vs identity.",
       blank: "`xx` xxxxxx xxxxxxxx",
-      review: "<https://realpython.com/python-is-identity-vs-equality/>",
+      review: "https://realpython.com/python-is-identity-vs-equality/",
     },
     {
       category: "Python",
@@ -157,7 +157,7 @@ let pythonquestions = [
       answer: "No operation",
       hint: "Placeholder statement.",
       blank: "xx xxxxxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/controlflow.html#pass-statements>",
+      review: "https://docs.python.org/3/tutorial/controlflow.html#pass-statements",
     },
     {
       category: "Python",
@@ -165,7 +165,7 @@ let pythonquestions = [
       answer: "File with Python code",
       hint: "Used with `import`.",
       blank: "xxxx xxxx xxxxxx xxxx",
-      review: "<https://docs.python.org/3/tutorial/modules.html>",
+      review: "https://docs.python.org/3/tutorial/modules.html",
     },
     {
       category: "Python",
@@ -173,7 +173,7 @@ let pythonquestions = [
       answer: "Exit loop early",
       hint: "Ends loop execution.",
       blank: "xxxx xxxx xxxxx",
-      review: "<https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements>",
+      review: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements",
     },
     {
       category: "Python",
@@ -181,7 +181,7 @@ let pythonquestions = [
       answer: "No value",
       hint: "Represents a null object.",
       blank: "xx xxxxx",
-      review: "<https://docs.python.org/3/library/constants.html#None>",
+      review: "https://docs.python.org/3/library/constants.html#None",
     },
     {
       category: "Python",
@@ -189,7 +189,7 @@ let pythonquestions = [
       answer: "Debugging",
       hint: "Checks conditions.",
       blank: "xxxxxxxxx",
-      review: "<https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement>",
+      review: "https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement",
     },
     {
       category: "Python",
@@ -197,7 +197,7 @@ let pythonquestions = [
       answer: "Object type",
       hint: "Checks data types.",
       blank: "xxxxxx xxxx",
-      review: "<https://docs.python.org/3/library/functions.html#type>",
+      review: "https://docs.python.org/3/library/functions.html#type",
     },
     {
       category: "Python",
@@ -205,7 +205,7 @@ let pythonquestions = [
       answer: "Subsets sequences",
       hint: "Uses `:` to define ranges.",
       blank: "xxxxxxx xxxxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/introduction.html#strings>",
+      review: "https://docs.python.org/3/tutorial/introduction.html#strings",
     },
     {
       category: "Python",
@@ -213,7 +213,7 @@ let pythonquestions = [
       answer: "Collection of modules",
       hint: "Includes `__init__.py`.",
       blank: "xxxxxxxxx xx xxxxxxx",
-      review: "<https://docs.python.org/3/tutorial/modules.html#packages>",
+      review: "https://docs.python.org/3/tutorial/modules.html#packages",
     },
     {
       category: "Python",
@@ -221,7 +221,7 @@ let pythonquestions = [
       answer: "Lists attributes",
       hint: "Introspection tool.",
       blank: "xxxxx xxxxxxxxxxx",
-      review: "<https://docs.python.org/3/library/functions.html#dir>",
+      review: "https://docs.python.org/3/library/functions.html#dir",
     },
     {
       category: "Python",
@@ -229,7 +229,7 @@ let pythonquestions = [
       answer: "Thread safety mechanism",
       hint: "Limits concurrency.",
       blank: "xxxxxx xxxxx xxxxxxxxxx",
-      review: "<https://realpython.com/python-gil/>",
+      review: "https://realpython.com/python-gil/",
     },
   ];
   

@@ -5,7 +5,7 @@ let otquestions = [
       answer: "Operational Technology",
       hint: "Focuses on hardware and software for physical processes.",
       blank: "xxxxxxxxxx xxxxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Operational_technology>",
+      review: "https://en.wikipedia.org/wiki/Operational_technology",
     },
     {
       category: "OT",
@@ -13,7 +13,7 @@ let otquestions = [
       answer: "Modbus",
       hint: "Commonly used in SCADA systems.",
       blank: "xxxxxx",
-      review: "<https://www.modbus.org/>",
+      review: "https://www.modbus.org/",
     },
     {
       category: "OT",
@@ -21,7 +21,7 @@ let otquestions = [
       answer: "Monitor and control industrial processes",
       hint: "Supervisory control and data acquisition.",
       blank: "xxxxxxx xxx xxxxxxx xxxxxxxxx xxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/SCADA>",
+      review: "https://en.wikipedia.org/wiki/SCADA",
     },
     {
       category: "OT",
@@ -29,7 +29,7 @@ let otquestions = [
       answer: "OPC UA",
       hint: "Open Platform Communications Unified Architecture.",
       blank: "xxx xx",
-      review: "<https://opcfoundation.org/about/opc-technologies/opc-ua/>",
+      review: "https://opcfoundation.org/about/opc-technologies/opc-ua/",
     },
     {
       category: "OT",
@@ -37,7 +37,7 @@ let otquestions = [
       answer: "Industrial control network",
       hint: "Networks in manufacturing and utilities.",
       blank: "xxxxxxxxxx xxxxxxx xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/solutions/industrial-automation.html>",
+      review: "https://www.cisco.com/c/en/us/solutions/industrial-automation.html",
     },
     {
       category: "OT",
@@ -45,7 +45,7 @@ let otquestions = [
       answer: "Legacy systems",
       hint: "Old infrastructure with minimal security.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://www.cisa.gov/critical-infrastructure-sector>",
+      review: "https://www.cisa.gov/critical-infrastructure-sector",
     },
     {
       category: "OT",
@@ -53,7 +53,7 @@ let otquestions = [
       answer: "Industrial Control Systems",
       hint: "Includes SCADA, PLCs, and DCS.",
       blank: "xxxxxxxxxx xxxxxxx xxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Industrial_control_system>",
+      review: "https://en.wikipedia.org/wiki/Industrial_control_system",
     },
     {
       category: "OT",
@@ -61,7 +61,7 @@ let otquestions = [
       answer: "Programmable Logic Controller",
       hint: "Used for automation.",
       blank: "xxxxxxxxxxxx xxxxx xxxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Programmable_logic_controller>",
+      review: "https://en.wikipedia.org/wiki/Programmable_logic_controller",
     },
     {
       category: "OT",
@@ -69,7 +69,7 @@ let otquestions = [
       answer: "Distributed control",
       hint: "Manages processes across multiple locations.",
       blank: "xxxxxxxxxx xxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Distributed_control_system>",
+      review: "https://en.wikipedia.org/wiki/Distributed_control_system",
     },
     {
       category: "OT",
@@ -77,7 +77,7 @@ let otquestions = [
       answer: "IEC 62443",
       hint: "Global standard for OT security.",
       blank: "xxx xxxxx",
-      review: "<https://iec62443.com/>",
+      review: "https://iec62443.com/",
     },
     {
       category: "OT",
@@ -85,7 +85,7 @@ let otquestions = [
       answer: "Network intrusion detection systems",
       hint: "Monitors OT networks for threats.",
       blank: "xxxxxxx xxxxxxx xxxxxxxxx xxxxxxx",
-      review: "<https://www.sans.org/tools/ot-nids>",
+      review: "https://www.sans.org/tools/ot-nids",
     },
     {
       category: "OT",
@@ -93,7 +93,7 @@ let otquestions = [
       answer: "Human Machine Interface",
       hint: "Provides operators with process control interfaces.",
       blank: "xxxxx xxxxxxx xxxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Human%E2%80%93machine_interface>",
+      review: "https://en.wikipedia.org/wiki/Human%E2%80%93machine_interface",
     },
     {
       category: "OT",
@@ -101,7 +101,7 @@ let otquestions = [
       answer: "Industrial Internet of Things",
       hint: "Enables connected industrial devices.",
       blank: "xxxxxxxxxx xxxxxxx xx xxxxxx",
-      review: "<https://www.ibm.com/topics/iiot>",
+      review: "https://www.ibm.com/topics/iiot",
     },
     {
       category: "OT",
@@ -109,7 +109,7 @@ let otquestions = [
       answer: "Profinet",
       hint: "Designed for automation systems.",
       blank: "xxxxxxxx",
-      review: "<https://profinet.com/>",
+      review: "https://profinet.com/",
     },
     {
       category: "OT",
@@ -117,7 +117,7 @@ let otquestions = [
       answer: "Remote Terminal Unit",
       hint: "Used for remote monitoring and control.",
       blank: "xxxxxx xxxxxxx xxxx",
-      review: "<https://en.wikipedia.org/wiki/Remote_terminal_unit>",
+      review: "https://en.wikipedia.org/wiki/Remote_terminal_unit",
     },
     {
       category: "OT",
@@ -125,7 +125,7 @@ let otquestions = [
       answer: "Phishing",
       hint: "Exploits human behavior.",
       blank: "xxxxxxxx",
-      review: "<https://www.cisa.gov/phishing-awareness>",
+      review: "https://www.cisa.gov/phishing-awareness",
     },
     {
       category: "OT",
@@ -133,7 +133,7 @@ let otquestions = [
       answer: "Industroyer",
       hint: "Also known as CrashOverride.",
       blank: "xxxxxxxxxxx",
-      review: "<https://www.welivesecurity.com/industroyer>",
+      review: "https://www.welivesecurity.com/industroyer",
     },
     {
       category: "OT",
@@ -141,7 +141,7 @@ let otquestions = [
       answer: "Cyber-physical risk assessment",
       hint: "Targets both IT and OT systems.",
       blank: "xxxxx xxxxxxxx xxxx xxxxxxxxxx",
-      review: "<https://www.sans.org/tools/ot-risk-assessment>",
+      review: "https://www.sans.org/tools/ot-risk-assessment",
     },
     {
       category: "OT",
@@ -149,7 +149,7 @@ let otquestions = [
       answer: "NIST Cybersecurity Framework",
       hint: "Developed by the U.S. Department of Commerce.",
       blank: "xxxx xxxxxxxxxxxxx xxxxxxxxx",
-      review: "<https://www.nist.gov/cyberframework>",
+      review: "https://www.nist.gov/cyberframework",
     },
     {
       category: "OT",
@@ -157,7 +157,7 @@ let otquestions = [
       answer: "IT/OT integration",
       hint: "Combines enterprise and industrial networks.",
       blank: "xx/xx xxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/solutions/it-ot-convergence.html>",
+      review: "https://www.cisco.com/c/en/us/solutions/it-ot-convergence.html",
     },
     {
       category: "OT",
@@ -165,7 +165,7 @@ let otquestions = [
       answer: "Update software",
       hint: "Addresses vulnerabilities.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://www.cisa.gov/patch-management>",
+      review: "https://www.cisa.gov/patch-management",
     },
     {
       category: "OT",
@@ -173,7 +173,7 @@ let otquestions = [
       answer: "Availability",
       hint: "Ensures uninterrupted operations.",
       blank: "xxxxxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Availability>",
+      review: "https://en.wikipedia.org/wiki/Availability",
     },
     {
       category: "OT",
@@ -181,7 +181,7 @@ let otquestions = [
       answer: "Stuxnet",
       hint: "A famous cyber-physical attack.",
       blank: "xxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Stuxnet>",
+      review: "https://en.wikipedia.org/wiki/Stuxnet",
     },
     {
       category: "OT",
@@ -189,7 +189,7 @@ let otquestions = [
       answer: "NTP",
       hint: "Network Time Protocol.",
       blank: "xxx",
-      review: "<https://en.wikipedia.org/wiki/Network_Time_Protocol>",
+      review: "https://en.wikipedia.org/wiki/Network_Time_Protocol",
     },
     {
       category: "OT",
@@ -197,7 +197,7 @@ let otquestions = [
       answer: "BACnet",
       hint: "Used in building automation systems.",
       blank: "xxxxxx",
-      review: "<https://www.bacnet.org/>",
+      review: "https://www.bacnet.org/",
     },
     {
       category: "OT",
@@ -205,7 +205,7 @@ let otquestions = [
       answer: "Air gap",
       hint: "Physical separation.",
       blank: "xxx xxx",
-      review: "<https://www.kaspersky.com/resource-center/definitions/air-gap>",
+      review: "https://www.kaspersky.com/resource-center/definitions/air-gap",
     },
     {
       category: "OT",
@@ -213,7 +213,7 @@ let otquestions = [
       answer: "Layered network model",
       hint: "Segments OT networks by function.",
       blank: "xxxxxx xxxxxxx xxxxx",
-      review: "<https://en.wikipedia.org/wiki/Purdue_Enterprise_Reference_Architecture>",
+      review: "https://en.wikipedia.org/wiki/Purdue_Enterprise_Reference_Architecture",
     },
     {
       category: "OT",
@@ -221,7 +221,7 @@ let otquestions = [
       answer: "Protect industrial processes",
       hint: "Safeguards OT operations.",
       blank: "xxxxxxx xxxxxxxxx xxxxxxxxxx",
-      review: "<https://www.cisa.gov/ics>",
+      review: "https://www.cisa.gov/ics",
     },
     {
       category: "OT",
@@ -229,7 +229,7 @@ let otquestions = [
       answer: "TRITON",
       hint: "Targeted safety instrumented systems (SIS).",
       blank: "xxxxxx",
-      review: "<https://www.cisa.gov/news-events/triton-malware-analysis>",
+      review: "https://www.cisa.gov/news-events/triton-malware-analysis",
     },
     {
       category: "OT",
@@ -237,7 +237,7 @@ let otquestions = [
       answer: "Limit threat propagation",
       hint: "Contains incidents.",
       blank: "xxxxx xxxxxx xxxxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/solutions/industrial-automation/segmentation.html>",
+      review: "https://www.cisco.com/c/en/us/solutions/industrial-automation/segmentation.html",
     },
   ];
   

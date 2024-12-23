@@ -5,7 +5,7 @@ let paloaltofwcommandsquestions = [
       answer: "show config running",
       hint: "Shows the active configuration.",
       blank: "xxxx xxxxxx xxxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/RunningConfig>",
+      review: "https://knowledgebase.paloaltonetworks.com/RunningConfig",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -13,7 +13,7 @@ let paloaltofwcommandsquestions = [
       answer: "save config to [filename]",
       hint: "Saves configuration changes.",
       blank: "xxxx xxxxxx xx [xxxxxxxx]",
-      review: "<https://knowledgebase.paloaltonetworks.com/SaveConfig>",
+      review: "https://knowledgebase.paloaltonetworks.com/SaveConfig",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -21,7 +21,7 @@ let paloaltofwcommandsquestions = [
       answer: "commit",
       hint: "Applies changes to the device.",
       blank: "xxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/CommitChanges>",
+      review: "https://knowledgebase.paloaltonetworks.com/CommitChanges",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -29,7 +29,7 @@ let paloaltofwcommandsquestions = [
       answer: "configure",
       hint: "Switches to configuration mode.",
       blank: "xxxxxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ConfigureMode>",
+      review: "https://knowledgebase.paloaltonetworks.com/ConfigureMode",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -37,7 +37,7 @@ let paloaltofwcommandsquestions = [
       answer: "show interface all",
       hint: "Displays all interfaces and their statuses.",
       blank: "xxxx xxxxxxxxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ShowInterfaceStatus>",
+      review: "https://knowledgebase.paloaltonetworks.com/ShowInterfaceStatus",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -45,7 +45,7 @@ let paloaltofwcommandsquestions = [
       answer: "test security-policy-match",
       hint: "Simulates traffic to test policies.",
       blank: "xxxx xxxxxxxxxxxxxxx-xxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/TestPolicy>",
+      review: "https://knowledgebase.paloaltonetworks.com/TestPolicy",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -53,7 +53,7 @@ let paloaltofwcommandsquestions = [
       answer: "show session all",
       hint: "Lists all active sessions.",
       blank: "xxxx xxxxxxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ShowSessions>",
+      review: "https://knowledgebase.paloaltonetworks.com/ShowSessions",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -61,7 +61,7 @@ let paloaltofwcommandsquestions = [
       answer: "clear session id [ID]",
       hint: "Terminates a session by ID.",
       blank: "xxxxx xxxxxxx xx [xx]",
-      review: "<https://knowledgebase.paloaltonetworks.com/ClearSession>",
+      review: "https://knowledgebase.paloaltonetworks.com/ClearSession",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -69,7 +69,7 @@ let paloaltofwcommandsquestions = [
       answer: "show system info",
       hint: "Provides details about the device.",
       blank: "xxxx xxxxxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/SystemInfo>",
+      review: "https://knowledgebase.paloaltonetworks.com/SystemInfo",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -77,7 +77,7 @@ let paloaltofwcommandsquestions = [
       answer: "request restart system",
       hint: "Restarts the device.",
       blank: "xxxxxxx xxxxxxx xxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/RestartSystem>",
+      review: "https://knowledgebase.paloaltonetworks.com/RestartSystem",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -85,7 +85,7 @@ let paloaltofwcommandsquestions = [
       answer: "show arp all",
       hint: "Lists all ARP entries.",
       blank: "xxxx xxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ARPTable>",
+      review: "https://knowledgebase.paloaltonetworks.com/ARPTable",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -93,7 +93,7 @@ let paloaltofwcommandsquestions = [
       answer: "clear arp all",
       hint: "Removes ARP table entries.",
       blank: "xxxxx xxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ClearARP>",
+      review: "https://knowledgebase.paloaltonetworks.com/ClearARP",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -101,7 +101,7 @@ let paloaltofwcommandsquestions = [
       answer: "debug log-receiver on",
       hint: "Turns on debugging for logs.",
       blank: "xxxxx xxx-xxxxxxxxx xx",
-      review: "<https://knowledgebase.paloaltonetworks.com/DebugLogs>",
+      review: "https://knowledgebase.paloaltonetworks.com/DebugLogs",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -109,7 +109,7 @@ let paloaltofwcommandsquestions = [
       answer: "show running nat-policy",
       hint: "Displays current NAT rules.",
       blank: "xxxx xxxxxxx xxx-xxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/NATPolicy>",
+      review: "https://knowledgebase.paloaltonetworks.com/NATPolicy",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -117,7 +117,7 @@ let paloaltofwcommandsquestions = [
       answer: "show log system",
       hint: "Provides logs for system events.",
       blank: "xxxx xxx xxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/SystemLogs>",
+      review: "https://knowledgebase.paloaltonetworks.com/SystemLogs",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -125,7 +125,7 @@ let paloaltofwcommandsquestions = [
       answer: "show running security-policy",
       hint: "Shows security rules currently in effect.",
       blank: "xxxx xxxxxxx xxxxxxxxx-xxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/SecurityPolicy>",
+      review: "https://knowledgebase.paloaltonetworks.com/SecurityPolicy",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -133,7 +133,7 @@ let paloaltofwcommandsquestions = [
       answer: "clear session all",
       hint: "Terminates all active sessions.",
       blank: "xxxxx xxxxxxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ClearSessions>",
+      review: "https://knowledgebase.paloaltonetworks.com/ClearSessions",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -141,7 +141,7 @@ let paloaltofwcommandsquestions = [
       answer: "show high-availability state",
       hint: "Displays HA status and configurations.",
       blank: "xxxx xxxx-xxxxxxxxxxxx xxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/HAStatus>",
+      review: "https://knowledgebase.paloaltonetworks.com/HAStatus",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -149,7 +149,7 @@ let paloaltofwcommandsquestions = [
       answer: "set interface [name] enable",
       hint: "Activates a specified interface.",
       blank: "xxx xxxxxxxxx [xxxxx] xxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/EnableInterface>",
+      review: "https://knowledgebase.paloaltonetworks.com/EnableInterface",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -157,7 +157,7 @@ let paloaltofwcommandsquestions = [
       answer: "show routing route",
       hint: "Lists all routes.",
       blank: "xxxx xxxxxxx xxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/RoutingTable>",
+      review: "https://knowledgebase.paloaltonetworks.com/RoutingTable",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -165,7 +165,7 @@ let paloaltofwcommandsquestions = [
       answer: "scp export configuration",
       hint: "Copies configuration via SCP.",
       blank: "xxx xxxxxx xxxxxxxxxxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ExportConfig>",
+      review: "https://knowledgebase.paloaltonetworks.com/ExportConfig",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -173,7 +173,7 @@ let paloaltofwcommandsquestions = [
       answer: "ping [destination]",
       hint: "ICMP utility.",
       blank: "xxxx [xxxxxxxxxx]",
-      review: "<https://knowledgebase.paloaltonetworks.com/PingCommand>",
+      review: "https://knowledgebase.paloaltonetworks.com/PingCommand",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -181,7 +181,7 @@ let paloaltofwcommandsquestions = [
       answer: "save config to [filename]",
       hint: "Creates a backup file.",
       blank: "xxxx xxxxxx xx [xxxxxxxx]",
-      review: "<https://knowledgebase.paloaltonetworks.com/BackupConfig>",
+      review: "https://knowledgebase.paloaltonetworks.com/BackupConfig",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -189,7 +189,7 @@ let paloaltofwcommandsquestions = [
       answer: "load config from [filename]",
       hint: "Loads a configuration file.",
       blank: "xxxx xxxxxx xxxx [xxxxxxxx]",
-      review: "<https://knowledgebase.paloaltonetworks.com/RestoreConfig>",
+      review: "https://knowledgebase.paloaltonetworks.com/RestoreConfig",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -197,7 +197,7 @@ let paloaltofwcommandsquestions = [
       answer: "show system software-info",
       hint: "Displays software details.",
       blank: "xxxx xxxxxx xxxxxxxxxxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/SoftwareInfo>",
+      review: "https://knowledgebase.paloaltonetworks.com/SoftwareInfo",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -205,7 +205,7 @@ let paloaltofwcommandsquestions = [
       answer: "traceroute [destination]",
       hint: "Tracks network hops.",
       blank: "xxxxxxxxxxx [xxxxxxxxxx]",
-      review: "<https://knowledgebase.paloaltonetworks.com/Traceroute>",
+      review: "https://knowledgebase.paloaltonetworks.com/Traceroute",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -213,7 +213,7 @@ let paloaltofwcommandsquestions = [
       answer: "show zone",
       hint: "Displays configured zones.",
       blank: "xxxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ShowZones>",
+      review: "https://knowledgebase.paloaltonetworks.com/ShowZones",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -221,7 +221,7 @@ let paloaltofwcommandsquestions = [
       answer: "debug software restart process [process_name]",
       hint: "Restarts a named process.",
       blank: "xxxxx xxxxxxxx xxxxxxx xxxxxxx [xxxxxxxxxxx]",
-      review: "<https://knowledgebase.paloaltonetworks.com/RestartProcess>",
+      review: "https://knowledgebase.paloaltonetworks.com/RestartProcess",
     },
     {
       category: "Palo Alto Firewall Commands",
@@ -229,7 +229,7 @@ let paloaltofwcommandsquestions = [
       answer: "clear counters all",
       hint: "Resets statistics.",
       blank: "xxxxx xxxxxxxx xxxx",
-      review: "<https://knowledgebase.paloaltonetworks.com/ClearCounters>",
+      review: "https://knowledgebase.paloaltonetworks.com/ClearCounters",
     },
   ];
   

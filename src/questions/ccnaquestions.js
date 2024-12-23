@@ -7,7 +7,7 @@ let ccnaquestions = [
     hint: "one router is on standby while the other is working",
     blank: "xxxxxx/xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/ip/hot-standby-router-protocol-hsrp/9234-hsrpguidetoc.html>",
+      "https://www.cisco.com/c/en/us/support/docs/ip/hot-standby-router-protocol-hsrp/9234-hsrpguidetoc.html",
   },
   {
     category: "CCNA",
@@ -16,7 +16,7 @@ let ccnaquestions = [
     hint: "NOT 3",
     blank: "x",
     review:
-      "<https://info.pivitglobal.com/resources/port-security-layer-2-protection>",
+      "https://info.pivitglobal.com/resources/port-security-layer-2-protection",
   },
   {
     category: "CCNA",
@@ -25,7 +25,7 @@ let ccnaquestions = [
     answer: "Request",
     hint: "DORA",
     blank: "xxxxxxx",
-    review: "<https://notes.networklessons.com/dhcp-message-types>",
+    review: "https://notes.networklessons.com/dhcp-message-types",
   },
   {
     category: "CCNA",
@@ -35,7 +35,7 @@ let ccnaquestions = [
     hint: "Cisco proprietary protocol.",
     blank: "xxx",
     review:
-      "<https://www.cisco.com/c/en/us/tech/ip/cisco-discovery-protocol/index.html>",
+      "https://www.cisco.com/c/en/us/tech/ip/cisco-discovery-protocol/index.html",
   },
   {
     category: "CCNA",
@@ -44,7 +44,7 @@ let ccnaquestions = [
     hint: "Used for segmenting networks.",
     blank: "xxxxxx xxxxx xxxx xxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html",
   },
   {
     category: "CCNA",
@@ -52,7 +52,7 @@ let ccnaquestions = [
     answer: "Network layer",
     hint: "Layer 3 in the OSI model.",
     blank: "xxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/OSI_model>",
+    review: "https://en.wikipedia.org/wiki/OSI_model",
   },
   {
     category: "CCNA",
@@ -60,7 +60,7 @@ let ccnaquestions = [
     answer: "ARP",
     hint: "Used for address resolution.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Address_Resolution_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Address_Resolution_Protocol",
   },
   {
     category: "CCNA",
@@ -69,7 +69,7 @@ let ccnaquestions = [
     hint: "Check network paths.",
     blank: "xxxx xx xxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_basic/configuration/xe-16/irg-basic-ip-routing.html>",
+      "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_basic/configuration/xe-16/irg-basic-ip-routing.html",
   },
   {
     category: "CCNA",
@@ -78,7 +78,7 @@ let ccnaquestions = [
     hint: "DORA process.",
     blank: "xxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>",
+      "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol",
   },
   {
     category: "CCNA",
@@ -87,7 +87,7 @@ let ccnaquestions = [
     hint: "Prevents loops.",
     blank: "xxxxxxxx xxxx xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/tech/lan-switching/spanning-tree-protocol/index.html>",
+      "https://www.cisco.com/c/en/us/tech/lan-switching/spanning-tree-protocol/index.html",
   },
   {
     category: "CCNA",
@@ -95,7 +95,7 @@ let ccnaquestions = [
     answer: "SSH",
     hint: "Secure shell.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Secure_Shell>",
+    review: "https://en.wikipedia.org/wiki/Secure_Shell",
   },
   {
     category: "CCNA",
@@ -104,7 +104,7 @@ let ccnaquestions = [
     hint: "Lower is better.",
     blank: "xxx",
     review:
-      "<https://www.cisco.com/c/en/us/tech/ip/open-shortest-path-first-ospf/index.html>",
+      "https://www.cisco.com/c/en/us/tech/ip/open-shortest-path-first-ospf/index.html",
   },
   {
     category: "CCNA",
@@ -113,7 +113,7 @@ let ccnaquestions = [
     hint: "Port Address Translation.",
     blank: "xxx",
     review:
-      "<https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr_nat/configuration/xe-16/nat-xe-16-book/iadnat-pt.html>",
+      "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr_nat/configuration/xe-16/nat-xe-16-book/iadnat-pt.html",
   },
   {
     category: "CCNA",
@@ -121,7 +121,7 @@ let ccnaquestions = [
     answer: "DNS",
     hint: "Domain Name System.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Domain_Name_System>",
+    review: "https://en.wikipedia.org/wiki/Domain_Name_System",
   },
   {
     category: "CCNA",
@@ -130,7 +130,7 @@ let ccnaquestions = [
     hint: "Preserves configuration after a reboot.",
     blank: "xxxx xxxxxxxxxxxxx xxxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-112/41232-config-save.html>",
+      "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-112/41232-config-save.html",
   },
   {
     category: "CCNA",
@@ -138,7 +138,7 @@ let ccnaquestions = [
     answer: "HDLC",
     hint: "Default WAN encapsulation.",
     blank: "xxxx",
-    review: "<https://en.wikipedia.org/wiki/High-Level_Data_Link_Control>",
+    review: "https://en.wikipedia.org/wiki/High-Level_Data_Link_Control",
   },
   {
     category: "CCNA",
@@ -146,7 +146,7 @@ let ccnaquestions = [
     answer: "15",
     hint: "Considered unreachable beyond this.",
     blank: "xx",
-    review: "<https://en.wikipedia.org/wiki/Routing_Information_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Routing_Information_Protocol",
   },
   {
     category: "CCNA",
@@ -154,7 +154,7 @@ let ccnaquestions = [
     answer: "ping",
     hint: "ICMP utility.",
     blank: "xxxx",
-    review: "<https://en.wikipedia.org/wiki/Ping_(networking_utility)>",
+    review: "https://en.wikipedia.org/wiki/Ping_(networking_utility)",
   },
   {
     category: "CCNA",
@@ -163,7 +163,7 @@ let ccnaquestions = [
     hint: "More granular than standard ACLs.",
     blank: "xxxxxxxx xxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/security/ios-access-lists/5212-18.html>",
+      "https://www.cisco.com/c/en/us/support/docs/security/ios-access-lists/5212-18.html",
   },
   {
     category: "CCNA",
@@ -171,7 +171,7 @@ let ccnaquestions = [
     answer: "255.255.255.0",
     hint: "Supports up to 254 hosts.",
     blank: "xxx.xxx.xxx.xxxx",
-    review: "<https://en.wikipedia.org/wiki/Classful_network>",
+    review: "https://en.wikipedia.org/wiki/Classful_network",
   },
   {
     category: "CCNA",
@@ -180,7 +180,7 @@ let ccnaquestions = [
     answer: "RIP",
     hint: "Routing Information Protocol.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Routing_Information_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Routing_Information_Protocol",
   },
   {
     category: "CCNA",
@@ -189,7 +189,7 @@ let ccnaquestions = [
     hint: "Manual routing.",
     blank: "xx xxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/ip/static-routing/118006-config-static-routes.html>",
+      "https://www.cisco.com/c/en/us/support/docs/ip/static-routing/118006-config-static-routes.html",
   },
   {
     category: "CCNA",
@@ -198,7 +198,7 @@ let ccnaquestions = [
     hint: "Divide and organize IP space.",
     blank: "xxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/ip/subnetting/13854.html>",
+      "https://www.cisco.com/c/en/us/support/docs/ip/subnetting/13854.html",
   },
   {
     category: "CCNA",
@@ -206,7 +206,7 @@ let ccnaquestions = [
     answer: "Network",
     hint: "Layer 3.",
     blank: "xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/OSI_model>",
+    review: "https://en.wikipedia.org/wiki/OSI_model",
   },
   {
     category: "CCNA",
@@ -214,7 +214,7 @@ let ccnaquestions = [
     answer: "1",
     hint: "The first assigned protocol.",
     blank: "x",
-    review: "<https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol",
   },
   {
     category: "CCNA",
@@ -222,7 +222,7 @@ let ccnaquestions = [
     answer: "TLS",
     hint: "Successor to SSL.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Transport_Layer_Security>",
+    review: "https://en.wikipedia.org/wiki/Transport_Layer_Security",
   },
   {
     category: "CCNA",
@@ -230,7 +230,7 @@ let ccnaquestions = [
     answer: "IP translation",
     hint: "Converts private to public IP.",
     blank: "xx xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Network_address_translation>",
+    review: "https://en.wikipedia.org/wiki/Network_address_translation",
   },
   {
     category: "CCNA",
@@ -238,7 +238,7 @@ let ccnaquestions = [
     answer: "Broadcast",
     hint: "Sends to all devices.",
     blank: "xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Broadcast_address>",
+    review: "https://en.wikipedia.org/wiki/Broadcast_address",
   },
   {
     category: "CCNA",
@@ -246,7 +246,7 @@ let ccnaquestions = [
     answer: "Router",
     hint: "Directs traffic outside the network.",
     blank: "xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Default_gateway>",
+    review: "https://en.wikipedia.org/wiki/Default_gateway",
   },
   {
     category: "CCNA",
@@ -255,7 +255,7 @@ let ccnaquestions = [
     hint: "Check interface status.",
     blank: "xxxx xx xxxxxxxxx xxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-112/50640-iosshow.html>",
+      "https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-112/50640-iosshow.html",
   },
   {
     category: "CCNA",
@@ -264,7 +264,7 @@ let ccnaquestions = [
     hint: "Logically separates networks.",
     blank: "xxxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-vlan.html",
   },
   {
     category: "CCNA",
@@ -272,7 +272,7 @@ let ccnaquestions = [
     answer: "Enhanced Interior Gateway Routing Protocol",
     hint: "Cisco proprietary protocol.",
     blank: "xxxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/EIGRP>",
+    review: "https://en.wikipedia.org/wiki/EIGRP",
   },
   {
     category: "CCNA",
@@ -280,7 +280,7 @@ let ccnaquestions = [
     answer: "Connects a single VLAN",
     hint: "Not for trunking.",
     blank: "xxxxxxxxx x xxxxxx xxxx",
-    review: "<https://www.cisco.com/c/en/us/support/docs/switches.html>",
+    review: "https://www.cisco.com/c/en/us/support/docs/switches.html",
   },
   {
     category: "CCNA",
@@ -288,7 +288,7 @@ let ccnaquestions = [
     answer: "80",
     hint: "Default for web traffic.",
     blank: "xx",
-    review: "<https://en.wikipedia.org/wiki/HTTP>",
+    review: "https://en.wikipedia.org/wiki/HTTP",
   },
   {
     category: "CCNA",
@@ -296,7 +296,7 @@ let ccnaquestions = [
     answer: "Path-vector",
     hint: "Used for internet routing.",
     blank: "xxxx-xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Border_Gateway_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Border_Gateway_Protocol",
   },
   {
     category: "CCNA",
@@ -304,7 +304,7 @@ let ccnaquestions = [
     answer: "Maximum Transmission Unit",
     hint: "Packet size limit.",
     blank: "xxxxxxx xxxxxxxxxxxx xxxx",
-    review: "<https://en.wikipedia.org/wiki/Maximum_transmission_unit>",
+    review: "https://en.wikipedia.org/wiki/Maximum_transmission_unit",
   },
   {
     category: "CCNA",
@@ -312,7 +312,7 @@ let ccnaquestions = [
     answer: "Dijkstra's algorithm",
     hint: "Shortest Path First.",
     blank: "xxxxxxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/OSPF>",
+    review: "https://en.wikipedia.org/wiki/OSPF",
   },
   {
     category: "CCNA",
@@ -320,7 +320,7 @@ let ccnaquestions = [
     answer: "Straight-through",
     hint: "Standard Ethernet cable.",
     blank: "xxxxxxxxx-xxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/collateral/cables.html>",
+    review: "https://www.cisco.com/c/en/us/products/collateral/cables.html",
   },
   {
     category: "CCNA",
@@ -328,7 +328,7 @@ let ccnaquestions = [
     answer: "Transport",
     hint: "Layer 4.",
     blank: "xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Transport_Layer_Security>",
+    review: "https://en.wikipedia.org/wiki/Transport_Layer_Security",
   },
   {
     category: "CCNA",
@@ -336,7 +336,7 @@ let ccnaquestions = [
     answer: "NDP",
     hint: "Neighbor Discovery.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol",
   },
   {
     category: "CCNA",
@@ -345,7 +345,7 @@ let ccnaquestions = [
     hint: "Resets learned routes.",
     blank: "xxxxx xx xxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/td/docs/ios/solutions_docs/ipcleartbl.html>",
+      "https://www.cisco.com/c/en/us/td/docs/ios/solutions_docs/ipcleartbl.html",
   },
   {
     category: "CCNA",
@@ -353,7 +353,7 @@ let ccnaquestions = [
     answer: "Backup route",
     hint: "Used when the primary fails.",
     blank: "xxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Static_routing>",
+    review: "https://en.wikipedia.org/wiki/Static_routing",
   },
   {
     category: "CCNA",
@@ -361,7 +361,7 @@ let ccnaquestions = [
     answer: "224.0.0.0/4",
     hint: "Class D addresses.",
     blank: "xxx.x.x.x/x",
-    review: "<https://en.wikipedia.org/wiki/Multicast_address>",
+    review: "https://en.wikipedia.org/wiki/Multicast_address",
   },
   {
     category: "CCNA",
@@ -369,7 +369,7 @@ let ccnaquestions = [
     answer: "Prevents loops",
     hint: "Keeps network stable.",
     blank: "xxxxxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Spanning_Tree_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Spanning_Tree_Protocol",
   },
   {
     category: "CCNA",
@@ -377,7 +377,7 @@ let ccnaquestions = [
     answer: "UDP",
     hint: "No retransmission mechanism.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol",
   },
   {
     category: "CCNA",
@@ -386,7 +386,7 @@ let ccnaquestions = [
     hint: "Starts with 10.",
     blank: "xx.x.x.x/x",
     review:
-      "<https://en.wikipedia.org/wiki/Private_network#Private_IPv4_address_spaces>",
+      "https://en.wikipedia.org/wiki/Private_network#Private_IPv4_address_spaces",
   },
   {
     category: "CCNA",
@@ -395,7 +395,7 @@ let ccnaquestions = [
     hint: "Activates the protocol.",
     blank: "xxxxxx xxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/routing/rip/13770-1.html>",
+      "https://www.cisco.com/c/en/us/support/docs/routing/rip/13770-1.html",
   },
   {
     category: "CCNA",
@@ -404,7 +404,7 @@ let ccnaquestions = [
     hint: "Flat cable.",
     blank: "xxxxx-xxxx",
     review:
-      "<https://www.cisco.com/c/en/us/support/docs/cables/flat-cable-guide.html>",
+      "https://www.cisco.com/c/en/us/support/docs/cables/flat-cable-guide.html",
   },
   {
     category: "CCNA",
@@ -412,7 +412,7 @@ let ccnaquestions = [
     answer: "TCP",
     hint: "Reliable protocol.",
     blank: "xxx",
-    review: "<https://en.wikipedia.org/wiki/File_Transfer_Protocol>",
+    review: "https://en.wikipedia.org/wiki/File_Transfer_Protocol",
   },
   {
     category: "CCNA",
@@ -420,7 +420,7 @@ let ccnaquestions = [
     answer: "Gateway of last resort",
     hint: "Used when no specific route matches.",
     blank: "xxxxxx xx xxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Default_route>",
+    review: "https://en.wikipedia.org/wiki/Default_route",
   },
   {
     category: "CCNA",
@@ -428,7 +428,7 @@ let ccnaquestions = [
     answer: "23",
     hint: "Insecure remote access.",
     blank: "xx",
-    review: "<https://en.wikipedia.org/wiki/Telnet>",
+    review: "https://en.wikipedia.org/wiki/Telnet",
   },
   {
     category: "CCNA",
@@ -436,7 +436,7 @@ let ccnaquestions = [
     answer: "Hop count",
     hint: "Measures distance.",
     blank: "xxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Routing_Information_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Routing_Information_Protocol",
   },
 ];
 

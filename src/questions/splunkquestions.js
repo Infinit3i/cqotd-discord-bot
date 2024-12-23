@@ -7,7 +7,7 @@ let splunkquestions = [
     hint: "File related to indexes",
     blank: "xxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf",
   },
   {
     category: "Splunk",
@@ -16,7 +16,7 @@ let splunkquestions = [
     hint: "Field extractions",
     blank: "xxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf",
   },
   {
     category: "Splunk",
@@ -26,7 +26,7 @@ let splunkquestions = [
     hint: "Transformations",
     blank: "xxxxxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Transformsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Transformsconf",
   },
   {
     category: "Splunk",
@@ -36,7 +36,7 @@ let splunkquestions = [
     hint: "Manages configurations",
     blank: "xxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutthedeployer>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutthedeployer",
   },
   {
     category: "Splunk",
@@ -46,7 +46,7 @@ let splunkquestions = [
     hint: "Searches and results",
     blank: "xxxxxx xxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutdistributedsearch>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutdistributedsearch",
   },
   {
     category: "Splunk",
@@ -55,7 +55,7 @@ let splunkquestions = [
     hint: "Indexes data",
     blank: "xxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Abouttheindexer>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Abouttheindexer",
   },
   {
     category: "Splunk",
@@ -64,7 +64,7 @@ let splunkquestions = [
     hint: "Cluster configurations",
     blank: "xxxxxxx xxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutclusteredindexing>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutclusteredindexing",
   },
   {
     category: "Splunk",
@@ -72,7 +72,7 @@ let splunkquestions = [
     answer: "8000",
     hint: "Default web port",
     blank: "xxxx",
-    review: "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports>",
+    review: "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports",
   },
   {
     category: "Splunk",
@@ -80,7 +80,7 @@ let splunkquestions = [
     answer: "8080",
     hint: "Replication port",
     blank: "xxxx",
-    review: "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports>",
+    review: "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports",
   },
   {
     category: "Splunk",
@@ -90,7 +90,7 @@ let splunkquestions = [
     hint: "Fast statistics",
     blank: "xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Tstats>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Tstats",
   },
   {
     category: "Splunk",
@@ -99,7 +99,7 @@ let splunkquestions = [
     hint: "Describes data",
     blank: "xxxxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Data/Aboutsourcetypes>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Data/Aboutsourcetypes",
   },
   {
     category: "Splunk",
@@ -108,7 +108,7 @@ let splunkquestions = [
     hint: "Logical storage",
     blank: "xxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf",
   },
   {
     category: "Splunk",
@@ -117,7 +117,7 @@ let splunkquestions = [
     hint: "Splits data lines",
     blank: "xxxx xxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf",
   },
   {
     category: "Splunk",
@@ -126,7 +126,7 @@ let splunkquestions = [
     hint: "Controls resource usage",
     blank: "xxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Limitsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Limitsconf",
   },
   {
     category: "Splunk",
@@ -136,7 +136,7 @@ let splunkquestions = [
     hint: "Access permissions",
     blank: "xxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Authorizeconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Authorizeconf",
   },
   {
     category: "Splunk",
@@ -145,7 +145,7 @@ let splunkquestions = [
     hint: "Sends data",
     blank: "xxxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Abouttheforwarder>",
+      "https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Abouttheforwarder",
   },
   {
     category: "Splunk",
@@ -154,7 +154,7 @@ let splunkquestions = [
     hint: "Input settings",
     blank: "xxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Inputsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Inputsconf",
   },
   {
     category: "Splunk",
@@ -163,7 +163,7 @@ let splunkquestions = [
     hint: "Deploys apps",
     blank: "xxxxxxxxx xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Updating/Aboutdeploymentserver>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Updating/Aboutdeploymentserver",
   },
   {
     category: "Splunk",
@@ -172,7 +172,7 @@ let splunkquestions = [
     hint: "Find indexes",
     blank: "xxxxx xxxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata",
   },
   {
     category: "Splunk",
@@ -181,7 +181,7 @@ let splunkquestions = [
     hint: "Generates reports",
     blank: "xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Report>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Report",
   },
   {
     category: "Splunk",
@@ -190,7 +190,7 @@ let splunkquestions = [
     hint: "Ensures availability",
     blank: "xxxxxxx xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutclusteredindexing>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutclusteredindexing",
   },
   {
     category: "Splunk",
@@ -199,7 +199,7 @@ let splunkquestions = [
     hint: "Distributed search",
     blank: "xxxxxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Distsearchconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Distsearchconf",
   },
   {
     category: "Splunk",
@@ -209,7 +209,7 @@ let splunkquestions = [
     hint: "Saves searches",
     blank: "xxxxxxxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Savedsearchesconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Savedsearchesconf",
   },
   {
     category: "Splunk",
@@ -218,7 +218,7 @@ let splunkquestions = [
     hint: "Pre-indexed data",
     blank: "xxx xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutsplunkbuckets>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutsplunkbuckets",
   },
   {
     category: "Splunk",
@@ -227,7 +227,7 @@ let splunkquestions = [
     hint: "Manages apps",
     blank: "xxxxxxxxx xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Updating/Aboutdeploymentserver>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Updating/Aboutdeploymentserver",
   },
   {
     category: "Splunk",
@@ -236,7 +236,7 @@ let splunkquestions = [
     hint: "Concurrent searches",
     blank: "xxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Limitsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Limitsconf",
   },
   {
     category: "Splunk",
@@ -245,7 +245,7 @@ let splunkquestions = [
     hint: "Input structure",
     blank: "xxxxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Data/Aboutsourcetypes>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Data/Aboutsourcetypes",
   },
   {
     category: "Splunk",
@@ -254,7 +254,7 @@ let splunkquestions = [
     hint: "Modules for inputs",
     blank: "xxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Inputsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Inputsconf",
   },
   {
     category: "Splunk",
@@ -263,7 +263,7 @@ let splunkquestions = [
     hint: "Adds a server",
     blank: "xxx xxxxxxx-xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Addforwardserver>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Addforwardserver",
   },
   {
     category: "Splunk",
@@ -273,7 +273,7 @@ let splunkquestions = [
     hint: "File related to indexes",
     blank: "xxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf",
   },
   {
     category: "Splunk",
@@ -282,7 +282,7 @@ let splunkquestions = [
     hint: "Field extractions",
     blank: "xxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf",
   },
   {
     category: "Splunk",
@@ -292,7 +292,7 @@ let splunkquestions = [
     hint: "Transformations",
     blank: "xxxxxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Transformsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Transformsconf",
   },
   {
     category: "Splunk",
@@ -302,7 +302,7 @@ let splunkquestions = [
     hint: "Manages configurations",
     blank: "xxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutthedeployer>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutthedeployer",
   },
   {
     category: "Splunk",
@@ -312,7 +312,7 @@ let splunkquestions = [
     hint: "Searches and results",
     blank: "xxxxxx xxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutdistributedsearch>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/Aboutdistributedsearch",
   },
   {
     category: "Splunk",
@@ -321,7 +321,7 @@ let splunkquestions = [
     hint: "Indexes data",
     blank: "xxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Abouttheindexer>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Abouttheindexer",
   },
   {
     category: "Splunk",
@@ -330,7 +330,7 @@ let splunkquestions = [
     hint: "Cluster configurations",
     blank: "xxxxxxx xxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutclusteredindexing>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Aboutclusteredindexing",
   },
   {
     category: "Splunk",
@@ -338,7 +338,7 @@ let splunkquestions = [
     answer: "8000",
     hint: "Default web port",
     blank: "xxxx",
-    review: "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports>",
+    review: "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports",
   },
   {
     category: "Splunk",
@@ -346,7 +346,7 @@ let splunkquestions = [
     answer: "8080",
     hint: "Replication port",
     blank: "xxxx",
-    review: "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports>",
+    review: "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Ports",
   },
   {
     category: "Splunk",
@@ -356,7 +356,7 @@ let splunkquestions = [
     hint: "Fast statistics",
     blank: "xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Tstats>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Tstats",
   },
   {
     category: "Splunk",
@@ -365,7 +365,7 @@ let splunkquestions = [
     hint: "Describes data",
     blank: "xxxxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Data/Aboutsourcetypes>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Data/Aboutsourcetypes",
   },
   {
     category: "Splunk",
@@ -374,7 +374,7 @@ let splunkquestions = [
     hint: "Logical storage",
     blank: "xxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Indexesconf",
   },
   {
     category: "Splunk",
@@ -383,7 +383,7 @@ let splunkquestions = [
     hint: "Splits data lines",
     blank: "xxxx xxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Propsconf",
   },
   {
     category: "Splunk",
@@ -392,7 +392,7 @@ let splunkquestions = [
     hint: "Controls resource usage",
     blank: "xxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Limitsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Limitsconf",
   },
   {
     category: "Splunk",
@@ -402,7 +402,7 @@ let splunkquestions = [
     hint: "Access permissions",
     blank: "xxxxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Authorizeconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Authorizeconf",
   },
   {
     category: "Splunk",
@@ -411,7 +411,7 @@ let splunkquestions = [
     hint: "Sends data",
     blank: "xxxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Abouttheforwarder>",
+      "https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Abouttheforwarder",
   },
   {
     category: "Splunk",
@@ -420,7 +420,7 @@ let splunkquestions = [
     hint: "Input settings",
     blank: "xxxxxx.xxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Admin/Inputsconf>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Admin/Inputsconf",
   },
   {
     category: "Splunk",
@@ -429,7 +429,7 @@ let splunkquestions = [
     hint: "Deploys apps",
     blank: "xxxxxxxxx xxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/Updating/Aboutdeploymentserver>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/Updating/Aboutdeploymentserver",
   },
   {
     category: "Splunk",
@@ -438,7 +438,7 @@ let splunkquestions = [
     hint: "Find indexes",
     blank: "xxxxx xxxxxxxxx",
     review:
-      "<https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata>",
+      "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata",
   },
 ];
 

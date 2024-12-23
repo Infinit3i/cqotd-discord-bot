@@ -5,7 +5,7 @@ let gcihquestions = [
     answer: "BeEF",
     hint: "MOOOOO",
     blank: "xxxx",
-    review: "<https://youtu.be/etqw6MpisYw?si=c2ae_m0xywwBGZan>"
+    review: "https://youtu.be/etqw6MpisYw?si=c2ae_m0xywwBGZan"
   },
   {
     category: "GCIH",
@@ -21,7 +21,7 @@ let gcihquestions = [
     answer: "Wireshark",
     hint: "Popular for network analysis.",
     blank: "xxxx",
-    review: "<https://www.wireshark.org>"
+    review: "https://www.wireshark.org"
   },
   {
     category: "GCIH",
@@ -29,7 +29,7 @@ let gcihquestions = [
     answer: "Payload delivery",
     hint: "Think about how exploits are delivered.",
     blank: "xxxx",
-    review: "<https://www.metasploit.com>"
+    review: "https://www.metasploit.com"
   },
   {
     category: "GCIH",
@@ -37,7 +37,7 @@ let gcihquestions = [
     answer: "Tactics, Techniques, and Procedures",
     hint: "Three critical components of attacker behavior.",
     blank: "xxxx",
-    review: "<https://attack.mitre.org>"
+    review: "https://attack.mitre.org"
   },
   {
     category: "GCIH",
@@ -45,7 +45,7 @@ let gcihquestions = [
     answer: "SYN scan",
     hint: "It’s also known as a half-open scan.",
     blank: "xxxx",
-    review: "<https://nmap.org/book/man-port-scanning-techniques.html>"
+    review: "https://nmap.org/book/man-port-scanning-techniques.html"
   },
   {
     category: "GCIH",
@@ -53,7 +53,7 @@ let gcihquestions = [
     answer: "Deception and detection",
     hint: "Used to lure attackers.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/honeypots-introduction/>"
+    review: "https://www.sans.org/white-papers/honeypots-introduction/"
   },
   {
     category: "GCIH",
@@ -69,7 +69,7 @@ let gcihquestions = [
     answer: "Keylogger",
     hint: "Tracks keystrokes.",
     blank: "xxxx",
-    review: "<https://www.sans.org/cyber-security-skills/what-are-keyloggers/>"
+    review: "https://www.sans.org/cyber-security-skills/what-are-keyloggers/"
   },
   {
     category: "GCIH",
@@ -77,7 +77,7 @@ let gcihquestions = [
     answer: "Denial of Service",
     hint: "Also known as DoS.",
     blank: "xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/>"
+    review: "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/"
   },
   {
     category: "GCIH",
@@ -85,7 +85,7 @@ let gcihquestions = [
     answer: "Ransomware",
     hint: "Encrypts your files and demands payment.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.cisa.gov/ransomware>"
+    review: "https://www.cisa.gov/ransomware"
   },
   {
     category: "GCIH",
@@ -93,7 +93,7 @@ let gcihquestions = [
     answer: "Wireshark",
     hint: "Open-source and widely used.",
     blank: "xxxx",
-    review: "<https://www.wireshark.org>"
+    review: "https://www.wireshark.org"
   },
   {
     category: "GCIH",
@@ -101,7 +101,7 @@ let gcihquestions = [
     answer: "DNS poisoning",
     hint: "Tampering with DNS records.",
     blank: "xxxx",
-    review: "<https://www.cloudflare.com/learning/dns/dns-cache-poisoning/>"
+    review: "https://www.cloudflare.com/learning/dns/dns-cache-poisoning/"
   },
   {
     category: "GCIH",
@@ -109,7 +109,7 @@ let gcihquestions = [
     answer: "Gather information",
     hint: "This phase involves research and planning.",
     blank: "xxxx",
-    review: "<https://attack.mitre.org/tactics/TA0043/>"
+    review: "https://attack.mitre.org/tactics/TA0043/"
   },
   {
     category: "GCIH",
@@ -117,7 +117,7 @@ let gcihquestions = [
     answer: "Living off the land",
     hint: "Relies on legitimate tools.",
     blank: "xxxx",
-    review: "<https://www.sans.org/blog/lotl-living-off-the-land-attacks/>"
+    review: "https://www.sans.org/blog/lotl-living-off-the-land-attacks/"
   },
   {
     category: "GCIH",
@@ -125,7 +125,7 @@ let gcihquestions = [
     answer: "ARP",
     hint: "Related to address resolution.",
     blank: "xxxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/arp.html>"
+    review: "https://www.cisco.com/c/en/us/solutions/enterprise-networks/arp.html"
   },
   {
     category: "GCIH",
@@ -133,7 +133,7 @@ let gcihquestions = [
     answer: "Social engineering",
     hint: "Manipulating people.",
     blank: "xxxx",
-    review: "<https://www.sans.org/cyber-security-skills/what-is-social-engineering/>"
+    review: "https://www.sans.org/cyber-security-skills/what-is-social-engineering/"
   },
   {
     category: "GCIH",
@@ -141,7 +141,7 @@ let gcihquestions = [
     answer: "Ping",
     hint: "ICMP echo requests.",
     blank: "xxxx",
-    review: "<https://www.sans.org/tools/using-ping-for-network-diagnostics/>"
+    review: "https://www.sans.org/tools/using-ping-for-network-diagnostics/"
   },
   {
     category: "GCIH",
@@ -149,7 +149,7 @@ let gcihquestions = [
     answer: "SYN flood",
     hint: "Denial of Service variant.",
     blank: "xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/>"
+    review: "https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/"
   },
   {
     category: "GCIH",
@@ -157,7 +157,7 @@ let gcihquestions = [
     answer: "Centralized analysis",
     hint: "Makes it easier to correlate events.",
     blank: "xxxx",
-    review: "<https://www.splunk.com>"
+    review: "https://www.splunk.com"
   }
 ];
 

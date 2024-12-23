@@ -5,7 +5,7 @@ let threatemulationquestions = [
       answer: "Simulate attacks",
       hint: "Recreates malicious behavior.",
       blank: "xxxxxxxx xxxxxxx",
-      review: "<https://www.checkpoint.com/threat-emulation/>",
+      review: "https://www.checkpoint.com/threat-emulation/",
     },
     {
       category: "Threat Emulation",
@@ -13,7 +13,7 @@ let threatemulationquestions = [
       answer: "Cobalt Strike",
       hint: "Popular for red teaming.",
       blank: "xxxxxx xxxxxx",
-      review: "<https://www.cobaltstrike.com/>",
+      review: "https://www.cobaltstrike.com/",
     },
     {
       category: "Threat Emulation",
@@ -21,7 +21,7 @@ let threatemulationquestions = [
       answer: "Test defenses",
       hint: "Simulates real-world attacks.",
       blank: "xxxx xxxxxxxxx",
-      review: "<https://www.redteamjournal.com/>",
+      review: "https://www.redteamjournal.com/",
     },
     {
       category: "Threat Emulation",
@@ -29,7 +29,7 @@ let threatemulationquestions = [
       answer: "Code obfuscation",
       hint: "Hides malicious intent.",
       blank: "xxxx xxxxxxxxxxx",
-      review: "<https://www.malwaretech.com/code-obfuscation/>",
+      review: "https://www.malwaretech.com/code-obfuscation/",
     },
     {
       category: "Threat Emulation",
@@ -37,7 +37,7 @@ let threatemulationquestions = [
       answer: "GoPhish",
       hint: "Focuses on email security.",
       blank: "xxxxxxx",
-      review: "<https://getgophish.com/>",
+      review: "https://getgophish.com/",
     },
     {
       category: "Threat Emulation",
@@ -45,7 +45,7 @@ let threatemulationquestions = [
       answer: "Lateral movement",
       hint: "Simulates internal spread.",
       blank: "xxxxxx xxxxxxxxx",
-      review: "<https://attack.mitre.org/tactics/TA0008/>",
+      review: "https://attack.mitre.org/tactics/TA0008/",
     },
     {
       category: "Threat Emulation",
@@ -53,7 +53,7 @@ let threatemulationquestions = [
       answer: "MITRE ATT&CK",
       hint: "Tactics, techniques, and procedures.",
       blank: "xxxxx xxxxxxx",
-      review: "<https://attack.mitre.org/>",
+      review: "https://attack.mitre.org/",
     },
     {
       category: "Threat Emulation",
@@ -61,7 +61,7 @@ let threatemulationquestions = [
       answer: "Malicious code",
       hint: "Executes during attacks.",
       blank: "xxxxxxxxx xxxx",
-      review: "<https://www.paloaltonetworks.com/cyberpedia/what-is-a-payload>",
+      review: "https://www.paloaltonetworks.com/cyberpedia/what-is-a-payload",
     },
     {
       category: "Threat Emulation",
@@ -69,7 +69,7 @@ let threatemulationquestions = [
       answer: "Caldera",
       hint: "Automates adversary emulation.",
       blank: "xxxxxxxx",
-      review: "<https://caldera.mitre.org/>",
+      review: "https://caldera.mitre.org/",
     },
     {
       category: "Threat Emulation",
@@ -77,7 +77,7 @@ let threatemulationquestions = [
       answer: "Inform scenarios",
       hint: "Uses real-world data.",
       blank: "xxxxx xxxxxxxx",
-      review: "<https://www.recordedfuture.com/threat-intelligence>",
+      review: "https://www.recordedfuture.com/threat-intelligence",
     },
     {
       category: "Threat Emulation",
@@ -85,7 +85,7 @@ let threatemulationquestions = [
       answer: "Focus on realism",
       hint: "Red teaming is more adversarial.",
       blank: "xxxxx xx xxxxxxx",
-      review: "<https://www.csoonline.com/article/3333497/red-teaming.html>",
+      review: "https://www.csoonline.com/article/3333497/red-teaming.html",
     },
     {
       category: "Threat Emulation",
@@ -93,7 +93,7 @@ let threatemulationquestions = [
       answer: "Isolated environment",
       hint: "Executes malware safely.",
       blank: "xxxxxxxx xxxxxxxxxx",
-      review: "<https://www.sans.org/tools/sandbox-analysis/>",
+      review: "https://www.sans.org/tools/sandbox-analysis/",
     },
     {
       category: "Threat Emulation",
@@ -101,7 +101,7 @@ let threatemulationquestions = [
       answer: "Atomic Red Team",
       hint: "Open-source testing framework.",
       blank: "xxxxxx xxx xxxx",
-      review: "<https://atomicredteam.io/>",
+      review: "https://atomicredteam.io/",
     },
     {
       category: "Threat Emulation",
@@ -109,7 +109,7 @@ let threatemulationquestions = [
       answer: "Using PowerShell",
       hint: "Exploits existing tools.",
       blank: "xxxxx xxxxxxxxxxx",
-      review: "<https://attack.mitre.org/techniques/T1086/>",
+      review: "https://attack.mitre.org/techniques/T1086/",
     },
     {
       category: "Threat Emulation",
@@ -117,7 +117,7 @@ let threatemulationquestions = [
       answer: "PhishSim",
       hint: "Email simulation platform.",
       blank: "xxxxxxxx",
-      review: "<https://www.infosecinstitute.com/solutions/phishsim/>",
+      review: "https://www.infosecinstitute.com/solutions/phishsim/",
     },
     {
       category: "Threat Emulation",
@@ -125,7 +125,7 @@ let threatemulationquestions = [
       answer: "Collaborative testing",
       hint: "Combines red and blue teams.",
       blank: "xxxxxxxxxxxxx xxxxxxx",
-      review: "<https://www.redteamjournal.com/purple-teaming>",
+      review: "https://www.redteamjournal.com/purple-teaming",
     },
     {
       category: "Threat Emulation",
@@ -133,7 +133,7 @@ let threatemulationquestions = [
       answer: "Python",
       hint: "Widely used for automation.",
       blank: "xxxxxx",
-      review: "<https://www.python.org/>",
+      review: "https://www.python.org/",
     },
     {
       category: "Threat Emulation",
@@ -141,7 +141,7 @@ let threatemulationquestions = [
       answer: "Analyze behavior",
       hint: "Understand malicious actions.",
       blank: "xxxxxx xxxxxxxx",
-      review: "<https://www.malware-analyst.com/>",
+      review: "https://www.malware-analyst.com/",
     },
     {
       category: "Threat Emulation",
@@ -149,7 +149,7 @@ let threatemulationquestions = [
       answer: "Metasploit",
       hint: "Penetration testing framework.",
       blank: "xxxxxxxxxxx",
-      review: "<https://www.metasploit.com/>",
+      review: "https://www.metasploit.com/",
     },
     {
       category: "Threat Emulation",
@@ -157,7 +157,7 @@ let threatemulationquestions = [
       answer: "Tactics, Techniques, and Procedures",
       hint: "Adversary behavior patterns.",
       blank: "xxxxxxx, xxxxxxxxx, xxx xxxxxxxxxx",
-      review: "<https://attack.mitre.org/>",
+      review: "https://attack.mitre.org/",
     },
     {
       category: "Threat Emulation",
@@ -165,7 +165,7 @@ let threatemulationquestions = [
       answer: "Defend",
       hint: "Focuses on detection and response.",
       blank: "xxxxxx",
-      review: "<https://www.sans.org/blue-team-training/>",
+      review: "https://www.sans.org/blue-team-training/",
     },
     {
       category: "Threat Emulation",
@@ -173,7 +173,7 @@ let threatemulationquestions = [
       answer: "Command and control",
       hint: "Maintains communication with the attacker.",
       blank: "xxxxxxx xxx xxxxxxx",
-      review: "<https://www.cobaltstrike.com/help-beacon>",
+      review: "https://www.cobaltstrike.com/help-beacon",
     },
     {
       category: "Threat Emulation",
@@ -181,7 +181,7 @@ let threatemulationquestions = [
       answer: "Creates malicious code",
       hint: "Used for crafting attacks.",
       blank: "xxxxxx xxxxxxxxx xxxx",
-      review: "<https://www.offensive-security.com/metasploit-unleashed/payload-generation/>",
+      review: "https://www.offensive-security.com/metasploit-unleashed/payload-generation/",
     },
     {
       category: "Threat Emulation",
@@ -189,7 +189,7 @@ let threatemulationquestions = [
       answer: "Code encryption",
       hint: "Prevents detection.",
       blank: "xxxx xxxxxxxxxx",
-      review: "<https://www.fireeye.com/evasion-techniques>",
+      review: "https://www.fireeye.com/evasion-techniques",
     },
     {
       category: "Threat Emulation",
@@ -197,7 +197,7 @@ let threatemulationquestions = [
       answer: "Password cracking",
       hint: "Attempts all possible combinations.",
       blank: "xxxxxxxx xxxxxxxx",
-      review: "<https://www.tutorialspoint.com/cyber-security-brute-force-attacks>",
+      review: "https://www.tutorialspoint.com/cyber-security-brute-force-attacks",
     },
     {
       category: "Threat Emulation",
@@ -205,7 +205,7 @@ let threatemulationquestions = [
       answer: "Avoid detection",
       hint: "Hides malicious behavior.",
       blank: "xxxx xxxxxxxxxx",
-      review: "<https://www.kaspersky.com/resource-center/threats/code-obfuscation>",
+      review: "https://www.kaspersky.com/resource-center/threats/code-obfuscation",
     },
     {
       category: "Threat Emulation",
@@ -213,7 +213,7 @@ let threatemulationquestions = [
       answer: "Data encryption tests",
       hint: "Locks files to demand ransom.",
       blank: "xxxx xxxxxxxxxx xxxxx",
-      review: "<https://www.trendmicro.com/ransomware-simulation>",
+      review: "https://www.trendmicro.com/ransomware-simulation",
     },
     {
       category: "Threat Emulation",
@@ -221,7 +221,7 @@ let threatemulationquestions = [
       answer: "Automate testing",
       hint: "Simulates various attacks.",
       blank: "xxxxxxx xxxxxxx",
-      review: "<https://www.attackiq.com/breach-and-attack-simulation/>",
+      review: "https://www.attackiq.com/breach-and-attack-simulation/",
     },
   ];
   

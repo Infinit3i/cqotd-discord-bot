@@ -5,7 +5,7 @@ let flarevmquestions = [
     answer: "Malware analysis",
     hint: "Designed for analyzing malicious software.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://github.com/mandiant/flare-vm>",
+    review: "https://github.com/mandiant/flare-vm",
   },
   {
     category: "FLARE VM",
@@ -13,7 +13,7 @@ let flarevmquestions = [
     answer: "Ghidra",
     hint: "A reverse engineering tool.",
     blank: "xxxxxx",
-    review: "<https://ghidra-sre.org/>",
+    review: "https://ghidra-sre.org/",
   },
   {
     category: "FLARE VM",
@@ -21,7 +21,7 @@ let flarevmquestions = [
     answer: "Chocolatey",
     hint: "Windows package manager.",
     blank: "xxxxxxxxxx",
-    review: "<https://chocolatey.org/>",
+    review: "https://chocolatey.org/",
   },
   {
     category: "FLARE VM",
@@ -29,7 +29,7 @@ let flarevmquestions = [
     answer: "x64dbg",
     hint: "A popular debugger.",
     blank: "xxxxxx",
-    review: "<https://x64dbg.com/#start>",
+    review: "https://x64dbg.com/#start",
   },
   {
     category: "FLARE VM",
@@ -38,7 +38,7 @@ let flarevmquestions = [
     answer: "Wireshark",
     hint: "Packet analysis tool.",
     blank: "xxxxxxxxx",
-    review: "<https://www.wireshark.org/>",
+    review: "https://www.wireshark.org/",
   },
   {
     category: "FLARE VM",
@@ -47,7 +47,7 @@ let flarevmquestions = [
     answer: "Python",
     hint: "A versatile programming language.",
     blank: "xxxxxx",
-    review: "<https://www.python.org/>",
+    review: "https://www.python.org/",
   },
   {
     category: "FLARE VM",
@@ -55,7 +55,7 @@ let flarevmquestions = [
     answer: "oletools",
     hint: "Focuses on OLE files.",
     blank: "xxxxxxxx",
-    review: "<https://github.com/decalage2/oletools>",
+    review: "https://github.com/decalage2/oletools",
   },
   {
     category: "FLARE VM",
@@ -63,7 +63,7 @@ let flarevmquestions = [
     answer: "PEStudio",
     hint: "Static malware analysis tool.",
     blank: "xxxxxxxxx",
-    review: "<https://www.winitor.com/>",
+    review: "https://www.winitor.com/",
   },
   {
     category: "FLARE VM",
@@ -71,7 +71,7 @@ let flarevmquestions = [
     answer: "IDA Free",
     hint: "Interactive disassembler.",
     blank: "xxx xxxx",
-    review: "<https://hex-rays.com/ida-free/>",
+    review: "https://hex-rays.com/ida-free/",
   },
   {
     category: "FLARE VM",
@@ -79,7 +79,7 @@ let flarevmquestions = [
     answer: "JD-GUI",
     hint: "Java decompiler.",
     blank: "xx-xxx",
-    review: "<https://java-decompiler.github.io/>",
+    review: "https://java-decompiler.github.io/",
   },
   {
     category: "FLARE VM",
@@ -87,7 +87,7 @@ let flarevmquestions = [
     answer: "PDF Stream Dumper",
     hint: "Focuses on PDF structure.",
     blank: "xxx xxxxxx xxxxxx",
-    review: "<https://pdfstreamdumper.com/>",
+    review: "https://pdfstreamdumper.com/",
   },
   {
     category: "FLARE VM",
@@ -95,7 +95,7 @@ let flarevmquestions = [
     answer: "Extract obfuscated strings",
     hint: "Focuses on decoding strings in binaries.",
     blank: "xxxxxx xxxxxxxxxxx xxxxxxx",
-    review: "<https://github.com/fireeye/flare-floss>",
+    review: "https://github.com/fireeye/flare-floss",
   },
   {
     category: "FLARE VM",
@@ -103,7 +103,7 @@ let flarevmquestions = [
     answer: "dnSpy",
     hint: "Focuses on .NET assemblies.",
     blank: "xxxxx",
-    review: "<https://github.com/dnSpy/dnSpy>",
+    review: "https://github.com/dnSpy/dnSpy",
   },
   {
     category: "FLARE VM",
@@ -111,7 +111,7 @@ let flarevmquestions = [
     answer: "choco install",
     hint: "Chocolatey uses this.",
     blank: "xxxxx xxxxxxx",
-    review: "<https://chocolatey.org/docs/commands-install>",
+    review: "https://chocolatey.org/docs/commands-install",
   },
   {
     category: "FLARE VM",
@@ -119,7 +119,7 @@ let flarevmquestions = [
     answer: "scdbg",
     hint: "A debugger for shellcode.",
     blank: "xxxxx",
-    review: "<http://sandsprite.com/Code/scdbg.html>",
+    review: "http://sandsprite.com/Code/scdbg.html",
   },
   {
     category: "FLARE VM",
@@ -127,7 +127,7 @@ let flarevmquestions = [
     answer: "ViperMonkey",
     hint: "Focuses on VBA macros.",
     blank: "xxxxxxxxxxx",
-    review: "<https://github.com/decalage2/ViperMonkey>",
+    review: "https://github.com/decalage2/ViperMonkey",
   },
   {
     category: "FLARE VM",
@@ -135,7 +135,7 @@ let flarevmquestions = [
     answer: "FakeNet-NG",
     hint: "Simulates network services.",
     blank: "xxxxxxxxxx-xx",
-    review: "<https://github.com/fireeye/flare-fakenet-ng>",
+    review: "https://github.com/fireeye/flare-fakenet-ng",
   },
   {
     category: "FLARE VM",
@@ -143,7 +143,7 @@ let flarevmquestions = [
     answer: "OLETools",
     hint: "Focuses on OLE-based documents.",
     blank: "xxxxxxxx",
-    review: "<https://github.com/decalage2/oletools>",
+    review: "https://github.com/decalage2/oletools",
   },
   {
     category: "FLARE VM",
@@ -151,7 +151,7 @@ let flarevmquestions = [
     answer: "VirtualBox",
     hint: "An open-source virtualization platform.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.virtualbox.org/>",
+    review: "https://www.virtualbox.org/",
   },
   {
     category: "FLARE VM",
@@ -159,7 +159,7 @@ let flarevmquestions = [
     answer: "Wireshark",
     hint: "Packet sniffer.",
     blank: "xxxxxxxxx",
-    review: "<https://www.wireshark.org/>",
+    review: "https://www.wireshark.org/",
   },
   {
     category: "FLARE VM",
@@ -167,7 +167,7 @@ let flarevmquestions = [
     answer: "Binwalk",
     hint: "Analyzes firmware images.",
     blank: "xxxxxxx",
-    review: "<https://github.com/ReFirmLabs/binwalk>",
+    review: "https://github.com/ReFirmLabs/binwalk",
   },
   {
     category: "FLARE VM",
@@ -175,7 +175,7 @@ let flarevmquestions = [
     answer: "Memory forensics",
     hint: "Focuses on RAM analysis.",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<http://www.rekall-forensic.com/>",
+    review: "http://www.rekall-forensic.com/",
   },
   {
     category: "FLARE VM",
@@ -184,7 +184,7 @@ let flarevmquestions = [
     answer: "uncompyle6",
     hint: "Decompiles Python scripts.",
     blank: "xxxxxxxxxx",
-    review: "<https://github.com/rocky/python-uncompyle6>",
+    review: "https://github.com/rocky/python-uncompyle6",
   },
   {
     category: "FLARE VM",
@@ -192,7 +192,7 @@ let flarevmquestions = [
     answer: "Cuckoo",
     hint: "Focuses on dynamic analysis.",
     blank: "xxxxxx",
-    review: "<https://cuckoosandbox.org/>",
+    review: "https://cuckoosandbox.org/",
   },
   {
     category: "FLARE VM",
@@ -200,7 +200,7 @@ let flarevmquestions = [
     answer: "PowerShell",
     hint: "Windows scripting language.",
     blank: "xxxxxxxxxx",
-    review: "<https://learn.microsoft.com/en-us/powershell/>",
+    review: "https://learn.microsoft.com/en-us/powershell/",
   },
   {
     category: "FLARE VM",
@@ -208,7 +208,7 @@ let flarevmquestions = [
     answer: "PEView",
     hint: "Analyzes PE structures.",
     blank: "xxxxxx",
-    review: "<http://wjradburn.com/software/>",
+    review: "http://wjradburn.com/software/",
   },
   {
     category: "FLARE VM",
@@ -217,7 +217,7 @@ let flarevmquestions = [
     answer: "jsunpack-n",
     hint: "Unpacks JavaScript files.",
     blank: "xxxxxxxxxx",
-    review: "<https://github.com/urule99/jsunpack-n>",
+    review: "https://github.com/urule99/jsunpack-n",
   },
   {
     category: "FLARE VM",
@@ -225,7 +225,7 @@ let flarevmquestions = [
     answer: "PowerShell Unpacker",
     hint: "Handles PowerShell deobfuscation.",
     blank: "xxxxxxxxxx xxxxxxxx",
-    review: "<https://github.com/fireeye/flare-powershell-deobfuscator>",
+    review: "https://github.com/fireeye/flare-powershell-deobfuscator",
   },
   {
     category: "FLARE VM",
@@ -233,7 +233,7 @@ let flarevmquestions = [
     answer: "Frida",
     hint: "Dynamic instrumentation tool.",
     blank: "xxxxx",
-    review: "<https://frida.re/>",
+    review: "https://frida.re/",
   },
   {
     category: "FLARE VM",
@@ -241,7 +241,7 @@ let flarevmquestions = [
     answer: "Sysmon",
     hint: "Tracks system activity.",
     blank: "xxxxxx",
-    review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>",
+    review: "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
   },
 ];
 

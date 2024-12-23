@@ -5,7 +5,7 @@ let managementquestions = [
       answer: "Chief Information Security Officer",
       hint: "Responsible for cybersecurity strategy.",
       blank: "xxxxx xxxxxxxxxx xxxxxxxx xxxxxxx",
-      review: "<https://www.csoonline.com/article/2124551/what-is-a-ciso.html>",
+      review: "https://www.csoonline.com/article/2124551/what-is-a-ciso.html",
     },
     {
       category: "Cybersecurity Management",
@@ -13,7 +13,7 @@ let managementquestions = [
       answer: "NIST Cybersecurity Framework",
       hint: "Developed by the U.S. government.",
       blank: "xxxx xxxxxxxxxxxxx xxxxxxxxx",
-      review: "<https://www.nist.gov/cyberframework>",
+      review: "https://www.nist.gov/cyberframework",
     },
     {
       category: "Cybersecurity Management",
@@ -21,7 +21,7 @@ let managementquestions = [
       answer: "Protect organizational assets",
       hint: "Includes data, systems, and infrastructure.",
       blank: "xxxxxx xxxxxxxxxxxxxxx xxxxxx",
-      review: "<https://www.csoonline.com/article/2124552/what-is-cybersecurity.html>",
+      review: "https://www.csoonline.com/article/2124552/what-is-cybersecurity.html",
     },
     {
       category: "Cybersecurity Management",
@@ -29,7 +29,7 @@ let managementquestions = [
       answer: "Governance, Risk, and Compliance",
       hint: "Key areas for managing security.",
       blank: "xxxxxxxxxx, xxxx, xxx xxxxxxxxxx",
-      review: "<https://www.techtarget.com/searchsecurity/definition/GRC-governance-risk-and-compliance>",
+      review: "https://www.techtarget.com/searchsecurity/definition/GRC-governance-risk-and-compliance",
     },
     {
       category: "Cybersecurity Management",
@@ -37,7 +37,7 @@ let managementquestions = [
       answer: "Define security rules",
       hint: "Guides organizational behavior.",
       blank: "xxxxx xxxxxxxxx xxxxx",
-      review: "<https://www.sans.org/security-policy/>",
+      review: "https://www.sans.org/security-policy/",
     },
     {
       category: "Cybersecurity Management",
@@ -45,7 +45,7 @@ let managementquestions = [
       answer: "Service Level Agreement",
       hint: "Defines service expectations.",
       blank: "xxxxxx xxxxx xxxxxxxxx",
-      review: "<https://www.cio.com/article/2438286/service-level-agreement-sla-definition-and-solutions.html>",
+      review: "https://www.cio.com/article/2438286/service-level-agreement-sla-definition-and-solutions.html",
     },
     {
       category: "Cybersecurity Management",
@@ -53,7 +53,7 @@ let managementquestions = [
       answer: "Identify risks",
       hint: "Understanding potential threats.",
       blank: "xxxxxxxx xxxxx",
-      review: "<https://www.cisa.gov/risk-management>",
+      review: "https://www.cisa.gov/risk-management",
     },
     {
       category: "Cybersecurity Management",
@@ -61,7 +61,7 @@ let managementquestions = [
       answer: "Security Operations Center",
       hint: "Monitors and manages security incidents.",
       blank: "xxxxxxxx xxxxxxxxxx xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/security-operations-center.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/security-operations-center.html",
     },
     {
       category: "Cybersecurity Management",
@@ -69,7 +69,7 @@ let managementquestions = [
       answer: "Contain and mitigate threats",
       hint: "Focuses on minimizing impact.",
       blank: "xxxxxx xxx xxxxxxxx xxxxxxx",
-      review: "<https://www.sans.org/incident-response/>",
+      review: "https://www.sans.org/incident-response/",
     },
     {
       category: "Cybersecurity Management",
@@ -77,7 +77,7 @@ let managementquestions = [
       answer: "Business Continuity Plan",
       hint: "Ensures operations during disruptions.",
       blank: "xxxxxxx xxxxxxxxxx xxxxx",
-      review: "<https://www.techtarget.com/searchdisasterrecovery/definition/business-continuity-plan>",
+      review: "https://www.techtarget.com/searchdisasterrecovery/definition/business-continuity-plan",
     },
     {
       category: "Cybersecurity Management",
@@ -85,7 +85,7 @@ let managementquestions = [
       answer: "Track activities",
       hint: "Helps in accountability and forensic analysis.",
       blank: "xxxxx xxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/audit-logs.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/audit-logs.html",
     },
     {
       category: "Cybersecurity Management",
@@ -93,7 +93,7 @@ let managementquestions = [
       answer: "Identify and fix weaknesses",
       hint: "Regular scans are key.",
       blank: "xxxxxxxxx xxx xxxx xxxxxxxxx",
-      review: "<https://www.cisa.gov/vulnerability-management>",
+      review: "https://www.cisa.gov/vulnerability-management",
     },
     {
       category: "Cybersecurity Management",
@@ -101,7 +101,7 @@ let managementquestions = [
       answer: "Identity and Access Management",
       hint: "Manages who has access to what.",
       blank: "xxxxxxxx xxx xxxxxx xxxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/identity-access-management.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/identity-access-management.html",
     },
     {
       category: "Cybersecurity Management",
@@ -109,7 +109,7 @@ let managementquestions = [
       answer: "Restrict unauthorized access",
       hint: "Ensures only the right people access resources.",
       blank: "xxxxxxx xxxxxxxxxxxxxx xxxxxx",
-      review: "<https://www.techtarget.com/searchsecurity/definition/access-control-policy>",
+      review: "https://www.techtarget.com/searchsecurity/definition/access-control-policy",
     },
     {
       category: "Cybersecurity Management",
@@ -117,7 +117,7 @@ let managementquestions = [
       answer: "Email-based deception",
       hint: "Tricks users into providing sensitive information.",
       blank: "xxxxx-xxxxx xxxxxxxxx",
-      review: "<https://www.cisa.gov/phishing-awareness>",
+      review: "https://www.cisa.gov/phishing-awareness",
     },
     {
       category: "Cybersecurity Management",
@@ -125,7 +125,7 @@ let managementquestions = [
       answer: "Disaster Recovery Plan",
       hint: "Focuses on restoring systems post-incident.",
       blank: "xxxxxxxx xxxxxxxxxx xxxx",
-      review: "<https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery-plan>",
+      review: "https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery-plan",
     },
     {
       category: "Cybersecurity Management",
@@ -133,7 +133,7 @@ let managementquestions = [
       answer: "Secure devices",
       hint: "Protects laptops, servers, and other endpoints.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/endpoint-security.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/endpoint-security.html",
     },
     {
       category: "Cybersecurity Management",
@@ -141,7 +141,7 @@ let managementquestions = [
       answer: "Educate users",
       hint: "Reduces risks of human error.",
       blank: "xxxxxxx xxxxx",
-      review: "<https://www.sans.org/cybersecurity-training/>",
+      review: "https://www.sans.org/cybersecurity-training/",
     },
     {
       category: "Cybersecurity Management",
@@ -149,7 +149,7 @@ let managementquestions = [
       answer: "Recovery Time Objective",
       hint: "Time to restore operations.",
       blank: "xxxxxxxx xxxx xxxxxxxxx",
-      review: "<https://www.techtarget.com/searchdisasterrecovery/definition/recovery-time-objective>",
+      review: "https://www.techtarget.com/searchdisasterrecovery/definition/recovery-time-objective",
     },
     {
       category: "Cybersecurity Management",
@@ -157,7 +157,7 @@ let managementquestions = [
       answer: "Identify vulnerabilities",
       hint: "Simulates real-world attacks.",
       blank: "xxxxxxxx xxxxxxxxxxxxx",
-      review: "<https://www.crowdstrike.com/cybersecurity-101/penetration-testing/>",
+      review: "https://www.crowdstrike.com/cybersecurity-101/penetration-testing/",
     },
     {
       category: "Cybersecurity Management",
@@ -165,7 +165,7 @@ let managementquestions = [
       answer: "Security Information and Event Management",
       hint: "Centralized log analysis.",
       blank: "xxxxxxxx xxxxxxxxxxxx xxx xxxxx xxxxxxxxx",
-      review: "<https://www.splunk.com/en_us/solutions/siem.html>",
+      review: "https://www.splunk.com/en_us/solutions/siem.html",
     },
     {
       category: "Cybersecurity Management",
@@ -173,7 +173,7 @@ let managementquestions = [
       answer: "Document risks",
       hint: "Tracks and prioritizes risks.",
       blank: "xxxxxxxx xxxxx",
-      review: "<https://www.cio.com/article/213168/what-is-a-risk-register.html>",
+      review: "https://www.cio.com/article/213168/what-is-a-risk-register.html",
     },
     {
       category: "Cybersecurity Management",
@@ -181,7 +181,7 @@ let managementquestions = [
       answer: "Data security",
       hint: "Auditing for trust service criteria.",
       blank: "xxxx xxxxxxx",
-      review: "<https://www.aicpa.org/soc-2>",
+      review: "https://www.aicpa.org/soc-2",
     },
     {
       category: "Cybersecurity Management",
@@ -189,7 +189,7 @@ let managementquestions = [
       answer: "Never trust, always verify",
       hint: "Limits implicit trust.",
       blank: "xxxxx xxxxxx, xxxxxx xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/solutions/security/zero-trust.html>",
+      review: "https://www.cisco.com/c/en/us/solutions/security/zero-trust.html",
     },
     {
       category: "Cybersecurity Management",
@@ -197,7 +197,7 @@ let managementquestions = [
       answer: "Information security management standards",
       hint: "Global security standard.",
       blank: "xxxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxx",
-      review: "<https://www.iso.org/isoiec-27001-information-security.html>",
+      review: "https://www.iso.org/isoiec-27001-information-security.html",
     },
     {
       category: "Cybersecurity Management",
@@ -205,7 +205,7 @@ let managementquestions = [
       answer: "Preparation",
       hint: "Readiness for incidents.",
       blank: "xxxxxxxxxxx",
-      review: "<https://www.sans.org/incident-response/preparation/>",
+      review: "https://www.sans.org/incident-response/preparation/",
     },
     {
       category: "Cybersecurity Management",
@@ -213,7 +213,7 @@ let managementquestions = [
       answer: "Detect threats",
       hint: "Analyzes system activities.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://www.splunk.com/en_us/resources/what-is-log-monitoring.html>",
+      review: "https://www.splunk.com/en_us/resources/what-is-log-monitoring.html",
     },
     {
       category: "Cybersecurity Management",
@@ -221,7 +221,7 @@ let managementquestions = [
       answer: "Confidentiality, Integrity, Availability",
       hint: "Core principles of cybersecurity.",
       blank: "xxxxxxxxxxxxxxx, xxxxxxxxx, xxxxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html",
     },
   ];
   

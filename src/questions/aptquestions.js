@@ -5,7 +5,7 @@ let aptquestions = [
       answer: "APT38",
       hint: "Focuses on financial theft.",
       blank: "xxxx",
-      review: "<https://www.mandiant.com/resources/lazarus-group>",
+      review: "https://www.mandiant.com/resources/lazarus-group",
     },
     {
       category: "APTs",
@@ -13,7 +13,7 @@ let aptquestions = [
       answer: "Sandworm",
       hint: "Linked to attacks on Ukraine's power grid.",
       blank: "xxxxxxxx",
-      review: "<https://www.wired.com/story/sandworm-russia-cyberwar-unit-74455/>",
+      review: "https://www.wired.com/story/sandworm-russia-cyberwar-unit-74455/",
     },
     {
       category: "APTs",
@@ -21,7 +21,7 @@ let aptquestions = [
       answer: "WellMess",
       hint: "Targets healthcare and research sectors.",
       blank: "xxxxxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt29.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt29.html",
     },
     {
       category: "APTs",
@@ -29,7 +29,7 @@ let aptquestions = [
       answer: "APT41",
       hint: "Also known as Winnti Group.",
       blank: "xxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt41.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt41.html",
     },
     {
       category: "APTs",
@@ -37,7 +37,7 @@ let aptquestions = [
       answer: "Sandworm",
       hint: "A Russian group targeting global industries.",
       blank: "xxxxxxxx",
-      review: "<https://www.wired.com/story/notpetya-cyberattack/>",
+      review: "https://www.wired.com/story/notpetya-cyberattack/",
     },
     {
       category: "APTs",
@@ -45,7 +45,7 @@ let aptquestions = [
       answer: "APT38",
       hint: "Focuses on financial systems.",
       blank: "xxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt38.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt38.html",
     },
     {
       category: "APTs",
@@ -53,7 +53,7 @@ let aptquestions = [
       answer: "APT10",
       hint: "Also known as Stone Panda.",
       blank: "xxxxx",
-      review: "<https://www.cisa.gov/news/solarwinds-supply-chain-attack>",
+      review: "https://www.cisa.gov/news/solarwinds-supply-chain-attack",
     },
     {
       category: "APTs",
@@ -61,7 +61,7 @@ let aptquestions = [
       answer: "X-Agent",
       hint: "Used for espionage and cyberattacks.",
       blank: "xxxxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt28.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt28.html",
     },
     {
       category: "APTs",
@@ -69,7 +69,7 @@ let aptquestions = [
       answer: "APT37",
       hint: "A North Korean group targeting telecommunications.",
       blank: "xxxxx",
-      review: "<https://www.mandiant.com/resources/apt37>",
+      review: "https://www.mandiant.com/resources/apt37",
     },
     {
       category: "APTs",
@@ -77,7 +77,7 @@ let aptquestions = [
       answer: "APT27",
       hint: "Targets defense contractors.",
       blank: "xxxxx",
-      review: "<https://unit42.paloaltonetworks.com/plugx-malware-analysis/>",
+      review: "https://unit42.paloaltonetworks.com/plugx-malware-analysis/",
     },
     {
       category: "APTs",
@@ -85,7 +85,7 @@ let aptquestions = [
       answer: "Snake",
       hint: "Also known as Uroburos.",
       blank: "xxxxx",
-      review: "<https://www.kaspersky.com/resource-center/threats/turla-group>",
+      review: "https://www.kaspersky.com/resource-center/threats/turla-group",
     },
     {
       category: "APTs",
@@ -93,7 +93,7 @@ let aptquestions = [
       answer: "APT17",
       hint: "A Chinese group targeting intellectual property.",
       blank: "xxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt17.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt17.html",
     },
     {
       category: "APTs",
@@ -101,7 +101,7 @@ let aptquestions = [
       answer: "APT37",
       hint: "Focuses on South Korean targets.",
       blank: "xxxxx",
-      review: "<https://securelist.com/konnis-unusual-activity/87991/>",
+      review: "https://securelist.com/konnis-unusual-activity/87991/",
     },
     {
       category: "APTs",
@@ -109,7 +109,7 @@ let aptquestions = [
       answer: "Ladon",
       hint: "Targets maritime and aerospace sectors.",
       blank: "xxxxx",
-      review: "<https://unit42.paloaltonetworks.com/leviathan-apt-group/>",
+      review: "https://unit42.paloaltonetworks.com/leviathan-apt-group/",
     },
     {
       category: "APTs",
@@ -117,7 +117,7 @@ let aptquestions = [
       answer: "Pteranodon",
       hint: "Focuses on Ukrainian entities.",
       blank: "xxxxxxxxx",
-      review: "<https://www.recordedfuture.com/gamaredon-group-analysis>",
+      review: "https://www.recordedfuture.com/gamaredon-group-analysis",
     },
     {
       category: "APTs",
@@ -125,7 +125,7 @@ let aptquestions = [
       answer: "APT41",
       hint: "Targets supply chain networks.",
       blank: "xxxxx",
-      review: "<https://securelist.com/shadowpad-in-corporate-networks/81732/>",
+      review: "https://securelist.com/shadowpad-in-corporate-networks/81732/",
     },
     {
       category: "APTs",
@@ -133,7 +133,7 @@ let aptquestions = [
       answer: "Sandworm",
       hint: "Targeted the 2018 Winter Olympics.",
       blank: "xxxxxxxx",
-      review: "<https://www.kaspersky.com/resource-center/threats/olympic-destroyer>",
+      review: "https://www.kaspersky.com/resource-center/threats/olympic-destroyer",
     },
     {
       category: "APTs",
@@ -141,7 +141,7 @@ let aptquestions = [
       answer: "Lazarus Group",
       hint: "Focuses on network exploitation.",
       blank: "xxxxxxxx xxxxx",
-      review: "<https://www.sans.org/white-papers/brambul-malware-analysis/>",
+      review: "https://www.sans.org/white-papers/brambul-malware-analysis/",
     },
     {
       category: "APTs",
@@ -149,7 +149,7 @@ let aptquestions = [
       answer: "Sunburst",
       hint: "Part of the SolarWinds attack.",
       blank: "xxxxxxxx",
-      review: "<https://www.microsoft.com/security/blog/2020/12/13/nobelium-apt>",
+      review: "https://www.microsoft.com/security/blog/2020/12/13/nobelium-apt",
     },
     {
       category: "APTs",
@@ -157,7 +157,7 @@ let aptquestions = [
       answer: "APT33",
       hint: "An Iranian group targeting energy sectors.",
       blank: "xxxxx",
-      review: "<https://www.secureworks.com/research/apt33>",
+      review: "https://www.secureworks.com/research/apt33",
     },
     {
       category: "APTs",
@@ -165,7 +165,7 @@ let aptquestions = [
       answer: "APT10",
       hint: "Targets Japanese industries.",
       blank: "xxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt10.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt10.html",
     },
     {
       category: "APTs",
@@ -173,7 +173,7 @@ let aptquestions = [
       answer: "Sandworm",
       hint: "Known for destructive attacks.",
       blank: "xxxxxxxx",
-      review: "<https://securelist.com/killdisk-analysis/76510/>",
+      review: "https://securelist.com/killdisk-analysis/76510/",
     },
     {
       category: "APTs",
@@ -181,7 +181,7 @@ let aptquestions = [
       answer: "SWIFT",
       hint: "Targets banking systems.",
       blank: "xxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/lazarus.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/lazarus.html",
     },
     {
       category: "APTs",
@@ -189,7 +189,7 @@ let aptquestions = [
       answer: "Energy sector espionage",
       hint: "Targets industrial control systems.",
       blank: "xxxxxx xxxxx xxxxxxxxxx",
-      review: "<https://www.symantec.com/blogs/energetic-bear-analysis>",
+      review: "https://www.symantec.com/blogs/energetic-bear-analysis",
     },
     {
       category: "APTs",
@@ -197,7 +197,7 @@ let aptquestions = [
       answer: "APT15",
       hint: "Also known as Ke3chang.",
       blank: "xxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt15.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt15.html",
     },
     {
       category: "APTs",
@@ -205,7 +205,7 @@ let aptquestions = [
       answer: "Sandworm",
       hint: "Targets Ukrainian organizations.",
       blank: "xxxxxxxx",
-      review: "<https://www.microsoft.com/security/blog/2022/01/15/whispergate>",
+      review: "https://www.microsoft.com/security/blog/2022/01/15/whispergate",
     },
     {
       category: "APTs",
@@ -213,7 +213,7 @@ let aptquestions = [
       answer: "APT36",
       hint: "Targets Indian defense and government entities.",
       blank: "xxxxx",
-      review: "<https://www.unit42.paloaltonetworks.com/crimson-rat-analysis>",
+      review: "https://www.unit42.paloaltonetworks.com/crimson-rat-analysis",
     },
     {
       category: "APTs",
@@ -221,7 +221,7 @@ let aptquestions = [
       answer: "APT28",
       hint: "Also known as Fancy Bear.",
       blank: "xxxxx",
-      review: "<https://www.fireeye.com/current-threats/apt-groups/apt28.html>",
+      review: "https://www.fireeye.com/current-threats/apt-groups/apt28.html",
     },
     {
       category: "APTs",
@@ -229,7 +229,7 @@ let aptquestions = [
       answer: "Lazarus Group",
       hint: "Targets critical infrastructure.",
       blank: "xxxxxxxx xxxxx",
-      review: "<https://securelist.com/manuscrypt-analysis/91510/>",
+      review: "https://securelist.com/manuscrypt-analysis/91510/",
     },
   ];
   

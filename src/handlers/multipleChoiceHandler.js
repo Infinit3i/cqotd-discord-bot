@@ -134,9 +134,34 @@ async function handleButtonInteraction(client, interaction) {
         { upsert: true, new: true }
       );
 
+      const isValidUrl = (url) => {
+        try {
+          new URL(url);
+          return true;
+        } catch {
+          return false;
+        }
+      };
+      
+      const reviewUrl = isValidUrl(currentQuestion.review)
+        ? currentQuestion.review
+        : "https://example.com";
+      
       await interaction.update({
-        content: `✅ **Correct!**\n${currentQuestion.question}\nThe answer was: **${currentQuestion.answer}**\n${currentQuestion.review}\n🎉 **Your score is now ${user.score}.**`,
-        components: [],
+        content: `✅ **Correct!**\n${currentQuestion.question}\nThe answer was: **${currentQuestion.answer}**\n🎉 **Your score is now ${user.score}.**`,
+        components: [
+          {
+            type: 1, // Action Row
+            components: [
+              {
+                type: 2, // Button
+                label: "Review Answer",
+                style: 5, // Link style
+                url: reviewUrl,
+              },
+            ],
+          },
+        ],
       });
 
       client.currentMultipleChoiceQuestion = null;

@@ -5,7 +5,7 @@ let gcfaquestions = [
     answer: "Prevent data modification",
     hint: "Ensures original evidence remains intact.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/forensic-write-blockers/>",
+    review: "https://www.sans.org/white-papers/forensic-write-blockers/",
   },
   {
     category: "GCFA",
@@ -13,7 +13,7 @@ let gcfaquestions = [
     answer: "Volatility",
     hint: "A Python-based framework.",
     blank: "xxxx",
-    review: "<https://www.volatilityfoundation.org/>",
+    review: "https://www.volatilityfoundation.org/",
   },
   {
     category: "GCFA",
@@ -21,7 +21,7 @@ let gcfaquestions = [
     answer: "Create an exact copy",
     hint: "Preserves evidence for analysis.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/disk-imaging/>",
+    review: "https://www.sans.org/white-papers/disk-imaging/",
   },
   {
     category: "GCFA",
@@ -30,7 +30,7 @@ let gcfaquestions = [
     answer: "Timestamps",
     hint: "Found in NTFS and other systems.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/file-system-timestamps/>",
+    review: "https://www.sans.org/white-papers/file-system-timestamps/",
   },
   {
     category: "GCFA",
@@ -39,7 +39,7 @@ let gcfaquestions = [
     answer: "lsof",
     hint: "Lists open files.",
     blank: "xxxx",
-    review: "<https://linux.die.net/man/8/lsof>",
+    review: "https://linux.die.net/man/8/lsof",
   },
   {
     category: "GCFA",
@@ -47,7 +47,7 @@ let gcfaquestions = [
     answer: "Ensure data integrity",
     hint: "Used to verify evidence remains unaltered.",
     blank: "xxxx",
-    review: "<https://www.sans.org/tools/hash-values-in-forensics/>",
+    review: "https://www.sans.org/tools/hash-values-in-forensics/",
   },
   {
     category: "GCFA",
@@ -56,7 +56,7 @@ let gcfaquestions = [
     hint: "Built into Windows systems.",
     blank: "xxxx",
     review:
-      "<https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/event-viewer>",
+      "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/event-viewer",
   },
   {
     category: "GCFA",
@@ -64,7 +64,7 @@ let gcfaquestions = [
     answer: "Master File Table",
     hint: "Tracks all files in the file system.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/mft-analysis/>",
+    review: "https://www.sans.org/white-papers/mft-analysis/",
   },
   {
     category: "GCFA",
@@ -73,7 +73,7 @@ let gcfaquestions = [
     answer: "/var/log/auth.log",
     hint: "Tracks authentication attempts.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/linux-log-analysis/>",
+    review: "https://www.sans.org/white-papers/linux-log-analysis/",
   },
   {
     category: "GCFA",
@@ -82,7 +82,7 @@ let gcfaquestions = [
     answer: "Reconstruct events",
     hint: "Helps understand sequence of actions.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/timeline-analysis/>",
+    review: "https://www.sans.org/white-papers/timeline-analysis/",
   },
   {
     category: "GCFA",
@@ -91,7 +91,7 @@ let gcfaquestions = [
     answer: "HTTP",
     hint: "Used for web traffic.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/network-forensics/>",
+    review: "https://www.sans.org/white-papers/network-forensics/",
   },
   {
     category: "GCFA",
@@ -100,7 +100,7 @@ let gcfaquestions = [
     answer: "Rootkit",
     hint: "Operates at a low level.",
     blank: "xxxx",
-    review: "<https://www.sans.org/cyber-security-skills/rootkits/>",
+    review: "https://www.sans.org/cyber-security-skills/rootkits/",
   },
   {
     category: "GCFA",
@@ -108,7 +108,7 @@ let gcfaquestions = [
     answer: "File carving",
     hint: "Analyzes raw data blocks.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/file-carving/>",
+    review: "https://www.sans.org/white-papers/file-carving/",
   },
   {
     category: "GCFA",
@@ -117,7 +117,7 @@ let gcfaquestions = [
     answer: "Wireshark",
     hint: "Open-source packet analyzer.",
     blank: "xxxx",
-    review: "<https://www.wireshark.org/>",
+    review: "https://www.wireshark.org/",
   },
   {
     category: "GCFA",
@@ -126,7 +126,7 @@ let gcfaquestions = [
     answer: "Maintain evidence integrity",
     hint: "Tracks who handled the evidence.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/chain-of-custody/>",
+    review: "https://www.sans.org/white-papers/chain-of-custody/",
   },
   {
     category: "GCFA",
@@ -134,7 +134,7 @@ let gcfaquestions = [
     answer: "NTFS",
     hint: "Supports large files and metadata.",
     blank: "xxxx",
-    review: "<https://www.sans.org/cyber-security-skills/ntfs/>",
+    review: "https://www.sans.org/cyber-security-skills/ntfs/",
   },
   {
     category: "GCFA",
@@ -142,7 +142,7 @@ let gcfaquestions = [
     answer: "Capture data in RAM",
     hint: "Critical for live analysis.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/memory-forensics/>",
+    review: "https://www.sans.org/white-papers/memory-forensics/",
   },
   {
     category: "GCFA",
@@ -150,7 +150,7 @@ let gcfaquestions = [
     answer: "Digital evidence",
     hint: "Anything stored electronically.",
     blank: "xxxx",
-    review: "<https://www.sans.org/tools/digital-evidence/>",
+    review: "https://www.sans.org/tools/digital-evidence/",
   },
   {
     category: "GCFA",
@@ -159,7 +159,7 @@ let gcfaquestions = [
     answer: "Traffic analysis",
     hint: "Looks at data flow.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/traffic-analysis/>",
+    review: "https://www.sans.org/white-papers/traffic-analysis/",
   },
   {
     category: "GCFA",
@@ -168,7 +168,7 @@ let gcfaquestions = [
     hint: "Manages partitions and volumes.",
     blank: "xxxx",
     review:
-      "<https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/disk-management>",
+      "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/disk-management",
   },
   {
     category: "GCFA",
@@ -176,7 +176,7 @@ let gcfaquestions = [
     answer: "Prevent data modification",
     hint: "Ensures original evidence remains intact.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/forensic-write-blockers/>",
+    review: "https://www.sans.org/white-papers/forensic-write-blockers/",
   },
   {
     category: "GCFA",
@@ -184,7 +184,7 @@ let gcfaquestions = [
     answer: "Volatility",
     hint: "A Python-based framework.",
     blank: "xxxx",
-    review: "<https://www.volatilityfoundation.org/>",
+    review: "https://www.volatilityfoundation.org/",
   },
   {
     category: "GCFA",
@@ -192,7 +192,7 @@ let gcfaquestions = [
     answer: "Create an exact copy",
     hint: "Preserves evidence for analysis.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/disk-imaging/>",
+    review: "https://www.sans.org/white-papers/disk-imaging/",
   },
   {
     category: "GCFA",
@@ -201,7 +201,7 @@ let gcfaquestions = [
     answer: "Timestamps",
     hint: "Found in NTFS and other systems.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/file-system-timestamps/>",
+    review: "https://www.sans.org/white-papers/file-system-timestamps/",
   },
   {
     category: "GCFA",
@@ -210,7 +210,7 @@ let gcfaquestions = [
     answer: "lsof",
     hint: "Lists open files.",
     blank: "xxxx",
-    review: "<https://linux.die.net/man/8/lsof>",
+    review: "https://linux.die.net/man/8/lsof",
   },
   {
     category: "GCFA",
@@ -218,7 +218,7 @@ let gcfaquestions = [
     answer: "Ensure data integrity",
     hint: "Used to verify evidence remains unaltered.",
     blank: "xxxx",
-    review: "<https://www.sans.org/tools/hash-values-in-forensics/>",
+    review: "https://www.sans.org/tools/hash-values-in-forensics/",
   },
   {
     category: "GCFA",
@@ -227,7 +227,7 @@ let gcfaquestions = [
     hint: "Built into Windows systems.",
     blank: "xxxx",
     review:
-      "<https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/event-viewer>",
+      "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/event-viewer",
   },
   {
     category: "GCFA",
@@ -235,7 +235,7 @@ let gcfaquestions = [
     answer: "Master File Table",
     hint: "Tracks all files in the file system.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/mft-analysis/>",
+    review: "https://www.sans.org/white-papers/mft-analysis/",
   },
   {
     category: "GCFA",
@@ -244,7 +244,7 @@ let gcfaquestions = [
     answer: "/var/log/auth.log",
     hint: "Tracks authentication attempts.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/linux-log-analysis/>",
+    review: "https://www.sans.org/white-papers/linux-log-analysis/",
   },
   {
     category: "GCFA",
@@ -253,7 +253,7 @@ let gcfaquestions = [
     answer: "Reconstruct events",
     hint: "Helps understand sequence of actions.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/timeline-analysis/>",
+    review: "https://www.sans.org/white-papers/timeline-analysis/",
   },
   {
     category: "GCFA",
@@ -262,7 +262,7 @@ let gcfaquestions = [
     answer: "HTTP",
     hint: "Used for web traffic.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/network-forensics/>",
+    review: "https://www.sans.org/white-papers/network-forensics/",
   },
   {
     category: "GCFA",
@@ -270,7 +270,7 @@ let gcfaquestions = [
     answer: "Rootkit",
     hint: "Operates at a low level.",
     blank: "xxxx",
-    review: "<https://www.sans.org/cyber-security-skills/rootkits/>",
+    review: "https://www.sans.org/cyber-security-skills/rootkits/",
   },
   {
     category: "GCFA",
@@ -278,7 +278,7 @@ let gcfaquestions = [
     answer: "File carving",
     hint: "Analyzes raw data blocks.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/file-carving/>",
+    review: "https://www.sans.org/white-papers/file-carving/",
   },
   {
     category: "GCFA",
@@ -287,7 +287,7 @@ let gcfaquestions = [
     answer: "Wireshark",
     hint: "Open-source packet analyzer.",
     blank: "xxxx",
-    review: "<https://www.wireshark.org/>",
+    review: "https://www.wireshark.org/",
   },
   {
     category: "GCFA",
@@ -295,7 +295,7 @@ let gcfaquestions = [
     answer: "Maintain evidence integrity",
     hint: "Tracks who handled the evidence.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/chain-of-custody/>",
+    review: "https://www.sans.org/white-papers/chain-of-custody/",
   },
   {
     category: "GCFA",
@@ -303,7 +303,7 @@ let gcfaquestions = [
     answer: "NTFS",
     hint: "Supports large files and metadata.",
     blank: "xxxx",
-    review: "<https://www.sans.org/cyber-security-skills/ntfs/>",
+    review: "https://www.sans.org/cyber-security-skills/ntfs/",
   },
   {
     category: "GCFA",
@@ -311,7 +311,7 @@ let gcfaquestions = [
     answer: "Capture data in RAM",
     hint: "Critical for live analysis.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/memory-forensics/>",
+    review: "https://www.sans.org/white-papers/memory-forensics/",
   },
   {
     category: "GCFA",
@@ -319,7 +319,7 @@ let gcfaquestions = [
     answer: "Digital evidence",
     hint: "Anything stored electronically.",
     blank: "xxxx",
-    review: "<https://www.sans.org/tools/digital-evidence/>",
+    review: "https://www.sans.org/tools/digital-evidence/",
   },
   {
     category: "GCFA",
@@ -328,7 +328,7 @@ let gcfaquestions = [
     answer: "Traffic analysis",
     hint: "Looks at data flow.",
     blank: "xxxx",
-    review: "<https://www.sans.org/white-papers/traffic-analysis/>",
+    review: "https://www.sans.org/white-papers/traffic-analysis/",
   },
   {
     category: "GCFA",
@@ -337,7 +337,7 @@ let gcfaquestions = [
     hint: "Manages partitions and volumes.",
     blank: "xxxx",
     review:
-      "<https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/disk-management>",
+      "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/disk-management",
   },
   {
     category: "GCFA",
@@ -346,7 +346,7 @@ let gcfaquestions = [
     answer: "Registry Editor",
     hint: "Access and modify Windows Registry.",
     blank: "xxxxxxxx xxxxx",
-    review: "<https://www.sans.org/white-papers/windows-registry-forensics/>",
+    review: "https://www.sans.org/white-papers/windows-registry-forensics/",
   },
   {
     category: "GCFA",
@@ -354,7 +354,7 @@ let gcfaquestions = [
     answer: "Security Event Log",
     hint: "Found in Event Viewer.",
     blank: "xxxxxxxx xxxx xxxx",
-    review: "<https://www.ultimatewindowssecurity.com/securitylog/>",
+    review: "https://www.ultimatewindowssecurity.com/securitylog/",
   },
   {
     category: "GCFA",
@@ -363,7 +363,7 @@ let gcfaquestions = [
     answer: "Bash History",
     hint: "Tracks user commands.",
     blank: "xxxx xxxxxxx",
-    review: "<https://linux.die.net/man/1/bash>",
+    review: "https://linux.die.net/man/1/bash",
   },
 ];
 

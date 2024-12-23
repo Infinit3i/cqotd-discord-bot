@@ -6,7 +6,7 @@ let firewallQuestions = [
     hint: "Controls access",
     blank: "xxxxxx xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html>",
+      "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html",
   },
   {
     category: "Firewall",
@@ -15,7 +15,7 @@ let firewallQuestions = [
     hint: "Predefined rules",
     blank: "xxxxxx xxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/firewall/packet-filtering-firewall/>",
+      "https://www.cloudflare.com/learning/firewall/packet-filtering-firewall/",
   },
   {
     category: "Firewall",
@@ -25,7 +25,7 @@ let firewallQuestions = [
     hint: "Tracks session state",
     blank: "xxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/stateful-firewalls.html>",
+      "https://www.cisco.com/c/en/us/products/security/stateful-firewalls.html",
   },
   {
     category: "Firewall",
@@ -34,7 +34,7 @@ let firewallQuestions = [
     answer: "Host firewall",
     hint: "Runs on devices",
     blank: "xxxx xxxxxxx",
-    review: "<https://www.avast.com/c-host-based-firewall>",
+    review: "https://www.avast.com/c-host-based-firewall",
   },
   {
     category: "Firewall",
@@ -44,7 +44,7 @@ let firewallQuestions = [
     hint: "Outer boundary",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.fortinet.com/resources/cyberglossary/perimeter-firewall>",
+      "https://www.fortinet.com/resources/cyberglossary/perimeter-firewall",
   },
   {
     category: "Firewall",
@@ -53,7 +53,7 @@ let firewallQuestions = [
     hint: "Signature-based",
     blank: "xxx/xxx",
     review:
-      "<https://www.cloudflare.com/learning/security/threat-detection/intrusion-detection-and-prevention/>",
+      "https://www.cloudflare.com/learning/security/threat-detection/intrusion-detection-and-prevention/",
   },
   {
     category: "Firewall",
@@ -63,7 +63,7 @@ let firewallQuestions = [
     hint: "Application layer",
     blank: "xxxxx x",
     review:
-      "<https://www.cloudflare.com/learning/ddos/glossary/application-layer-7/>",
+      "https://www.cloudflare.com/learning/ddos/glossary/application-layer-7/",
   },
   {
     category: "Firewall",
@@ -72,7 +72,7 @@ let firewallQuestions = [
     hint: "Private to public",
     blank: "xxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/small-business/resource-center/nat.html>",
+      "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/nat.html",
   },
   {
     category: "Firewall",
@@ -81,7 +81,7 @@ let firewallQuestions = [
     hint: "All-in-one security",
     blank: "xxxxxxx xxxxxx xxxxxxxxx",
     review:
-      "<https://www.trendmicro.com/vinfo/us/security/definition/unified-threat-management>",
+      "https://www.trendmicro.com/vinfo/us/security/definition/unified-threat-management",
   },
   {
     category: "Firewall",
@@ -90,7 +90,7 @@ let firewallQuestions = [
     hint: "Implicitly blocks",
     blank: "xxxx xxxx",
     review:
-      "<https://www.fortinet.com/resources/cyberglossary/firewall-default-deny-rule>",
+      "https://www.fortinet.com/resources/cyberglossary/firewall-default-deny-rule",
   },
   {
     category: "Firewall",
@@ -99,7 +99,7 @@ let firewallQuestions = [
     answer: "AI firewall",
     hint: "Uses AI",
     blank: "xx xxxxxxx",
-    review: "<https://www.paloaltonetworks.com/cyberpedia/ai-firewall>",
+    review: "https://www.paloaltonetworks.com/cyberpedia/ai-firewall",
   },
   {
     category: "Firewall",
@@ -109,7 +109,7 @@ let firewallQuestions = [
     hint: "Modern firewall",
     blank: "xxxx-xxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-next-generation-firewall.html>",
+      "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-next-generation-firewall.html",
   },
   {
     category: "Firewall",
@@ -118,7 +118,7 @@ let firewallQuestions = [
     answer: "Whitelist",
     hint: "Block by default",
     blank: "xxxxxxxxx",
-    review: "<https://www.kaspersky.com/resource-center/definitions/whitelist>",
+    review: "https://www.kaspersky.com/resource-center/definitions/whitelist",
   },
   {
     category: "Firewall",
@@ -127,7 +127,7 @@ let firewallQuestions = [
     hint: "Traffic priority",
     blank: "xxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-qos.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-qos.html",
   },
   {
     category: "Firewall",
@@ -136,7 +136,7 @@ let firewallQuestions = [
     hint: "Bypass rules",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/security/glossary/tunneling/>",
+      "https://www.cloudflare.com/learning/security/glossary/tunneling/",
   },
   {
     category: "Firewall",
@@ -145,7 +145,7 @@ let firewallQuestions = [
     hint: "Secure web port",
     blank: "xxx",
     review:
-      "<https://www.cloudflare.com/learning/security/glossary/what-is-port-443/>",
+      "https://www.cloudflare.com/learning/security/glossary/what-is-port-443/",
   },
   {
     category: "Firewall",
@@ -154,7 +154,7 @@ let firewallQuestions = [
     hint: "File sharing",
     blank: "xxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/smb-protocol.html>",
+      "https://www.cisco.com/c/en/us/products/security/smb-protocol.html",
   },
   {
     category: "Firewall",
@@ -162,7 +162,7 @@ let firewallQuestions = [
     answer: "Isolate services",
     hint: "Separate area",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://www.fortinet.com/resources/cyberglossary/what-is-a-dmz>",
+    review: "https://www.fortinet.com/resources/cyberglossary/what-is-a-dmz",
   },
   {
     category: "Firewall",
@@ -170,7 +170,7 @@ let firewallQuestions = [
     answer: "Allowlist",
     hint: "Only allowed",
     blank: "xxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/allowlist.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/allowlist.html",
   },
   {
     category: "Firewall",
@@ -178,7 +178,7 @@ let firewallQuestions = [
     answer: "Intrusion detection",
     hint: "Detects intrusions.",
     blank: "xxxxxxxx xxxxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/security/intrusion-detection-system-ids/>",
+    review: "https://www.cloudflare.com/learning/security/intrusion-detection-system-ids/",
   },
   {
     category: "Firewall",
@@ -186,7 +186,7 @@ let firewallQuestions = [
     answer: "Logging",
     hint: "Tracks all activity.",
     blank: "xxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/firewalls.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/firewalls.html",
   },
   {
     category: "Firewall",
@@ -194,7 +194,7 @@ let firewallQuestions = [
     answer: "Stateful",
     hint: "Tracks connection state.",
     blank: "xxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/firewall/stateful-firewalls/>",
+    review: "https://www.cloudflare.com/learning/firewall/stateful-firewalls/",
   },
   {
     category: "Firewall",
@@ -202,7 +202,7 @@ let firewallQuestions = [
     answer: "Address translation",
     hint: "Hides private IPs.",
     blank: "xxxxxxx xxxxxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-nat.html>",
+    review: "https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-nat.html",
   },
   {
     category: "Firewall",
@@ -210,7 +210,7 @@ let firewallQuestions = [
     answer: "Telnet",
     hint: "Legacy protocol.",
     blank: "xxxxxx",
-    review: "<https://www.cisco.com/c/en/us/support/docs/security/firewalls/11912-firewall-block-telnet.html>",
+    review: "https://www.cisco.com/c/en/us/support/docs/security/firewalls/11912-firewall-block-telnet.html",
   },
   {
     category: "Firewall",
@@ -218,7 +218,7 @@ let firewallQuestions = [
     answer: "Access control list",
     hint: "Defines rules.",
     blank: "xxxxxx xxxxxxx xxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/access-control-list.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/access-control-list.html",
   },
   {
     category: "Firewall",
@@ -226,7 +226,7 @@ let firewallQuestions = [
     answer: "Mediates traffic",
     hint: "Acts as a middleman.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://www.cloudflare.com/learning/firewall/proxy-firewall/>",
+    review: "https://www.cloudflare.com/learning/firewall/proxy-firewall/",
   },
   {
     category: "Firewall",
@@ -234,7 +234,7 @@ let firewallQuestions = [
     answer: "Next-gen",
     hint: "Modern firewall.",
     blank: "xxxx-xxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/firewalls.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/firewalls.html",
   },
   {
     category: "Firewall",
@@ -242,7 +242,7 @@ let firewallQuestions = [
     answer: "Implicit deny",
     hint: "Blocks all traffic.",
     blank: "xxxxxxxx xxxxx",
-    review: "<https://www.fortinet.com/resources/cyberglossary/firewall-default-deny-rule>",
+    review: "https://www.fortinet.com/resources/cyberglossary/firewall-default-deny-rule",
   },
   {
     category: "Firewall",
@@ -250,7 +250,7 @@ let firewallQuestions = [
     answer: "Traffic filtering",
     hint: "Filters outgoing traffic.",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/outbound-firewall-rules.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/outbound-firewall-rules.html",
   },
   {
     category: "Firewall",
@@ -258,7 +258,7 @@ let firewallQuestions = [
     answer: "Public services",
     hint: "Serves external requests.",
     blank: "xxxxxx xxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/security/glossary/dmz/>",
+    review: "https://www.cloudflare.com/learning/security/glossary/dmz/",
   },
   {
     category: "Firewall",
@@ -266,7 +266,7 @@ let firewallQuestions = [
     answer: "ICMP",
     hint: "Ping packets.",
     blank: "xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-icmp-flood/>",
+    review: "https://www.cloudflare.com/learning/ddos/what-is-icmp-flood/",
   },
   {
     category: "Firewall",
@@ -274,7 +274,7 @@ let firewallQuestions = [
     answer: "Rate limiting",
     hint: "Limits repeated attempts.",
     blank: "xxxx xxxxxxx",
-    review: "<https://www.cloudflare.com/learning/security/threats/rate-limiting/>",
+    review: "https://www.cloudflare.com/learning/security/threats/rate-limiting/",
   },
   {
     category: "Firewall",
@@ -282,7 +282,7 @@ let firewallQuestions = [
     answer: "WF.msc",
     hint: "Windows Firewall snap-in.",
     blank: "xx.xxx",
-    review: "<https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security>",
+    review: "https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security",
   },
   {
     category: "Firewall",
@@ -290,7 +290,7 @@ let firewallQuestions = [
     answer: "Filters ports",
     hint: "Allows/block specific ports.",
     blank: "xxxxxx xxxxx",
-    review: "<https://www.cloudflare.com/learning/security/glossary/port-filtering/>",
+    review: "https://www.cloudflare.com/learning/security/glossary/port-filtering/",
   },
   {
     category: "Firewall",
@@ -298,7 +298,7 @@ let firewallQuestions = [
     answer: "SSH",
     hint: "Secure shell.",
     blank: "xxx",
-    review: "<https://www.cloudflare.com/learning/security/glossary/ssh/>",
+    review: "https://www.cloudflare.com/learning/security/glossary/ssh/",
   },
   {
     category: "Firewall",
@@ -306,7 +306,7 @@ let firewallQuestions = [
     answer: "Protect web apps",
     hint: "Defends against web threats.",
     blank: "xxxxxx xxx xxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/glossary/web-application-firewall-waf/>",
+    review: "https://www.cloudflare.com/learning/ddos/glossary/web-application-firewall-waf/",
   },
   {
     category: "Firewall",
@@ -314,7 +314,7 @@ let firewallQuestions = [
     answer: "Encrypt traffic",
     hint: "Secures connections.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/vpn-endpoint.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/vpn-endpoint.html",
   },
   {
     category: "Firewall",
@@ -322,7 +322,7 @@ let firewallQuestions = [
     answer: "Blocklist",
     hint: "Denies listed addresses.",
     blank: "xxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/firewall-blacklist.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/firewall-blacklist.html",
   },
   {
     category: "Firewall",
@@ -330,7 +330,7 @@ let firewallQuestions = [
     answer: "Blacklist",
     hint: "Blocks unwanted traffic.",
     blank: "xxxxxxxxx",
-    review: "<https://www.kaspersky.com/resource-center/definitions/whitelist>",
+    review: "https://www.kaspersky.com/resource-center/definitions/whitelist",
   },
 ];
 

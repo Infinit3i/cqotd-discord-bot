@@ -5,7 +5,7 @@ let cquestions = [
       answer: "Include libraries",
       hint: "Used to add standard libraries.",
       blank: "xxxxxx xxxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/C_preprocessor#Include_directive>",
+      review: "https://en.wikipedia.org/wiki/C_preprocessor#Include_directive",
     },
     {
       category: "C Programming",
@@ -13,7 +13,7 @@ let cquestions = [
       answer: "Prints output",
       hint: "Displays data to the screen.",
       blank: "xxxxxx xxxxxx",
-      review: "<https://www.tutorialspoint.com/c_standard_library/c_function_printf.htm>",
+      review: "https://www.tutorialspoint.com/c_standard_library/c_function_printf.htm",
     },
     {
       category: "C Programming",
@@ -21,7 +21,7 @@ let cquestions = [
       answer: "int",
       hint: "Used to return an exit status.",
       blank: "xxx",
-      review: "<https://en.cppreference.com/w/c/language/main_function>",
+      review: "https://en.cppreference.com/w/c/language/main_function",
     },
     {
       category: "C Programming",
@@ -29,7 +29,7 @@ let cquestions = [
       answer: "Stores memory address",
       hint: "Indirectly accesses variables.",
       blank: "xxxxxx xxxxxxx xxxxxxx",
-      review: "<https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/>",
+      review: "https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/",
     },
     {
       category: "C Programming",
@@ -37,7 +37,7 @@ let cquestions = [
       answer: "Exits function",
       hint: "Provides a result to the caller.",
       blank: "xxxxx xxxxxxxx",
-      review: "<https://en.cppreference.com/w/c/language/return>",
+      review: "https://en.cppreference.com/w/c/language/return",
     },
     {
       category: "C Programming",
@@ -45,7 +45,7 @@ let cquestions = [
       answer: "Iterate a block of code",
       hint: "Used for repetitive tasks.",
       blank: "xxxxxxx x xxxxx xx xxxx",
-      review: "<https://www.geeksforgeeks.org/for-loop-in-c/>",
+      review: "https://www.geeksforgeeks.org/for-loop-in-c/",
     },
     {
       category: "C Programming",
@@ -53,7 +53,7 @@ let cquestions = [
       answer: "Allocate memory dynamically",
       hint: "Used for dynamic memory allocation.",
       blank: "xxxxxxxx xxxxxxx xxxxxxxxx",
-      review: "<https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm>",
+      review: "https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm",
     },
     {
       category: "C Programming",
@@ -61,7 +61,7 @@ let cquestions = [
       answer: "int variable_name;",
       hint: "Starts with a data type.",
       blank: "xxx xxxxxxxxxxxxxxx",
-      review: "<https://www.programiz.com/c-programming/c-variables-constants>",
+      review: "https://www.programiz.com/c-programming/c-variables-constants",
     },
     {
       category: "C Programming",
@@ -69,7 +69,7 @@ let cquestions = [
       answer: "User-defined data type",
       hint: "Groups related data.",
       blank: "xxxx xxxxxxxx xxxx xxxx",
-      review: "<https://www.geeksforgeeks.org/structures-c/>",
+      review: "https://www.geeksforgeeks.org/structures-c/",
     },
     {
       category: "C Programming",
@@ -77,7 +77,7 @@ let cquestions = [
       answer: "Exits loop",
       hint: "Stops the iteration.",
       blank: "xxxxx xxxx",
-      review: "<https://www.programiz.com/c-programming/c-break-statement>",
+      review: "https://www.programiz.com/c-programming/c-break-statement",
     },
     {
       category: "C Programming",
@@ -85,7 +85,7 @@ let cquestions = [
       answer: "Points to nothing",
       hint: "Value is `NULL`.",
       blank: "xxxxxx xx xxxxxxx",
-      review: "<https://www.geeksforgeeks.org/null-pointer-in-c/>",
+      review: "https://www.geeksforgeeks.org/null-pointer-in-c/",
     },
     {
       category: "C Programming",
@@ -93,7 +93,7 @@ let cquestions = [
       answer: "Determine size of data",
       hint: "Returns size in bytes.",
       blank: "xxxxxxxx xxxx xx xxxx",
-      review: "<https://www.geeksforgeeks.org/sizeof-operator-in-c/>",
+      review: "https://www.geeksforgeeks.org/sizeof-operator-in-c/",
     },
     {
       category: "C Programming",
@@ -101,7 +101,7 @@ let cquestions = [
       answer: "Order of increment",
       hint: "Prefix vs postfix.",
       blank: "xxxxx xx xxxxxxxxx",
-      review: "<https://www.geeksforgeeks.org/difference-between-i-and-i-in-c/>",
+      review: "https://www.geeksforgeeks.org/difference-between-i-and-i-in-c/",
     },
     {
       category: "C Programming",
@@ -109,7 +109,7 @@ let cquestions = [
       answer: "Takes input",
       hint: "Reads user input.",
       blank: "xxxxx xxxxxx",
-      review: "<https://www.geeksforgeeks.org/scanf-in-c/>",
+      review: "https://www.geeksforgeeks.org/scanf-in-c/",
     },
     {
       category: "C Programming",
@@ -117,7 +117,7 @@ let cquestions = [
       answer: "Function calls itself",
       hint: "Used for repetitive tasks.",
       blank: "xxxxxxxx xxxxx xxxxxx",
-      review: "<https://www.programiz.com/c-programming/c-recursion>",
+      review: "https://www.programiz.com/c-programming/c-recursion",
     },
     {
       category: "C Programming",
@@ -125,7 +125,7 @@ let cquestions = [
       answer: "Deallocates memory",
       hint: "Releases dynamic memory.",
       blank: "xxxxxxxxxxx xxxxxxx",
-      review: "<https://www.geeksforgeeks.org/free-memory-function-in-c/>",
+      review: "https://www.geeksforgeeks.org/free-memory-function-in-c/",
     },
     {
       category: "C Programming",
@@ -133,7 +133,7 @@ let cquestions = [
       answer: "No return value",
       hint: "Used when nothing is returned.",
       blank: "xx xxxxx xxxxxx",
-      review: "<https://www.programiz.com/c-programming/c-user-defined-functions>",
+      review: "https://www.programiz.com/c-programming/c-user-defined-functions",
     },
     {
       category: "C Programming",
@@ -141,7 +141,7 @@ let cquestions = [
       answer: "Store multiple values",
       hint: "A collection of variables.",
       blank: "xxxxx xxxxxxxxx xxxxxx",
-      review: "<https://www.geeksforgeeks.org/arrays-in-c-cpp/>",
+      review: "https://www.geeksforgeeks.org/arrays-in-c-cpp/",
     },
     {
       category: "C Programming",
@@ -149,7 +149,7 @@ let cquestions = [
       answer: "Depends on platform",
       hint: "32-bit or 64-bit.",
       blank: "xxxxxxx xx xxxxxxxx",
-      review: "<https://en.cppreference.com/w/c/language/arithmetic_types>",
+      review: "https://en.cppreference.com/w/c/language/arithmetic_types",
     },
     {
       category: "C Programming",
@@ -157,7 +157,7 @@ let cquestions = [
       answer: "Create macros",
       hint: "Used for constants.",
       blank: "xxxxxx xxxxx",
-      review: "<https://www.geeksforgeeks.org/cc-macros-and-its-types/>",
+      review: "https://www.geeksforgeeks.org/cc-macros-and-its-types/",
     },
     {
       category: "C Programming",
@@ -165,7 +165,7 @@ let cquestions = [
       answer: "Never ends",
       hint: "Condition is always true.",
       blank: "xxxxx xxxx",
-      review: "<https://www.geeksforgeeks.org/infinite-loops-in-c/>",
+      review: "https://www.geeksforgeeks.org/infinite-loops-in-c/",
     },
     {
       category: "C Programming",
@@ -173,7 +173,7 @@ let cquestions = [
       answer: "Declares function",
       hint: "Defines function signature.",
       blank: "xxxxxxxx xxxxxxxx",
-      review: "<https://www.tutorialspoint.com/cprogramming/c_functions.htm>",
+      review: "https://www.tutorialspoint.com/cprogramming/c_functions.htm",
     },
     {
       category: "C Programming",
@@ -181,7 +181,7 @@ let cquestions = [
       answer: "Create new type name",
       hint: "Used for aliases.",
       blank: "xxxxxx xxx xxxx xxxx",
-      review: "<https://www.geeksforgeeks.org/typedef-in-c-language/>",
+      review: "https://www.geeksforgeeks.org/typedef-in-c-language/",
     },
     {
       category: "C Programming",
@@ -189,7 +189,7 @@ let cquestions = [
       answer: "Memory allocation",
       hint: "Union shares memory.",
       blank: "xxxxxx xxxxxxxxxxxx",
-      review: "<https://www.geeksforgeeks.org/difference-between-structure-and-union/>",
+      review: "https://www.geeksforgeeks.org/difference-between-structure-and-union/",
     },
     {
       category: "C Programming",
@@ -197,7 +197,7 @@ let cquestions = [
       answer: "Terminates program",
       hint: "Stops execution.",
       blank: "xxxxxxxxxx xxxxxxxx",
-      review: "<https://en.cppreference.com/w/c/program/exit>",
+      review: "https://en.cppreference.com/w/c/program/exit",
     },
     {
       category: "C Programming",
@@ -205,7 +205,7 @@ let cquestions = [
       answer: "Assignment vs comparison",
       hint: "Used differently in logic.",
       blank: "xxxxxxxxx xx xxxxxxxxxx",
-      review: "<https://www.geeksforgeeks.org/difference-between-and-in-c-cpp/>",
+      review: "https://www.geeksforgeeks.org/difference-between-and-in-c-cpp/",
     },
     {
       category: "C Programming",
@@ -213,7 +213,7 @@ let cquestions = [
       answer: "Skips to next iteration",
       hint: "Avoids remaining code.",
       blank: "xxxxx xx xxxx xxxxxxxxxx",
-      review: "<https://www.programiz.com/c-programming/c-continue-statement>",
+      review: "https://www.programiz.com/c-programming/c-continue-statement",
     },
     {
       category: "C Programming",
@@ -221,7 +221,7 @@ let cquestions = [
       answer: "Persists across function calls",
       hint: "Retains value between calls.",
       blank: "xxxxxxxx xxxxxx xxxxxxx xxxxx",
-      review: "<https://www.geeksforgeeks.org/static-variables-in-c/>",
+      review: "https://www.geeksforgeeks.org/static-variables-in-c/",
     },
     {
       category: "C Programming",
@@ -229,7 +229,7 @@ let cquestions = [
       answer: "Invalid memory access",
       hint: "Occurs due to bad pointers.",
       blank: "xxxxxx xxxxxxx xxxxxxx",
-      review: "<https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/>",
+      review: "https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/",
     },
     {
       category: "C Programming",
@@ -237,7 +237,7 @@ let cquestions = [
       answer: "Opens a file",
       hint: "Used for file handling.",
       blank: "xxxxx x xxxx",
-      review: "<https://www.tutorialspoint.com/c_standard_library/c_function_fopen.htm>",
+      review: "https://www.tutorialspoint.com/c_standard_library/c_function_fopen.htm",
     },
   ];
   

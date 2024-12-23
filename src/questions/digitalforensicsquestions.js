@@ -6,7 +6,7 @@ let digitalforensicsquestions = [
     hint: "Ensures evidence integrity.",
     blank: "xxxxxxx xxxx xxxxxxxxxx",
     review:
-      "<https://www.sans.org/cyber-security-skills/digital-forensics/write-blockers/>",
+      "https://www.sans.org/cyber-security-skills/digital-forensics/write-blockers/",
   },
   {
     category: "Digital Forensics",
@@ -14,7 +14,7 @@ let digitalforensicsquestions = [
     answer: "Volatility",
     hint: "Python-based framework.",
     blank: "xxxxxxxxxx",
-    review: "<https://volatilityfoundation.org/>",
+    review: "https://volatilityfoundation.org/",
   },
   {
     category: "Digital Forensics",
@@ -22,7 +22,7 @@ let digitalforensicsquestions = [
     answer: "Evidence integrity",
     hint: "Tracks evidence handling.",
     blank: "xxxxxxxx xxxxxxxxx",
-    review: "<https://www.sans.org/tools/chain-of-custody/>",
+    review: "https://www.sans.org/tools/chain-of-custody/",
   },
   {
     category: "Digital Forensics",
@@ -30,7 +30,7 @@ let digitalforensicsquestions = [
     answer: "Bitstream image",
     hint: "Exact copy of all bits.",
     blank: "xxxxxxxxx xxxxx",
-    review: "<https://www.guidancesoftware.com/bitstream-image-guide>",
+    review: "https://www.guidancesoftware.com/bitstream-image-guide",
   },
   {
     category: "Digital Forensics",
@@ -38,7 +38,7 @@ let digitalforensicsquestions = [
     answer: "Wireshark",
     hint: "Packet analysis.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.wireshark.org/>",
+    review: "https://www.wireshark.org/",
   },
   {
     category: "Digital Forensics",
@@ -46,7 +46,7 @@ let digitalforensicsquestions = [
     answer: "Event reconstruction",
     hint: "Understanding sequences.",
     blank: "xxxxx xxxxxxxxxxxxxx",
-    review: "<https://www.sleuthkit.org/autopsy/>",
+    review: "https://www.sleuthkit.org/autopsy/",
   },
   {
     category: "Digital Forensics",
@@ -54,7 +54,7 @@ let digitalforensicsquestions = [
     answer: "New Technology File System",
     hint: "Common Windows file system.",
     blank: "xxx xxxxxxxxxx xxxx xxxxxx",
-    review: "<https://www.ntfs.com/>",
+    review: "https://www.ntfs.com/",
   },
   {
     category: "Digital Forensics",
@@ -62,7 +62,7 @@ let digitalforensicsquestions = [
     answer: "lsof",
     hint: "Lists open files.",
     blank: "xxxx",
-    review: "<https://linux.die.net/man/8/lsof>",
+    review: "https://linux.die.net/man/8/lsof",
   },
   {
     category: "Digital Forensics",
@@ -70,7 +70,7 @@ let digitalforensicsquestions = [
     answer: "RegRipper",
     hint: "Focuses on Windows registry.",
     blank: "xxxxxxxx",
-    review: "<https://github.com/keydet89/RegRipper2.8>",
+    review: "https://github.com/keydet89/RegRipper2.8",
   },
   {
     category: "Digital Forensics",
@@ -78,7 +78,7 @@ let digitalforensicsquestions = [
     answer: "Forensic Toolkit",
     hint: "Comprehensive investigation tool.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://accessdata.com/solutions/digital-forensics/ftk>",
+    review: "https://accessdata.com/solutions/digital-forensics/ftk",
   },
   {
     category: "Digital Forensics",
@@ -86,7 +86,7 @@ let digitalforensicsquestions = [
     answer: "Forensic investigation",
     hint: "Widely used in digital forensics.",
     blank: "xxxxxxxx xxxxxxxxxxxxxx",
-    review: "<https://www.guidancesoftware.com/encase-forensic>",
+    review: "https://www.guidancesoftware.com/encase-forensic",
   },
   {
     category: "Digital Forensics",
@@ -94,7 +94,7 @@ let digitalforensicsquestions = [
     answer: "SHA-256",
     hint: "Secure hash algorithm.",
     blank: "xxx-xxx",
-    review: "<https://csrc.nist.gov/projects/hash-functions>",
+    review: "https://csrc.nist.gov/projects/hash-functions",
   },
   {
     category: "Digital Forensics",
@@ -102,7 +102,7 @@ let digitalforensicsquestions = [
     answer: "Recover deleted files",
     hint: "Looks at raw data.",
     blank: "xxxxxx xxxxxxxx xxxxx",
-    review: "<https://www.forensicswiki.org/wiki/File_carving>",
+    review: "https://www.forensicswiki.org/wiki/File_carving",
   },
   {
     category: "Digital Forensics",
@@ -110,7 +110,7 @@ let digitalforensicsquestions = [
     answer: "Master File Table",
     hint: "Tracks metadata of files.",
     blank: "xxxxxx xxxx xxxxx",
-    review: "<https://www.sleuthkit.org/>",
+    review: "https://www.sleuthkit.org/",
   },
   {
     category: "Digital Forensics",
@@ -118,7 +118,7 @@ let digitalforensicsquestions = [
     answer: "dd",
     hint: "Command-line utility.",
     blank: "xx",
-    review: "<https://linux.die.net/man/1/dd>",
+    review: "https://linux.die.net/man/1/dd",
   },
   {
     category: "Digital Forensics",
@@ -126,7 +126,7 @@ let digitalforensicsquestions = [
     answer: "Analyze RAM",
     hint: "Examines live system data.",
     blank: "xxxxxx xxx",
-    review: "<https://volatilityfoundation.org/>",
+    review: "https://volatilityfoundation.org/",
   },
   {
     category: "Digital Forensics",
@@ -134,7 +134,7 @@ let digitalforensicsquestions = [
     answer: "Prevents data changes",
     hint: "Ensures evidence preservation.",
     blank: "xxxxxxxx xxxx xxxxxxx",
-    review: "<https://www.sans.org/tools/write-blockers/>",
+    review: "https://www.sans.org/tools/write-blockers/",
   },
   {
     category: "Digital Forensics",
@@ -142,7 +142,7 @@ let digitalforensicsquestions = [
     answer: "SMTP",
     hint: "Simple Mail Transfer Protocol.",
     blank: "xxxx",
-    review: "<https://www.rfc-editor.org/rfc/rfc5321>",
+    review: "https://www.rfc-editor.org/rfc/rfc5321",
   },
   {
     category: "Digital Forensics",
@@ -150,7 +150,7 @@ let digitalforensicsquestions = [
     answer: "Extract file properties",
     hint: "Analyzes hidden file details.",
     blank: "xxxxxx xxxx xxxxxxxxx",
-    review: "<https://www.sleuthkit.org/autopsy/>",
+    review: "https://www.sleuthkit.org/autopsy/",
   },
   {
     category: "Digital Forensics",
@@ -158,7 +158,7 @@ let digitalforensicsquestions = [
     answer: "Capture active data",
     hint: "Targets live system memory.",
     blank: "xxxxxx xxxxxx xxxx",
-    review: "<https://www.sans.org/tools/live-acquisition/>",
+    review: "https://www.sans.org/tools/live-acquisition/",
   },
   {
     category: "Digital Forensics",
@@ -166,7 +166,7 @@ let digitalforensicsquestions = [
     answer: "Reconstruct events",
     hint: "Chronological data mapping.",
     blank: "xxxxxxxxxxx xxxxxx",
-    review: "<https://www.sleuthkit.org/autopsy/>",
+    review: "https://www.sleuthkit.org/autopsy/",
   },
   {
     category: "Digital Forensics",
@@ -174,7 +174,7 @@ let digitalforensicsquestions = [
     answer: "PhotoRec",
     hint: "Open-source recovery.",
     blank: "xxxxxxxx",
-    review: "<https://www.cgsecurity.org/wiki/PhotoRec>",
+    review: "https://www.cgsecurity.org/wiki/PhotoRec",
   },
   {
     category: "Digital Forensics",
@@ -182,7 +182,7 @@ let digitalforensicsquestions = [
     answer: "Analyze traffic",
     hint: "Focuses on packets.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://www.sans.org/cyber-security-skills/network-forensics/>",
+    review: "https://www.sans.org/cyber-security-skills/network-forensics/",
   },
   {
     category: "Digital Forensics",
@@ -190,7 +190,7 @@ let digitalforensicsquestions = [
     answer: "File systems",
     hint: "Focus on disk analysis.",
     blank: "xxxx xxxxxxx",
-    review: "<https://www.sleuthkit.org/>",
+    review: "https://www.sleuthkit.org/",
   },
   {
     category: "Digital Forensics",
@@ -198,7 +198,7 @@ let digitalforensicsquestions = [
     answer: "Active processes",
     hint: "Live system information.",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<https://volatilityfoundation.org/>",
+    review: "https://volatilityfoundation.org/",
   },
   {
     category: "Digital Forensics",
@@ -206,7 +206,7 @@ let digitalforensicsquestions = [
     answer: "Verify data integrity",
     hint: "Used to confirm evidence integrity.",
     blank: "xxxxx xxxx xxxxxxxxx",
-    review: "<https://www.sans.org/tools/checksum-verification/>",
+    review: "https://www.sans.org/tools/checksum-verification/",
   },
   {
     category: "Digital Forensics",
@@ -214,7 +214,7 @@ let digitalforensicsquestions = [
     answer: "Preserve evidence integrity",
     hint: "Tracks evidence handling.",
     blank: "xxxxxxxx xxxxxxxx xxxxxxxxx",
-    review: "<https://www.sans.org/tools/chain-of-custody/>",
+    review: "https://www.sans.org/tools/chain-of-custody/",
   },
   {
     category: "Digital Forensics",
@@ -222,7 +222,7 @@ let digitalforensicsquestions = [
     answer: "Autopsy",
     hint: "Open-source tool.",
     blank: "xxxxxxxx",
-    review: "<https://www.sleuthkit.org/autopsy/>",
+    review: "https://www.sleuthkit.org/autopsy/",
   },
   {
     category: "Digital Forensics",
@@ -230,7 +230,7 @@ let digitalforensicsquestions = [
     answer: "Indicator of Compromise",
     hint: "Used in malware detection.",
     blank: "xxxxxxxxxx xx xxxxxxxxxxx",
-    review: "<https://www.mandiant.com/resources/indicators-of-compromise>",
+    review: "https://www.mandiant.com/resources/indicators-of-compromise",
   },
   {
     category: "Digital Forensics",
@@ -238,7 +238,7 @@ let digitalforensicsquestions = [
     answer: "Extract RAM data",
     hint: "Targets encryption keys in memory.",
     blank: "xxxxxx xxxx xxxx",
-    review: "<https://www.sans.org/cyber-security-skills/cold-boot-attacks/>",
+    review: "https://www.sans.org/cyber-security-skills/cold-boot-attacks/",
   },
 ];
 

@@ -6,7 +6,7 @@ let cisspquestions = [
     hint: "Three pillars of information security.",
     blank: "xxxxxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html>",
+      "https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html",
   },
   {
     category: "CISSP",
@@ -15,7 +15,7 @@ let cisspquestions = [
     hint: "An attacker sits between two parties.",
     blank: "xxxx",
     review:
-      "<https://www.cloudflare.com/learning/security/glossary/what-is-a-man-in-the-middle-attack/>",
+      "https://www.cloudflare.com/learning/security/glossary/what-is-a-man-in-the-middle-attack/",
   },
   {
     category: "CISSP",
@@ -24,7 +24,7 @@ let cisspquestions = [
     hint: "Access control based on user roles.",
     blank: "xxxxx",
     review:
-      "<https://www.okta.com/identity-101/role-based-access-control-rbac/>",
+      "https://www.okta.com/identity-101/role-based-access-control-rbac/",
   },
   {
     category: "CISSP",
@@ -32,7 +32,7 @@ let cisspquestions = [
     answer: "Auth",
     hint: "Verifies who you are.",
     blank: "xxxx",
-    review: "<https://www.okta.com/identity-101/what-is-authentication/>",
+    review: "https://www.okta.com/identity-101/what-is-authentication/",
   },
   {
     category: "CISSP",
@@ -41,7 +41,7 @@ let cisspquestions = [
     hint: "Focus on restrictions.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/access-control>",
+      "https://www.techtarget.com/searchsecurity/definition/access-control",
   },
   {
     category: "CISSP",
@@ -49,7 +49,7 @@ let cisspquestions = [
     answer: "ISMS",
     hint: "International standard for security.",
     blank: "xxxx",
-    review: "<https://www.iso.org/isoiec-27001-information-security.html>",
+    review: "https://www.iso.org/isoiec-27001-information-security.html",
   },
   {
     category: "CISSP",
@@ -57,7 +57,7 @@ let cisspquestions = [
     answer: "Layer 6",
     hint: "Presentation.",
     blank: "xxxxx x",
-    review: "<https://www.comptia.org/content/guides/osi-model>",
+    review: "https://www.comptia.org/content/guides/osi-model",
   },
   {
     category: "CISSP",
@@ -66,7 +66,7 @@ let cisspquestions = [
     hint: "Locks your files for money.",
     blank: "xxxxxxxxxxx",
     review:
-      "<https://www.kaspersky.com/resource-center/definitions/ransomware>",
+      "https://www.kaspersky.com/resource-center/definitions/ransomware",
   },
   {
     category: "CISSP",
@@ -74,7 +74,7 @@ let cisspquestions = [
     answer: "SHA-256",
     hint: "A popular algorithm.",
     blank: "xxx-xxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/SHA-256>",
+    review: "https://www.techtarget.com/searchsecurity/definition/SHA-256",
   },
   {
     category: "CISSP",
@@ -82,7 +82,7 @@ let cisspquestions = [
     answer: "Minimal",
     hint: "Grants only what’s necessary.",
     blank: "xxxxxxx",
-    review: "<https://www.cisa.gov/uscert/ncas/tips/ST04-001>",
+    review: "https://www.cisa.gov/uscert/ncas/tips/ST04-001",
   },
   {
     category: "CISSP",
@@ -91,7 +91,7 @@ let cisspquestions = [
     hint: "Network buffer zone.",
     blank: "xxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/ddos/glossary/dmz-demilitarized-zone/>",
+      "https://www.cloudflare.com/learning/ddos/glossary/dmz-demilitarized-zone/",
   },
   {
     category: "CISSP",
@@ -100,7 +100,7 @@ let cisspquestions = [
     hint: "Uses psychological tricks.",
     blank: "xxxxx",
     review:
-      "<https://www.csoonline.com/article/2124681/what-is-social-engineering.html>",
+      "https://www.csoonline.com/article/2124681/what-is-social-engineering.html",
   },
   {
     category: "CISSP",
@@ -109,7 +109,7 @@ let cisspquestions = [
     hint: "Monitors for attacks.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system>",
+      "https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system",
   },
   {
     category: "CISSP",
@@ -117,7 +117,7 @@ let cisspquestions = [
     answer: "Secure",
     hint: "Secures information.",
     blank: "xxxxxx",
-    review: "<https://www.cisa.gov/encryption-basics>",
+    review: "https://www.cisa.gov/encryption-basics",
   },
   {
     category: "CISSP",
@@ -125,7 +125,7 @@ let cisspquestions = [
     answer: "Flood",
     hint: "Overwhelms with traffic.",
     blank: "xxxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/>",
+    review: "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/",
   },
   {
     category: "CISSP",
@@ -133,7 +133,7 @@ let cisspquestions = [
     answer: "Standards",
     hint: "US government standards.",
     blank: "xxxxxxxxx",
-    review: "<https://www.nist.gov>",
+    review: "https://www.nist.gov",
   },
   {
     category: "CISSP",
@@ -142,7 +142,7 @@ let cisspquestions = [
     hint: "Hides data in plain sight.",
     blank: "xxxxxx",
     review:
-      "<https://www.kaspersky.com/resource-center/definitions/steganography>",
+      "https://www.kaspersky.com/resource-center/definitions/steganography",
   },
   {
     category: "CISSP",
@@ -151,7 +151,7 @@ let cisspquestions = [
     hint: "Minimizing threats.",
     blank: "xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/risk-mitigation>",
+      "https://www.techtarget.com/searchsecurity/definition/risk-mitigation",
   },
   {
     category: "CISSP",
@@ -160,7 +160,7 @@ let cisspquestions = [
     hint: "Protects messages.",
     blank: "xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/cryptography>",
+      "https://www.techtarget.com/searchsecurity/definition/cryptography",
   },
   {
     category: "CISSP",
@@ -169,7 +169,7 @@ let cisspquestions = [
     hint: "More than one factor.",
     blank: "xxx",
     review:
-      "<https://www.okta.com/identity-101/mfa-multi-factor-authentication/>",
+      "https://www.okta.com/identity-101/mfa-multi-factor-authentication/",
   },
   {
     category: "CISSP",
@@ -177,7 +177,7 @@ let cisspquestions = [
     answer: "General Data Protection Regulation",
     hint: "European privacy law.",
     blank: "xxxxxxx",
-    review: "<https://gdpr-info.eu>",
+    review: "https://gdpr-info.eu",
   },
   {
     category: "CISSP",
@@ -186,7 +186,7 @@ let cisspquestions = [
     hint: "Designed to harm systems.",
     blank: "xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/advanced-malware-protection/what-is-malware.html>",
+      "https://www.cisco.com/c/en/us/products/security/advanced-malware-protection/what-is-malware.html",
   },
   {
     category: "CISSP",
@@ -195,7 +195,7 @@ let cisspquestions = [
     hint: "Monitors traffic.",
     blank: "xxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html>",
+      "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html",
   },
   {
     category: "CISSP",
@@ -204,7 +204,7 @@ let cisspquestions = [
     hint: "Repeated attempts to crack.",
     blank: "xxxxx",
     review:
-      "<https://www.kaspersky.com/resource-center/definitions/brute-force-attack>",
+      "https://www.kaspersky.com/resource-center/definitions/brute-force-attack",
   },
   {
     category: "CISSP",
@@ -212,7 +212,7 @@ let cisspquestions = [
     answer: "Keys",
     hint: "Manages encryption keys.",
     blank: "xxxxx",
-    review: "<https://www.digicert.com/resources/public-key-infrastructure>",
+    review: "https://www.digicert.com/resources/public-key-infrastructure",
   },
   {
     category: "CISSP",
@@ -221,7 +221,7 @@ let cisspquestions = [
     hint: "Seven layers of networking.",
     blank: "xxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/>",
+      "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/",
   },
   {
     category: "CISSP",
@@ -230,7 +230,7 @@ let cisspquestions = [
     hint: "Plan for disruptions.",
     blank: "xxxxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchdisasterrecovery/definition/business-continuity-plan>",
+      "https://www.techtarget.com/searchdisasterrecovery/definition/business-continuity-plan",
   },
   {
     category: "CISSP",
@@ -238,7 +238,7 @@ let cisspquestions = [
     answer: "Integrity",
     hint: "Ensures data has not changed.",
     blank: "xxxxxxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/hash>",
+    review: "https://www.techtarget.com/searchsecurity/definition/hash",
   },
   {
     category: "CISSP",
@@ -247,7 +247,7 @@ let cisspquestions = [
     hint: "Personal devices at work.",
     blank: "xxxxxxx",
     review:
-      "<https://www.techtarget.com/searchmobilecomputing/definition/BYOD-bring-your-own-device>",
+      "https://www.techtarget.com/searchmobilecomputing/definition/BYOD-bring-your-own-device",
   },
   {
     category: "CISSP",
@@ -256,7 +256,7 @@ let cisspquestions = [
     hint: "A flaw in a system.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/vulnerability>",
+      "https://www.techtarget.com/searchsecurity/definition/vulnerability",
   },
   {
     category: "CISSP",
@@ -265,7 +265,7 @@ let cisspquestions = [
     hint: "Monitors for attacks.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/index.html",
   },
   {
     category: "CISSP",
@@ -273,7 +273,7 @@ let cisspquestions = [
     answer: "Protection",
     hint: "Prevents unauthorized use.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.okta.com/identity-101/what-is-access-control/>",
+    review: "https://www.okta.com/identity-101/what-is-access-control/",
   },
   {
     category: "CISSP",
@@ -281,7 +281,7 @@ let cisspquestions = [
     answer: "Single",
     hint: "One login for multiple systems.",
     blank: "xxxxxx",
-    review: "<https://www.okta.com/identity-101/single-sign-on/>",
+    review: "https://www.okta.com/identity-101/single-sign-on/",
   },
   {
     category: "CISSP",
@@ -290,7 +290,7 @@ let cisspquestions = [
     hint: "Injects malicious SQL code.",
     blank: "xxxxx",
     review:
-      "<https://www.cloudflare.com/learning/security/threats/sql-injection/>",
+      "https://www.cloudflare.com/learning/security/threats/sql-injection/",
   },
   {
     category: "CISSP",
@@ -299,7 +299,7 @@ let cisspquestions = [
     hint: "Strict access based on policies.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/mandatory-access-control>",
+      "https://www.techtarget.com/searchsecurity/definition/mandatory-access-control",
   },
   {
     category: "CISSP",
@@ -308,7 +308,7 @@ let cisspquestions = [
     hint: "Phishing aimed at specific people.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.csoonline.com/article/2117843/what-is-spear-phishing.html>",
+      "https://www.csoonline.com/article/2117843/what-is-spear-phishing.html",
   },
   {
     category: "CISSP",
@@ -316,7 +316,7 @@ let cisspquestions = [
     answer: "Test",
     hint: "Used to test for malware.",
     blank: "xxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/sandbox>",
+    review: "https://www.techtarget.com/searchsecurity/definition/sandbox",
   },
   {
     category: "CISSP",
@@ -325,7 +325,7 @@ let cisspquestions = [
     hint: "Protects online communications.",
     blank: "xxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/index.html",
   },
   {
     category: "CISSP",
@@ -334,7 +334,7 @@ let cisspquestions = [
     hint: "Identifies potential risks.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/risk-analysis>",
+      "https://www.techtarget.com/searchsecurity/definition/risk-analysis",
   },
   {
     category: "CISSP",
@@ -343,7 +343,7 @@ let cisspquestions = [
     hint: "Filters incoming and outgoing traffic.",
     blank: "xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/firewalls/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/firewalls/index.html",
   },
   {
     category: "CISSP",
@@ -352,7 +352,7 @@ let cisspquestions = [
     hint: "Keeps systems current.",
     blank: "xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/patch-management>",
+      "https://www.techtarget.com/searchsecurity/definition/patch-management",
   },
   {
     category: "CISSP",
@@ -361,7 +361,7 @@ let cisspquestions = [
     hint: "Uses multiple verification methods.",
     blank: "xxx",
     review:
-      "<https://www.okta.com/identity-101/mfa-multi-factor-authentication/>",
+      "https://www.okta.com/identity-101/mfa-multi-factor-authentication/",
   },
   {
     category: "CISSP",
@@ -370,7 +370,7 @@ let cisspquestions = [
     hint: "Plans for system recovery.",
     blank: "xxxxxxx",
     review:
-      "<https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery-plan>",
+      "https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery-plan",
   },
   {
     category: "CISSP",
@@ -379,7 +379,7 @@ let cisspquestions = [
     hint: "Stops attacks.",
     blank: "xxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/intrusion-prevention-system-ips/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/intrusion-prevention-system-ips/index.html",
   },
   {
     category: "CISSP",
@@ -387,7 +387,7 @@ let cisspquestions = [
     answer: "Overload",
     hint: "Floods systems with traffic.",
     blank: "xxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/>",
+    review: "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/",
   },
   {
     category: "CISSP",
@@ -396,7 +396,7 @@ let cisspquestions = [
     hint: "Protects sensitive data.",
     blank: "xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/cryptography>",
+      "https://www.techtarget.com/searchsecurity/definition/cryptography",
   },
   {
     category: "CISSP",
@@ -404,7 +404,7 @@ let cisspquestions = [
     answer: "Secure",
     hint: "A secure web connection.",
     blank: "xxxxxx",
-    review: "<https://www.cloudflare.com/learning/ssl/what-is-https/>",
+    review: "https://www.cloudflare.com/learning/ssl/what-is-https/",
   },
   {
     category: "CISSP",
@@ -412,7 +412,7 @@ let cisspquestions = [
     answer: "Deception",
     hint: "Tricks users into sharing data.",
     blank: "xxxxxxxxx",
-    review: "<https://www.csoonline.com/article/2117843/what-is-phishing.html>",
+    review: "https://www.csoonline.com/article/2117843/what-is-phishing.html",
   },
   {
     category: "CISSP",
@@ -420,7 +420,7 @@ let cisspquestions = [
     answer: "Scramble",
     hint: "Transforms data into unreadable form.",
     blank: "xxxxxxxxx",
-    review: "<https://www.cisa.gov/encryption-basics>",
+    review: "https://www.cisa.gov/encryption-basics",
   },
   {
     category: "CISSP",
@@ -429,7 +429,7 @@ let cisspquestions = [
     hint: "Hides data in plain sight.",
     blank: "xxxxxx",
     review:
-      "<https://www.kaspersky.com/resource-center/definitions/steganography>",
+      "https://www.kaspersky.com/resource-center/definitions/steganography",
   },
   {
     category: "CISSP",
@@ -437,7 +437,7 @@ let cisspquestions = [
     answer: "Standards",
     hint: "US cybersecurity framework.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.nist.gov>",
+    review: "https://www.nist.gov",
   },
   {
     category: "CISSP",
@@ -446,7 +446,7 @@ let cisspquestions = [
     hint: "Defines network functions.",
     blank: "xxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/>",
+      "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/",
   },
   {
     category: "CISSP",
@@ -454,7 +454,7 @@ let cisspquestions = [
     answer: "Keys",
     hint: "Manages encryption.",
     blank: "xxxxxx",
-    review: "<https://www.digicert.com/resources/public-key-infrastructure>",
+    review: "https://www.digicert.com/resources/public-key-infrastructure",
   },
   {
     category: "CISSP",
@@ -463,7 +463,7 @@ let cisspquestions = [
     hint: "Analyzes potential risks.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/risk-assessment>",
+      "https://www.techtarget.com/searchsecurity/definition/risk-assessment",
   },
   {
     category: "CISSP",
@@ -472,7 +472,7 @@ let cisspquestions = [
     hint: "Manages identities and access.",
     blank: "xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/identity-and-access-management>",
+      "https://www.techtarget.com/searchsecurity/definition/identity-and-access-management",
   },
   {
     category: "CISSP",
@@ -481,7 +481,7 @@ let cisspquestions = [
     hint: "Tricks people into giving up data.",
     blank: "xxxxxxxxxxxxx",
     review:
-      "<https://www.csoonline.com/article/2124681/what-is-social-engineering.html>",
+      "https://www.csoonline.com/article/2124681/what-is-social-engineering.html",
   },
   {
     category: "CISSP",
@@ -490,7 +490,7 @@ let cisspquestions = [
     hint: "Potential vulnerabilities in a system.",
     blank: "xxxxxxxx xxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/attack-surface>",
+      "https://www.techtarget.com/searchsecurity/definition/attack-surface",
   },
   {
     category: "CISSP",
@@ -499,7 +499,7 @@ let cisspquestions = [
     hint: "Verifies sender identity.",
     blank: "xxxxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/digital-signature>",
+      "https://www.techtarget.com/searchsecurity/definition/digital-signature",
   },
   {
     category: "CISSP",
@@ -508,7 +508,7 @@ let cisspquestions = [
     hint: "Gaining higher access levels.",
     blank: "xxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/privilege-escalation.html>",
+      "https://www.cisco.com/c/en/us/products/security/privilege-escalation.html",
   },
   {
     category: "CISSP",
@@ -517,7 +517,7 @@ let cisspquestions = [
     hint: "Divides networks into segments.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/network-segmentation>",
+      "https://www.techtarget.com/searchsecurity/definition/network-segmentation",
   },
   {
     category: "CISSP",
@@ -526,7 +526,7 @@ let cisspquestions = [
     hint: "Three pillars of security.",
     blank: "xxxxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html>",
+      "https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html",
   },
   {
     category: "CISSP",
@@ -535,7 +535,7 @@ let cisspquestions = [
     hint: "Examines malicious software.",
     blank: "xxxxx",
     review:
-      "<https://www.kaspersky.com/resource-center/definitions/malware-analysis>",
+      "https://www.kaspersky.com/resource-center/definitions/malware-analysis",
   },
   {
     category: "CISSP",
@@ -543,7 +543,7 @@ let cisspquestions = [
     answer: "Decoy",
     hint: "Lures attackers.",
     blank: "xxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/honeypot>",
+    review: "https://www.techtarget.com/searchsecurity/definition/honeypot",
   },
   {
     category: "CISSP",
@@ -551,7 +551,7 @@ let cisspquestions = [
     answer: "Monitoring",
     hint: "Security monitoring tool.",
     blank: "xxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/siem/index.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/siem/index.html",
   },
   {
     category: "CISSP",
@@ -560,7 +560,7 @@ let cisspquestions = [
     hint: "Defines rules and controls.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/security-policy>",
+      "https://www.techtarget.com/searchsecurity/definition/security-policy",
   },
   {
     category: "CISSP",
@@ -569,7 +569,7 @@ let cisspquestions = [
     hint: "Prevents unauthorized data transfer.",
     blank: "xxxx xxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/data-loss-prevention/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/data-loss-prevention/index.html",
   },
   {
     category: "CISSP",
@@ -577,7 +577,7 @@ let cisspquestions = [
     answer: "Hidden malware",
     hint: "Provides unauthorized system access.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.kaspersky.com/resource-center/threats/rootkits>",
+    review: "https://www.kaspersky.com/resource-center/threats/rootkits",
   },
   {
     category: "CISSP",
@@ -586,7 +586,7 @@ let cisspquestions = [
     hint: "Alters DNS queries.",
     blank: "xxxx xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/DNS-poisoning>",
+      "https://www.techtarget.com/searchsecurity/definition/DNS-poisoning",
   },
   {
     category: "CISSP",
@@ -595,7 +595,7 @@ let cisspquestions = [
     hint: "Person or group initiating threats.",
     blank: "xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/threat-intelligence/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/threat-intelligence/index.html",
   },
   {
     category: "CISSP",
@@ -604,7 +604,7 @@ let cisspquestions = [
     hint: "Tests system vulnerabilities.",
     blank: "xxxxxxxxxx xxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/penetration-testing.html>",
+      "https://www.cisco.com/c/en/us/products/security/penetration-testing.html",
   },
   {
     category: "CISSP",
@@ -612,7 +612,7 @@ let cisspquestions = [
     answer: "Multi-factor authentication",
     hint: "Uses multiple authentication methods.",
     blank: "xxxxxxxxxxxxxxx",
-    review: "<https://www.okta.com/identity-101/multi-factor-authentication/>",
+    review: "https://www.okta.com/identity-101/multi-factor-authentication/",
   },
   {
     category: "CISSP",
@@ -620,7 +620,7 @@ let cisspquestions = [
     answer: "System overload",
     hint: "Floods servers with traffic.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/>",
+    review: "https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/",
   },
   {
     category: "CISSP",
@@ -629,7 +629,7 @@ let cisspquestions = [
     hint: "Internal users posing security risks.",
     blank: "xxxxxxxxx xxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/insider-threats.html>",
+      "https://www.cisco.com/c/en/us/products/security/insider-threats.html",
   },
   {
     category: "CISSP",
@@ -638,7 +638,7 @@ let cisspquestions = [
     hint: "Secures endpoints like laptops.",
     blank: "xxxxxx xxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/endpoint-security/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/endpoint-security/index.html",
   },
   {
     category: "CISSP",
@@ -646,7 +646,7 @@ let cisspquestions = [
     answer: "Activity records",
     hint: "Tracks events and changes.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/audit-log>",
+    review: "https://www.techtarget.com/searchsecurity/definition/audit-log",
   },
   {
     category: "CISSP",
@@ -655,7 +655,7 @@ let cisspquestions = [
     hint: "Finds system vulnerabilities.",
     blank: "xxxxxxxxxx xxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/vulnerability-scan>",
+      "https://www.techtarget.com/searchsecurity/definition/vulnerability-scan",
   },
   {
     category: "CISSP",
@@ -663,7 +663,7 @@ let cisspquestions = [
     answer: "Scramble data",
     hint: "Protects sensitive information.",
     blank: "xxxxxxxx xxxxx",
-    review: "<https://www.cisa.gov/encryption-basics>",
+    review: "https://www.cisa.gov/encryption-basics",
   },
   {
     category: "CISSP",
@@ -672,7 +672,7 @@ let cisspquestions = [
     hint: "Path used by attackers.",
     blank: "xxxxx xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/attack-vector>",
+      "https://www.techtarget.com/searchsecurity/definition/attack-vector",
   },
   {
     category: "CISSP",
@@ -681,7 +681,7 @@ let cisspquestions = [
     hint: "Analyzes potential dangers.",
     blank: "xxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/risk-assessment>",
+      "https://www.techtarget.com/searchsecurity/definition/risk-assessment",
   },
   {
     category: "CISSP",
@@ -690,7 +690,7 @@ let cisspquestions = [
     hint: "Exploited before discovery.",
     blank: "xxxxxxx xxxx",
     review:
-      "<https://www.kaspersky.com/resource-center/threats/zero-day-exploit>",
+      "https://www.kaspersky.com/resource-center/threats/zero-day-exploit",
   },
   {
     category: "CISSP",
@@ -699,7 +699,7 @@ let cisspquestions = [
     hint: "Protects web apps.",
     blank: "xxx xxxxxxxxxx xxxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/security/glossary/web-application-firewall-waf/>",
+      "https://www.cloudflare.com/learning/security/glossary/web-application-firewall-waf/",
   },
   {
     category: "CISSP",
@@ -708,7 +708,7 @@ let cisspquestions = [
     hint: "Targets vendors or suppliers.",
     blank: "xxxxxxxxxx xxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/supply-chain-attack>",
+      "https://www.techtarget.com/searchsecurity/definition/supply-chain-attack",
   },
   {
     category: "CISSP",
@@ -717,7 +717,7 @@ let cisspquestions = [
     hint: "Long-term targeted attack.",
     blank: "xxxxxxxxxx xxxxxxxx",
     review:
-      "<https://www.csoonline.com/article/2124681/what-is-an-advanced-persistent-threat.html>",
+      "https://www.csoonline.com/article/2124681/what-is-an-advanced-persistent-threat.html",
   },
   {
     category: "CISSP",
@@ -726,7 +726,7 @@ let cisspquestions = [
     hint: "Protects devices like laptops.",
     blank: "xxxxxxx xxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/endpoint-security/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/endpoint-security/index.html",
   },
   {
     category: "CISSP",
@@ -735,7 +735,7 @@ let cisspquestions = [
     hint: "Requires two forms of proof.",
     blank: "xxx",
     review:
-      "<https://www.okta.com/identity-101/what-is-multi-factor-authentication/>",
+      "https://www.okta.com/identity-101/what-is-multi-factor-authentication/",
   },
   {
     category: "CISSP",
@@ -743,7 +743,7 @@ let cisspquestions = [
     answer: "Web traffic",
     hint: "Encrypts online communications.",
     blank: "xxx xxxxxxx",
-    review: "<https://www.cloudflare.com/learning/ssl/what-is-ssl/>",
+    review: "https://www.cloudflare.com/learning/ssl/what-is-ssl/",
   },
   {
     category: "CISSP",
@@ -752,7 +752,7 @@ let cisspquestions = [
     hint: "For system restoration.",
     blank: "xxxxxxx xxxxxxxxx xxxxx",
     review:
-      "<https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery-plan>",
+      "https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery-plan",
   },
   {
     category: "CISSP",
@@ -761,7 +761,7 @@ let cisspquestions = [
     hint: "Prioritize data by sensitivity.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/data-classification>",
+      "https://www.techtarget.com/searchsecurity/definition/data-classification",
   },
   {
     category: "CISSP",
@@ -769,7 +769,7 @@ let cisspquestions = [
     answer: "Authentication",
     hint: "Verifies identities.",
     blank: "xxxxxxxxxxxxx",
-    review: "<https://www.digicert.com/resources/what-is-digital-certificate>",
+    review: "https://www.digicert.com/resources/what-is-digital-certificate",
   },
   {
     category: "CISSP",
@@ -778,7 +778,7 @@ let cisspquestions = [
     hint: "Finds security gaps.",
     blank: "xxxxxxxxxx xxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/vulnerability-scan>",
+      "https://www.techtarget.com/searchsecurity/definition/vulnerability-scan",
   },
   {
     category: "CISSP",
@@ -787,7 +787,7 @@ let cisspquestions = [
     hint: "Pretends to be legitimate.",
     blank: "xxxxx xxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/email-spoofing>",
+      "https://www.techtarget.com/searchsecurity/definition/email-spoofing",
   },
   {
     category: "CISSP",
@@ -796,7 +796,7 @@ let cisspquestions = [
     hint: "Lures attackers to study.",
     blank: "xxxxx xxxxxxx",
     review:
-      "<https://www.csoonline.com/article/2118426/what-is-a-honeynet.html>",
+      "https://www.csoonline.com/article/2118426/what-is-a-honeynet.html",
   },
   {
     category: "CISSP",
@@ -805,7 +805,7 @@ let cisspquestions = [
     hint: "Detects suspicious activities.",
     blank: "xxxxxxx xxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/index.html>",
+      "https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/index.html",
   },
   {
     category: "CISSP",
@@ -813,7 +813,7 @@ let cisspquestions = [
     answer: "Minimize access",
     hint: "Restrict unnecessary permissions.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://www.cisa.gov/uscert/ncas/tips/ST04-001>",
+    review: "https://www.cisa.gov/uscert/ncas/tips/ST04-001",
   },
   {
     category: "CISSP",
@@ -822,7 +822,7 @@ let cisspquestions = [
     hint: "Three security principles.",
     blank: "xxxxxxxxxxxxxx xxxxxxxxxxxx xxxxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/AAA-authentication-authorization-and-accounting>",
+      "https://www.techtarget.com/searchsecurity/definition/AAA-authentication-authorization-and-accounting",
   },
   {
     category: "CISSP",
@@ -830,7 +830,7 @@ let cisspquestions = [
     answer: "Infected devices",
     hint: "Controlled by an attacker.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/glossary/botnet/>",
+    review: "https://www.cloudflare.com/learning/ddos/glossary/botnet/",
   },
   {
     category: "CISSP",
@@ -839,7 +839,7 @@ let cisspquestions = [
     hint: "Avoid detection.",
     blank: "xxxx xxxxxxx",
     review:
-      "<https://www.csoonline.com/article/2117845/malware-obfuscation.html>",
+      "https://www.csoonline.com/article/2117845/malware-obfuscation.html",
   },
   {
     category: "CISSP",
@@ -848,7 +848,7 @@ let cisspquestions = [
     hint: "Checks vulnerabilities.",
     blank: "xxxxxxxx xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/penetration-testing>",
+      "https://www.techtarget.com/searchsecurity/definition/penetration-testing",
   },
   {
     category: "CISSP",
@@ -856,7 +856,7 @@ let cisspquestions = [
     answer: "Test environment",
     hint: "Isolate threats.",
     blank: "xxxxx xxxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/sandboxing.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/sandboxing.html",
   },
   {
     category: "CISSP",
@@ -864,7 +864,7 @@ let cisspquestions = [
     answer: "Hidden control",
     hint: "Hides malicious processes.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.kaspersky.com/resource-center/threats/rootkits>",
+    review: "https://www.kaspersky.com/resource-center/threats/rootkits",
   },
   {
     category: "CISSP",
@@ -873,7 +873,7 @@ let cisspquestions = [
     hint: "Monitors and responds to threats.",
     blank: "xxxxxxx xxxxxxxxxx xxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/security-operations-center-SOC>",
+      "https://www.techtarget.com/searchsecurity/definition/security-operations-center-SOC",
   },
   {
     category: "CISSP",
@@ -882,7 +882,7 @@ let cisspquestions = [
     hint: "Multiple security measures.",
     blank: "xxxxxxx xxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/defense-in-depth.html>",
+      "https://www.cisco.com/c/en/us/products/security/defense-in-depth.html",
   },
   {
     category: "CISSP",
@@ -891,7 +891,7 @@ let cisspquestions = [
     hint: "Internal user posing risk.",
     blank: "xxxxxxxxx xxxx",
     review:
-      "<https://www.csoonline.com/article/2117841/what-is-an-insider-threat.html>",
+      "https://www.csoonline.com/article/2117841/what-is-an-insider-threat.html",
   },
   {
     category: "CISSP",
@@ -900,7 +900,7 @@ let cisspquestions = [
     hint: "Unauthorized data transfer.",
     blank: "xxxx xxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/data-exfiltration>",
+      "https://www.techtarget.com/searchsecurity/definition/data-exfiltration",
   },
 ];
 

@@ -7,7 +7,7 @@ let eventLogQuestions = [
     hint: "It's in the 4600 series, used for logon events.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624",
   },
   {
     category: "Windows Event Logs",
@@ -16,7 +16,7 @@ let eventLogQuestions = [
     hint: "It's in the same 4600 series as logon events.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4634>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4634",
   },
   {
     category: "Windows Event Logs",
@@ -25,7 +25,7 @@ let eventLogQuestions = [
     hint: "It's right after the successful logon event ID.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4625>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4625",
   },
   {
     category: "Windows Event Logs",
@@ -34,7 +34,7 @@ let eventLogQuestions = [
     hint: "It's in the 4700 series related to account management.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4720>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4720",
   },
   {
     category: "Windows Event Logs",
@@ -43,7 +43,7 @@ let eventLogQuestions = [
     hint: "It's in the 4700 series and involves account removal.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4726>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4726",
   },
   {
     category: "Windows Event Logs",
@@ -52,7 +52,7 @@ let eventLogQuestions = [
     hint: "This event relates to failed logins causing lockouts.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4740>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4740",
   },
   {
     category: "Windows Event Logs",
@@ -62,7 +62,7 @@ let eventLogQuestions = [
     hint: "It's used when explicit credentials are provided.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4648>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4648",
   },
   {
     category: "Windows Event Logs",
@@ -72,7 +72,7 @@ let eventLogQuestions = [
     hint: "Used for special privileges assigned during logon.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4672>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4672",
   },
   {
     category: "Windows Event Logs",
@@ -81,7 +81,7 @@ let eventLogQuestions = [
     hint: "A key event for tracking process creation.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4688>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4688",
   },
   {
     category: "Windows Event Logs",
@@ -90,7 +90,7 @@ let eventLogQuestions = [
     hint: "It's one number higher than process creation.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4689>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4689",
   },
   {
     category: "Windows Event Logs",
@@ -99,7 +99,7 @@ let eventLogQuestions = [
     hint: "This event monitors changes to audit configurations.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4719>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4719",
   },
   {
     category: "Windows Event Logs",
@@ -108,7 +108,7 @@ let eventLogQuestions = [
     hint: "Used for new service installation events.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4697>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4697",
   },
   {
     category: "Windows Event Logs",
@@ -117,7 +117,7 @@ let eventLogQuestions = [
     hint: "It's in the 5100 series related to firewall events.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=5156>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=5156",
   },
   {
     category: "Windows Event Logs",
@@ -126,7 +126,7 @@ let eventLogQuestions = [
     hint: "A firewall event in the 5100 range.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=5158>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=5158",
   },
   {
     category: "Windows Event Logs",
@@ -135,7 +135,7 @@ let eventLogQuestions = [
     hint: "Monitors when a new task is registered.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4698>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4698",
   },
   {
     category: "Windows Event Logs",
@@ -144,7 +144,7 @@ let eventLogQuestions = [
     hint: "Follows the creation ID, related to task deletion.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4699>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4699",
   },
   {
     category: "Windows Event Logs",
@@ -153,7 +153,7 @@ let eventLogQuestions = [
     hint: "Tracks updates to existing tasks.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4702>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4702",
   },
   {
     category: "Windows Event Logs",
@@ -162,7 +162,7 @@ let eventLogQuestions = [
     hint: "Used for file access tracking.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4663>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4663",
   },
   {
     category: "Windows Event Logs",
@@ -171,7 +171,7 @@ let eventLogQuestions = [
     hint: "A 4700 series event related to group membership.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4728>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4728",
   },
   {
     category: "Windows Event Logs",
@@ -180,7 +180,7 @@ let eventLogQuestions = [
     hint: "Tracks unexpected shutdowns or restarts.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=6008>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=6008",
   },
   {
     category: "Windows Event Logs",
@@ -189,7 +189,7 @@ let eventLogQuestions = [
     hint: "Account management in the 4700 range.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4723>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4723",
   },
   {
     category: "Windows Event Logs",
@@ -198,7 +198,7 @@ let eventLogQuestions = [
     hint: "Similar to password change but by another user.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4724>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4724",
   },
   {
     category: "Windows Event Logs",
@@ -207,7 +207,7 @@ let eventLogQuestions = [
     hint: "Involves modifications to local groups.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4732>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4732",
   },
   {
     category: "Windows Event Logs",
@@ -216,7 +216,7 @@ let eventLogQuestions = [
     hint: "Tracks sensitive privilege usage.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4673>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4673",
   },
   {
     category: "Windows Event Logs",
@@ -225,7 +225,7 @@ let eventLogQuestions = [
     hint: "Occurs when the security log is cleared.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=1102>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=1102",
   },
   {
     category: "Windows Event Logs",
@@ -234,7 +234,7 @@ let eventLogQuestions = [
     hint: "Tracks manual or automatic clock changes.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4616>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4616",
   },
   {
     category: "Windows Event Logs",
@@ -243,7 +243,7 @@ let eventLogQuestions = [
     hint: "Monitors modifications to the registry.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4657>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4657",
   },
   {
     category: "Windows Event Logs",
@@ -252,7 +252,7 @@ let eventLogQuestions = [
     hint: "A 4900-series event for audit settings.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4902>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4902",
   },
   {
     category: "Windows Event Logs",
@@ -261,7 +261,7 @@ let eventLogQuestions = [
     hint: "Tracks deletion attempts or access to removable devices.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4660>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4660",
   },
   {
     category: "Windows Event Logs",
@@ -270,7 +270,7 @@ let eventLogQuestions = [
     hint: "Used for audit policy modifications.",
     blank: "xxxx",
     review:
-      "<https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4715>",
+      "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4715",
   },
 ];
 

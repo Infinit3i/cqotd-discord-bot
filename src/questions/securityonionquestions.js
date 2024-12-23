@@ -5,7 +5,7 @@ let securityOnionQuestions = [
       answer: "Network monitoring",
       hint: "Detects and investigates threats.",
       blank: "xxxxxx xxxxxxxxxx",
-      review: "<https://securityonion.net/>",
+      review: "https://securityonion.net/",
     },
     {
       category: "Security Onion",
@@ -13,7 +13,7 @@ let securityOnionQuestions = [
       answer: "Network logs",
       hint: "Focuses on traffic metadata.",
       blank: "xxxxxx xxxx",
-      review: "<https://zeek.org/>",
+      review: "https://zeek.org/",
     },
     {
       category: "Security Onion",
@@ -21,7 +21,7 @@ let securityOnionQuestions = [
       answer: "Intrusion detection",
       hint: "Analyzes traffic for threats.",
       blank: "xxxxxxxx xxxxxxxxxx",
-      review: "<https://suricata.io/>",
+      review: "https://suricata.io/",
     },
     {
       category: "Security Onion",
@@ -29,7 +29,7 @@ let securityOnionQuestions = [
       answer: "Data visualization",
       hint: "Analyzes and visualizes logs.",
       blank: "xxxx xxxxxxxxxxxx",
-      review: "<https://www.elastic.co/kibana>",
+      review: "https://www.elastic.co/kibana",
     },
     {
       category: "Security Onion",
@@ -37,7 +37,7 @@ let securityOnionQuestions = [
       answer: "Log storage",
       hint: "Indexes and stores logs.",
       blank: "xxx xxxxxxx",
-      review: "<https://www.elastic.co/elasticsearch>",
+      review: "https://www.elastic.co/elasticsearch",
     },
     {
       category: "Security Onion",
@@ -45,7 +45,7 @@ let securityOnionQuestions = [
       answer: "Endpoint security",
       hint: "Monitors system activities.",
       blank: "xxxxxxxx xxxxxxx",
-      review: "<https://wazuh.com/>",
+      review: "https://wazuh.com/",
     },
     {
       category: "Security Onion",
@@ -53,7 +53,7 @@ let securityOnionQuestions = [
       answer: "PCAP",
       hint: "Packet capture format.",
       blank: "xxxx",
-      review: "<https://en.wikipedia.org/wiki/Pcap>",
+      review: "https://en.wikipedia.org/wiki/Pcap",
     },
     {
       category: "Security Onion",
@@ -61,7 +61,7 @@ let securityOnionQuestions = [
       answer: "so-setup",
       hint: "Setup wizard.",
       blank: "xx-xxxxx",
-      review: "<https://docs.securityonion.net/en/latest/so-setup.html>",
+      review: "https://docs.securityonion.net/en/latest/so-setup.html",
     },
     {
       category: "Security Onion",
@@ -69,7 +69,7 @@ let securityOnionQuestions = [
       answer: "Suricata",
       hint: "IDS component.",
       blank: "xxxxxxxx",
-      review: "<https://suricata.io/>",
+      review: "https://suricata.io/",
     },
     {
       category: "Security Onion",
@@ -77,7 +77,7 @@ let securityOnionQuestions = [
       answer: "OSQuery management",
       hint: "Manages endpoint queries.",
       blank: "xxxxxx xxxxxxxxx",
-      review: "<https://fleetdm.com/>",
+      review: "https://fleetdm.com/",
     },
     {
       category: "Security Onion",
@@ -85,7 +85,7 @@ let securityOnionQuestions = [
       answer: "Sigma",
       hint: "Standardized detection rules.",
       blank: "xxxxx",
-      review: "<https://sigmahq-py.readthedocs.io/en/latest/>",
+      review: "https://sigmahq-py.readthedocs.io/en/latest/",
     },
     {
       category: "Security Onion",
@@ -93,7 +93,7 @@ let securityOnionQuestions = [
       answer: "Kibana",
       hint: "Visualization tool.",
       blank: "xxxxxx",
-      review: "<https://www.elastic.co/kibana>",
+      review: "https://www.elastic.co/kibana",
     },
     {
       category: "Security Onion",
@@ -101,7 +101,7 @@ let securityOnionQuestions = [
       answer: "Network threats",
       hint: "Traffic-based analysis.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://securityonion.net/>",
+      review: "https://securityonion.net/",
     },
     {
       category: "Security Onion",
@@ -109,7 +109,7 @@ let securityOnionQuestions = [
       answer: "Ubuntu",
       hint: "A Debian-based system.",
       blank: "xxxxxx",
-      review: "<https://ubuntu.com/>",
+      review: "https://ubuntu.com/",
     },
     {
       category: "Security Onion",
@@ -117,7 +117,7 @@ let securityOnionQuestions = [
       answer: "Check services",
       hint: "Monitors the health of services.",
       blank: "xxxxx xxxxxxx",
-      review: "<https://docs.securityonion.net/en/latest/so-status.html>",
+      review: "https://docs.securityonion.net/en/latest/so-status.html",
     },
     {
       category: "Security Onion",
@@ -125,7 +125,7 @@ let securityOnionQuestions = [
       answer: "SO Console",
       hint: "Centralized management.",
       blank: "xx xxxxxxx",
-      review: "<https://docs.securityonion.net/en/latest/console.html>",
+      review: "https://docs.securityonion.net/en/latest/console.html",
     },
     {
       category: "Security Onion",
@@ -133,7 +133,7 @@ let securityOnionQuestions = [
       answer: "Stenographer",
       hint: "Optimized for packet storage.",
       blank: "xxxxxxxxxxxxxx",
-      review: "<https://github.com/google/stenographer>",
+      review: "https://github.com/google/stenographer",
     },
     {
       category: "Security Onion",
@@ -141,7 +141,7 @@ let securityOnionQuestions = [
       answer: "Alert triage",
       hint: "Investigate and manage alerts.",
       blank: "xxxxx xxxxxx",
-      review: "<https://sguil.sourceforge.net/>",
+      review: "https://sguil.sourceforge.net/",
     },
     {
       category: "Security Onion",
@@ -149,7 +149,7 @@ let securityOnionQuestions = [
       answer: "NetworkMiner",
       hint: "Focuses on network forensics.",
       blank: "xxxxxxxxxxxxx",
-      review: "<https://www.netresec.com/?page=NetworkMiner>",
+      review: "https://www.netresec.com/?page=NetworkMiner",
     },
     {
       category: "Security Onion",
@@ -157,7 +157,7 @@ let securityOnionQuestions = [
       answer: "Incident response",
       hint: "Guides investigations.",
       blank: "xxxxxxxx xxxxxxxxx",
-      review: "<https://docs.securityonion.net/en/latest/playbooks.html>",
+      review: "https://docs.securityonion.net/en/latest/playbooks.html",
     },
     {
       category: "Security Onion",
@@ -165,7 +165,7 @@ let securityOnionQuestions = [
       answer: "Replay traffic",
       hint: "Re-analyze PCAP files.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://docs.securityonion.net/en/latest/so-import-pcap.html>",
+      review: "https://docs.securityonion.net/en/latest/so-import-pcap.html",
     },
     {
       category: "Security Onion",
@@ -173,7 +173,7 @@ let securityOnionQuestions = [
       answer: "Traffic analysis",
       hint: "Focuses on metadata.",
       blank: "xxxxxxx xxxxxxx",
-      review: "<https://zeek.org/>",
+      review: "https://zeek.org/",
     },
     {
       category: "Security Onion",
@@ -181,7 +181,7 @@ let securityOnionQuestions = [
       answer: "Python",
       hint: "A versatile programming language.",
       blank: "xxxxxx",
-      review: "<https://www.python.org/>",
+      review: "https://www.python.org/",
     },
     {
       category: "Security Onion",
@@ -189,7 +189,7 @@ let securityOnionQuestions = [
       answer: "HTTP",
       hint: "Web-based protocol.",
       blank: "xxxx",
-      review: "<https://www.elastic.co/elasticsearch>",
+      review: "https://www.elastic.co/elasticsearch",
     },
     {
       category: "Security Onion",
@@ -197,7 +197,7 @@ let securityOnionQuestions = [
       answer: "OSQuery management",
       hint: "Manages endpoint queries.",
       blank: "xxxxxx xxxxxxxxx",
-      review: "<https://fleetdm.com/>",
+      review: "https://fleetdm.com/",
     },
     {
       category: "Security Onion",
@@ -205,7 +205,7 @@ let securityOnionQuestions = [
       answer: "Kibana",
       hint: "Visualization tool.",
       blank: "xxxxxx",
-      review: "<https://www.elastic.co/kibana>",
+      review: "https://www.elastic.co/kibana",
     },
     {
       category: "Security Onion",
@@ -213,7 +213,7 @@ let securityOnionQuestions = [
       answer: "so-stat",
       hint: "System statistics.",
       blank: "xx-xxxx",
-      review: "<https://docs.securityonion.net/en/latest/so-stat.html>",
+      review: "https://docs.securityonion.net/en/latest/so-stat.html",
     },
     {
       category: "Security Onion",
@@ -221,7 +221,7 @@ let securityOnionQuestions = [
       answer: "Threats",
       hint: "Focus on security events.",
       blank: "xxxxxxx",
-      review: "<https://securityonion.net/>",
+      review: "https://securityonion.net/",
     },
     {
       category: "Security Onion",
@@ -229,7 +229,7 @@ let securityOnionQuestions = [
       answer: "ElasticSearch",
       hint: "Search and analyze data.",
       blank: "xxxxxxxxxxxxxxx",
-      review: "<https://www.elastic.co/elasticsearch>",
+      review: "https://www.elastic.co/elasticsearch",
     },
     {
       category: "Security Onion",
@@ -237,7 +237,7 @@ let securityOnionQuestions = [
       answer: "Metadata",
       hint: "Focus on connection details.",
       blank: "xxxxxxxxx",
-      review: "<https://zeek.org/>",
+      review: "https://zeek.org/",
     },
   ];
   

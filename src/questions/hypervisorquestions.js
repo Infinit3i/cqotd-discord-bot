@@ -5,7 +5,7 @@ let hypervisorQuestions = [
     answer: "Virtualization",
     hint: "Enables multiple OS on one hardware.",
     blank: "xxxxxxxxxxxxxxx",
-    review: "<https://www.vmware.com/topics/glossary/content/hypervisor>",
+    review: "https://www.vmware.com/topics/glossary/content/hypervisor",
   },
   {
     category: "Hypervisor",
@@ -13,7 +13,7 @@ let hypervisorQuestions = [
     answer: "Type 1",
     hint: "Bare-metal hypervisor.",
     blank: "xxxx x",
-    review: "<https://www.vmware.com/topics/glossary/content/hypervisor>",
+    review: "https://www.vmware.com/topics/glossary/content/hypervisor",
   },
   {
     category: "Hypervisor",
@@ -21,7 +21,7 @@ let hypervisorQuestions = [
     answer: "Type 2",
     hint: "Hosted hypervisor.",
     blank: "xxxx x",
-    review: "<https://www.vmware.com/topics/glossary/content/hypervisor>",
+    review: "https://www.vmware.com/topics/glossary/content/hypervisor",
   },
   {
     category: "Hypervisor",
@@ -29,7 +29,7 @@ let hypervisorQuestions = [
     answer: "ESXi",
     hint: "VMware's enterprise solution.",
     blank: "xxxx",
-    review: "<https://www.vmware.com/products/esxi-and-esx.html>",
+    review: "https://www.vmware.com/products/esxi-and-esx.html",
   },
   {
     category: "Hypervisor",
@@ -37,7 +37,7 @@ let hypervisorQuestions = [
     answer: "VirtualBox",
     hint: "Popular open-source option.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.virtualbox.org/>",
+    review: "https://www.virtualbox.org/",
   },
   {
     category: "Hypervisor",
@@ -45,7 +45,7 @@ let hypervisorQuestions = [
     answer: "Resource pooling",
     hint: "Shares CPU, memory, etc.",
     blank: "xxxxxxxxx xxxxxxx",
-    review: "<https://www.vmware.com/products/resource-pools.html>",
+    review: "https://www.vmware.com/products/resource-pools.html",
   },
   {
     category: "Hypervisor",
@@ -53,7 +53,7 @@ let hypervisorQuestions = [
     answer: "VM migration",
     hint: "Live relocation.",
     blank: "xx xxxxxxxxx",
-    review: "<https://www.vmware.com/products/vmotion.html>",
+    review: "https://www.vmware.com/products/vmotion.html",
   },
   {
     category: "Hypervisor",
@@ -62,7 +62,7 @@ let hypervisorQuestions = [
     hint: "Intel's virtualization.",
     blank: "xxxxxxxxxxxxxx xxxxxxxxxxx",
     review:
-      "<https://www.intel.com/content/www/us/en/virtualization/virtualization-technology.html>",
+      "https://www.intel.com/content/www/us/en/virtualization/virtualization-technology.html",
   },
   {
     category: "Hypervisor",
@@ -70,7 +70,7 @@ let hypervisorQuestions = [
     answer: "Sandboxing",
     hint: "VMs are separate from each other.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.vmware.com/topics/glossary/content/sandboxing>",
+    review: "https://www.vmware.com/topics/glossary/content/sandboxing",
   },
   {
     category: "Hypervisor",
@@ -78,7 +78,7 @@ let hypervisorQuestions = [
     answer: "vSAN",
     hint: "Virtual SAN.",
     blank: "xxxx",
-    review: "<https://www.vmware.com/products/vsan.html>",
+    review: "https://www.vmware.com/products/vsan.html",
   },
   {
     category: "Hypervisor",
@@ -86,7 +86,7 @@ let hypervisorQuestions = [
     answer: "Rollback",
     hint: "Saves VM state for recovery.",
     blank: "xxxxxxxx",
-    review: "<https://www.vmware.com/support/pubs/vm-snapshots.html>",
+    review: "https://www.vmware.com/support/pubs/vm-snapshots.html",
   },
   {
     category: "Hypervisor",
@@ -94,7 +94,7 @@ let hypervisorQuestions = [
     answer: "Xen",
     hint: "Popular in cloud platforms.",
     blank: "xxx",
-    review: "<https://xenproject.org/>",
+    review: "https://xenproject.org/",
   },
   {
     category: "Hypervisor",
@@ -103,7 +103,7 @@ let hypervisorQuestions = [
     hint: "Microsoft's solution.",
     blank: "xxxxx-x",
     review:
-      "<https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows-server>",
+      "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows-server",
   },
   {
     category: "Hypervisor",
@@ -111,7 +111,7 @@ let hypervisorQuestions = [
     answer: "Capacity management",
     hint: "Controls resource allocation.",
     blank: "xxxxxxxx xxxxxxxxxxx",
-    review: "<https://www.vmware.com/products/capacity-management.html>",
+    review: "https://www.vmware.com/products/capacity-management.html",
   },
   {
     category: "Hypervisor",
@@ -119,7 +119,7 @@ let hypervisorQuestions = [
     answer: "VM migration",
     hint: "Move running VMs.",
     blank: "xx xxxxxxxxx",
-    review: "<https://www.vmware.com/products/vmotion.html>",
+    review: "https://www.vmware.com/products/vmotion.html",
   },
   {
     category: "Hypervisor",
@@ -128,7 +128,7 @@ let hypervisorQuestions = [
     hint: "Virtualization within virtualization.",
     blank: "xx xxxxx xx",
     review:
-      "<https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/nested-virtualization>",
+      "https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/nested-virtualization",
   },
   {
     category: "Hypervisor",
@@ -136,7 +136,7 @@ let hypervisorQuestions = [
     answer: "Performance",
     hint: "Direct hardware access.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.vmware.com/topics/glossary/content/hypervisor>",
+    review: "https://www.vmware.com/topics/glossary/content/hypervisor",
   },
   {
     category: "Hypervisor",
@@ -144,7 +144,7 @@ let hypervisorQuestions = [
     answer: "vSwitch",
     hint: "Virtual switches.",
     blank: "xxxxxxx",
-    review: "<https://www.vmware.com/products/virtual-switch.html>",
+    review: "https://www.vmware.com/products/virtual-switch.html",
   },
   {
     category: "Hypervisor",
@@ -153,7 +153,7 @@ let hypervisorQuestions = [
     hint: "Simultaneous threads.",
     blank: "xxxxxxxx xxxxxxxxxxx",
     review:
-      "<https://www.intel.com/content/www/us/en/architecture-and-technology/hyper-threading/overview.html>",
+      "https://www.intel.com/content/www/us/en/architecture-and-technology/hyper-threading/overview.html",
   },
   {
     category: "Hypervisor",
@@ -161,7 +161,7 @@ let hypervisorQuestions = [
     answer: "VMDK",
     hint: "VMware Disk File.",
     blank: "xxxxx",
-    review: "<https://kb.vmware.com/s/article/1003565>",
+    review: "https://kb.vmware.com/s/article/1003565",
   },
   {
     category: "Hypervisor",
@@ -170,7 +170,7 @@ let hypervisorQuestions = [
     hint: "Virtual Hard Disk.",
     blank: "xxx",
     review:
-      "<https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/virtual-hard-disks>",
+      "https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/virtual-hard-disks",
   },
   {
     category: "Hypervisor",
@@ -178,7 +178,7 @@ let hypervisorQuestions = [
     answer: "HA",
     hint: "Keeps VMs online.",
     blank: "xx",
-    review: "<https://www.vmware.com/products/high-availability.html>",
+    review: "https://www.vmware.com/products/high-availability.html",
   },
   {
     category: "Hypervisor",
@@ -186,7 +186,7 @@ let hypervisorQuestions = [
     answer: "vCenter",
     hint: "VMware's management tool.",
     blank: "xxxxxxx",
-    review: "<https://www.vmware.com/products/vcenter-server.html>",
+    review: "https://www.vmware.com/products/vcenter-server.html",
   },
   {
     category: "Hypervisor",
@@ -194,7 +194,7 @@ let hypervisorQuestions = [
     answer: "Provisioning",
     hint: "Allocating resources.",
     blank: "xxxxxxxxxxxxx",
-    review: "<https://www.vmware.com/products/resource-provisioning.html>",
+    review: "https://www.vmware.com/products/resource-provisioning.html",
   },
   {
     category: "Hypervisor",
@@ -202,7 +202,7 @@ let hypervisorQuestions = [
     answer: "ESXi",
     hint: "VMware's enterprise hypervisor.",
     blank: "xxxx",
-    review: "<https://www.vmware.com/products/tanzu.html>",
+    review: "https://www.vmware.com/products/tanzu.html",
   },
   {
     category: "Hypervisor",
@@ -211,7 +211,7 @@ let hypervisorQuestions = [
     hint: "Uses CPU extensions.",
     blank: "xxxxx xxxxxxxxxxx",
     review:
-      "<https://www.intel.com/content/www/us/en/virtualization/virtualization-technology.html>",
+      "https://www.intel.com/content/www/us/en/virtualization/virtualization-technology.html",
   },
   {
     category: "Hypervisor",
@@ -219,7 +219,7 @@ let hypervisorQuestions = [
     answer: "Rollback",
     hint: "Restore previous states.",
     blank: "xxxxxxx",
-    review: "<https://www.vmware.com/support/pubs/vm-snapshots.html>",
+    review: "https://www.vmware.com/support/pubs/vm-snapshots.html",
   },
   {
     category: "Hypervisor",
@@ -227,7 +227,7 @@ let hypervisorQuestions = [
     answer: "Kernel-based Virtual Machine",
     hint: "Linux-based hypervisor.",
     blank: "xxxxxx-xxxxx xxxxxxx xxxxxxx",
-    review: "<https://www.linux-kvm.org/page/Main_Page>",
+    review: "https://www.linux-kvm.org/page/Main_Page",
   },
   {
     category: "Hypervisor",
@@ -235,7 +235,7 @@ let hypervisorQuestions = [
     answer: "vCPU",
     hint: "Virtual CPUs.",
     blank: "xxxx",
-    review: "<https://www.vmware.com/products/vcpu.html>",
+    review: "https://www.vmware.com/products/vcpu.html",
   },
   {
     category: "Hypervisor",
@@ -244,7 +244,7 @@ let hypervisorQuestions = [
     hint: "Keeps VMs independent.",
     blank: "xxxxxxxxxxxxx",
     review:
-      "<https://www.vmware.com/topics/glossary/content/resource-segmentation>",
+      "https://www.vmware.com/topics/glossary/content/resource-segmentation",
   },
 ];
 

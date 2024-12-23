@@ -6,7 +6,7 @@ let secquestions = [
     answer: "MITRE ATT&CK framework",
     hint: "Lockheed, diamond or MITRE",
     blank: "xxxxx xxx&xx xxxxxxxxx",
-    review: "<https://attack.mitre.org/>",
+    review: "https://attack.mitre.org/",
   },
   {
     category: "CompTIA Security+",
@@ -15,7 +15,7 @@ let secquestions = [
     answer: "SHA-256",
     hint: "SHA-xxx",
     blank: "xxx-xxx",
-    review: "<https://support.google.com/google-ads/answer/9004655?hl=en>",
+    review: "https://support.google.com/google-ads/answer/9004655?hl=en",
   },
   {
     category: "CompTIA Security+",
@@ -25,7 +25,7 @@ let secquestions = [
     hint: "PHI",
     blank: "xxxxxxxxx xxxxxx xxxxxxxxxxx",
     review:
-      "<https://www.niu.edu/doit/about/policies/hipaa-breach-notification-rule.shtml>",
+      "https://www.niu.edu/doit/about/policies/hipaa-breach-notification-rule.shtml",
   },
   {
     category: "CompTIA Security+",
@@ -34,7 +34,7 @@ let secquestions = [
     answer: "Insider threat",
     hint: "It could be you!",
     blank: "xxxxxxx xxxxxx",
-    review: "<https://www.opentext.com/what-is/insider-threat>",
+    review: "https://www.opentext.com/what-is/insider-threat",
   },
   {
     category: "CompTIA Security+",
@@ -43,7 +43,7 @@ let secquestions = [
     answer: "accept",
     hint: "can you do anything more?",
     blank: "xxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -53,7 +53,7 @@ let secquestions = [
     hint: "not WPA2, WPS, or WEP",
     blank: "xxxxxx",
     review:
-      "<https://www.fortinet.com/resources/cyberglossary/radius-protocol>",
+      "https://www.fortinet.com/resources/cyberglossary/radius-protocol",
   },
   {
     category: "CompTIA Security+",
@@ -63,7 +63,7 @@ let secquestions = [
     hint: "Voice what?",
     blank: "xxxxxxx",
     review:
-      "<https://www.terranovasecurity.com/solutions/security-awareness-training/what-is-vishing>",
+      "https://www.terranovasecurity.com/solutions/security-awareness-training/what-is-vishing",
   },
   {
     category: "CompTIA Security+",
@@ -72,7 +72,7 @@ let secquestions = [
     answer: "Rules of engagement",
     hint: "ROE",
     blank: "xxxxx xx xxxxxxxxxxx",
-    review: "<https://csrc.nist.gov/glossary/term/rules_of_engagement>",
+    review: "https://csrc.nist.gov/glossary/term/rules_of_engagement",
   },
   {
     category: "CompTIA Security+",
@@ -81,7 +81,7 @@ let secquestions = [
     answer: "hijacked email", //'impersonation',
     hint: "They compromised your email",
     blank: "xxxxxxxx xxxxx",
-    review: "<https://www.ibm.com/topics/business-email-compromise>",
+    review: "https://www.ibm.com/topics/business-email-compromise",
   },
   {
     category: "CompTIA Security+",
@@ -91,7 +91,7 @@ let secquestions = [
     hint: "Virtual Segments",
     blank: "xxxx",
     review:
-      "<https://www.techtarget.com/searchnetworking/definition/virtual-LAN>",
+      "https://www.techtarget.com/searchnetworking/definition/virtual-LAN",
   },
   {
     category: "CompTIA Security+",
@@ -100,7 +100,7 @@ let secquestions = [
     answer: "Blowfish",
     hint: "one fish",
     blank: "xxxxxxxx",
-    review: "<https://www.techtarget.com/searchsecurity/definition/Blowfish>",
+    review: "https://www.techtarget.com/searchsecurity/definition/Blowfish",
   },
   {
     category: "CompTIA Security+",
@@ -110,7 +110,7 @@ let secquestions = [
     hint: "non-credentialed vs credentialed",
     blank: "xxxxxxxxxxxx xxxx",
     review:
-      "<https://purplesec.us/learn/credentialed-scanning-vs-uncredentialed-scanning/>",
+      "https://purplesec.us/learn/credentialed-scanning-vs-uncredentialed-scanning/",
   },
   {
     category: "CompTIA Security+",
@@ -120,7 +120,7 @@ let secquestions = [
     hint: "single what?",
     blank: "xxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/single-sign-on>",
+      "https://www.techtarget.com/searchsecurity/definition/single-sign-on",
   },
   {
     category: "CompTIA Security+",
@@ -129,7 +129,7 @@ let secquestions = [
     answer: "Phishing",
     hint: "Tricking individuals via email",
     blank: "Ph-----g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -137,7 +137,7 @@ let secquestions = [
     answer: "Smishing",
     hint: "Fraudulent messages through SMS",
     blank: "Sm-----g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -145,7 +145,7 @@ let secquestions = [
     answer: "Vishing",
     hint: "Phone-based social engineering attacks",
     blank: "Vi----g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -154,7 +154,7 @@ let secquestions = [
     answer: "Spam",
     hint: "Unsolicited bulk messages via email",
     blank: "Sp--",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -163,7 +163,7 @@ let secquestions = [
     answer: "SPIM",
     hint: "Unsolicited messages via IM",
     blank: "SP--",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -172,7 +172,7 @@ let secquestions = [
     answer: "Spear phishing",
     hint: "Targets specific individuals/organizations",
     blank: "Sp--- ph-----g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -181,7 +181,7 @@ let secquestions = [
     answer: "Dumpster diving",
     hint: "Searching through trash for sensitive info",
     blank: "Du------ di----",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -190,7 +190,7 @@ let secquestions = [
     answer: "Shoulder surfing",
     hint: "Looking over someone's shoulder",
     blank: "Sh------ su----g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -199,7 +199,7 @@ let secquestions = [
     answer: "Pharming",
     hint: "Redirects users to fraudulent sites",
     blank: "Ph-----g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -208,7 +208,7 @@ let secquestions = [
     answer: "Tailgating",
     hint: "Following into restricted area without auth",
     blank: "Ta------g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -217,7 +217,7 @@ let secquestions = [
     answer: "Eliciting information",
     hint: "Extracting info through conversation",
     blank: "El-----g in-------n",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -226,7 +226,7 @@ let secquestions = [
     answer: "Whaling",
     hint: "Targets high-ranking individuals",
     blank: "W-----g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -235,7 +235,7 @@ let secquestions = [
     answer: "Prepending",
     hint: "Inserting malicious data at beginning of message",
     blank: "Pr-------g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -244,7 +244,7 @@ let secquestions = [
     answer: "Identity fraud",
     hint: "Using someone else's identity for financial gain",
     blank: "Id------y fr---d",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -253,7 +253,7 @@ let secquestions = [
     answer: "Invoice scams",
     hint: "Sending fake invoices to trick recipients",
     blank: "In----ce sc---s",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -262,7 +262,7 @@ let secquestions = [
     answer: "Credential harvesting",
     hint: "Unauthorized acquisition of login credentials",
     blank: "Cr-----ntial ha---st---g",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -271,7 +271,7 @@ let secquestions = [
     answer: "Reconnaissance",
     hint: "Gathering information prior to an attack",
     blank: "Re-------ce",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -279,7 +279,7 @@ let secquestions = [
     answer: "Hoax",
     hint: "False warning or fabricated threat",
     blank: "H---x",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -288,7 +288,7 @@ let secquestions = [
     answer: "Impersonation",
     hint: "Pretending to be someone else for malicious purposes",
     blank: "Im------tion",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -297,7 +297,7 @@ let secquestions = [
     answer: "Privilege escalation",
     hint: "Escalating privileges beyond authorization",
     blank: "Privilege escalation",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -306,7 +306,7 @@ let secquestions = [
     answer: "Cross-site scripting",
     hint: "Injecting malicious code into web apps",
     blank: "Cross-site scripting",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -315,7 +315,7 @@ let secquestions = [
     answer: "Injections",
     hint: "Inserting malicious code/data into applications",
     blank: "Injections",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -323,7 +323,7 @@ let secquestions = [
     answer: "Structured query language (SQL)",
     hint: "Targeted language in SQL injection",
     blank: "Structured query language (SQL)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -332,7 +332,7 @@ let secquestions = [
     answer: "Dynamic-link library (DLL)",
     hint: "Modifying or replacing DLL files",
     blank: "Dynamic-link library (DLL)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -340,7 +340,7 @@ let secquestions = [
     answer: "Lightweight Directory Access Protocol (LDAP)",
     hint: "Protocol targeted in LDAP injection",
     blank: "Lightweight Directory Access Protocol (LDAP)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -349,7 +349,7 @@ let secquestions = [
     answer: "Extensible Markup Language (XML)",
     hint: "Markup language targeted in XML injection",
     blank: "Extensible Markup Language (XML)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -358,7 +358,7 @@ let secquestions = [
     answer: "Pointer/object dereference",
     hint: "Accessing/modifying memory via pointer/object",
     blank: "Pointer/object dereference",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -367,7 +367,7 @@ let secquestions = [
     answer: "Directory traversal",
     hint: "Traversing directories for unauthorized access",
     blank: "Directory traversal",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -376,7 +376,7 @@ let secquestions = [
     answer: "Buffer overflows",
     hint: "Writing beyond allocated memory space",
     blank: "Buffer overflows",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -385,7 +385,7 @@ let secquestions = [
     answer: "Race conditions",
     hint: "Outcome depends on sequence/timing of events",
     blank: "Race conditions",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -394,7 +394,7 @@ let secquestions = [
     answer: "Time of check/time of use",
     hint: "Resource status checked and used at different times",
     blank: "Time of check/time of use",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -403,7 +403,7 @@ let secquestions = [
     answer: "Error handling",
     hint: "Failure to handle errors properly",
     blank: "Error handling",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -412,7 +412,7 @@ let secquestions = [
     answer: "Improper input handling",
     hint: "Failure to properly validate input",
     blank: "Improper input handling",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -421,7 +421,7 @@ let secquestions = [
     answer: "Replay attack",
     hint: "Replaying captured authentication sessions",
     blank: "Replay attack",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -429,7 +429,7 @@ let secquestions = [
     answer: "Session replays",
     hint: "Replaying entire sessions",
     blank: "Session replays",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -438,7 +438,7 @@ let secquestions = [
     answer: "Integer overflow",
     hint: "Integer value exceeds maximum size",
     blank: "Integer overflow",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -447,7 +447,7 @@ let secquestions = [
     answer: "Request forgeries",
     hint: "Forging requests for unauthorized access",
     blank: "Request forgeries",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -455,7 +455,7 @@ let secquestions = [
     answer: "Server-side",
     hint: "Forging requests on server-side",
     blank: "Server-side",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -463,7 +463,7 @@ let secquestions = [
     answer: "Cross-site",
     hint: "Forging requests in cross-site attacks",
     blank: "Cross-site",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -472,7 +472,7 @@ let secquestions = [
     answer: "Resource exhaustion",
     hint: "Depleting application resources",
     blank: "Resource exhaustion",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -481,7 +481,7 @@ let secquestions = [
     answer: "Memory leak",
     hint: "Memory allocation without proper deallocation",
     blank: "Memory leak",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -490,7 +490,7 @@ let secquestions = [
     answer: "Secure Sockets Layer (SSL) stripping",
     hint: "Downgrading secure connections",
     blank: "Secure Sockets Layer (SSL) stripping",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -499,7 +499,7 @@ let secquestions = [
     answer: "Evil twin",
     hint: "Creating a fake access point",
     blank: "Evil twin",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -508,7 +508,7 @@ let secquestions = [
     answer: "Rogue access point",
     hint: "Unauthorized access point posing as legitimate",
     blank: "Rogue access point",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -517,7 +517,7 @@ let secquestions = [
     answer: "Bluesnarfing",
     hint: "Unauthorized access to Bluetooth devices",
     blank: "Bluesnarfing",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -526,7 +526,7 @@ let secquestions = [
     answer: "Bluejacking",
     hint: "Sending unsolicited messages to Bluetooth devices",
     blank: "Bluejacking",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -535,7 +535,7 @@ let secquestions = [
     answer: "Disassociation",
     hint: "Forcefully disconnecting device from network",
     blank: "Disassociation",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -544,7 +544,7 @@ let secquestions = [
     answer: "Jamming",
     hint: "Interfering with wireless signals",
     blank: "Jamming",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -553,7 +553,7 @@ let secquestions = [
     answer: "Radio frequency identification (RFID)",
     hint: "Wirelessly identifying and tracking tags",
     blank: "Radio frequency identification (RFID)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -562,7 +562,7 @@ let secquestions = [
     answer: "Near-field communication (NFC)",
     hint: "Short-range wireless for contactless payments",
     blank: "Near-field communication (NFC)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -571,7 +571,7 @@ let secquestions = [
     answer: "Initialization vector (IV)",
     hint: "Cryptographic key for wireless encryption",
     blank: "Initialization vector (IV)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -580,7 +580,7 @@ let secquestions = [
     answer: "On-path attack",
     hint: "Intercepting and altering communication",
     blank: "On-path attack",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -589,7 +589,7 @@ let secquestions = [
     answer: "Layer 2",
     hint: "OSI model layer for ARP poisoning and MAC flooding",
     blank: "Layer 2",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -598,7 +598,7 @@ let secquestions = [
     answer: "Address Resolution Protocol (ARP) poisoning",
     hint: "Manipulating ARP tables for MAC association",
     blank: "Address Resolution Protocol (ARP) poisoning",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -607,7 +607,7 @@ let secquestions = [
     answer: "Media access control (MAC) flooding",
     hint: "Flooding attack with numerous MAC addresses",
     blank: "Media access control (MAC) flooding",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -616,7 +616,7 @@ let secquestions = [
     answer: "MAC cloning",
     hint: "Impersonating device by using MAC address",
     blank: "MAC cloning",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -625,7 +625,7 @@ let secquestions = [
     answer: "Domain hijacking",
     hint: "Redirecting DNS queries",
     blank: "Domain hijacking",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -634,7 +634,7 @@ let secquestions = [
     answer: "DNS poisoning",
     hint: "Corrupting DNS cache to redirect users",
     blank: "DNS poisoning",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -643,7 +643,7 @@ let secquestions = [
     answer: "Uniform Resource Locator (URL) redirection",
     hint: "Redirecting users from legitimate URLs",
     blank: "Uniform Resource Locator (URL) redirection",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -652,7 +652,7 @@ let secquestions = [
     answer: "Domain reputation",
     hint: "Assessing domain reputation for security",
     blank: "Domain reputation",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -660,7 +660,7 @@ let secquestions = [
     answer: "Network",
     hint: "Overwhelming network resources",
     blank: "Network",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -668,7 +668,7 @@ let secquestions = [
     answer: "Application",
     hint: "Targeting applications in DDoS attacks",
     blank: "Application",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -677,7 +677,7 @@ let secquestions = [
     answer: "Operational technology",
     hint: "Targeting OT systems in DDoS attacks",
     blank: "Operational technology (OT)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -686,7 +686,7 @@ let secquestions = [
     answer: "Malicious code or script execution",
     hint: "Executing malicious code or scripts",
     blank: "Malicious code or script execution",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -695,7 +695,7 @@ let secquestions = [
     answer: "PowerShell",
     hint: "Common scripting language for Windows malware",
     blank: "PowerShell",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -704,7 +704,7 @@ let secquestions = [
     answer: "Advanced persistent threat (APT)",
     hint: "Sophisticated, long-term attacks",
     blank: "Advanced persistent threat (APT)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -713,7 +713,7 @@ let secquestions = [
     answer: "Insider threats",
     hint: "Threats from individuals within organization",
     blank: "Insider threats",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -722,7 +722,7 @@ let secquestions = [
     answer: "State actors",
     hint: "Actors associated with governments",
     blank: "State actors",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -731,7 +731,7 @@ let secquestions = [
     answer: "Hacktivists",
     hint: "Using hacking skills for political/social reasons",
     blank: "Hacktivists",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -740,7 +740,7 @@ let secquestions = [
     answer: "Script kiddies",
     hint: "Inexperienced hackers using pre-written scripts",
     blank: "Script kiddies",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -748,7 +748,7 @@ let secquestions = [
     answer: "Criminal syndicates",
     hint: "Groups engaging in cybercrime for financial gain",
     blank: "xxxxxxxxx xxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -757,7 +757,7 @@ let secquestions = [
     answer: "Hackers",
     hint: "Individuals with advanced knowledge of computers/networks",
     blank: "xxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -766,7 +766,7 @@ let secquestions = [
     answer: "Authorized",
     hint: "Entities with permission to access systems/data",
     blank: "xxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -775,7 +775,7 @@ let secquestions = [
     answer: "Unauthorized",
     hint: "Entities without permission to access systems/data",
     blank: "xxxxxxxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -784,7 +784,7 @@ let secquestions = [
     answer: "Semi-authorized",
     hint: "Entities with partial permission to access systems/data",
     blank: "xxxxxxx-xxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -793,7 +793,7 @@ let secquestions = [
     answer: "Shadow IT",
     hint: "IT solutions/systems used without explicit approval",
     blank: "xxxxxx xx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -802,7 +802,7 @@ let secquestions = [
     answer: "Competitors",
     hint: "Other companies/entities in the same market",
     blank: "xxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -811,7 +811,7 @@ let secquestions = [
     answer: "Internal/external",
     hint: "Origin of actors, within or outside organization",
     blank: "xxxxxxxxxx/xxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -820,7 +820,7 @@ let secquestions = [
     answer: "Level of sophistication/capability",
     hint: "Skill level and resources of actors",
     blank: "xxxxxx xx xxxxxxxxxxxxxx/xxxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -829,7 +829,7 @@ let secquestions = [
     answer: "Resources/funding",
     hint: "Financial backing/support of actors",
     blank: "xxxxxxxxx/xxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -838,7 +838,7 @@ let secquestions = [
     answer: "Intent/motivation",
     hint: "Goals/reasons for cyber attacks",
     blank: "xxxxx/xxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -847,7 +847,7 @@ let secquestions = [
     answer: "Direct access",
     hint: "Physical access to systems/networks",
     blank: "xxxxxxx xxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -856,7 +856,7 @@ let secquestions = [
     answer: "Wireless",
     hint: "Exploiting wireless technology weaknesses",
     blank: "xxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -865,7 +865,7 @@ let secquestions = [
     answer: "Email",
     hint: "Sending malicious emails/attachments",
     blank: "xxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -874,7 +874,7 @@ let secquestions = [
     answer: "Supply chain",
     hint: "Compromising supply chain components",
     blank: "xxxxxxx xxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -883,7 +883,7 @@ let secquestions = [
     answer: "Social media",
     hint: "Exploiting social networking platform vulnerabilities",
     blank: "xxxxxx xxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -892,7 +892,7 @@ let secquestions = [
     answer: "Removable media",
     hint: "Using USB drives/removable media for malware",
     blank: "xxxxxxxxx xxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -901,7 +901,7 @@ let secquestions = [
     answer: "Zero-day",
     hint: "Exploited before known to developer",
     blank: "xxxx-xxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -910,7 +910,7 @@ let secquestions = [
     answer: "Weak configurations",
     hint: "Result from insecure settings/configurations",
     blank: "xxxx xxxxxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -919,7 +919,7 @@ let secquestions = [
     answer: "Open permissions",
     hint: "Overly permissive access levels",
     blank: "xxxx xxxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -928,7 +928,7 @@ let secquestions = [
     answer: "Unsecure root accounts",
     hint: "Unprotected administrative accounts",
     blank: "xxxxxxxxx xxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -936,7 +936,7 @@ let secquestions = [
     answer: "Errors",
     hint: "Configuration errors",
     blank: "xxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -944,7 +944,7 @@ let secquestions = [
     answer: "Weak encryption",
     hint: "Inadequate encryption methods",
     blank: "xxxx xxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -953,7 +953,7 @@ let secquestions = [
     answer: "Unsecure protocols",
     hint: "Using unsecured communication standards",
     blank: "xxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -962,7 +962,7 @@ let secquestions = [
     answer: "Default settings",
     hint: "Leaving default settings unchanged",
     blank: "xxxxxxx xxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -971,7 +971,7 @@ let secquestions = [
     answer: "Open ports",
     hint: "sticky mac or disable the port",
     blank: "xxxx xxxxs",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -979,7 +979,7 @@ let secquestions = [
     answer: "Third-party risks",
     hint: "Risks associated with third-party vendors",
     blank: "xxxxx-xxxxx xxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -988,7 +988,7 @@ let secquestions = [
     answer: "Vendor management",
     hint: "Overseeing/managing vendors",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -997,7 +997,7 @@ let secquestions = [
     answer: "System integration",
     hint: "Ensuring systems work together securely",
     blank: "xxxxxx xxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1006,7 +1006,7 @@ let secquestions = [
     answer: "Lack of vendor support",
     hint: "Lack of support from vendors",
     blank: "xxxx xx xxxxx xxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1015,7 +1015,7 @@ let secquestions = [
     answer: "Supply chain",
     hint: "Vulnerabilities introduced through suppliers",
     blank: "xxxxx xxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1024,7 +1024,7 @@ let secquestions = [
     answer: "Outsourced code development",
     hint: "Relying on external parties for software development",
     blank: "xxxxxxxxx xxxxxxxxxxx xxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1033,7 +1033,7 @@ let secquestions = [
     answer: "Data storage",
     hint: "Ensuring secure storage of data by third-party providers",
     blank: "xxx xxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1042,7 +1042,7 @@ let secquestions = [
     answer: "Improper or weak patch management",
     hint: "Vulnerabilities due to outdated or unpatched software",
     blank: "xxxxxxxx xx xxxx xxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1051,7 +1051,7 @@ let secquestions = [
     answer: "Firmware",
     hint: "Requires firmware updates for security",
     blank: "xxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1060,7 +1060,7 @@ let secquestions = [
     answer: "Operating system (OS)",
     hint: "Requires regular updates for security",
     blank: "xxxxxxxxx xxx (xx)",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1069,7 +1069,7 @@ let secquestions = [
     answer: "Applications",
     hint: "Requires updates to address security vulnerabilities",
     blank: "xxxxxxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1078,7 +1078,7 @@ let secquestions = [
     answer: "Legacy platforms",
     hint: "Vulnerable due to outdated/unsupported security features",
     blank: "xxxxxx xxxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1087,7 +1087,7 @@ let secquestions = [
     answer: "Data loss",
     hint: "Occurs when sensitive information accessed by unauthorized parties",
     blank: "xxxx xxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1096,7 +1096,7 @@ let secquestions = [
     answer: "Data breaches",
     hint: "Occurs when sensitive information exposed to unauthorized parties",
     blank: "xxxxxx",
-    review: "<>",
+    review: "",
   },
   {
     category: "CompTIA Security+",
@@ -1105,7 +1105,7 @@ let secquestions = [
     hint: "Controls access to resources",
     blank: "xxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/what-is-a-firewall.html>",
+      "https://www.cisco.com/c/en/us/products/security/what-is-a-firewall.html",
   },
   {
     category: "CompTIA Security+",
@@ -1115,7 +1115,7 @@ let secquestions = [
     hint: "Application focuses on specific apps.",
     blank: "xxxxx",
     review:
-      "<https://www.cloudflare.com/learning/firewall/what-is-a-firewall/>",
+      "https://www.cloudflare.com/learning/firewall/what-is-a-firewall/",
   },
   {
     category: "CompTIA Security+",
@@ -1124,7 +1124,7 @@ let secquestions = [
     hint: "Tracks connections",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchnetworking/definition/stateful-firewall>",
+      "https://www.techtarget.com/searchnetworking/definition/stateful-firewall",
   },
   {
     category: "CompTIA Security+",
@@ -1133,7 +1133,7 @@ let secquestions = [
     hint: "Default action",
     blank: "xxxxxxxxx xxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/what-is-a-firewall.html>",
+      "https://www.cisco.com/c/en/us/products/security/what-is-a-firewall.html",
   },
   {
     category: "CompTIA Security+",
@@ -1142,7 +1142,7 @@ let secquestions = [
     hint: "Secures the whole packet.",
     blank: "xxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/solutions/enterprise-networks/vpn.html>",
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/vpn.html",
   },
   {
     category: "CompTIA Security+",
@@ -1150,7 +1150,7 @@ let secquestions = [
     answer: "IPSec",
     hint: "Internet Protocol",
     blank: "xxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/ipsec.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/ipsec.html",
   },
   {
     category: "CompTIA Security+",
@@ -1159,7 +1159,7 @@ let secquestions = [
     hint: "Authenticates packets.",
     blank: "xxxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchnetworking/definition/Authentication-Header>",
+      "https://www.techtarget.com/searchnetworking/definition/Authentication-Header",
   },
   {
     category: "CompTIA Security+",
@@ -1167,7 +1167,7 @@ let secquestions = [
     answer: "Partial routing",
     hint: "Routes select traffic.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/vpn.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/vpn.html",
   },
   {
     category: "CompTIA Security+",
@@ -1176,7 +1176,7 @@ let secquestions = [
     hint: "Matches known patterns.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system>",
+      "https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system",
   },
   {
     category: "CompTIA Security+",
@@ -1185,7 +1185,7 @@ let secquestions = [
     hint: "Analyzes actions.",
     blank: "xxxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/heuristic-analysis>",
+      "https://www.techtarget.com/searchsecurity/definition/heuristic-analysis",
   },
   {
     category: "CompTIA Security+",
@@ -1194,7 +1194,7 @@ let secquestions = [
     hint: "Passive doesn't block.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system>",
+      "https://www.techtarget.com/searchsecurity/definition/intrusion-detection-system",
   },
   {
     category: "CompTIA Security+",
@@ -1203,7 +1203,7 @@ let secquestions = [
     hint: "Allowed or denied.",
     blank: "xxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/access-control.html>",
+      "https://www.cisco.com/c/en/us/products/security/access-control.html",
   },
   {
     category: "CompTIA Security+",
@@ -1211,7 +1211,7 @@ let secquestions = [
     answer: "Flood guard",
     hint: "Limits traffic.",
     blank: "xxxxxxxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/switches.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/switches.html",
   },
   {
     category: "CompTIA Security+",
@@ -1219,7 +1219,7 @@ let secquestions = [
     answer: "Filter",
     hint: "Filters client requests.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/cdn/what-is-a-proxy-server/>",
+    review: "https://www.cloudflare.com/learning/cdn/what-is-a-proxy-server/",
   },
   {
     category: "CompTIA Security+",
@@ -1228,7 +1228,7 @@ let secquestions = [
     hint: "Protects servers.",
     blank: "xxxxxxxxxxxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/cdn/what-is-a-reverse-proxy/>",
+      "https://www.cloudflare.com/learning/cdn/what-is-a-reverse-proxy/",
   },
   {
     category: "CompTIA Security+",
@@ -1237,7 +1237,7 @@ let secquestions = [
     hint: "Backup mode.",
     blank: "xxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/load-balancing.html>",
+      "https://www.cisco.com/c/en/us/products/security/load-balancing.html",
   },
   {
     category: "CompTIA Security+",
@@ -1246,7 +1246,7 @@ let secquestions = [
     hint: "Network name.",
     blank: "xxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/what-is-ssid.html>",
+      "https://www.cisco.com/c/en/us/products/security/what-is-ssid.html",
   },
   {
     category: "CompTIA Security+",
@@ -1255,7 +1255,7 @@ let secquestions = [
     hint: "Whitelists MACs.",
     blank: "xxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/mac-filtering.html>",
+      "https://www.cisco.com/c/en/us/products/security/mac-filtering.html",
   },
   {
     category: "CompTIA Security+",
@@ -1263,7 +1263,7 @@ let secquestions = [
     answer: "Logs",
     hint: "Links events.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.splunk.com/en_us/solutions/what-is-siem.html>",
+    review: "https://www.splunk.com/en_us/solutions/what-is-siem.html",
   },
   {
     category: "CompTIA Security+",
@@ -1272,7 +1272,7 @@ let secquestions = [
     hint: "DLP category.",
     blank: "xxxxxxxxxxxxxx",
     review:
-      "<https://www.cisco.com/c/en/us/products/security/data-loss-prevention.html>",
+      "https://www.cisco.com/c/en/us/products/security/data-loss-prevention.html",
   },
   {
     category: "CompTIA Security+",
@@ -1280,7 +1280,7 @@ let secquestions = [
     answer: "Duration",
     hint: "Temporary vs. persistent.",
     blank: "xxxxxxxxxxxxxxxxxx",
-    review: "<https://www.cisco.com/c/en/us/products/security/nac.html>",
+    review: "https://www.cisco.com/c/en/us/products/security/nac.html",
   },
   {
     category: "CompTIA Security+",
@@ -1289,7 +1289,7 @@ let secquestions = [
     hint: "Stops unwanted mail.",
     blank: "xxxxxxxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/email-security/what-is-spam/>",
+      "https://www.cloudflare.com/learning/email-security/what-is-spam/",
   },
   {
     category: "CompTIA Security+",
@@ -1297,7 +1297,7 @@ let secquestions = [
     answer: "SSL/TLS accelerators",
     hint: "Hardware for encryption.",
     blank: "xxxxxxxxxxxxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/ssl/what-is-ssl/>",
+    review: "https://www.cloudflare.com/learning/ssl/what-is-ssl/",
   },
   {
     category: "CompTIA Security+",
@@ -1305,7 +1305,7 @@ let secquestions = [
     answer: "Encryption",
     hint: "Secures data in transit.",
     blank: "xxxxxxxxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/ssl/ssl-vs-tls/>",
+    review: "https://www.cloudflare.com/learning/ssl/ssl-vs-tls/",
   },
 ];
 

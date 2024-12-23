@@ -5,7 +5,7 @@ let gmonQuestions = [
     answer: "Detect threats",
     hint: "Focus on threats.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -13,7 +13,7 @@ let gmonQuestions = [
     answer: "Intrusion",
     hint: "Unauthorized access.",
     blank: "xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Intrusion_detection_system>",
+    review: "https://en.wikipedia.org/wiki/Intrusion_detection_system",
   },
   {
     category: "GMON",
@@ -21,7 +21,7 @@ let gmonQuestions = [
     answer: "HTTPS",
     hint: "Secure HTTP.",
     blank: "xxxxx",
-    review: "<https://en.wikipedia.org/wiki/HTTPS>",
+    review: "https://en.wikipedia.org/wiki/HTTPS",
   },
   {
     category: "GMON",
@@ -29,7 +29,7 @@ let gmonQuestions = [
     answer: "Security information",
     hint: "Log management.",
     blank: "xxxxxxxx xxxxxxxxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -37,7 +37,7 @@ let gmonQuestions = [
     answer: "Security operations",
     hint: "Incident response team.",
     blank: "xxxxxxxx xxxxxxxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -45,7 +45,7 @@ let gmonQuestions = [
     answer: "Endpoint detection",
     hint: "Focus on endpoints.",
     blank: "xxxxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Endpoint_detection_and_response>",
+    review: "https://en.wikipedia.org/wiki/Endpoint_detection_and_response",
   },
   {
     category: "GMON",
@@ -53,7 +53,7 @@ let gmonQuestions = [
     answer: "Packet sniffer",
     hint: "Wireshark is one.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.wireshark.org>",
+    review: "https://www.wireshark.org",
   },
   {
     category: "GMON",
@@ -61,7 +61,7 @@ let gmonQuestions = [
     answer: "Host-based",
     hint: "Runs on endpoints.",
     blank: "xxxx-xxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -69,7 +69,7 @@ let gmonQuestions = [
     answer: "Correlation",
     hint: "Combines data.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -77,7 +77,7 @@ let gmonQuestions = [
     answer: "Splunk",
     hint: "Popular SIEM tool.",
     blank: "xxxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -85,7 +85,7 @@ let gmonQuestions = [
     answer: "National standards",
     hint: "Focus on frameworks.",
     blank: "xxxxxxxx xxxxxxxxx",
-    review: "<https://www.nist.gov>",
+    review: "https://www.nist.gov",
   },
   {
     category: "GMON",
@@ -93,7 +93,7 @@ let gmonQuestions = [
     answer: "Tactics techniques",
     hint: "Adversarial behavior.",
     blank: "xxxxxxx xxxxxxxxx",
-    review: "<https://attack.mitre.org>",
+    review: "https://attack.mitre.org",
   },
   {
     category: "GMON",
@@ -101,7 +101,7 @@ let gmonQuestions = [
     answer: "Volatility",
     hint: "Memory forensics.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org>",
+    review: "https://www.volatilityfoundation.org",
   },
   {
     category: "GMON",
@@ -109,7 +109,7 @@ let gmonQuestions = [
     answer: "Indicator compromise",
     hint: "Detect signs of attack.",
     blank: "xxxxxxxxx xxxxxxxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -117,7 +117,7 @@ let gmonQuestions = [
     answer: "Proactive detection",
     hint: "Search for threats.",
     blank: "xxxxxxxx xxxxxxxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -125,7 +125,7 @@ let gmonQuestions = [
     answer: "Security automation",
     hint: "Focus on response.",
     blank: "xxxxxxxxx xxxxxxxxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -133,7 +133,7 @@ let gmonQuestions = [
     answer: "Normal behavior",
     hint: "Detect anomalies.",
     blank: "xxxxxx xxxxxxxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -141,7 +141,7 @@ let gmonQuestions = [
     answer: "Unusual patterns",
     hint: "Behavior deviation.",
     blank: "xxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Anomaly_detection>",
+    review: "https://en.wikipedia.org/wiki/Anomaly_detection",
   },
   {
     category: "GMON",
@@ -149,7 +149,7 @@ let gmonQuestions = [
     answer: "Preparation",
     hint: "Plan ahead.",
     blank: "xxxxxxxxxxx",
-    review: "<https://www.nist.gov>",
+    review: "https://www.nist.gov",
   },
   {
     category: "GMON",
@@ -157,7 +157,7 @@ let gmonQuestions = [
     answer: "Identify assets",
     hint: "Know your inventory.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -166,7 +166,7 @@ let gmonQuestions = [
     hint: "Network management.",
     blank: "xxxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>",
+      "https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol",
   },
   {
     category: "GMON",
@@ -174,7 +174,7 @@ let gmonQuestions = [
     answer: "Syslog",
     hint: "Standard log format.",
     blank: "xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Syslog>",
+    review: "https://en.wikipedia.org/wiki/Syslog",
   },
   {
     category: "GMON",
@@ -182,7 +182,7 @@ let gmonQuestions = [
     answer: "Advanced persistent",
     hint: "Sophisticated attackers.",
     blank: "xxxxxxxx xxxxxxxxx",
-    review: "<https://attack.mitre.org>",
+    review: "https://attack.mitre.org",
   },
   {
     category: "GMON",
@@ -190,7 +190,7 @@ let gmonQuestions = [
     answer: "Domain system",
     hint: "Resolves URLs.",
     blank: "xxxxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Domain_Name_System>",
+    review: "https://en.wikipedia.org/wiki/Domain_Name_System",
   },
   {
     category: "GMON",
@@ -198,7 +198,7 @@ let gmonQuestions = [
     answer: "User actions",
     hint: "Behavior insights.",
     blank: "xxxx xxxxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -206,7 +206,7 @@ let gmonQuestions = [
     answer: "Manage storage",
     hint: "Control space usage.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Log_rotation>",
+    review: "https://en.wikipedia.org/wiki/Log_rotation",
   },
   {
     category: "GMON",
@@ -214,7 +214,7 @@ let gmonQuestions = [
     answer: "Common vulnerabilities",
     hint: "Standard identifier.",
     blank: "xxxxxx xxxxxxxxxxxxxx",
-    review: "<https://cve.mitre.org>",
+    review: "https://cve.mitre.org",
   },
   {
     category: "GMON",
@@ -222,7 +222,7 @@ let gmonQuestions = [
     answer: "EDR",
     hint: "Focus on endpoints.",
     blank: "xxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -230,7 +230,7 @@ let gmonQuestions = [
     answer: "Transmission control",
     hint: "Internet protocol.",
     blank: "xxxxxxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Transmission_Control_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Transmission_Control_Protocol",
   },
   {
     category: "GMON",
@@ -238,7 +238,7 @@ let gmonQuestions = [
     answer: "Find weaknesses",
     hint: "Identify vulnerabilities.",
     blank: "xxxx xxxxxxxxxxx",
-    review: "<https://www.sans.org/cyber-security-certification/gmon>",
+    review: "https://www.sans.org/cyber-security-certification/gmon",
   },
   {
     category: "GMON",
@@ -246,7 +246,7 @@ let gmonQuestions = [
     answer: "Deception",
     hint: "Attract attackers.",
     blank: "xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Honeypot_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Honeypot_(computing)",
   },
   {
     category: "GMON",
@@ -254,7 +254,7 @@ let gmonQuestions = [
     answer: "Minimal access required",
     hint: "Restrict user permissions.",
     blank: "xxxxxx xxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Principle_of_least_privilege>",
+    review: "https://en.wikipedia.org/wiki/Principle_of_least_privilege",
   },
   {
     category: "GMON",
@@ -262,7 +262,7 @@ let gmonQuestions = [
     answer: "Access control",
     hint: "Based on roles.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Role-based_access_control>",
+    review: "https://en.wikipedia.org/wiki/Role-based_access_control",
   },
   {
     category: "GMON",
@@ -270,7 +270,7 @@ let gmonQuestions = [
     answer: "No files used",
     hint: "Memory-based execution.",
     blank: "xx xxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Fileless_malware>",
+    review: "https://en.wikipedia.org/wiki/Fileless_malware",
   },
   {
     category: "GMON",
@@ -278,7 +278,7 @@ let gmonQuestions = [
     answer: "Spread inside network",
     hint: "Move between systems.",
     blank: "xxxxxx xxxxxx xxxxxxx",
-    review: "<https://www.crowdstrike.com>",
+    review: "https://www.crowdstrike.com",
   },
   {
     category: "GMON",
@@ -286,7 +286,7 @@ let gmonQuestions = [
     answer: "Unplanned changes",
     hint: "Deviates from standard.",
     blank: "xxxxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Configuration_management>",
+    review: "https://en.wikipedia.org/wiki/Configuration_management",
   },
   {
     category: "GMON",
@@ -294,7 +294,7 @@ let gmonQuestions = [
     answer: "Layered security",
     hint: "Multiple protective measures.",
     blank: "xxxxxxx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Defense_in_depth_(computing)",
   },
   {
     category: "GMON",
@@ -302,7 +302,7 @@ let gmonQuestions = [
     answer: "Endpoint monitoring",
     hint: "Tracks device activity.",
     blank: "xxxxxxxx xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Endpoint_detection_and_response>",
+    review: "https://en.wikipedia.org/wiki/Endpoint_detection_and_response",
   },
   {
     category: "GMON",
@@ -310,7 +310,7 @@ let gmonQuestions = [
     answer: "Network scanning",
     hint: "Find active hosts.",
     blank: "xxxxxxx xxxxxxxxx",
-    review: "<https://nmap.org>",
+    review: "https://nmap.org",
   },
   {
     category: "GMON",
@@ -318,7 +318,7 @@ let gmonQuestions = [
     answer: "Vulnerabilities",
     hint: "Weakness detection.",
     blank: "xxxxxxxxxxxxxxxxx",
-    review: "<https://www.tenable.com/products/nessus>",
+    review: "https://www.tenable.com/products/nessus",
   },
   {
     category: "GMON",
@@ -326,7 +326,7 @@ let gmonQuestions = [
     answer: "Network packets",
     hint: "Traffic inspection.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://www.wireshark.org>",
+    review: "https://www.wireshark.org",
   },
   {
     category: "GMON",
@@ -334,7 +334,7 @@ let gmonQuestions = [
     answer: "Multi-factor authentication",
     hint: "Uses multiple methods.",
     blank: "xxxx-xxxxxx xxxxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Multi-factor_authentication>",
+    review: "https://en.wikipedia.org/wiki/Multi-factor_authentication",
   },
   {
     category: "GMON",
@@ -342,7 +342,7 @@ let gmonQuestions = [
     answer: "No implicit trust",
     hint: "Verify every access.",
     blank: "xx xxxxxxxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Zero_trust>",
+    review: "https://en.wikipedia.org/wiki/Zero_trust",
   },
   {
     category: "GMON",
@@ -350,7 +350,7 @@ let gmonQuestions = [
     answer: "Log analysis",
     hint: "Monitors events.",
     blank: "xxx xxxxxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -358,7 +358,7 @@ let gmonQuestions = [
     answer: "Check open ports",
     hint: "Service discovery.",
     blank: "xxxxx xxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Port_scanner>",
+    review: "https://en.wikipedia.org/wiki/Port_scanner",
   },
   {
     category: "GMON",
@@ -366,7 +366,7 @@ let gmonQuestions = [
     answer: "Intrusions",
     hint: "Unauthorized access.",
     blank: "xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Intrusion_detection_system>",
+    review: "https://en.wikipedia.org/wiki/Intrusion_detection_system",
   },
   {
     category: "GMON",
@@ -374,7 +374,7 @@ let gmonQuestions = [
     answer: "Configuration automation",
     hint: "Manages systems.",
     blank: "xxxxxxxxxxx xxxxxxxxx",
-    review: "<https://www.ansible.com>",
+    review: "https://www.ansible.com",
   },
   {
     category: "GMON",
@@ -383,7 +383,7 @@ let gmonQuestions = [
     hint: "No additional software.",
     blank: "xxxx xxxxx xxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Living_off_the_land_(computer_security)>",
+      "https://en.wikipedia.org/wiki/Living_off_the_land_(computer_security)",
   },
   {
     category: "GMON",
@@ -391,7 +391,7 @@ let gmonQuestions = [
     answer: "Attack data",
     hint: "Predict threats.",
     blank: "xxxxxx xxxx",
-    review: "<https://en.wikipedia.org/wiki/Threat_intelligence>",
+    review: "https://en.wikipedia.org/wiki/Threat_intelligence",
   },
   {
     category: "GMON",
@@ -399,7 +399,7 @@ let gmonQuestions = [
     answer: "System monitor",
     hint: "Logs system events.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>",
+    review: "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
   },
   {
     category: "GMON",
@@ -407,7 +407,7 @@ let gmonQuestions = [
     answer: "Lures attackers",
     hint: "Decoy system.",
     blank: "xxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Honeypot_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Honeypot_(computing)",
   },
   {
     category: "GMON",
@@ -415,7 +415,7 @@ let gmonQuestions = [
     answer: "Manage privileges",
     hint: "Focus on admin accounts.",
     blank: "xxxxxx xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Privileged_access_management>",
+    review: "https://en.wikipedia.org/wiki/Privileged_access_management",
   },
   {
     category: "GMON",
@@ -423,7 +423,7 @@ let gmonQuestions = [
     answer: "Single sign-on",
     hint: "One login for many.",
     blank: "xxxxxx xxxx-xx",
-    review: "<https://en.wikipedia.org/wiki/Single_sign-on>",
+    review: "https://en.wikipedia.org/wiki/Single_sign-on",
   },
   {
     category: "GMON",
@@ -431,7 +431,7 @@ let gmonQuestions = [
     answer: "Targeted email attack",
     hint: "Specific recipient focus.",
     blank: "xxxxxxxx xxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Spear_phishing>",
+    review: "https://en.wikipedia.org/wiki/Spear_phishing",
   },
   {
     category: "GMON",
@@ -439,7 +439,7 @@ let gmonQuestions = [
     answer: "Compromised websites",
     hint: "Targets popular sites.",
     blank: "xxxxxxxxxxx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Watering_hole_attack>",
+    review: "https://en.wikipedia.org/wiki/Watering_hole_attack",
   },
   {
     category: "GMON",
@@ -447,7 +447,7 @@ let gmonQuestions = [
     answer: "Automate deployments",
     hint: "Focus on integration.",
     blank: "xxxxxxxxx xxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/CI/CD>",
+    review: "https://en.wikipedia.org/wiki/CI/CD",
   },
   {
     category: "GMON",
@@ -455,7 +455,7 @@ let gmonQuestions = [
     answer: "File integrity",
     hint: "Detect changes.",
     blank: "xxxx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Checksum>",
+    review: "https://en.wikipedia.org/wiki/Checksum",
   },
   {
     category: "GMON",
@@ -463,7 +463,7 @@ let gmonQuestions = [
     answer: "Confidentiality, integrity, availability",
     hint: "Core security principles.",
     blank: "xxxxxxxxxxxxxx xxxxxxxxx xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Information_security>",
+    review: "https://en.wikipedia.org/wiki/Information_security",
   },
   {
     category: "GMON",
@@ -471,7 +471,7 @@ let gmonQuestions = [
     answer: "Security operations center",
     hint: "Monitors and responds.",
     blank: "xxxxxxxx xxxxxxxxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Security_operations_center>",
+    review: "https://en.wikipedia.org/wiki/Security_operations_center",
   },
   {
     category: "GMON",
@@ -479,7 +479,7 @@ let gmonQuestions = [
     answer: "Log storage",
     hint: "System log format.",
     blank: "xxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Syslog>",
+    review: "https://en.wikipedia.org/wiki/Syslog",
   },
   {
     category: "GMON",
@@ -488,7 +488,7 @@ let gmonQuestions = [
     hint: "Monitors Windows systems.",
     blank: "xxxxxxx xxxxxxxxx xxxxxxxxxxxxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Windows_Management_Instrumentation>",
+      "https://en.wikipedia.org/wiki/Windows_Management_Instrumentation",
   },
   {
     category: "GMON",
@@ -496,7 +496,7 @@ let gmonQuestions = [
     answer: "Track resources",
     hint: "Identify devices.",
     blank: "xxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Asset_management_(IT)>",
+    review: "https://en.wikipedia.org/wiki/Asset_management_(IT)",
   },
   {
     category: "GMON",
@@ -504,7 +504,7 @@ let gmonQuestions = [
     answer: "Resolve IP addresses",
     hint: "Maps to MAC addresses.",
     blank: "xxxxxx xx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Address_Resolution_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Address_Resolution_Protocol",
   },
   {
     category: "GMON",
@@ -512,7 +512,7 @@ let gmonQuestions = [
     answer: "Vulnerability scanner",
     hint: "Open-source tool.",
     blank: "xxxxxxxxxxxxx xxxxxxxxx",
-    review: "<https://www.openvas.org>",
+    review: "https://www.openvas.org",
   },
   {
     category: "GMON",
@@ -520,7 +520,7 @@ let gmonQuestions = [
     answer: "Attacker gains control",
     hint: "Connects back to hacker.",
     blank: "xxxxxxxx xxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Reverse_shell>",
+    review: "https://en.wikipedia.org/wiki/Reverse_shell",
   },
   {
     category: "GMON",
@@ -528,7 +528,7 @@ let gmonQuestions = [
     answer: "Packet capture",
     hint: "Network traffic analysis.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Pcap>",
+    review: "https://en.wikipedia.org/wiki/Pcap",
   },
   {
     category: "GMON",
@@ -536,7 +536,7 @@ let gmonQuestions = [
     answer: "Use physical traits",
     hint: "Fingerprint, iris scan.",
     blank: "xxx xxxxxxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Biometric_authentication>",
+    review: "https://en.wikipedia.org/wiki/Biometric_authentication",
   },
   {
     category: "GMON",
@@ -544,7 +544,7 @@ let gmonQuestions = [
     answer: "Gain higher access",
     hint: "Abuse admin privileges.",
     blank: "xxxx xxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Privilege_escalation>",
+    review: "https://en.wikipedia.org/wiki/Privilege_escalation",
   },
   {
     category: "GMON",
@@ -552,7 +552,7 @@ let gmonQuestions = [
     answer: "Adversary tactics",
     hint: "Threat framework.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://attack.mitre.org>",
+    review: "https://attack.mitre.org",
   },
   {
     category: "GMON",
@@ -560,7 +560,7 @@ let gmonQuestions = [
     answer: "Resolves domain names",
     hint: "Maps URLs to IPs.",
     blank: "xxxxxxxxxx xxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Domain_Name_System>",
+    review: "https://en.wikipedia.org/wiki/Domain_Name_System",
   },
   {
     category: "GMON",
@@ -568,7 +568,7 @@ let gmonQuestions = [
     answer: "Deceptive system",
     hint: "Attracts attackers.",
     blank: "xxxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Honeypot_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Honeypot_(computing)",
   },
   {
     category: "GMON",
@@ -577,7 +577,7 @@ let gmonQuestions = [
     hint: "Monitors individual hosts.",
     blank: "xxxx xxxxxxxxx xxxxxxxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Host-based_intrusion_detection_system>",
+      "https://en.wikipedia.org/wiki/Host-based_intrusion_detection_system",
   },
   {
     category: "GMON",
@@ -586,7 +586,7 @@ let gmonQuestions = [
     hint: "Stops unauthorized actions.",
     blank: "xxxxxx xxxxxxxxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Host-based_intrusion_prevention_system>",
+      "https://en.wikipedia.org/wiki/Host-based_intrusion_prevention_system",
   },
   {
     category: "GMON",
@@ -594,7 +594,7 @@ let gmonQuestions = [
     answer: "Filters traffic",
     hint: "Protects individual devices.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Firewall_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Firewall_(computing)",
   },
   {
     category: "GMON",
@@ -602,7 +602,7 @@ let gmonQuestions = [
     answer: "Network traffic",
     hint: "Secures data in transit.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Transport_Layer_Security>",
+    review: "https://en.wikipedia.org/wiki/Transport_Layer_Security",
   },
   {
     category: "GMON",
@@ -610,7 +610,7 @@ let gmonQuestions = [
     answer: "Secure connections",
     hint: "Encrypts remote access.",
     blank: "xxxxxx xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Virtual_private_network>",
+    review: "https://en.wikipedia.org/wiki/Virtual_private_network",
   },
   {
     category: "GMON",
@@ -618,7 +618,7 @@ let gmonQuestions = [
     answer: "Packet traffic",
     hint: "Captures network data.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.wireshark.org>",
+    review: "https://www.wireshark.org",
   },
   {
     category: "GMON",
@@ -626,7 +626,7 @@ let gmonQuestions = [
     answer: "Network intrusion detection",
     hint: "Monitors network traffic.",
     blank: "xxxxxxx xxxxxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Intrusion_detection_system>",
+    review: "https://en.wikipedia.org/wiki/Intrusion_detection_system",
   },
   {
     category: "GMON",
@@ -634,7 +634,7 @@ let gmonQuestions = [
     answer: "Block threats",
     hint: "Prevents intrusions.",
     blank: "xxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Intrusion_prevention_system>",
+    review: "https://en.wikipedia.org/wiki/Intrusion_prevention_system",
   },
   {
     category: "GMON",
@@ -642,7 +642,7 @@ let gmonQuestions = [
     answer: "Next-generation firewall",
     hint: "Advanced packet inspection.",
     blank: "xxxx xxxxxxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Next-generation_firewall>",
+    review: "https://en.wikipedia.org/wiki/Next-generation_firewall",
   },
   {
     category: "GMON",
@@ -651,7 +651,7 @@ let gmonQuestions = [
     hint: "Defines system standards.",
     blank: "xxxxxxxx xxxxxxxxxxxxx",
     review:
-      "<https://en.wikipedia.org/wiki/Baseline_(configuration_management)>",
+      "https://en.wikipedia.org/wiki/Baseline_(configuration_management)",
   },
   {
     category: "GMON",
@@ -659,7 +659,7 @@ let gmonQuestions = [
     answer: "Fix vulnerabilities",
     hint: "Prevents exploits.",
     blank: "xxxx xxxxxxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Patch_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Patch_(computing)",
   },
   {
     category: "GMON",
@@ -667,7 +667,7 @@ let gmonQuestions = [
     answer: "Detect intrusions",
     hint: "Open-source tool.",
     blank: "xxxxxx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Snort_(software)>",
+    review: "https://en.wikipedia.org/wiki/Snort_(software)",
   },
   {
     category: "GMON",
@@ -675,7 +675,7 @@ let gmonQuestions = [
     answer: "Network behavior",
     hint: "Focuses on traffic analysis.",
     blank: "xxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Zeek_(software)>",
+    review: "https://en.wikipedia.org/wiki/Zeek_(software)",
   },
   {
     category: "GMON",
@@ -683,7 +683,7 @@ let gmonQuestions = [
     answer: "Encrypt traffic",
     hint: "Protects network communications.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/IPsec>",
+    review: "https://en.wikipedia.org/wiki/IPsec",
   },
   {
     category: "GMON",
@@ -691,7 +691,7 @@ let gmonQuestions = [
     answer: "Detect anomalies",
     hint: "Reviews system events.",
     blank: "xxxxx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Log_analysis>",
+    review: "https://en.wikipedia.org/wiki/Log_analysis",
   },
   {
     category: "GMON",
@@ -699,7 +699,7 @@ let gmonQuestions = [
     answer: "Vulnerabilities",
     hint: "Identifies system weaknesses.",
     blank: "xxxxxxxxxxxxxxxxx",
-    review: "<https://www.tenable.com/products/nessus>",
+    review: "https://www.tenable.com/products/nessus",
   },
   {
     category: "GMON",
@@ -707,7 +707,7 @@ let gmonQuestions = [
     answer: "Analyze traffic content",
     hint: "Examines data payloads.",
     blank: "xxxxxx xxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Deep_packet_inspection>",
+    review: "https://en.wikipedia.org/wiki/Deep_packet_inspection",
   },
   {
     category: "GMON",
@@ -715,7 +715,7 @@ let gmonQuestions = [
     answer: "Network traffic patterns",
     hint: "Focuses on metadata.",
     blank: "xxxxxxx xxxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/NetFlow>",
+    review: "https://en.wikipedia.org/wiki/NetFlow",
   },
   {
     category: "GMON",
@@ -723,7 +723,7 @@ let gmonQuestions = [
     answer: "Quick patch",
     hint: "Immediate software fix.",
     blank: "xxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Hotfix>",
+    review: "https://en.wikipedia.org/wiki/Hotfix",
   },
   {
     category: "GMON",
@@ -731,7 +731,7 @@ let gmonQuestions = [
     answer: "Log data",
     hint: "Focuses on event aggregation.",
     blank: "xxxx xxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -739,7 +739,7 @@ let gmonQuestions = [
     answer: "Network entry point",
     hint: "Protects boundaries.",
     blank: "xxxxxxx xxxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Network_security>",
+    review: "https://en.wikipedia.org/wiki/Network_security",
   },
   {
     category: "GMON",
@@ -747,7 +747,7 @@ let gmonQuestions = [
     answer: "Block unauthorized traffic",
     hint: "Filters network access.",
     blank: "xxxxx xxxxxxxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Firewall_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Firewall_(computing)",
   },
   {
     category: "GMON",
@@ -755,7 +755,7 @@ let gmonQuestions = [
     answer: "Isolates services",
     hint: "Separate network zone.",
     blank: "xxxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/DMZ_(computing)>",
+    review: "https://en.wikipedia.org/wiki/DMZ_(computing)",
   },
   {
     category: "GMON",
@@ -763,7 +763,7 @@ let gmonQuestions = [
     answer: "Mediates requests",
     hint: "Intermediary for users.",
     blank: "xxxxxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Proxy_server>",
+    review: "https://en.wikipedia.org/wiki/Proxy_server",
   },
   {
     category: "GMON",
@@ -771,7 +771,7 @@ let gmonQuestions = [
     answer: "Aggregates logs",
     hint: "Centralized event monitoring.",
     blank: "xxxxxxxxx xxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -779,7 +779,7 @@ let gmonQuestions = [
     answer: "Intrusions",
     hint: "Unauthorized activity.",
     blank: "xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Intrusion_detection_system>",
+    review: "https://en.wikipedia.org/wiki/Intrusion_detection_system",
   },
   {
     category: "GMON",
@@ -787,7 +787,7 @@ let gmonQuestions = [
     answer: "Permits apps",
     hint: "Restricts application use.",
     blank: "xxxxxxx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Application_whitelisting>",
+    review: "https://en.wikipedia.org/wiki/Application_whitelisting",
   },
   {
     category: "GMON",
@@ -795,7 +795,7 @@ let gmonQuestions = [
     answer: "Installed software",
     hint: "Monitors applications.",
     blank: "xxxxxxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Software_asset_management>",
+    review: "https://en.wikipedia.org/wiki/Software_asset_management",
   },
   {
     category: "GMON",
@@ -803,7 +803,7 @@ let gmonQuestions = [
     answer: "Blocks applications",
     hint: "Restricts unauthorized apps.",
     blank: "xxxxxx xxxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Blacklist_(computing)>",
+    review: "https://en.wikipedia.org/wiki/Blacklist_(computing)",
   },
   {
     category: "GMON",
@@ -811,7 +811,7 @@ let gmonQuestions = [
     answer: "Adversary tactics",
     hint: "Focuses on threat behavior.",
     blank: "xxxxxxxxx xxxxxxx",
-    review: "<https://attack.mitre.org>",
+    review: "https://attack.mitre.org",
   },
   {
     category: "GMON",
@@ -819,7 +819,7 @@ let gmonQuestions = [
     answer: "Monitor threats",
     hint: "Manages incidents.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Security_operations_center>",
+    review: "https://en.wikipedia.org/wiki/Security_operations_center",
   },
   {
     category: "GMON",
@@ -827,7 +827,7 @@ let gmonQuestions = [
     answer: "No implicit trust",
     hint: "Verify every access.",
     blank: "xxx xxxxxxxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Zero_trust>",
+    review: "https://en.wikipedia.org/wiki/Zero_trust",
   },
   {
     category: "GMON",
@@ -835,7 +835,7 @@ let gmonQuestions = [
     answer: "Secures cloud access",
     hint: "Protects SaaS environments.",
     blank: "xxxxxxx xxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Cloud_access_security_broker>",
+    review: "https://en.wikipedia.org/wiki/Cloud_access_security_broker",
   },
   {
     category: "GMON",
@@ -843,7 +843,7 @@ let gmonQuestions = [
     answer: "Filter traffic",
     hint: "Hides user identity.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Proxy_server>",
+    review: "https://en.wikipedia.org/wiki/Proxy_server",
   },
   {
     category: "GMON",
@@ -851,7 +851,7 @@ let gmonQuestions = [
     answer: "Using attack data",
     hint: "Informed by adversaries.",
     blank: "xxxxx xxxxxx xxxxxxx",
-    review: "<https://www.mitre.org>",
+    review: "https://www.mitre.org",
   },
   {
     category: "GMON",
@@ -859,7 +859,7 @@ let gmonQuestions = [
     answer: "Protect web apps",
     hint: "Focuses on HTTP traffic.",
     blank: "xxxxxx xxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Web_application_firewall>",
+    review: "https://en.wikipedia.org/wiki/Web_application_firewall",
   },
   {
     category: "GMON",
@@ -867,7 +867,7 @@ let gmonQuestions = [
     answer: "Web security",
     hint: "Common web vulnerabilities.",
     blank: "xxx xxxxxxxx",
-    review: "<https://owasp.org>",
+    review: "https://owasp.org",
   },
   {
     category: "GMON",
@@ -875,7 +875,7 @@ let gmonQuestions = [
     answer: "Restrict app usage",
     hint: "Prevents unauthorized execution.",
     blank: "xxxxxxxx xxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Application_whitelisting>",
+    review: "https://en.wikipedia.org/wiki/Application_whitelisting",
   },
   {
     category: "GMON",
@@ -883,7 +883,7 @@ let gmonQuestions = [
     answer: "Track updates",
     hint: "Ensures secure versions.",
     blank: "xxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Software_asset_management>",
+    review: "https://en.wikipedia.org/wiki/Software_asset_management",
   },
   {
     category: "GMON",
@@ -892,7 +892,7 @@ let gmonQuestions = [
     hint: "Find hidden threats.",
     blank: "xxxxxxxx xxxxxxxxxx",
     review:
-      "<https://www.sans.org/cyber-security-certification/threat-hunting>",
+      "https://www.sans.org/cyber-security-certification/threat-hunting",
   },
   {
     category: "GMON",
@@ -900,7 +900,7 @@ let gmonQuestions = [
     answer: "Tactics, techniques, procedures",
     hint: "Adversary methods.",
     blank: "xxxxxxx xxxxxxxxx xxxxxxxxxx",
-    review: "<https://attack.mitre.org>",
+    review: "https://attack.mitre.org",
   },
   {
     category: "GMON",
@@ -908,7 +908,7 @@ let gmonQuestions = [
     answer: "Attack lifecycle",
     hint: "Steps attackers follow.",
     blank: "xxxxxx xxxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Kill_chain>",
+    review: "https://en.wikipedia.org/wiki/Kill_chain",
   },
   {
     category: "GMON",
@@ -916,7 +916,7 @@ let gmonQuestions = [
     answer: "Security framework",
     hint: "Guides cybersecurity practices.",
     blank: "xxxxxxx xxxxxxxxxx",
-    review: "<https://www.nist.gov/cyberframework>",
+    review: "https://www.nist.gov/cyberframework",
   },
   {
     category: "GMON",
@@ -924,7 +924,7 @@ let gmonQuestions = [
     answer: "Deceptive file",
     hint: "Lures attackers.",
     blank: "xxxxxxxxxxx xxxxx",
-    review: "<https://en.wikipedia.org/wiki/Honeytoken>",
+    review: "https://en.wikipedia.org/wiki/Honeytoken",
   },
   {
     category: "GMON",
@@ -932,7 +932,7 @@ let gmonQuestions = [
     answer: "Monitor traffic",
     hint: "Detects anomalies.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Intrusion_detection_system>",
+    review: "https://en.wikipedia.org/wiki/Intrusion_detection_system",
   },
   {
     category: "GMON",
@@ -940,7 +940,7 @@ let gmonQuestions = [
     answer: "Logs and events",
     hint: "SIEM tool.",
     blank: "xxxx xxx xxxxxxx",
-    review: "<https://www.splunk.com>",
+    review: "https://www.splunk.com",
   },
   {
     category: "GMON",
@@ -948,7 +948,7 @@ let gmonQuestions = [
     answer: "Quick patch",
     hint: "Immediate fix.",
     blank: "xxxxx xxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Hotfix>",
+    review: "https://en.wikipedia.org/wiki/Hotfix",
   },
   {
     category: "GMON",
@@ -956,7 +956,7 @@ let gmonQuestions = [
     answer: "Traffic patterns",
     hint: "Focuses on metadata.",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/NetFlow>",
+    review: "https://en.wikipedia.org/wiki/NetFlow",
   },
   {
     category: "GMON",
@@ -964,7 +964,7 @@ let gmonQuestions = [
     answer: "Isolates processes",
     hint: "Prevents broader access.",
     blank: "xxxxxxxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Sandbox_(computer_security)>",
+    review: "https://en.wikipedia.org/wiki/Sandbox_(computer_security)",
   },
   {
     category: "GMON",
@@ -972,7 +972,7 @@ let gmonQuestions = [
     answer: "Monitor and respond",
     hint: "Manages incidents.",
     blank: "xxxxxxx xxx xxxxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Security_operations_center>",
+    review: "https://en.wikipedia.org/wiki/Security_operations_center",
   },
 ];
 

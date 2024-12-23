@@ -5,7 +5,7 @@ let oscpQuestions = [
       answer: "Identify vulnerabilities",
       hint: "Security weaknesses.",
       blank: "xxxxxxx xxxxxxxxxxxxxx",
-      review: "<https://www.offensive-security.com>"
+      review: "https://www.offensive-security.com"
     },
     {
       category: "OSCP",
@@ -13,7 +13,7 @@ let oscpQuestions = [
       answer: "80",
       hint: "Web traffic.",
       blank: "xx",
-      review: "<https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>"
+      review: "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
     },
     {
       category: "OSCP",
@@ -21,7 +21,7 @@ let oscpQuestions = [
       answer: "Nmap",
       hint: "Network scanner.",
       blank: "xxxx",
-      review: "<https://nmap.org>"
+      review: "https://nmap.org"
     },
     {
       category: "OSCP",
@@ -29,7 +29,7 @@ let oscpQuestions = [
       answer: "Reconnaissance",
       hint: "Information gathering.",
       blank: "xxxxxxxxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Reconnaissance>"
+      review: "https://en.wikipedia.org/wiki/Reconnaissance"
     },
     {
       category: "OSCP",
@@ -37,7 +37,7 @@ let oscpQuestions = [
       answer: "ARP spoofing",
       hint: "Network manipulation.",
       blank: "xxx xxxxxxxxx",
-      review: "<https://www.varonis.com/blog/arp-spoofing>"
+      review: "https://www.varonis.com/blog/arp-spoofing"
     },
     {
       category: "OSCP",
@@ -45,7 +45,7 @@ let oscpQuestions = [
       answer: "Metasploit",
       hint: "Framework for exploits.",
       blank: "xxxxxxxxxx",
-      review: "<https://www.metasploit.com>"
+      review: "https://www.metasploit.com"
     },
     {
       category: "OSCP",
@@ -53,7 +53,7 @@ let oscpQuestions = [
       answer: "Improper input validation",
       hint: "Database attack.",
       blank: "xxxxxxxx xxxxxx xxxxxxxxx",
-      review: "<https://owasp.org/www-community/attacks/SQL_Injection>"
+      review: "https://owasp.org/www-community/attacks/SQL_Injection"
     },
     {
       category: "OSCP",
@@ -61,7 +61,7 @@ let oscpQuestions = [
       answer: "HTTPS",
       hint: "Secure HTTP.",
       blank: "xxxxx",
-      review: "<https://en.wikipedia.org/wiki/HTTPS>"
+      review: "https://en.wikipedia.org/wiki/HTTPS"
     },
     {
       category: "OSCP",
@@ -69,7 +69,7 @@ let oscpQuestions = [
       answer: "Wireshark",
       hint: "Packet sniffer.",
       blank: "xxxxxxxxx",
-      review: "<https://www.wireshark.org>"
+      review: "https://www.wireshark.org"
     },
     {
       category: "OSCP",
@@ -77,7 +77,7 @@ let oscpQuestions = [
       answer: "Cross-site scripting",
       hint: "Injects client-side scripts.",
       blank: "xxxxxxxxxxxxxx xxxxxxxxx",
-      review: "<https://owasp.org/www-community/attacks/xss/>"
+      review: "https://owasp.org/www-community/attacks/xss/"
     },
     {
       category: "OSCP",
@@ -85,7 +85,7 @@ let oscpQuestions = [
       answer: "Remote file inclusion",
       hint: "Load files remotely.",
       blank: "xxxxxx xxxx xxxxxxxxx",
-      review: "<https://owasp.org/www-community/attacks/Remote_File_Inclusion>"
+      review: "https://owasp.org/www-community/attacks/Remote_File_Inclusion"
     },
     {
       category: "OSCP",
@@ -93,7 +93,7 @@ let oscpQuestions = [
       answer: "Hydra",
       hint: "Password cracker.",
       blank: "xxxxx",
-      review: "<https://tools.kali.org/password-attacks/hydra>"
+      review: "https://tools.kali.org/password-attacks/hydra"
     },
     {
       category: "OSCP",
@@ -101,7 +101,7 @@ let oscpQuestions = [
       answer: "Black box",
       hint: "No prior information.",
       blank: "xxxxx xxx",
-      review: "<https://en.wikipedia.org/wiki/Black-box_testing>"
+      review: "https://en.wikipedia.org/wiki/Black-box_testing"
     },
     {
       category: "OSCP",
@@ -109,7 +109,7 @@ let oscpQuestions = [
       answer: "Tactics, techniques",
       hint: "Attack behaviors.",
       blank: "xxxxxxx xxxxxxxxx",
-      review: "<https://attack.mitre.org>"
+      review: "https://attack.mitre.org"
     },
     {
       category: "OSCP",
@@ -117,7 +117,7 @@ let oscpQuestions = [
       answer: "Burp Suite",
       hint: "Intercepts traffic.",
       blank: "xxxx xxxxx",
-      review: "<https://portswigger.net/burp>"
+      review: "https://portswigger.net/burp"
     },
     {
       category: "OSCP",
@@ -125,7 +125,7 @@ let oscpQuestions = [
       answer: "Ransomware",
       hint: "Locks your data.",
       blank: "xxxxxxxxxx",
-      review: "<https://www.cisa.gov/ransomware>"
+      review: "https://www.cisa.gov/ransomware"
     },
     {
       category: "OSCP",
@@ -133,7 +133,7 @@ let oscpQuestions = [
       answer: "DNS spoofing",
       hint: "Tampering with DNS.",
       blank: "xxx xxxxxxxx",
-      review: "<https://www.cloudflare.com/learning/dns/dns-spoofing/>"
+      review: "https://www.cloudflare.com/learning/dns/dns-spoofing/"
     },
     {
       category: "OSCP",
@@ -141,7 +141,7 @@ let oscpQuestions = [
       answer: "Open source intelligence",
       hint: "Public information.",
       blank: "xxxx xxxxxx xxxxxxxxxxx",
-      review: "<https://en.wikipedia.org/wiki/Open-source_intelligence>"
+      review: "https://en.wikipedia.org/wiki/Open-source_intelligence"
     },
     {
       category: "OSCP",
@@ -149,7 +149,7 @@ let oscpQuestions = [
       answer: "Buffer overflow",
       hint: "Memory corruption.",
       blank: "xxxxxx xxxxxxxx",
-      review: "<https://owasp.org/www-community/attacks/Buffer_Overflow>"
+      review: "https://owasp.org/www-community/attacks/Buffer_Overflow"
     },
     {
       category: "OSCP",
@@ -157,7 +157,7 @@ let oscpQuestions = [
       answer: "Post-exploitation",
       hint: "After initial access.",
       blank: "xxxx-xxxxxxxxxxxx",
-      review: "<https://www.offensive-security.com>"
+      review: "https://www.offensive-security.com"
     },
     {
       category: "OSCP",
@@ -165,7 +165,7 @@ let oscpQuestions = [
       answer: "John the Ripper",
       hint: "Password cracking.",
       blank: "xxxx xxx xxxxxx",
-      review: "<https://www.openwall.com/john/>"
+      review: "https://www.openwall.com/john/"
     },
     {
       category: "OSCP",
@@ -173,7 +173,7 @@ let oscpQuestions = [
       answer: "Pivoting",
       hint: "Expanding access.",
       blank: "xxxxxxxx",
-      review: "<https://www.offensive-security.com>"
+      review: "https://www.offensive-security.com"
     },
     {
       category: "OSCP",
@@ -181,7 +181,7 @@ let oscpQuestions = [
       answer: "Binary exploitation",
       hint: "Code-level attack.",
       blank: "xxxxxx xxxxxxxxxxx",
-      review: "<https://www.exploit-db.com>"
+      review: "https://www.exploit-db.com"
     },
     {
       category: "OSCP",
@@ -189,7 +189,7 @@ let oscpQuestions = [
       answer: "Log analysis",
       hint: "Review system logs.",
       blank: "xxx xxxxxxx",
-      review: "<https://www.splunk.com>"
+      review: "https://www.splunk.com"
     },
     {
       category: "OSCP",
@@ -197,7 +197,7 @@ let oscpQuestions = [
       answer: "21",
       hint: "File transfer.",
       blank: "xx",
-      review: "<https://en.wikipedia.org/wiki/File_Transfer_Protocol>"
+      review: "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
     },
     {
       category: "OSCP",
@@ -205,7 +205,7 @@ let oscpQuestions = [
       answer: "SSH",
       hint: "Secure remote login.",
       blank: "xxx",
-      review: "<https://en.wikipedia.org/wiki/Secure_Shell>"
+      review: "https://en.wikipedia.org/wiki/Secure_Shell"
     },
     {
       category: "OSCP",
@@ -213,7 +213,7 @@ let oscpQuestions = [
       answer: "Client-side",
       hint: "Browser-based attacks.",
       blank: "xxxxxx-xxxx",
-      review: "<https://owasp.org/www-community/attacks/>"
+      review: "https://owasp.org/www-community/attacks/"
     },
     {
       category: "OSCP",
@@ -221,7 +221,7 @@ let oscpQuestions = [
       answer: "Reporting",
       hint: "Final phase.",
       blank: "xxxxxxxxx",
-      review: "<https://www.offensive-security.com>"
+      review: "https://www.offensive-security.com"
     },
     {
       category: "OSCP",
@@ -229,7 +229,7 @@ let oscpQuestions = [
       answer: "Red teaming",
       hint: "Adversarial simulation.",
       blank: "xxx xxxxxxx",
-      review: "<https://www.offensive-security.com>"
+      review: "https://www.offensive-security.com"
     },
     {
       category: "OSCP",
@@ -237,7 +237,7 @@ let oscpQuestions = [
       answer: "PowerShell",
       hint: "Windows scripting.",
       blank: "xxxxxxxxxx",
-      review: "<https://docs.microsoft.com/en-us/powershell/>"
+      review: "https://docs.microsoft.com/en-us/powershell/"
     }
   ];
   

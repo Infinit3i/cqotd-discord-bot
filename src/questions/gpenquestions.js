@@ -5,7 +5,7 @@ let gpenQuestions = [
     answer: "Find vulnerabilities",
     hint: "Identify weaknesses.",
     blank: "xxxx xxxxxxxxxxxxxx",
-    review: "<https://www.sans.org/cyber-security-skills/penetration-testing/>",
+    review: "https://www.sans.org/cyber-security-skills/penetration-testing/",
   },
   {
     category: "SANS GPEN",
@@ -14,7 +14,7 @@ let gpenQuestions = [
     answer: "Nmap",
     hint: "Network mapper.",
     blank: "xxxx",
-    review: "<https://nmap.org>",
+    review: "https://nmap.org",
   },
   {
     category: "SANS GPEN",
@@ -23,7 +23,7 @@ let gpenQuestions = [
     hint: "Limited information.",
     blank: "xxxx xxx",
     review:
-      "<https://www.imperva.com/learn/application-security/gray-box-testing/>",
+      "https://www.imperva.com/learn/application-security/gray-box-testing/",
   },
   {
     category: "SANS GPEN",
@@ -31,7 +31,7 @@ let gpenQuestions = [
     answer: "Payload",
     hint: "Delivered by exploit.",
     blank: "xxxxxxx",
-    review: "<https://www.metasploit.com>",
+    review: "https://www.metasploit.com",
   },
   {
     category: "SANS GPEN",
@@ -40,7 +40,7 @@ let gpenQuestions = [
     answer: "Phishing",
     hint: "Email-based attack.",
     blank: "xxxxxxxx",
-    review: "<https://www.cisa.gov/phishing>",
+    review: "https://www.cisa.gov/phishing",
   },
   {
     category: "SANS GPEN",
@@ -48,7 +48,7 @@ let gpenQuestions = [
     answer: "Hydra",
     hint: "Password cracker.",
     blank: "xxxxx",
-    review: "<https://tools.kali.org/password-attacks/hydra>",
+    review: "https://tools.kali.org/password-attacks/hydra",
   },
   {
     category: "SANS GPEN",
@@ -56,7 +56,7 @@ let gpenQuestions = [
     answer: "MITRE ATT&CK",
     hint: "Adversarial tactics.",
     blank: "xxxxx xxxxxx",
-    review: "<https://attack.mitre.org>",
+    review: "https://attack.mitre.org",
   },
   {
     category: "SANS GPEN",
@@ -64,7 +64,7 @@ let gpenQuestions = [
     answer: "Command and control",
     hint: "Remote management.",
     blank: "xxxxxxx xxx xxxxxxx",
-    review: "<https://en.wikipedia.org/wiki/Command_and_control_(malware)>",
+    review: "https://en.wikipedia.org/wiki/Command_and_control_(malware)",
   },
   {
     category: "SANS GPEN",
@@ -72,7 +72,7 @@ let gpenQuestions = [
     answer: "22",
     hint: "Remote login.",
     blank: "xx",
-    review: "<https://en.wikipedia.org/wiki/Secure_Shell>",
+    review: "https://en.wikipedia.org/wiki/Secure_Shell",
   },
   {
     category: "SANS GPEN",
@@ -80,7 +80,7 @@ let gpenQuestions = [
     answer: "Wireshark",
     hint: "Network analysis.",
     blank: "xxxxxxxxx",
-    review: "<https://www.wireshark.org>",
+    review: "https://www.wireshark.org",
   },
   {
     category: "SANS GPEN",
@@ -88,7 +88,7 @@ let gpenQuestions = [
     answer: "Reconnaissance",
     hint: "Gather information.",
     blank: "xxxxxxxxxxxxxx",
-    review: "<https://owasp.org/www-community/Reconnaissance_Phase>",
+    review: "https://owasp.org/www-community/Reconnaissance_Phase",
   },
   {
     category: "SANS GPEN",
@@ -96,7 +96,7 @@ let gpenQuestions = [
     answer: "DNS poisoning",
     hint: "Cache manipulation.",
     blank: "xxx xxxxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/dns/dns-cache-poisoning/>",
+    review: "https://www.cloudflare.com/learning/dns/dns-cache-poisoning/",
   },
   {
     category: "SANS GPEN",
@@ -104,7 +104,7 @@ let gpenQuestions = [
     answer: "Privilege escalation",
     hint: "Gain higher access.",
     blank: "xxxxxxxx xxxxxxxxxx",
-    review: "<https://www.acunetix.com/blog/articles/privilege-escalation/>",
+    review: "https://www.acunetix.com/blog/articles/privilege-escalation/",
   },
   {
     category: "SANS GPEN",
@@ -112,7 +112,7 @@ let gpenQuestions = [
     answer: "OSSTMM",
     hint: "Testing methodology.",
     blank: "xxxxxxx",
-    review: "<https://www.isecom.org/OSSTMM>",
+    review: "https://www.isecom.org/OSSTMM",
   },
   {
     category: "SANS GPEN",
@@ -120,7 +120,7 @@ let gpenQuestions = [
     answer: "Find weaknesses",
     hint: "Identify vulnerabilities.",
     blank: "xxxx xxxxxxxxxx",
-    review: "<https://www.tenable.com/products/nessus>",
+    review: "https://www.tenable.com/products/nessus",
   },
   {
     category: "SANS GPEN",
@@ -128,7 +128,7 @@ let gpenQuestions = [
     answer: "Port scan",
     hint: "Enumerates services.",
     blank: "xxxx xxxx",
-    review: "<https://nmap.org/book/man-port-scanning-basics.html>",
+    review: "https://nmap.org/book/man-port-scanning-basics.html",
   },
   {
     category: "SANS GPEN",
@@ -136,7 +136,7 @@ let gpenQuestions = [
     answer: "Ransomware",
     hint: "Locks files.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.cisa.gov/ransomware>",
+    review: "https://www.cisa.gov/ransomware",
   },
   {
     category: "SANS GPEN",
@@ -144,7 +144,7 @@ let gpenQuestions = [
     answer: "SYN flood",
     hint: "Denial of Service.",
     blank: "xxx xxxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/>",
+    review: "https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/",
   },
   {
     category: "SANS GPEN",
@@ -152,7 +152,7 @@ let gpenQuestions = [
     answer: "Hashcat",
     hint: "GPU-based cracker.",
     blank: "xxxxxxx",
-    review: "<https://hashcat.net/hashcat/>",
+    review: "https://hashcat.net/hashcat/",
   },
   {
     category: "SANS GPEN",
@@ -161,7 +161,7 @@ let gpenQuestions = [
     hint: "Summarize findings.",
     blank: "xxxxxxxx",
     review:
-      "<https://www.sans.org/white-papers/penetration-testing-reporting/>",
+      "https://www.sans.org/white-papers/penetration-testing-reporting/",
   },
   {
     category: "SANS GPEN",
@@ -169,7 +169,7 @@ let gpenQuestions = [
     answer: "HTTPS",
     hint: "Encrypted HTTP.",
     blank: "xxxxx",
-    review: "<https://en.wikipedia.org/wiki/HTTPS>",
+    review: "https://en.wikipedia.org/wiki/HTTPS",
   },
   {
     category: "SANS GPEN",
@@ -177,7 +177,7 @@ let gpenQuestions = [
     answer: "Remote file inclusion",
     hint: "Load remote files.",
     blank: "xxxxxx xxxx xxxxxxxxx",
-    review: "<https://owasp.org/www-community/attacks/Remote_File_Inclusion>",
+    review: "https://owasp.org/www-community/attacks/Remote_File_Inclusion",
   },
   {
     category: "SANS GPEN",
@@ -185,7 +185,7 @@ let gpenQuestions = [
     answer: "Cross-site scripting",
     hint: "Inject client-side code.",
     blank: "xxxxxxxxxxx xxxxxxxxx",
-    review: "<https://owasp.org/www-community/attacks/xss/>",
+    review: "https://owasp.org/www-community/attacks/xss/",
   },
   {
     category: "SANS GPEN",
@@ -193,7 +193,7 @@ let gpenQuestions = [
     answer: "Red teaming",
     hint: "Adversarial simulation.",
     blank: "xxx xxxxxxx",
-    review: "<https://www.sans.org/cyber-security-skills/red-teaming/>",
+    review: "https://www.sans.org/cyber-security-skills/red-teaming/",
   },
   {
     category: "SANS GPEN",
@@ -201,7 +201,7 @@ let gpenQuestions = [
     answer: "Injection",
     hint: "Unvalidated input.",
     blank: "xxxxxxxxx",
-    review: "<https://owasp.org/www-community/attacks/Injection>",
+    review: "https://owasp.org/www-community/attacks/Injection",
   },
   {
     category: "SANS GPEN",
@@ -209,7 +209,7 @@ let gpenQuestions = [
     answer: "Burp Suite",
     hint: "Web application testing.",
     blank: "xxxx xxxxx",
-    review: "<https://portswigger.net/burp>",
+    review: "https://portswigger.net/burp",
   },
   {
     category: "SANS GPEN",
@@ -217,7 +217,7 @@ let gpenQuestions = [
     answer: "3389",
     hint: "Remote desktop.",
     blank: "xxxx",
-    review: "<https://en.wikipedia.org/wiki/Remote_Desktop_Protocol>",
+    review: "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol",
   },
   {
     category: "SANS GPEN",
@@ -225,7 +225,7 @@ let gpenQuestions = [
     answer: "DNS spoofing",
     hint: "Tamper with DNS.",
     blank: "xxx xxxxxxxx",
-    review: "<https://www.cloudflare.com/learning/dns/dns-spoofing/>",
+    review: "https://www.cloudflare.com/learning/dns/dns-spoofing/",
   },
   {
     category: "SANS GPEN",
@@ -234,7 +234,7 @@ let gpenQuestions = [
     hint: "Open-source intelligence.",
     blank: "xxxxx",
     review:
-      "<https://www.sans.org/cyber-security-skills/open-source-intelligence-osint/>",
+      "https://www.sans.org/cyber-security-skills/open-source-intelligence-osint/",
   },
   {
     category: "SANS GPEN",
@@ -243,7 +243,7 @@ let gpenQuestions = [
     answer: "Pivoting",
     hint: "Move through network.",
     blank: "xxxxxxxx",
-    review: "<https://www.metasploit.com/what-is-pivoting>",
+    review: "https://www.metasploit.com/what-is-pivoting",
   },
   {
     category: "SANS GPEN",
@@ -252,7 +252,7 @@ let gpenQuestions = [
     hint: "Uses publicly available data.",
     blank: "xxxxxxxxxxx xxxxxxxxx",
     review:
-      "<https://www.sans.org/cyber-security-skills/open-source-intelligence-osint/>",
+      "https://www.sans.org/cyber-security-skills/open-source-intelligence-osint/",
   },
   {
     category: "SANS GPEN",
@@ -260,7 +260,7 @@ let gpenQuestions = [
     answer: "Network utility",
     hint: "Reads and writes data.",
     blank: "xxxxxxx xxxxxxx",
-    review: "<https://nc110.sourceforge.io>",
+    review: "https://nc110.sourceforge.io",
   },
   {
     category: "SANS GPEN",
@@ -268,7 +268,7 @@ let gpenQuestions = [
     answer: "Local file inclusion",
     hint: "Access files locally.",
     blank: "xxxxx xxxx xxxxxxxxx",
-    review: "<https://owasp.org/www-community/attacks/Local_File_Inclusion>",
+    review: "https://owasp.org/www-community/attacks/Local_File_Inclusion",
   },
   {
     category: "SANS GPEN",
@@ -276,7 +276,7 @@ let gpenQuestions = [
     answer: "Aircrack-ng",
     hint: "Wi-Fi security testing.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.aircrack-ng.org>",
+    review: "https://www.aircrack-ng.org",
   },
   {
     category: "SANS GPEN",
@@ -284,7 +284,7 @@ let gpenQuestions = [
     answer: "Gain access",
     hint: "Leverages vulnerabilities.",
     blank: "xxxx xxxxxx",
-    review: "<https://www.sans.org/cyber-security-skills/exploitation/>",
+    review: "https://www.sans.org/cyber-security-skills/exploitation/",
   },
   {
     category: "SANS GPEN",
@@ -293,7 +293,7 @@ let gpenQuestions = [
     hint: "Monitors data packets.",
     blank: "xxxxxxx xxxxxxx",
     review:
-      "<https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html>",
+      "https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html",
   },
   {
     category: "SANS GPEN",
@@ -301,7 +301,7 @@ let gpenQuestions = [
     answer: "Trojan",
     hint: "Disguised as legitimate software.",
     blank: "xxxxxx",
-    review: "<https://www.kaspersky.com/resource-center/threats/trojans>",
+    review: "https://www.kaspersky.com/resource-center/threats/trojans",
   },
   {
     category: "SANS GPEN",
@@ -310,7 +310,7 @@ let gpenQuestions = [
     hint: "Certified hacker skills.",
     blank: "xxxxxxx xxxxxxx",
     review:
-      "<https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/>",
+      "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
   },
   {
     category: "SANS GPEN",
@@ -318,7 +318,7 @@ let gpenQuestions = [
     answer: "Find bugs",
     hint: "Automated input testing.",
     blank: "xxxx xxxx",
-    review: "<https://owasp.org/www-community/Fuzzing>",
+    review: "https://owasp.org/www-community/Fuzzing",
   },
   {
     category: "SANS GPEN",
@@ -326,7 +326,7 @@ let gpenQuestions = [
     answer: "Remote access",
     hint: "Controlled from attacker machine.",
     blank: "xxxxxx xxxxxx",
-    review: "<https://www.hackingarticles.in/reverse-shell-cheatsheet/>",
+    review: "https://www.hackingarticles.in/reverse-shell-cheatsheet/",
   },
   {
     category: "SANS GPEN",
@@ -334,7 +334,7 @@ let gpenQuestions = [
     answer: "SET",
     hint: "Social engineering toolkit.",
     blank: "xxx",
-    review: "<https://github.com/trustedsec/social-engineer-toolkit>",
+    review: "https://github.com/trustedsec/social-engineer-toolkit",
   },
   {
     category: "SANS GPEN",
@@ -343,7 +343,7 @@ let gpenQuestions = [
     hint: "Uses stolen credentials.",
     blank: "xxxxx xxxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/security/glossary/what-is-credential-stuffing/>",
+      "https://www.cloudflare.com/learning/security/glossary/what-is-credential-stuffing/",
   },
   {
     category: "SANS GPEN",
@@ -352,7 +352,7 @@ let gpenQuestions = [
     hint: "Injects malicious SQL code.",
     blank: "xxxxxxxxx",
     review:
-      "<https://www.cloudflare.com/learning/security/threats/sql-injection/>",
+      "https://www.cloudflare.com/learning/security/threats/sql-injection/",
   },
   {
     category: "SANS GPEN",
@@ -360,7 +360,7 @@ let gpenQuestions = [
     answer: "Recover passwords",
     hint: "Breaks password hashes.",
     blank: "xxxxxxx xxxxxxxxx",
-    review: "<https://hashcat.net/hashcat/>",
+    review: "https://hashcat.net/hashcat/",
   },
   {
     category: "SANS GPEN",
@@ -368,7 +368,7 @@ let gpenQuestions = [
     answer: "Lateral movement",
     hint: "Uses compromised systems.",
     blank: "xxxxxxx xxxxxxxxx",
-    review: "<https://www.metasploit.com/what-is-pivoting>",
+    review: "https://www.metasploit.com/what-is-pivoting",
   },
   {
     category: "SANS GPEN",
@@ -376,7 +376,7 @@ let gpenQuestions = [
     answer: "Common vulnerabilities",
     hint: "Tracks security issues.",
     blank: "xxxxxx xxxxxxxxxxxxxx",
-    review: "<https://cve.mitre.org>",
+    review: "https://cve.mitre.org",
   },
   {
     category: "SANS GPEN",
@@ -384,7 +384,7 @@ let gpenQuestions = [
     answer: "21",
     hint: "File transfer protocol.",
     blank: "xx",
-    review: "<https://en.wikipedia.org/wiki/File_Transfer_Protocol>",
+    review: "https://en.wikipedia.org/wiki/File_Transfer_Protocol",
   },
   {
     category: "SANS GPEN",
@@ -392,7 +392,7 @@ let gpenQuestions = [
     answer: "Metasploit",
     hint: "Framework for penetration testing.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.metasploit.com>",
+    review: "https://www.metasploit.com",
   },
   {
     category: "SANS GPEN",
@@ -400,7 +400,7 @@ let gpenQuestions = [
     answer: "Intercept traffic",
     hint: "Fakes MAC addresses.",
     blank: "xxxxxxxxx xxxxxxx",
-    review: "<https://www.cloudflare.com/learning/ddos/arp-spoofing/>",
+    review: "https://www.cloudflare.com/learning/ddos/arp-spoofing/",
   },
   {
     category: "SANS GPEN",
@@ -408,7 +408,7 @@ let gpenQuestions = [
     answer: "Gather intelligence",
     hint: "Information gathering phase.",
     blank: "xxxxxx xxxxxxxxxxxx",
-    review: "<https://owasp.org/www-community/Reconnaissance_Phase>",
+    review: "https://owasp.org/www-community/Reconnaissance_Phase",
   },
 ];
 

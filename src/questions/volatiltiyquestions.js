@@ -5,7 +5,7 @@ let volatilityquestions = [
     answer: "Memory forensics",
     hint: "Analyzes RAM.",
     blank: "xxxxxx xxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/>",
+    review: "https://www.volatilityfoundation.org/",
   },
   {
     category: "Volatility",
@@ -13,7 +13,7 @@ let volatilityquestions = [
     answer: "Volatility Foundation",
     hint: "Nonprofit organization.",
     blank: "xxxxxxxxxx xxxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/>",
+    review: "https://www.volatilityfoundation.org/",
   },
   {
     category: "Volatility",
@@ -21,7 +21,7 @@ let volatilityquestions = [
     answer: "Memory dumps",
     hint: "Snapshots of RAM.",
     blank: "xxxxxx xxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -29,7 +29,7 @@ let volatilityquestions = [
     answer: "pslist",
     hint: "Processes list.",
     blank: "xxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -37,7 +37,7 @@ let volatilityquestions = [
     answer: "netscan",
     hint: "Network scanner.",
     blank: "xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -45,7 +45,7 @@ let volatilityquestions = [
     answer: "--profile",
     hint: "Defines OS and architecture.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -53,7 +53,7 @@ let volatilityquestions = [
     answer: "dlllist",
     hint: "Dynamic libraries.",
     blank: "xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -61,7 +61,7 @@ let volatilityquestions = [
     answer: "Scans for file objects",
     hint: "Searches memory for file-related data.",
     blank: "xxxxx xxx xxxx xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -69,7 +69,7 @@ let volatilityquestions = [
     answer: "cmdscan",
     hint: "Tracks commands.",
     blank: "xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -77,7 +77,7 @@ let volatilityquestions = [
     answer: "Lists registry hives",
     hint: "Focuses on Windows registry.",
     blank: "xxxxx xxxxxxxxx xxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -85,7 +85,7 @@ let volatilityquestions = [
     answer: "thrdscan",
     hint: "Threads scanner.",
     blank: "xxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -93,7 +93,7 @@ let volatilityquestions = [
     answer: "Extract files from memory",
     hint: "Recovers data.",
     blank: "xxxxxx xxxxx xxxx xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -101,7 +101,7 @@ let volatilityquestions = [
     answer: "chromehistory",
     hint: "Focuses on Chrome.",
     blank: "xxxxxxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -109,7 +109,7 @@ let volatilityquestions = [
     answer: "handles",
     hint: "Tracks open objects.",
     blank: "xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -117,7 +117,7 @@ let volatilityquestions = [
     answer: "--info",
     hint: "Information command.",
     blank: "xxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -125,7 +125,7 @@ let volatilityquestions = [
     answer: "Dumps process memory",
     hint: "Extracts memory regions.",
     blank: "xxxxx xxxxxxx xxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -133,7 +133,7 @@ let volatilityquestions = [
     answer: "Malware",
     hint: "Focuses on suspicious activity.",
     blank: "xxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -141,7 +141,7 @@ let volatilityquestions = [
     answer: "clipboards",
     hint: "Tracks copied content.",
     blank: "xxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -149,7 +149,7 @@ let volatilityquestions = [
     answer: "driverscan",
     hint: "Focuses on kernel drivers.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -157,7 +157,7 @@ let volatilityquestions = [
     answer: "Kernel modules",
     hint: "Focuses on OS components.",
     blank: "xxxxxx xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -165,7 +165,7 @@ let volatilityquestions = [
     answer: "usersessions",
     hint: "Tracks logins.",
     blank: "xxxxxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -173,7 +173,7 @@ let volatilityquestions = [
     answer: "Timeline of events",
     hint: "Chronological data.",
     blank: "xxxxxxxx xx xxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -181,7 +181,7 @@ let volatilityquestions = [
     answer: "psscan",
     hint: "Process scanner.",
     blank: "xxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -189,7 +189,7 @@ let volatilityquestions = [
     answer: "dbgprints",
     hint: "Tracks kernel messages.",
     blank: "xxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -197,7 +197,7 @@ let volatilityquestions = [
     answer: "netscan",
     hint: "Focuses on network data.",
     blank: "xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -205,7 +205,7 @@ let volatilityquestions = [
     answer: "hashdump",
     hint: "Extracts password hashes.",
     blank: "xxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -213,7 +213,7 @@ let volatilityquestions = [
     answer: "-f",
     hint: "Defines input file.",
     blank: "x-x",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -221,7 +221,7 @@ let volatilityquestions = [
     answer: "ldrmodules",
     hint: "Module loader focus.",
     blank: "xxxxxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -229,7 +229,7 @@ let volatilityquestions = [
     answer: "regscan",
     hint: "Windows registry focus.",
     blank: "xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
   {
     category: "Volatility",
@@ -237,7 +237,7 @@ let volatilityquestions = [
     answer: "Match OS version",
     hint: "Ensure compatibility.",
     blank: "xxxxx xx xxxxxxx",
-    review: "<https://www.volatilityfoundation.org/docs>",
+    review: "https://www.volatilityfoundation.org/docs",
   },
 ];
 

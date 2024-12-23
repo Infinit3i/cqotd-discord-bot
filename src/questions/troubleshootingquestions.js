@@ -5,7 +5,7 @@ let troubleshootingQuestions = [
       answer: "Layer 1",
       hint: "Check cables and connections.",
       blank: "xxxxx x",
-      review: "<https://www.comptia.org/blog/troubleshooting-layer-1-issues>",
+      review: "https://www.comptia.org/blog/troubleshooting-layer-1-issues",
     },
     {
       category: "Troubleshooting",
@@ -13,7 +13,7 @@ let troubleshootingQuestions = [
       answer: "Firewall",
       hint: "Ensure access isn't blocked.",
       blank: "xxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/products/security/firewalls.html>",
+      review: "https://www.cisco.com/c/en/us/products/security/firewalls.html",
     },
     {
       category: "Troubleshooting",
@@ -21,7 +21,7 @@ let troubleshootingQuestions = [
       answer: "Config file",
       hint: "Application settings.",
       blank: "xxxxxx xxxx",
-      review: "<https://www.lifewire.com/what-is-config-file-2625813>",
+      review: "https://www.lifewire.com/what-is-config-file-2625813",
     },
     {
       category: "Troubleshooting",
@@ -29,7 +29,7 @@ let troubleshootingQuestions = [
       answer: "Permissions",
       hint: "Verify user rights.",
       blank: "xxxxxxxxxxx",
-      review: "<https://www.cisco.com/c/en/us/solutions/permissions.html>",
+      review: "https://www.cisco.com/c/en/us/solutions/permissions.html",
     },
     {
       category: "Troubleshooting",
@@ -37,7 +37,7 @@ let troubleshootingQuestions = [
       answer: "System logs",
       hint: "Look for error codes.",
       blank: "xxxxxx xxxx",
-      review: "<https://www.loggly.com/monitoring/system-logs>",
+      review: "https://www.loggly.com/monitoring/system-logs",
     },
     {
       category: "Troubleshooting",
@@ -45,7 +45,7 @@ let troubleshootingQuestions = [
       answer: "Network layer",
       hint: "Layer 3 of OSI model.",
       blank: "xxxxxx xxxxx",
-      review: "<https://www.comptia.org/blog/osi-model-layers-explained>",
+      review: "https://www.comptia.org/blog/osi-model-layers-explained",
     },
     {
       category: "Troubleshooting",
@@ -53,7 +53,7 @@ let troubleshootingQuestions = [
       answer: "Restart it",
       hint: "Simple, yet effective.",
       blank: "xxxxxxx xx",
-      review: "<https://www.lifewire.com/how-to-restart-any-device-2626337>",
+      review: "https://www.lifewire.com/how-to-restart-any-device-2626337",
     },
     {
       category: "Troubleshooting",
@@ -61,7 +61,7 @@ let troubleshootingQuestions = [
       answer: "Loose cable",
       hint: "Physical connection.",
       blank: "xxxxx xxxxx",
-      review: "<https://www.techrepublic.com/article/troubleshooting-power-issues>",
+      review: "https://www.techrepublic.com/article/troubleshooting-power-issues",
     },
     {
       category: "Troubleshooting",
@@ -69,7 +69,7 @@ let troubleshootingQuestions = [
       answer: "Wireshark",
       hint: "Packet analyzer.",
       blank: "xxxxxxxxx",
-      review: "<https://www.wireshark.org/>",
+      review: "https://www.wireshark.org/",
     },
     {
       category: "Troubleshooting",
@@ -77,7 +77,7 @@ let troubleshootingQuestions = [
       answer: "Ping",
       hint: "ICMP echo request.",
       blank: "xxxx",
-      review: "<https://en.wikipedia.org/wiki/Ping_(networking_utility)>",
+      review: "https://en.wikipedia.org/wiki/Ping_(networking_utility)",
     },
     {
       category: "Troubleshooting",
@@ -85,7 +85,7 @@ let troubleshootingQuestions = [
       answer: "Clear cache",
       hint: "Removes stored data.",
       blank: "xxxxx xxxxx",
-      review: "<https://www.lifewire.com/clear-your-web-browser-cache-2627010>",
+      review: "https://www.lifewire.com/clear-your-web-browser-cache-2627010",
     },
     {
       category: "Troubleshooting",
@@ -93,7 +93,7 @@ let troubleshootingQuestions = [
       answer: "Power source",
       hint: "Plugged in?",
       blank: "xxxxx xxxxxx",
-      review: "<https://www.techrepublic.com/power-source-troubleshooting>",
+      review: "https://www.techrepublic.com/power-source-troubleshooting",
     },
     {
       category: "Troubleshooting",
@@ -101,7 +101,7 @@ let troubleshootingQuestions = [
       answer: "Check bandwidth",
       hint: "Measure throughput.",
       blank: "xxxxx xxxxxxxx",
-      review: "<https://www.speedtest.net/>",
+      review: "https://www.speedtest.net/",
     },
     {
       category: "Troubleshooting",
@@ -109,7 +109,7 @@ let troubleshootingQuestions = [
       answer: "Reboot system",
       hint: "Restart after updates.",
       blank: "xxxxxx xxxxxx",
-      review: "<https://www.windowscentral.com/importance-rebooting>",
+      review: "https://www.windowscentral.com/importance-rebooting",
     },
     {
       category: "Troubleshooting",
@@ -117,7 +117,7 @@ let troubleshootingQuestions = [
       answer: "Cable tester",
       hint: "Tests physical layer.",
       blank: "xxxxx xxxxxx",
-      review: "<https://www.flukenetworks.com/datacom-cabling/cable-testers>",
+      review: "https://www.flukenetworks.com/datacom-cabling/cable-testers",
     },
     {
       category: "Troubleshooting",
@@ -125,7 +125,7 @@ let troubleshootingQuestions = [
       answer: "Netstat",
       hint: "Displays network connections.",
       blank: "xxxxxxx",
-      review: "<https://www.comptia.org/blog/what-is-netstat>",
+      review: "https://www.comptia.org/blog/what-is-netstat",
     },
     {
       category: "Troubleshooting",
@@ -133,7 +133,7 @@ let troubleshootingQuestions = [
       answer: "Update driver",
       hint: "Fix compatibility problems.",
       blank: "xxxxxx xxxxxx",
-      review: "<https://www.windowscentral.com/how-update-drivers>",
+      review: "https://www.windowscentral.com/how-update-drivers",
     },
     {
       category: "Troubleshooting",
@@ -141,7 +141,7 @@ let troubleshootingQuestions = [
       answer: "ipconfig /flushdns",
       hint: "Flushes cache.",
       blank: "xxxxxxx xxxxxxxxx",
-      review: "<https://www.lifewire.com/how-to-flush-dns-4165366>",
+      review: "https://www.lifewire.com/how-to-flush-dns-4165366",
     },
     {
       category: "Troubleshooting",
@@ -149,7 +149,7 @@ let troubleshootingQuestions = [
       answer: "Task Manager",
       hint: "Monitors processes.",
       blank: "xxxx xxxxxxx",
-      review: "<https://www.windowscentral.com/task-manager-guide>",
+      review: "https://www.windowscentral.com/task-manager-guide",
     },
     {
       category: "Troubleshooting",
@@ -157,7 +157,7 @@ let troubleshootingQuestions = [
       answer: "Add rule",
       hint: "Permit traffic.",
       blank: "xxx xxxx",
-      review: "<https://www.firewall.cx/firewalls/adding-rules>",
+      review: "https://www.firewall.cx/firewalls/adding-rules",
     },
     {
       category: "Troubleshooting",
@@ -165,7 +165,7 @@ let troubleshootingQuestions = [
       answer: "Connection string",
       hint: "Database URL.",
       blank: "xxxxxxxxxx xxxxxx",
-      review: "<https://docs.microsoft.com/en-us/sql/database-connection-string>",
+      review: "https://docs.microsoft.com/en-us/sql/database-connection-string",
     },
     {
       category: "Troubleshooting",
@@ -173,7 +173,7 @@ let troubleshootingQuestions = [
       answer: "Systemctl",
       hint: "Manages services.",
       blank: "xxxxxxxxx",
-      review: "<https://www.linux.com/what-is-systemctl>",
+      review: "https://www.linux.com/what-is-systemctl",
     },
     {
       category: "Troubleshooting",
@@ -181,7 +181,7 @@ let troubleshootingQuestions = [
       answer: "Reinstall it",
       hint: "Fix corrupted files.",
       blank: "xxxxxxxx xx",
-      review: "<https://www.windowscentral.com/how-reinstall-applications>",
+      review: "https://www.windowscentral.com/how-reinstall-applications",
     },
     {
       category: "Troubleshooting",
@@ -189,7 +189,7 @@ let troubleshootingQuestions = [
       answer: "fsck",
       hint: "File system check.",
       blank: "xxxx",
-      review: "<https://www.tecmint.com/fsck-command-examples/>",
+      review: "https://www.tecmint.com/fsck-command-examples/",
     },
     {
       category: "Troubleshooting",
@@ -197,7 +197,7 @@ let troubleshootingQuestions = [
       answer: "Packet capture",
       hint: "Analyze traffic.",
       blank: "xxxxxx xxxxxxx",
-      review: "<https://www.wireshark.org/docs/wsug_html_chunked/>",
+      review: "https://www.wireshark.org/docs/wsug_html_chunked/",
     },
     {
       category: "Troubleshooting",
@@ -205,7 +205,7 @@ let troubleshootingQuestions = [
       answer: "Rollback update",
       hint: "Undo changes.",
       blank: "xxxxxxx xxxxxx",
-      review: "<https://www.windowscentral.com/how-to-rollback-updates>",
+      review: "https://www.windowscentral.com/how-to-rollback-updates",
     },
     {
       category: "Troubleshooting",
@@ -213,7 +213,7 @@ let troubleshootingQuestions = [
       answer: "Test VPN",
       hint: "Secure remote access.",
       blank: "xxxx xxxx",
-      review: "<https://www.cisco.com/vpn-testing-guide>",
+      review: "https://www.cisco.com/vpn-testing-guide",
     },
     {
       category: "Troubleshooting",
@@ -221,7 +221,7 @@ let troubleshootingQuestions = [
       answer: "Authentication logs",
       hint: "Tracks login attempts.",
       blank: "xxxxxxxxxxxxxxx xxxxx",
-      review: "<https://docs.microsoft.com/authentication-log-guide>",
+      review: "https://docs.microsoft.com/authentication-log-guide",
     },
   ];
   

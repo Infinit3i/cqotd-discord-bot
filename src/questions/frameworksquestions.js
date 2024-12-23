@@ -5,7 +5,7 @@ let frameworksquestions = [
       answer: "General Data Protection Regulation",
       hint: "European Union's data privacy law.",
       blank: "xxxxxxx xxxx xxxxxxxxxx xxxxxxxxxx",
-      review: "<https://gdpr-info.eu/>",
+      review: "https://gdpr-info.eu/",
     },
     {
       category: "Cyber Frameworks",
@@ -13,7 +13,7 @@ let frameworksquestions = [
       answer: "Protect personal data",
       hint: "Focuses on data privacy.",
       blank: "xxxxxx xxxxxxx xxxx",
-      review: "<https://gdpr-info.eu/>",
+      review: "https://gdpr-info.eu/",
     },
     {
       category: "Cyber Frameworks",
@@ -21,7 +21,7 @@ let frameworksquestions = [
       answer: "National Institute of Standards and Technology",
       hint: "A US cybersecurity framework.",
       blank: "xxxxxxxx xxxxxxxxx xx xxxxxxxxx xxx xxxxxxxxx",
-      review: "<https://www.nist.gov/>",
+      review: "https://www.nist.gov/",
     },
     {
       category: "Cyber Frameworks",
@@ -29,7 +29,7 @@ let frameworksquestions = [
       answer: "Identify, Protect, Detect, Respond, Recover",
       hint: "Cybersecurity lifecycle.",
       blank: "xxxxxxxx, xxxxxxx, xxxxxx, xxxxxxx, xxxxxxx",
-      review: "<https://www.nist.gov/cyberframework>",
+      review: "https://www.nist.gov/cyberframework",
     },
     {
       category: "Cyber Frameworks",
@@ -37,7 +37,7 @@ let frameworksquestions = [
       answer: "Information Security Management Systems",
       hint: "ISMS framework.",
       blank: "xxxxxxxxxxx xxxxxxxx xxxxxxxxx xxxxxxx",
-      review: "<https://www.iso.org/isoiec-27001-information-security.html>",
+      review: "https://www.iso.org/isoiec-27001-information-security.html",
     },
     {
       category: "Cyber Frameworks",
@@ -45,7 +45,7 @@ let frameworksquestions = [
       answer: "Payment card data security",
       hint: "Focuses on credit card transactions.",
       blank: "xxxxxxx xxxx xxxx xxxxxxx",
-      review: "<https://www.pcisecuritystandards.org/>",
+      review: "https://www.pcisecuritystandards.org/",
     },
     {
       category: "Cyber Frameworks",
@@ -53,7 +53,7 @@ let frameworksquestions = [
       answer: "Protect healthcare information",
       hint: "US healthcare data privacy.",
       blank: "xxxxxx xxxxxxxxx xxxxxxxxxxx",
-      review: "<https://www.hhs.gov/hipaa/index.html>",
+      review: "https://www.hhs.gov/hipaa/index.html",
     },
     {
       category: "Cyber Frameworks",
@@ -61,7 +61,7 @@ let frameworksquestions = [
       answer: "Control Objectives for Information and Related Technologies",
       hint: "Focuses on IT governance.",
       blank: "xxxxxxx xxxxxxxxxx xxx xxxxxxxxxx xxx xxxxxxx xxxxxxxxxxxx",
-      review: "<https://www.isaca.org/resources/cobit>",
+      review: "https://www.isaca.org/resources/cobit",
     },
     {
       category: "Cyber Frameworks",
@@ -69,7 +69,7 @@ let frameworksquestions = [
       answer: "California Consumer Privacy Act",
       hint: "State-level privacy law.",
       blank: "xxxxxxxxx xxxxxxxx xxxxxxx xxxx",
-      review: "<https://oag.ca.gov/privacy/ccpa>",
+      review: "https://oag.ca.gov/privacy/ccpa",
     },
     {
       category: "Cyber Frameworks",
@@ -77,7 +77,7 @@ let frameworksquestions = [
       answer: "Financial reporting integrity",
       hint: "US financial regulation.",
       blank: "xxxxxxxxx xxxxxxxxx xxxxxxxxx",
-      review: "<https://www.soxlaw.com/>",
+      review: "https://www.soxlaw.com/",
     },
     {
       category: "Cyber Frameworks",
@@ -85,7 +85,7 @@ let frameworksquestions = [
       answer: "Cloud security",
       hint: "Cloud-specific security controls.",
       blank: "xxxxx xxxxxxxxx",
-      review: "<https://cloudsecurityalliance.org/research/ccm/>",
+      review: "https://cloudsecurityalliance.org/research/ccm/",
     },
     {
       category: "Cyber Frameworks",
@@ -93,7 +93,7 @@ let frameworksquestions = [
       answer: "Enhance cybersecurity",
       hint: "Practical security guidelines.",
       blank: "xxxxxx xxxxxxxxxxxx",
-      review: "<https://www.cisecurity.org/controls>",
+      review: "https://www.cisecurity.org/controls",
     },
     {
       category: "Cyber Frameworks",
@@ -101,7 +101,7 @@ let frameworksquestions = [
       answer: "Federal Information Security Management Act",
       hint: "US government information security.",
       blank: "xxxxxxx xxxxxxxxxxxx xxxxxxxxx xxxxxxxxxx xxxx",
-      review: "<https://www.cisa.gov/fisma>",
+      review: "https://www.cisa.gov/fisma",
     },
     {
       category: "Cyber Frameworks",
@@ -109,7 +109,7 @@ let frameworksquestions = [
       answer: "Adversary tactics and techniques",
       hint: "Tracks threat actors' behavior.",
       blank: "xxxxxxxxx xxxxxxx xxx xxxxxxxxx",
-      review: "<https://attack.mitre.org/>",
+      review: "https://attack.mitre.org/",
     },
     {
       category: "Cyber Frameworks",
@@ -117,7 +117,7 @@ let frameworksquestions = [
       answer: "Stages of a cyberattack",
       hint: "Developed by Lockheed Martin.",
       blank: "xxxxxx xx x xxxxxxxxxxx",
-      review: "<https://www.lockheedmartin.com/en-us/cyber/cyber-kill-chain.html>",
+      review: "https://www.lockheedmartin.com/en-us/cyber/cyber-kill-chain.html",
     },
     {
       category: "Cyber Frameworks",
@@ -125,7 +125,7 @@ let frameworksquestions = [
       answer: "Privacy Information Management Systems",
       hint: "PIMS framework.",
       blank: "xxxxxxx xxxxxxxxxxxx xxxxxxxxx xxxxxxx",
-      review: "<https://www.iso.org/standard/71670.html>",
+      review: "https://www.iso.org/standard/71670.html",
     },
     {
       category: "Cyber Frameworks",
@@ -133,7 +133,7 @@ let frameworksquestions = [
       answer: "Quantify risk",
       hint: "Focuses on risk management.",
       blank: "xxxxxxxxx xxxxx",
-      review: "<https://www.fairinstitute.org/fair-overview>",
+      review: "https://www.fairinstitute.org/fair-overview",
     },
     {
       category: "Cyber Frameworks",
@@ -141,7 +141,7 @@ let frameworksquestions = [
       answer: "Optimize IT services",
       hint: "Focuses on IT service management.",
       blank: "xxxxxxxx xx xxxxxxxx",
-      review: "<https://www.axelos.com/certifications/itil-certifications>",
+      review: "https://www.axelos.com/certifications/itil-certifications",
     },
     {
       category: "Cyber Frameworks",
@@ -149,7 +149,7 @@ let frameworksquestions = [
       answer: "Never trust, always verify",
       hint: "Assumes no network is secure.",
       blank: "xxxxx xxxxx, xxxxxx xxxxxx",
-      review: "<https://www.cisco.com/c/en/us/solutions/zero-trust.html>",
+      review: "https://www.cisco.com/c/en/us/solutions/zero-trust.html",
     },
     {
       category: "Cyber Frameworks",
@@ -157,7 +157,7 @@ let frameworksquestions = [
       answer: "Risk management",
       hint: "Broad risk guidelines.",
       blank: "xxxx xxxxxxxxxxx",
-      review: "<https://www.iso.org/iso-31000-risk-management.html>",
+      review: "https://www.iso.org/iso-31000-risk-management.html",
     },
     {
       category: "Cyber Frameworks",
@@ -165,7 +165,7 @@ let frameworksquestions = [
       answer: "Web application vulnerabilities",
       hint: "Web security guidance.",
       blank: "xxx xxxxxxxxxxxx xxxxxxxxxxxxxxxxx",
-      review: "<https://owasp.org/www-project-top-ten/>",
+      review: "https://owasp.org/www-project-top-ten/",
     },
     {
       category: "Cyber Frameworks",
@@ -173,7 +173,7 @@ let frameworksquestions = [
       answer: "Business continuity management",
       hint: "Ensures organizational resilience.",
       blank: "xxxxxxxx xxxxxxxxxx xxxxxxxxxxx",
-      review: "<https://www.iso.org/standard/75106.html>",
+      review: "https://www.iso.org/standard/75106.html",
     },
     {
       category: "Cyber Frameworks",
@@ -181,7 +181,7 @@ let frameworksquestions = [
       answer: "Timely notification",
       hint: "Must notify within 72 hours.",
       blank: "xxxxxx xxxxxxxxxxxx",
-      review: "<https://gdpr-info.eu/art-33-gdpr/>",
+      review: "https://gdpr-info.eu/art-33-gdpr/",
     },
     {
       category: "Cyber Frameworks",
@@ -189,7 +189,7 @@ let frameworksquestions = [
       answer: "Capability Maturity Model Integration",
       hint: "Improves processes.",
       blank: "xxxxxxxxxx xxxxxxxx xxxxxx xxxxxxxxxxx",
-      review: "<https://cmmiinstitute.com/>",
+      review: "https://cmmiinstitute.com/",
     },
     {
       category: "Cyber Frameworks",
@@ -197,7 +197,7 @@ let frameworksquestions = [
       answer: "Data security",
       hint: "Protects organizational data.",
       blank: "xxxx xxxxxxx",
-      review: "<https://www.aicpa.org/topic/sox-compliance>",
+      review: "https://www.aicpa.org/topic/sox-compliance",
     },
     {
       category: "Cyber Frameworks",
@@ -205,7 +205,7 @@ let frameworksquestions = [
       answer: "Critical infrastructure protection",
       hint: "Focuses on power grids.",
       blank: "xxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxx",
-      review: "<https://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx>",
+      review: "https://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx",
     },
     {
       category: "Cyber Frameworks",
@@ -213,7 +213,7 @@ let frameworksquestions = [
       answer: "Right to be forgotten",
       hint: "Allows data deletion requests.",
       blank: "xxxxx xx xx xxxxxxxxx",
-      review: "<https://gdpr-info.eu/art-17-gdpr/>",
+      review: "https://gdpr-info.eu/art-17-gdpr/",
     },
     {
       category: "Cyber Frameworks",
@@ -221,7 +221,7 @@ let frameworksquestions = [
       answer: "Security controls",
       hint: "Guidelines for implementing controls.",
       blank: "xxxxxxxx xxxxxxxx",
-      review: "<https://www.iso.org/standard/75652.html>",
+      review: "https://www.iso.org/standard/75652.html",
     },
     {
       category: "Cyber Frameworks",
@@ -229,7 +229,7 @@ let frameworksquestions = [
       answer: "Limit data collection",
       hint: "Only collect what's necessary.",
       blank: "xxxxx xxxx xxxxxxxxxxx",
-      review: "<https://gdpr-info.eu/art-5-gdpr/>",
+      review: "https://gdpr-info.eu/art-5-gdpr/",
     },
   ];
   
