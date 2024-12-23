@@ -37,3 +37,4 @@ node src/index.js
 
 - grab youtube videos from channels every 30 minutes
 - testing
+- rss only post content today
