@@ -1,5 +1,6 @@
 const puppeteer = require("puppeteer");
 const cheerio = require("cheerio");
+const { videoCategories } = require("./ytcategories");
 require("dotenv").config();
 
 const sentVideos = new Set(); // Tracks already sent video links
