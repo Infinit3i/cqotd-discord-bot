@@ -312,14 +312,6 @@ let cisspquestions = [
   },
   {
     category: "CISSP",
-    question: "What is a sandbox in cybersecurity?",
-    answer: "Test",
-    hint: "Used to test for malware.",
-    blank: "xxxxx",
-    review: "https://www.techtarget.com/searchsecurity/definition/sandbox",
-  },
-  {
-    category: "CISSP",
     question: "What is the purpose of VPN?",
     answer: "Secure",
     hint: "Protects online communications.",
