@@ -3,7 +3,6 @@ const { handleScore } = require("../commands/economy/score");
 const { handleLeaderboard } = require("../commands/economy/leaderboard");
 const { handleHint } = require("./hintHandler");
 const { handleBlank } = require("./blankHandler");
-const { handleSkip } = require("./skipHandler");
 const { assignRoles } = require("../utils/addroles");
 
 async function interactionHandler(client) {

@@ -51,6 +51,44 @@ function generateMultipleChoice(questionPool, currentAnswer) {
   return choices;
 }
 
+// Generate new question
+function generateNewQuestion(client, channelId, multiplier = 1) {
+  const categories = Object.keys(questionHandlers);
+
+  if (categories.length === 0) {
+    console.error("No question categories available.");
+    return;
+  }
+
+  const randomCategory =
+    categories[Math.floor(Math.random() * categories.length)];
+
+  try {
+    const question = questionHandlers[randomCategory]?.fetchQuestion?.();
+    if (!question) {
+      console.error("Failed to fetch question.");
+      return;
+    }
+
+    if (multiplier > 1) {
+      client.currentSpecialQuestion = { ...question, channelId, multiplier };
+      console.log(
+        `New special question generated: ${client.currentSpecialQuestion.question}`
+      );
+    } else {
+      client.currentRegularQuestion = { ...question, channelId, multiplier };
+      console.log(
+        `New regular question generated: ${client.currentRegularQuestion.question}`
+      );
+    }
+  } catch (error) {
+    console.error(
+      `Error generating question for category ${randomCategory}:`,
+      error
+    );
+  }
+}
+
 // Handle multiple-choice question
 async function handleMultipleChoiceQuestion(client, interaction) {
   try {
@@ -109,7 +147,11 @@ async function handleMultipleChoiceQuestion(client, interaction) {
 async function handleButtonInteraction(client, interaction) {
   if (!interaction.isButton()) return { isCorrect: false };
 
-  const currentQuestion = client.currentMultipleChoiceQuestion;
+  const isSpecial = interaction.customId.startsWith("special_");
+  const currentQuestion = isSpecial
+    ? client.currentSpecialQuestion
+    : client.currentMultipleChoiceQuestion;
+
   if (!currentQuestion) {
     if (!interaction.replied && !interaction.deferred) {
       await interaction.reply({
@@ -121,7 +163,7 @@ async function handleButtonInteraction(client, interaction) {
     return { isCorrect: false };
   }
 
-  const choiceIndex = parseInt(interaction.customId.split("_")[1], 10);
+  const choiceIndex = parseInt(interaction.customId.split("_")[2], 10); // For "special_choice_X", split on "_" and get index 2
   const selectedChoice = currentQuestion.choices[choiceIndex];
 
   const isCorrect =
@@ -130,17 +172,22 @@ async function handleButtonInteraction(client, interaction) {
     selectedChoice.trim().toLowerCase() ===
       currentQuestion.answer.trim().toLowerCase();
 
-  console.log(`[handleButtonInteraction] Is Correct: ${isCorrect}`);
+  console.log(
+    `[handleButtonInteraction] Is Correct: ${isCorrect} (Special: ${
+      isSpecial ? "Yes" : "No"
+    })`
+  );
 
   try {
     if (isCorrect) {
+      const multiplier = isSpecial ? currentQuestion.multiplier || 1 : 1;
+      const pointsEarned = 1 * multiplier;
+
       const user = await User.findOneAndUpdate(
         { userId: interaction.user.id, guildId: interaction.guildId },
-        { $inc: { score: 1 } },
+        { $inc: { score: pointsEarned } },
         { upsert: true, new: true }
       );
-
-      
 
       const isValidUrl = (url) => {
         try {
@@ -156,7 +203,7 @@ async function handleButtonInteraction(client, interaction) {
         : "https://example.com";
 
       await interaction.update({
-        content: `🎉 **${interaction.user.username}'s** score is now **${user.score}.**\n✅ ${currentQuestion.question} ✅`,
+        content: `🎉 **Correct Answer!**\n\n**${interaction.user.username}'s** score is now **${user.score}** (Earned ${pointsEarned} points).`,
         components: [
           {
             type: 1, // Action Row
@@ -174,48 +221,12 @@ async function handleButtonInteraction(client, interaction) {
 
       // Update user roles if their rank has changed
       const guildId = interaction.guildId;
-      const userId = interaction.user.id;
-      // Call assignRoles dynamically
-      await assignRoles(client, interaction.guildId, interaction.user.id);
+      await assignRoles(client, guildId);
 
-      client.currentMultipleChoiceQuestion = null;
-
-      // Fetch a new question
-      const questionPool = [];
-      for (const handler of Object.values(questionHandlers)) {
-        const questions = await handler.getAllQuestions?.();
-        if (questions) questionPool.push(...questions);
-      }
-
-      if (questionPool.length > 0) {
-        const randomQuestion =
-          questionPool[Math.floor(Math.random() * questionPool.length)];
-        const choices = generateMultipleChoice(
-          questionPool,
-          randomQuestion.answer
-        );
-
-        client.currentMultipleChoiceQuestion = { ...randomQuestion, choices };
-
-        const buttons = choices.map((choice, index) =>
-          new ButtonBuilder()
-            .setCustomId(`choice_${index}`)
-            .setLabel(choice)
-            .setStyle(ButtonStyle.Primary)
-        );
-
-        const actionRow = new ActionRowBuilder().addComponents(buttons);
-
-        await interaction.followUp({
-          content: `🔔 **New Multiple-Choice Question** 🔔\n**Category:** ${randomQuestion.category}\n**Question:** ${randomQuestion.question}`,
-          components: [actionRow],
-        });
+      if (isSpecial) {
+        client.currentSpecialQuestion = null; // Clear the special question
       } else {
-        console.error("No questions available for the next round.");
-        await interaction.followUp({
-          content: "❌ No more questions available at the moment.",
-          ephemeral: true,
-        });
+        client.currentMultipleChoiceQuestion = null; // Clear the regular question
       }
     } else {
       if (!interaction.replied && !interaction.deferred) {
@@ -236,11 +247,74 @@ async function handleButtonInteraction(client, interaction) {
     }
   }
 
-  // Return the result of the interaction
   return { isCorrect };
 }
 
+// Schedule special questions
+function scheduleSpecialQuestions(client, specialTimes) {
+  setInterval(async () => {
+    const now = new Date();
+    const currentTime = `${String(now.getHours()).padStart(2, "0")}${String(
+      now.getMinutes()
+    ).padStart(2, "0")}`;
+
+    if (specialTimes.includes(currentTime)) {
+      const channelId = process.env.CQOTD_ID;
+      const channel = client.channels.cache.get(channelId);
+
+      if (channel) {
+        if (currentTime.endsWith("30")) {
+          // Announce the multiplier question 15 minutes in advance
+          channel.send(
+            "⏰ **15-Minute Warning!** The next question will be worth **5x points**!"
+          );
+        } else {
+          const questionPool = [];
+          for (const handler of Object.values(questionHandlers)) {
+            const questions = await handler.getAllQuestions?.();
+            if (questions) questionPool.push(...questions);
+          }
+
+          if (questionPool.length === 0) {
+            channel.send("❌ No questions available for the special round.");
+            return;
+          }
+
+          // Generate a random question with 5x multiplier
+          const randomQuestion =
+            questionPool[Math.floor(Math.random() * questionPool.length)];
+          const choices = generateMultipleChoice(
+            questionPool,
+            randomQuestion.answer
+          );
+
+          client.currentSpecialQuestion = {
+            ...randomQuestion,
+            choices,
+            multiplier: 5,
+          };
+
+          const buttons = choices.map((choice, index) =>
+            new ButtonBuilder()
+              .setCustomId(`special_choice_${index}`)
+              .setLabel(choice)
+              .setStyle(ButtonStyle.Primary)
+          );
+
+          const actionRow = new ActionRowBuilder().addComponents(buttons);
+
+          channel.send({
+            content: `🔥 **Special Question Time!** 🔥\n\n**Category:** ${randomQuestion.category}\n**Question:** ${randomQuestion.question}\n\n🎯 **Answer correctly to earn **5x points**!`,
+            components: [actionRow],
+          });
+        }
+      }
+    }
+  }, 60 * 1000); // Check every minute
+}
+
 module.exports = {
+  scheduleSpecialQuestions,
   handleMultipleChoiceQuestion,
   handleButtonInteraction,
 };

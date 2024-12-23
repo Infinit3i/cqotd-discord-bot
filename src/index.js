@@ -5,15 +5,12 @@ require("dotenv").config();
 const { assignRoles } = require("./utils/addroles");
 
 // Import Handlers
+const { scheduleSpecialQuestions } = require("./handlers/multipleChoiceHandler");
 const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
 // const { sendNewVideos } = require("./content/sendvideos");
-const {
-  scheduleSpecialQuestions,
-  logSpecialQuestionTimes,
-} = require("./handlers/questionHandler");
 
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
 
@@ -168,25 +165,9 @@ setInterval(async () => {
 
 */
 
-client.once("ready", async () => {
-  // Define special question times
-  const specialTimes = [
-    "0900",
-    "0930",
-    "1000",
-    "1030",
-    "1300",
-    "1330",
-    "1400",
-    "1430",
-  ];
-  // Log special times for debugging purposes
-  console.log("Special question times scheduled:");
-  specialTimes.forEach((time) => console.log(`- ${time}`));
+const specialTimes = ["", "1607", "1608", "1609"];
+scheduleSpecialQuestions(client, specialTimes);
 
-  // Schedule special questions
-  scheduleSpecialQuestions(client, specialTimes);
-});
 
 // Login Bot
 client.login(process.env.TOKEN);
