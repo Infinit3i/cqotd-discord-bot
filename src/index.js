@@ -17,9 +17,6 @@ const {
 
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
 
-
-
-
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
 if (!mongoUri) {
@@ -62,7 +59,6 @@ client.once("ready", () => {
   console.log(`✅ ${client.user.tag} Registered Commands.`);
   registerCommands(); // Remove client argument
 });
-
 
 // leaderboard update handler
 client.once("ready", async () => {
@@ -174,7 +170,16 @@ setInterval(async () => {
 
 client.once("ready", async () => {
   // Define special question times
-  const specialTimes = ["0900", "0930", "1000", "1030", "1300", "1330", "1400", "1430"];
+  const specialTimes = [
+    "0900",
+    "0930",
+    "1000",
+    "1030",
+    "1300",
+    "1330",
+    "1400",
+    "1430",
+  ];
   // Log special times for debugging purposes
   console.log("Special question times scheduled:");
   specialTimes.forEach((time) => console.log(`- ${time}`));

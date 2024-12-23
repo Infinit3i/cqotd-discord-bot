@@ -140,6 +140,8 @@ async function handleButtonInteraction(client, interaction) {
         { upsert: true, new: true }
       );
 
+      
+
       const isValidUrl = (url) => {
         try {
           new URL(url);
@@ -154,7 +156,7 @@ async function handleButtonInteraction(client, interaction) {
         : "https://example.com";
 
       await interaction.update({
-        content: `✅ ${currentQuestion.question} ✅\n🎉 **${interaction.user.username}'s** score is now **${user.score}.**`,
+        content: `🎉 **${interaction.user.username}'s** score is now **${user.score}.**\n✅ ${currentQuestion.question} ✅`,
         components: [
           {
             type: 1, // Action Row
@@ -173,7 +175,8 @@ async function handleButtonInteraction(client, interaction) {
       // Update user roles if their rank has changed
       const guildId = interaction.guildId;
       const userId = interaction.user.id;
-      await assignRoles(client, guildId, userId);
+      // Call assignRoles dynamically
+      await assignRoles(client, interaction.guildId, interaction.user.id);
 
       client.currentMultipleChoiceQuestion = null;
 
