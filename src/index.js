@@ -23,15 +23,16 @@ if (!mongoUri) {
 }
 
 mongoose
-  .connect(mongoUri, {
-    useNewUrlParser: true,
+  .connect(process.env.MONGODB_URI, {
     useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 15000, // Adjust timeout
   })
   .then(() => console.log("✅ Connected to MongoDB"))
   .catch((err) => {
-    console.error(`❌ Error connecting to DB: ${err.message}`);
+    console.error("❌ Error connecting to DB:", err.message);
     process.exit(1);
   });
+
 
 // Initialize Client
 const client = new Client({
