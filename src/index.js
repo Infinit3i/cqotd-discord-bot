@@ -165,7 +165,7 @@ setInterval(async () => {
 
 */
 
-const specialTimes = ["", "1607", "1608", "1609"];
+const specialTimes = ["1400", "1430", "1500", "1530", "1800", "1830", "1900", "1930", "2000", "2030"];
 scheduleSpecialQuestions(client, specialTimes);
 
 
