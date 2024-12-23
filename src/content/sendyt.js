@@ -140,8 +140,11 @@ async function sendLatestYouTubeVideo(client, discordChannelId, youtubeChannelUr
       continue;
     }
 
+    // Extract the channel name from the URL
+    const channelName = channelUrl.split('/').pop().replace('@', '');
+
     // Send the latest video to Discord
-    const content = `🎥 **New Video from ${channelUrl}**\n**${video.title}**\n${video.link}`;
+    const content = `🎥 **New Video from [${channelName}](${channelUrl})**\n**${video.title}**\n${video.link}`;
     await discordChannel.send(content);
 
     // Mark the video as sent
@@ -149,5 +152,6 @@ async function sendLatestYouTubeVideo(client, discordChannelId, youtubeChannelUr
     console.log(`Sent new video: ${video.title}`);
   }
 }
+
 
 module.exports = { sendLatestYouTubeVideo };
