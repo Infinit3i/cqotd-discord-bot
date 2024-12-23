@@ -88,14 +88,7 @@ function eventHandler(client) {
 
             try {
               await interaction.followUp({
-                content: `**${randomPhrase}**`,
-                embeds: [
-                  {
-                    image: {
-                      url: randomGif,
-                    },
-                  },
-                ],
+                content: `**${randomPhrase}**\n\n${randomGif}`,
                 ephemeral: true,
               });
 
