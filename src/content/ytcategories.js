@@ -10,6 +10,7 @@ const videoCategories = [
       "https://www.youtube.com/@SquatUniversity",
       "https://www.youtube.com/@nsimaInyang",
       "https://www.youtube.com/@TaviCastroofficial",
+      "https://www.youtube.com/@TheKneesovertoesguy",
     ],
   },
   {
@@ -78,6 +79,13 @@ const videoCategories = [
       "https://www.youtube.com/@SimplyCyber",
       "https://www.youtube.com/@TechwithJono",
       "https://www.youtube.com/@ForeverAnonymous",
+      "https://www.youtube.com/@RobertElderSoftware",
+      "https://www.youtube.com/@BlackHillsInformationSecurity",
+      "https://www.youtube.com/@JackRhysider",
+      "https://www.youtube.com/@SwedishTwat",
+      "https://www.youtube.com/@davidbombal",
+      "https://www.youtube.com/@valhalla_dev",
+      "https://www.youtube.com/@Cobuman",
     ],
   },
   {
@@ -92,6 +100,7 @@ const videoCategories = [
       "https://www.youtube.com/@savbrown",
       "https://www.youtube.com/@PursuitofWonder",
       "https://www.youtube.com/@NewelOfKnowledge",
+      "https://www.youtube.com/@unsolicitedadvice9198",
     ],
   },
   {
