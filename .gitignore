@@ -15,3 +15,4 @@ package-lock.json
 .server-docker-compose.yml
 
 coverage/
+.server.env
