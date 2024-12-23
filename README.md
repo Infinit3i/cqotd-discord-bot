@@ -38,3 +38,6 @@ node src/index.js
 - grab youtube videos from channels every 30 minutes
 - testing
 - rss only post content today
+
+- trim down on index.js and make other docs more scalable
+- remove excess files
