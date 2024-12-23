@@ -5,13 +5,13 @@ require("dotenv").config();
 const { assignRoles } = require("./utils/addroles");
 
 // Import Handlers
-const { scheduleSpecialQuestions } = require("./handlers/multipleChoiceHandler");
+const {
+  scheduleSpecialQuestions,
+} = require("./handlers/multipleChoiceHandler");
 const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
-// const { sendNewVideos } = require("./content/sendvideos");
-
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
 
 // MongoDB Connection
@@ -97,77 +97,143 @@ client.once("ready", async () => {
   }, 30 * 60 * 1000); // Run every 30 minutes
 });
 
-// SEND 1 VIDEO
-client.once("ready", async () => {
-  console.log(`✅ ${client.user.tag} is ready to push a few youtube videos!`);
-
-  // Define YouTube channels to monitor
-  const youtubeChannelUrls = [
-    "https://www.youtube.com/@13Cubed",
-    "https://www.youtube.com/@ippsec",
-    "https://www.youtube.com/@LowLevelTV",
-  ];
-
-  const discordChannelId = process.env.DISCORD_CHANNEL_BLUE;
-
-  // Check for new videos periodically
-  setInterval(async () => {
-    console.log("Checking for new YouTube videos...");
-    await sendLatestYouTubeVideo(client, discordChannelId, youtubeChannelUrls);
-  }, 60 * 60 * 1000); // Run every 1 hour
-});
-
-/*
-
 const videoCategories = [
+  {
+    category: "Lifting",
+    discordChannelId: process.env.DISCORD_CHANNEL_LIFTING,
+    youtubeChannelUrls: [
+      "https://www.youtube.com/@JeffNippard",
+      "https://www.youtube.com/@ChrisBumstead",
+      "https://www.youtube.com/@LiftingVault",
+    ],
+  },
   {
     category: "blue",
     discordChannelId: process.env.DISCORD_CHANNEL_BLUE,
-    youtubeChannelIds: [
-      "UCgTNupxATBfWmfehv21ym-g", // 13Cubed
-      "UCOa7rYj90JxKD7bDgv06SHQ", // TrustedSecTV
-      "UCwR-9FwpVDz0qeMQl4d9hIQ", // BlackHillsInformationSecurity
+    youtubeChannelUrls: [
+      "https://www.youtube.com/@13Cubed",
+      "https://www.youtube.com/@TrustedSecTV",
+      "https://www.youtube.com/@BlackHillsInformationSecurity",
+      "https://www.youtube.com/@USENIXEnigmaConference",
+      "https://www.youtube.com/@pcsecuritychannel",
+      "https://www.youtube.com/@EricParker",
+      "https://www.youtube.com/@jbravovideos",
+      "https://www.youtube.com/@SANSCyberDefense",
+      "https://www.youtube.com/@TrustedSecTV",
+      "https://www.youtube.com/@sonianuj",
     ],
   },
   {
     category: "red",
     discordChannelId: process.env.DISCORD_CHANNEL_RED,
-    youtubeChannelIds: [
-      "UCVCTAfYT5ODQI_6Sb6e8JdA", // LowLevelTV
-      "UCq21WgV9a2T3Erxy45qAOpA", // IppSec
-      "UClcE-kVhqyiHCcjYwcpfj9w", // _JohnHammond
+    youtubeChannelUrls: [
+      "https://www.youtube.com/@LowLevelTV",
+      "https://www.youtube.com/@IppSec",
+      "https://www.youtube.com/@_JohnHammond",
+      "https://www.youtube.com/@HackerSploit",
+      "https://www.youtube.com/@MotasemHamdan",
+      "https://www.youtube.com/@crr0ww",
+      "https://www.youtube.com/@Incodenito",
+      "https://www.youtube.com/@LeetCipher",
     ],
   },
   {
     category: "it",
     discordChannelId: process.env.DISCORD_CHANNEL_IT,
-    youtubeChannelIds: [
-      "UCR1D15p_vdP3HkrH8wgjQRw", // NetworkChuck
-      "UC2aU4hUmoA2-qx3PppE3LzQ", // stuffy24
+    youtubeChannelUrls: [
+      "https://www.youtube.com/@NetworkChuck",
+      "https://www.youtube.com/@stuffy24",
+      "https://www.youtube.com/@derekbanas",
+      "https://www.youtube.com/@DavesGarage",
+      "https://www.youtube.com/@PirateSoftware",
+      "https://www.youtube.com/@letsgetrusty",
+      "https://www.youtube.com/@lamecreations_guides",
+      "https://www.youtube.com/@NoBoilerplate",
+      "https://www.youtube.com/@CoreDumpped",
+      "https://www.youtube.com/@codetothemoon",
+      "https://www.youtube.com/@ThePrimeagen",
+    ],
+  },
+  {
+    category: "psych-videos",
+    discordChannelId: process.env.DISCORD_CHANNEL_PSYCH_VIDEOS,
+    youtubeChannelUrls: [
+      "https://www.youtube.com/@Dr.Explainer-zt2xj",
+      "https://www.youtube.com/@MillenniaThinker",
+      "https://www.youtube.com/@GLITCH",
+      "https://www.youtube.com/@thedarkneedle",
+      "https://www.youtube.com/@donthugmeimscared",
+      "https://www.youtube.com/@savbrown",
+    ],
+  },
+  {
+    category: "Gaming",
+    discordChannelId: process.env.DISCORD_CHANNEL_GAMING,
+    youtubeChannelUrls: ["https://www.youtube.com/@lllonilll"],
+  },
+  {
+    category: "Guns",
+    discordChannelId: process.env.DISCORD_CHANNEL_GUNS,
+    youtubeChannelUrls: [
+      "https://www.youtube.com/@ForwardObservations",
+      "https://www.youtube.com/@TacticalForge1",
+    ],
+  },
+  {
+    category: "Unraid",
+    discordChannelId: process.env.DISCORD_CHANNEL_UNRAID,
+    youtubeChannelUrls: [
+      "https://www.youtube.com/@IBRACORP",
+      "https://www.youtube.com/@SpaceinvaderOne",
     ],
   },
 ];
 
-// Check for new videos periodically
-setInterval(async () => {
-  for (const categoryConfig of videoCategories) {
-    if (categoryConfig.youtubeChannelIds.length) {
-      await sendNewVideos(
-        client,
-        categoryConfig.category,
-        categoryConfig.youtubeChannelIds
-      );
-    } else {
-      console.log(`No YouTube channels configured for category '${categoryConfig.category}'.`);
+client.once("ready", async () => {
+  console.log(
+    `${client.user.tag} is ready and checking for new YouTube videos!`
+  );
+
+  // Function to process video categories
+  const processVideos = async () => {
+    for (const categoryConfig of videoCategories) {
+      if (categoryConfig.youtubeChannelUrls.length) {
+        await sendLatestYouTubeVideo(
+          client,
+          categoryConfig.discordChannelId,
+          categoryConfig.youtubeChannelUrls
+        );
+      } else {
+        console.log(
+          `No YouTube channels configured for category '${categoryConfig.category}'.`
+        );
+      }
     }
-  }
-}, 100000 * 60 * 1000); // Run every 10 minutes
+  };
 
-*/
+  // Check immediately after the bot starts
+  await processVideos();
 
-const specialTimes = ["1400", "1430", "1500", "1530", "1800", "1830", "1900", "1930", "2000", "2030"];
+  // Schedule checks every 6 hours
+  setInterval(async () => {
+    console.log("Checking for new YouTube videos...");
+    await processVideos();
+  }, 12 * 60 * 60 * 1000); // Run every 12 hours
+});
+
+const specialTimes = [
+  "1400",
+  "1430",
+  "1500",
+  "1530",
+  "1800",
+  "1830",
+  "1900",
+  "1930",
+  "2000",
+  "2030",
+];
 scheduleSpecialQuestions(client, specialTimes);
-
 
 // Login Bot
 client.login(process.env.TOKEN);
