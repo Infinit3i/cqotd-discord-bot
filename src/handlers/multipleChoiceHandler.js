@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 const User = require("../models/User");
+const { assignRoles } = require("../utils/addroles");
 
 // Load all question handlers from the questions directory
 const questionHandlers = {};
@@ -123,11 +124,6 @@ async function handleButtonInteraction(client, interaction) {
   const choiceIndex = parseInt(interaction.customId.split("_")[1], 10);
   const selectedChoice = currentQuestion.choices[choiceIndex];
 
-  console.log(`[handleButtonInteraction] Selected Choice: ${selectedChoice}`);
-  console.log(
-    `[handleButtonInteraction] Correct Answer: ${currentQuestion.answer}`
-  );
-
   const isCorrect =
     typeof selectedChoice === "string" &&
     typeof currentQuestion.answer === "string" &&
@@ -173,6 +169,11 @@ async function handleButtonInteraction(client, interaction) {
           },
         ],
       });
+
+      // Update user roles if their rank has changed
+      const guildId = interaction.guildId;
+      const userId = interaction.user.id;
+      await assignRoles(client, guildId, userId);
 
       client.currentMultipleChoiceQuestion = null;
 

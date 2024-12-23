@@ -20,3 +20,5 @@ services:
       - GUILD_ID=${GUILD_ID}
       - CQOTD_ID=${CQOTD_ID}
       - MONGODB_URI=${MONGODB_URI}
+    env_file:
+      - .env

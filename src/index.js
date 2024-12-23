@@ -1,6 +1,8 @@
 const { Client, IntentsBitField } = require("discord.js");
 const mongoose = require("mongoose");
+const dotenv = require("dotenv");
 require("dotenv").config();
+const { assignRoles } = require("./utils/addroles");
 
 // Import Handlers
 const { eventHandler } = require("./handlers/eventHandler");
@@ -14,6 +16,9 @@ const {
 } = require("./handlers/questionHandler");
 
 const { sendLatestYouTubeVideo } = require("./content/sendyt");
+
+
+
 
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
@@ -32,7 +37,6 @@ mongoose
     console.error("❌ Error connecting to DB:", err.message);
     process.exit(1);
   });
-
 
 // Initialize Client
 const client = new Client({
@@ -57,6 +61,13 @@ client.login(process.env.TOKEN).catch((err) => {
 client.once("ready", () => {
   console.log(`✅ ${client.user.tag} Registered Commands.`);
   registerCommands(); // Remove client argument
+});
+
+
+// leaderboard update handler
+client.once("ready", async () => {
+  const guildId = process.env.GUILD_ID;
+  await assignRoles(client, guildId);
 });
 
 // Attach Handlers
@@ -163,7 +174,7 @@ setInterval(async () => {
 
 client.once("ready", async () => {
   // Define special question times
-  const specialTimes = ["0900", "1000", "1200", "1300", "1400", "2000"];
+  const specialTimes = ["0900", "0930", "1000", "1030", "1300", "1330", "1400", "1430"];
   // Log special times for debugging purposes
   console.log("Special question times scheduled:");
   specialTimes.forEach((time) => console.log(`- ${time}`));
