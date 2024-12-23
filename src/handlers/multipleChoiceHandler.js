@@ -19,7 +19,10 @@ for (const file of questionFiles) {
 function generateMultipleChoice(questionPool, currentAnswer) {
   // Ensure `currentAnswer` is a string
   if (typeof currentAnswer !== "string") {
-    console.error("generateMultipleChoice: currentAnswer is not a string:", currentAnswer);
+    console.error(
+      "generateMultipleChoice: currentAnswer is not a string:",
+      currentAnswer
+    );
     currentAnswer = String(currentAnswer); // Convert it to a string as a fallback
   }
 
@@ -40,7 +43,9 @@ function generateMultipleChoice(questionPool, currentAnswer) {
     .slice(0, 4);
 
   // Combine correct and incorrect answers and shuffle them
-  const choices = [...incorrectAnswers, currentAnswer].sort(() => 0.5 - Math.random());
+  const choices = [...incorrectAnswers, currentAnswer].sort(
+    () => 0.5 - Math.random()
+  );
 
   return choices;
 }
@@ -92,7 +97,8 @@ async function handleMultipleChoiceQuestion(client, interaction) {
     console.error("Error handling multiple-choice question:", error);
     if (!interaction.replied && !interaction.deferred) {
       await interaction.reply({
-        content: "❌ There was an error generating the question. Please try again later.",
+        content:
+          "❌ There was an error generating the question. Please try again later.",
         ephemeral: true,
       });
     }
@@ -106,7 +112,8 @@ async function handleButtonInteraction(client, interaction) {
   if (!currentQuestion) {
     if (!interaction.replied && !interaction.deferred) {
       await interaction.reply({
-        content: "❌ No active multiple-choice question. Try requesting a question first.",
+        content:
+          "❌ No active multiple-choice question. Try requesting a question first.",
         ephemeral: true,
       });
     }
@@ -117,12 +124,15 @@ async function handleButtonInteraction(client, interaction) {
   const selectedChoice = currentQuestion.choices[choiceIndex];
 
   console.log(`[handleButtonInteraction] Selected Choice: ${selectedChoice}`);
-  console.log(`[handleButtonInteraction] Correct Answer: ${currentQuestion.answer}`);
+  console.log(
+    `[handleButtonInteraction] Correct Answer: ${currentQuestion.answer}`
+  );
 
   const isCorrect =
     typeof selectedChoice === "string" &&
     typeof currentQuestion.answer === "string" &&
-    selectedChoice.trim().toLowerCase() === currentQuestion.answer.trim().toLowerCase();
+    selectedChoice.trim().toLowerCase() ===
+      currentQuestion.answer.trim().toLowerCase();
 
   console.log(`[handleButtonInteraction] Is Correct: ${isCorrect}`);
 
@@ -142,22 +152,22 @@ async function handleButtonInteraction(client, interaction) {
           return false;
         }
       };
-      
+
       const reviewUrl = isValidUrl(currentQuestion.review)
         ? currentQuestion.review
         : "https://example.com";
-      
+
       await interaction.update({
-        content: `✅ **Correct!**\n${currentQuestion.question}\nThe answer was: **${currentQuestion.answer}**\n🎉 **Your score is now ${user.score}.**`,
+        content: `✅ ${currentQuestion.question} ✅\n🎉 **${interaction.user.username}'s score is now ${user.score}.**`,
         components: [
           {
             type: 1, // Action Row
             components: [
               {
                 type: 2, // Button
-                label: "Review Answer",
+                label: currentQuestion.answer, // Set the button label to the correct answer
                 style: 5, // Link style
-                url: reviewUrl,
+                url: reviewUrl, // Link to the review or fallback URL
               },
             ],
           },
@@ -176,7 +186,10 @@ async function handleButtonInteraction(client, interaction) {
       if (questionPool.length > 0) {
         const randomQuestion =
           questionPool[Math.floor(Math.random() * questionPool.length)];
-        const choices = generateMultipleChoice(questionPool, randomQuestion.answer);
+        const choices = generateMultipleChoice(
+          questionPool,
+          randomQuestion.answer
+        );
 
         client.currentMultipleChoiceQuestion = { ...randomQuestion, choices };
 
@@ -222,7 +235,6 @@ async function handleButtonInteraction(client, interaction) {
   // Return the result of the interaction
   return { isCorrect };
 }
-
 
 module.exports = {
   handleMultipleChoiceQuestion,
