@@ -155,14 +155,18 @@ async function handleButtonInteraction(client, interaction) {
   if (!currentQuestion) {
     if (!interaction.replied && !interaction.deferred) {
       await interaction.reply({
-        content: "❌ No active multiple-choice question. Try requesting a question first.",
+        content:
+          "❌ No active multiple-choice question. Try requesting a question first.",
         ephemeral: true,
       });
     }
     return { isCorrect: false };
   }
 
-  const choiceIndex = parseInt(interaction.customId.split("_")[2] || interaction.customId.split("_")[1], 10);
+  const choiceIndex = parseInt(
+    interaction.customId.split("_")[2] || interaction.customId.split("_")[1],
+    10
+  );
   const selectedChoice = currentQuestion.choices[choiceIndex];
 
   const isCorrect =
@@ -236,42 +240,44 @@ async function handleButtonInteraction(client, interaction) {
       }
     }
 
-    // Push a new regular question after every interaction
-    const questionPool = [];
-    for (const handler of Object.values(questionHandlers)) {
-      const questions = await handler.getAllQuestions?.();
-      if (questions) questionPool.push(...questions);
-    }
+    if (isCorrect) {
+      // Push a new regular question after every interaction
+      const questionPool = [];
+      for (const handler of Object.values(questionHandlers)) {
+        const questions = await handler.getAllQuestions?.();
+        if (questions) questionPool.push(...questions);
+      }
 
-    if (questionPool.length > 0) {
-      const randomQuestion =
-        questionPool[Math.floor(Math.random() * questionPool.length)];
-      const choices = generateMultipleChoice(
-        questionPool,
-        randomQuestion.answer
-      );
+      if (questionPool.length > 0) {
+        const randomQuestion =
+          questionPool[Math.floor(Math.random() * questionPool.length)];
+        const choices = generateMultipleChoice(
+          questionPool,
+          randomQuestion.answer
+        );
 
-      client.currentMultipleChoiceQuestion = { ...randomQuestion, choices };
+        client.currentMultipleChoiceQuestion = { ...randomQuestion, choices };
 
-      const buttons = choices.map((choice, index) =>
-        new ButtonBuilder()
-          .setCustomId(`choice_${index}`)
-          .setLabel(choice)
-          .setStyle(ButtonStyle.Primary)
-      );
+        const buttons = choices.map((choice, index) =>
+          new ButtonBuilder()
+            .setCustomId(`choice_${index}`)
+            .setLabel(choice)
+            .setStyle(ButtonStyle.Primary)
+        );
 
-      const actionRow = new ActionRowBuilder().addComponents(buttons);
+        const actionRow = new ActionRowBuilder().addComponents(buttons);
 
-      await interaction.followUp({
-        content: `🔔 **New Multiple-Choice Question** 🔔\n**Category:** ${randomQuestion.category}\n**Question:** ${randomQuestion.question}`,
-        components: [actionRow],
-      });
-    } else {
-      console.error("No questions available for the next round.");
-      await interaction.followUp({
-        content: "❌ No more questions available at the moment.",
-        ephemeral: true,
-      });
+        await interaction.followUp({
+          content: `🔔 **New Multiple-Choice Question** 🔔\n**Category:** ${randomQuestion.category}\n**Question:** ${randomQuestion.question}`,
+          components: [actionRow],
+        });
+      } else {
+        console.error("No questions available for the next round.");
+        await interaction.followUp({
+          content: "❌ No more questions available at the moment.",
+          ephemeral: true,
+        });
+      }
     }
   } catch (error) {
     console.error("Error handling button interaction:", error);
@@ -286,8 +292,6 @@ async function handleButtonInteraction(client, interaction) {
 
   return { isCorrect };
 }
-
-
 
 // Schedule special questions
 function scheduleSpecialQuestions(client, specialTimes) {
