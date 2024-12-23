@@ -9,7 +9,10 @@ function eventHandler(client) {
     if (interaction.isButton()) {
       try {
         // Handle button interaction and get correctness result
-        const { isCorrect } = await handleButtonInteraction(client, interaction);
+        const { isCorrect } = await handleButtonInteraction(
+          client,
+          interaction
+        );
 
         if (isCorrect) {
           let user = await User.findOne({
@@ -27,7 +30,10 @@ function eventHandler(client) {
           }
 
           // Trigger celebration for multiples of 5
-          if (user.score % 5 === 0 && !user.celebratedScores.includes(user.score)) {
+          if (
+            user.score % 5 === 0 &&
+            !user.celebratedScores.includes(user.score)
+          ) {
             const celebrationGifs = [
               "https://tenor.com/view/lilpotate-lil-potate-lilpotates-lil-potates-potate-gif-4155638923629851536",
               "https://tenor.com/view/baby-yoda-babyyoda-gif-906250813013085097",
@@ -74,13 +80,22 @@ function eventHandler(client) {
             ];
 
             const randomGif =
-              celebrationGifs[Math.floor(Math.random() * celebrationGifs.length)];
+              celebrationGifs[
+                Math.floor(Math.random() * celebrationGifs.length)
+              ];
             const randomPhrase =
               catchPhrases[Math.floor(Math.random() * catchPhrases.length)];
 
             try {
               await interaction.followUp({
-                content: `${randomPhrase} ${randomGif}`,
+                content: `**${randomPhrase}**`,
+                embeds: [
+                  {
+                    image: {
+                      url: randomGif,
+                    },
+                  },
+                ],
                 ephemeral: true,
               });
 
