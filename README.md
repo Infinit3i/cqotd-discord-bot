@@ -25,7 +25,7 @@
 ```
 
 <div align="center">
-  <img src="https://github.com/Infinit3i/cqotd-discord-bot/blob/eb53df1c9b425c9c7911468b0c43efe98a434120/Assets/discord-bot-readme-pictures.png" alt="Discord Bot Information" width="600">
+  <img src="https://github.com/Infinit3i/cqotd-discord-bot/blob/7c8d43ff2ee3edbcd92a2debf497884c059bf8d5/Assets/discord-bot-readme-pictures.png" alt="Discord Bot Information" width="600">
 </div>
 
 ### SETUP
