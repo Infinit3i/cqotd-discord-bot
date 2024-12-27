@@ -309,7 +309,7 @@ function scheduleSpecialQuestions(client, specialTimes) {
         if (currentTime.endsWith("30")) {
           // Announce the multiplier question 15 minutes in advance
           channel.send(
-            "⏰ **15-Minute Warning!** The next question will be worth **5x points**!"
+            "⏰ **30-Minute Warning!** The next question will be worth **5x points**!"
           );
         } else {
           const questionPool = [];

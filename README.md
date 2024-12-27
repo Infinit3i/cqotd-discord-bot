@@ -39,5 +39,8 @@ node src/index.js
 
 ## TODO
 
-- testing
+- convert to typscript
+- question section in the anwer
+- youtube grab sections on server
+- celebrate all holidays
 - remove excess files
