@@ -18,7 +18,7 @@ let threatemulationquestions = [
     {
       category: "Threat Emulation",
       question: "What is the goal of a red team exercise?",
-      answer: "Test defenses",
+      answer: "Test defenders",
       hint: "Simulates real-world attacks.",
       blank: "xxxx xxxxxxxxx",
       review: "https://www.redteamjournal.com/",
