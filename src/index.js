@@ -12,7 +12,7 @@ const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
-const { celebrateHoliday } = require("./content/celebrateHolidays");
+const { celebrateHoliday } = require("./content/celebrateholidays");
 
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
