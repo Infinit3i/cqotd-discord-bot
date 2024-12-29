@@ -39,3 +39,4 @@ node src/index.js
 
 ## TODO
 - convert all to typescript
+- if a user selects a specific category keep them on that question until they do not answer for 30 minutes
