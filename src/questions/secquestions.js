@@ -567,15 +567,6 @@ let secquestions = [
   {
     category: "CompTIA Security+",
     question:
-      "What cryptographic key is used in wireless networks to encrypt data?",
-    answer: "Initialization vector (IV)",
-    hint: "Cryptographic key for wireless encryption",
-    blank: "Initialization vector (IV)",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
-    question:
       "What type of attack intercepts and alters communication between two parties?",
     answer: "On-path attack",
     hint: "Intercepting and altering communication",
@@ -914,71 +905,10 @@ let secquestions = [
   },
   {
     category: "CompTIA Security+",
-    question:
-      "What weak configuration involves overly permissive access levels?",
-    answer: "Open permissions",
-    hint: "Overly permissive access levels",
-    blank: "xxxx xxxxxxxxxxx",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
-    question:
-      "What weak configuration involves unprotected administrative accounts?",
-    answer: "Unsecure root accounts",
-    hint: "Unprotected administrative accounts",
-    blank: "xxxxxxxxx xxxx",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
     question: "What errors in configuration can lead to vulnerabilities?",
     answer: "Errors",
     hint: "Configuration errors",
     blank: "xxxxxx",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
-    question: "What weak configuration involves inadequate encryption methods?",
-    answer: "Weak encryption",
-    hint: "Inadequate encryption methods",
-    blank: "xxxx xxxxxxxx",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
-    question:
-      "What weak configuration involves using unsecured communication standards?",
-    answer: "Unsecure protocols",
-    hint: "Using unsecured communication standards",
-    blank: "xxxxxxxxxx",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
-    question:
-      "What weak configuration involves leaving default settings unchanged?",
-    answer: "Default settings",
-    hint: "Leaving default settings unchanged",
-    blank: "xxxxxxx xxxxxxx",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
-    question:
-      "What weak configuration involves leaving unnecessary network access points open?",
-    answer: "Open ports",
-    hint: "sticky mac or disable the port",
-    blank: "xxxx xxxxs",
-    review: "",
-  },
-  {
-    category: "CompTIA Security+",
-    question: "What risks are associated with third-party vendors?",
-    answer: "Third-party risks",
-    hint: "Risks associated with third-party vendors",
-    blank: "xxxxx-xxxxx xxxx",
     review: "",
   },
   {

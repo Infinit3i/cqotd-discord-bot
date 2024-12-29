@@ -206,7 +206,7 @@ async function handleButtonInteraction(client, interaction) {
         : "https://example.com";
 
       await interaction.update({
-        content: `🎉 **Correct Answer!**\n\n**${interaction.user.username}'s** score is now **${user.score}** (Earned ${pointsEarned} points).`,
+        content: `🎉 **${interaction.user.username}'s** score is now **${user.score}** (Earned ${pointsEarned})\n\n${currentQuestion.question} `,
         components: [
           {
             type: 1, // Action Row
@@ -309,7 +309,7 @@ function scheduleSpecialQuestions(client, specialTimes) {
         if (currentTime.endsWith("30")) {
           // Announce the multiplier question 15 minutes in advance
           channel.send(
-            "⏰ **30-Minute Warning!** The next question will be worth **5x points**!"
+            "⏰ **30-Minute Warning!** The next question will be worth **10x points**!"
           );
         } else {
           const questionPool = [];
@@ -334,7 +334,7 @@ function scheduleSpecialQuestions(client, specialTimes) {
           client.currentSpecialQuestion = {
             ...randomQuestion,
             choices,
-            multiplier: 5,
+            multiplier: 10,
           };
 
           const buttons = choices.map((choice, index) =>

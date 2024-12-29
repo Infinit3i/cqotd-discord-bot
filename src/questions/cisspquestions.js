@@ -616,15 +616,6 @@ let cisspquestions = [
   },
   {
     category: "CISSP",
-    question: "What is an insider threat?",
-    answer: "Employee risk",
-    hint: "Internal users posing security risks.",
-    blank: "xxxxxxxxx xxxx",
-    review:
-      "https://www.cisco.com/c/en/us/products/security/insider-threats.html",
-  },
-  {
-    category: "CISSP",
     question: "What is endpoint security?",
     answer: "Device protection",
     hint: "Secures endpoints like laptops.",

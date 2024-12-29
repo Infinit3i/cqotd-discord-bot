@@ -516,14 +516,6 @@ let gmonQuestions = [
   },
   {
     category: "GMON",
-    question: "What is a reverse shell?",
-    answer: "Attacker gains control",
-    hint: "Connects back to hacker.",
-    blank: "xxxxxxxx xxxxx xxxxxxx",
-    review: "https://en.wikipedia.org/wiki/Reverse_shell",
-  },
-  {
-    category: "GMON",
     question: "What does PCAP stand for?",
     answer: "Packet capture",
     hint: "Network traffic analysis.",

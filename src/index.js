@@ -12,8 +12,6 @@ const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
-const { processVideoCategories } = require("./content/ytcategories");
-const { sendLatestYouTubeVideo } = require("./content/sendyt");
 
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
@@ -111,21 +109,6 @@ const specialTimes = [
   "2030",
 ];
 scheduleSpecialQuestions(client, specialTimes);
-
-client.once("ready", async () => {
-  console.log(
-    `${client.user.tag} is ready and checking for new YouTube videos!`
-  );
-
-  // Check immediately after the bot starts
-  await processVideoCategories(client, sendLatestYouTubeVideo);
-
-  // Schedule checks every 12 hours
-  setInterval(async () => {
-    console.log("Checking for new YouTube videos...");
-    await processVideoCategories(client, sendLatestYouTubeVideo);
-  }, 12 * 60 * 60 * 1000); // Run every 12 hours
-});
 
 // Login Bot
 client.login(process.env.TOKEN);
