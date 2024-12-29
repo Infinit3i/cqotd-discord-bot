@@ -206,7 +206,7 @@ async function handleButtonInteraction(client, interaction) {
         : "https://example.com";
 
       await interaction.update({
-        content: `🎉 **${interaction.user.username}'s** score is now **${user.score}** (Earned ${pointsEarned})\n\n${currentQuestion.question} `,
+        content: `🎉 **${interaction.user.username}'s** score is now **${user.score}** (Earned ${pointsEarned})\n\n${currentQuestion.question} 🎉`,
         components: [
           {
             type: 1, // Action Row

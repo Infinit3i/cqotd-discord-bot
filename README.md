@@ -38,9 +38,4 @@ node src/index.js
 ```
 
 ## TODO
-
-- convert to typscript
-- question section in the anwer
-- youtube grab sections on server
-- celebrate all holidays
-- remove excess files
+- convert all to typescript

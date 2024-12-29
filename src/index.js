@@ -12,6 +12,7 @@ const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
+const { celebrateHoliday } = require("./content/celebrateHolidays");
 
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
@@ -109,6 +110,22 @@ const specialTimes = [
   "2030",
 ];
 scheduleSpecialQuestions(client, specialTimes);
+
+// Inside the ready event
+client.once("ready", async () => {
+  console.log("✅ Holiday Celebrator Ready!");
+
+  // Check for holidays immediately on startup
+  await celebrateHoliday(client);
+
+  // Check for holidays every day at midnight
+  setInterval(async () => {
+    const now = new Date();
+    if (now.getHours() === 0 && now.getMinutes() === 0) {
+      await celebrateHoliday(client);
+    }
+  }, 60 * 1000); // Check every minute
+});
 
 // Login Bot
 client.login(process.env.TOKEN);
