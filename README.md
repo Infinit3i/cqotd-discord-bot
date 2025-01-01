@@ -8,10 +8,10 @@
 
 ## Features
 - Grabs News articles
-- Grabs the most recent youtube videos from the best cyber security youtube series
 - answer questions in the quiz chat
 - every 5 questions right celebrates your victories
 - special question a few times a day
+- celebrates holidays
 
 ### slash commands
 
