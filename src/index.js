@@ -87,6 +87,8 @@ client.once("ready", async () => {
     "https://grahamcluley.com/feed/",
     "https://feeds.feedburner.com/eset/blog",
     "https://podcast.darknetdiaries.com/",
+    "https://www.wired.com/feed/tag/ai/latest/rss",
+    "https://www.wired.com/feed/category/security/latest/rss",
   ];
   const discordChannelId = process.env.NEWS_ID;
 
