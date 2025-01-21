@@ -64,6 +64,14 @@ function eventHandler(client) {
               "https://tenor.com/view/cars-fast-car-and-furious-gif-16827910",
               "https://tenor.com/view/gtr-r35-gtr35-gtrrari-gif-24979183",
               "https://tenor.com/view/nissan-gtr-r35-gtr-r35gtr-r35-gtr-backfire-gif-23170757",
+              "https://tenor.com/view/spongebob-patrick-star-yay-its-a-celebration-lets-get-this-party-started-gif-7192950983416655582",
+              "https://tenor.com/view/cookie-monster-dancing-swag-ernie-sesame-street-gif-23523854",
+              "https://tenor.com/view/cookie-monster-dancing-swag-ernie-sesame-street-gif-23523854",
+              "https://tenor.com/view/gtr-gif-25707102",
+              "https://tenor.com/view/lesz34-vqphilly-370z-vq-car-gif-13923633",
+              "https://tenor.com/view/350z-nissan-350z-350z-batumi-350z-drift-jdm-drift-gif-5280949879289397592",
+              "https://tenor.com/view/350z-nissan-350z-350z-batumi-350z-drift-jdm-drift-gif-5280949879289397592",
+              "https://tenor.com/view/forza-horizon5-chevrolet-corvette-zr1-drift-drifting-burnout-gif-27264848",
             ];
 
             const catchPhrases = [
