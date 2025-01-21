@@ -10,9 +10,12 @@ const {
 } = require("./handlers/multipleChoiceHandler");
 const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
+const { scheduleLeaderboardPing } = require("./handlers/leaderboardPingHandler");
+
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
 const { celebrateHoliday } = require("./content/celebrateholidays");
+
 
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
@@ -128,6 +131,17 @@ client.once("ready", async () => {
     }
   }, 60 * 1000); // Check every minute
 });
+
+
+
+// Times for leaderboard pings (24-hour format, HHMM)
+const leaderboardPingTimes = ["0900", "1230"]; // Adjust the times as needed
+
+client.once("ready", () => {
+  console.log("✅ Leaderboard Ping Scheduler Ready!");
+  scheduleLeaderboardPing(client, leaderboardPingTimes);
+});
+
 
 // Login Bot
 client.login(process.env.TOKEN);
