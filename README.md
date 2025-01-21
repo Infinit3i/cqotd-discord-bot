@@ -39,6 +39,4 @@ node src/index.js
 
 ## TODO
 - if a user selects a specific category keep them on that question until they do not answer for 30 minutes
-- post the leaderboard once a day
-- Ping the @cyber punk
 - convert all to typescript
