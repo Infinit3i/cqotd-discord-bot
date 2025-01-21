@@ -345,9 +345,10 @@ function scheduleSpecialQuestions(client, specialTimes) {
           );
 
           const actionRow = new ActionRowBuilder().addComponents(buttons);
+          const cyberpunkRoleId = process.env.TOP_TWENTY;
 
           channel.send({
-            content: `🔥 **Special Question Time!** 🔥\n\n**Category:** ${randomQuestion.category}\n**Question:** ${randomQuestion.question}\n\n🎯 **Answer correctly to earn **5x points**!`,
+            content: `🔥 **Special Question Time!** <@&${cyberpunkRoleId}> 🔥\n\n**Category:** ${randomQuestion.category}\n**Question:** ${randomQuestion.question}\n\n🎯 **Answer correctly to earn **10x points**!`,
             components: [actionRow],
           });
         }
