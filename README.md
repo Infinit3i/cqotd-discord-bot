@@ -38,10 +38,8 @@ node src/index.js
 ```
 
 ## TODO
-- convert all to typescript
 - if a user selects a specific category keep them on that question until they do not answer for 30 minutes
 - post the leaderboard once a day
 - add more gifs for celebrating victories of 5
-- Make it so if you pick a topic it will stay with it
-- Have the 30 minute thing go before its time
 - Ping the @cyber punk
+- convert all to typescript
