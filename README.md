@@ -4,7 +4,7 @@
   <img src="https://github.com/Infinit3i/cqotd-discord-bot/blob/90e4005d6b0da13ec8f1cb67ff4bda5062bd5ed9/Assets/Discord_JS_Bot.jpeg" alt="Discord Bot" width="600">
 </div>
 
-[Join my server](https://discord.gg/rzSTrk39yE)
+The Cyber Nerd Discord Bot is an engaging and interactive tool for cybersecurity enthusiasts. Designed to test comprehension and deepen knowledge, this bot creates an immersive learning environment for both beginners and seasoned professionals. At its core, the bot asks daily cybersecurity-related questions that challenge users' understanding of fundamental and advanced concepts. Whether you’re sharpening your skills or competing with friends, the bot is a perfect blend of education and entertainment. [Join my server](https://discord.gg/rzSTrk39yE)
 
 ## Features
 - Grabs News articles
