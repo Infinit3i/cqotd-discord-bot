@@ -16,6 +16,9 @@ const { scheduleIOC } = require("./handlers/iocHandler");
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
 const { celebrateHoliday } = require("./content/celebrateholidays");
+const { scheduleMITRETechnique } = require("./handlers/mitreAttackHandler");
+const { scheduleEventCode } = require('./handlers/eventCodeHandler');
+
 
 
 // MongoDB Connection
@@ -85,8 +88,6 @@ client.once("ready", async () => {
     "https://feeds.feedburner.com/TroyHunt",
     "https://feeds.feedburner.com/TheHackersNews",
     "https://krebsonsecurity.com/feed/",
-    "https://isc.sans.edu/rssfeed_full.xml",
-    "https://news.sophos.com/en-us/category/security-operations/feed/",
     "https://www.usom.gov.tr/rss/duyuru.rss",
     "https://grahamcluley.com/feed/",
     "https://feeds.feedburner.com/eset/blog",
@@ -146,6 +147,20 @@ const leaderboardPingTimes = ["0900", "1230"]; // Adjust the times as needed
 client.once("ready", () => {
   console.log("✅ Leaderboard Ping Scheduler Ready!");
   scheduleLeaderboardPing(client, leaderboardPingTimes);
+});
+
+
+
+// Later, inside a client.once("ready") event:
+client.once("ready", () => {
+  console.log("✅ MITRE Technique Handler Ready!");
+  scheduleMITRETechnique(client);
+});
+
+
+client.once("ready", () => {
+  console.log("✅ Windows Event Code Handler Ready!");
+  scheduleEventCode(client);
 });
 
 
