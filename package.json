@@ -17,6 +17,7 @@
     "luxon": "^3.5.0",
     "mongodb": "^6.6.1",
     "mongoose": "^8.3.4",
+    "node-fetch": "^3.3.2",
     "puppeteer": "^23.11.1",
     "rss-parser": "^3.13.0"
   }

@@ -11,6 +11,7 @@ const {
 const { eventHandler } = require("./handlers/eventHandler");
 const { interactionHandler } = require("./handlers/interactionHandler");
 const { scheduleLeaderboardPing } = require("./handlers/leaderboardPingHandler");
+const { scheduleIOC } = require("./handlers/iocHandler");
 
 const registerCommands = require("./commands/register-commands");
 const { sendNewRSS } = require("./content/sendrss");
@@ -131,6 +132,12 @@ client.once("ready", async () => {
   }, 60 * 1000); // Check every minute
 });
 
+
+// IOC Handler: schedule IOC posts every 10 minutes
+client.once("ready", () => {
+  console.log("✅ IOC Handler Ready!");
+  scheduleIOC(client);
+});
 
 
 // Times for leaderboard pings (24-hour format, HHMM)

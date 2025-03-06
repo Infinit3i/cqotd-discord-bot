@@ -306,12 +306,6 @@ function scheduleSpecialQuestions(client, specialTimes) {
       const channel = client.channels.cache.get(channelId);
 
       if (channel) {
-        if (currentTime.endsWith("30")) {
-          // Announce the multiplier question 15 minutes in advance
-          channel.send(
-            "⏰ **30-Minute Warning!** The next question will be worth **10x points**!"
-          );
-        } else {
           const questionPool = [];
           for (const handler of Object.values(questionHandlers)) {
             const questions = await handler.getAllQuestions?.();
@@ -351,7 +345,6 @@ function scheduleSpecialQuestions(client, specialTimes) {
             content: `🔥 **Special Question Time!** <@&${cyberpunkRoleId}> 🔥\n\n**Category:** ${randomQuestion.category}\n**Question:** ${randomQuestion.question}\n\n🎯 **Answer correctly to earn **10x points**!`,
             components: [actionRow],
           });
-        }
       }
     }
   }, 60 * 1000); // Check every minute
