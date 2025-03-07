@@ -12,6 +12,9 @@ The Cyber Nerd Discord Bot is an engaging and interactive tool for cybersecurity
 - every 5 questions right celebrates your victories
 - special question a few times a day
 - celebrates holidays
+- push a new IOC every 4 hours
+- push a new Mitre Att&ck every 6 hours
+- push a new Event code every 8 hours
 
 ### slash commands
 
