@@ -7,14 +7,14 @@
 The Cyber Nerd Discord Bot is an engaging and interactive tool for cybersecurity enthusiasts. Designed to test comprehension and deepen knowledge, this bot creates an immersive learning environment for both beginners and seasoned professionals. At its core, the bot asks daily cybersecurity-related questions that challenge users' understanding of fundamental and advanced concepts. Whether you’re sharpening your skills or competing with friends, the bot is a perfect blend of education and entertainment. [Join my server](https://discord.gg/rzSTrk39yE)
 
 ## Features
-- Grabs News articles
-- answer questions in the quiz chat
-- every 5 questions right celebrates your victories
-- special question a few times a day
-- celebrates holidays
-- push a new IOC every 4 hours
-- push a new Mitre Att&ck every 6 hours
-- push a new Event code every 8 hours
+- 📰 **Grabs News Articles:** Automatically fetches and shares trending news.
+- ❓ **Quiz Chat Answers:** Engages with users by answering quiz questions.
+- 🎉 **Victory Celebrations:** Every 5 correct answers, your victories are celebrated!
+- ⭐ **Special Questions:** Delivers unique questions several times a day.
+- 🎊 **Holiday Celebrations:** Recognizes and celebrates holidays in style.
+- ⏰ **IOC Updates:** Pushes a new IOC every 4 hours.
+- 🛠️ **Mitre Att&ck Updates:** Shares fresh Mitre Att&ck insights every 6 hours.
+- 🗓️ **Event Code Updates:** Introduces a new event code every 8 hours.
 
 ### slash commands
 
