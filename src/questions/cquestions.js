@@ -146,10 +146,10 @@ let cquestions = [
     {
       category: "C Programming",
       question: "What is the maximum size of an int in C?",
-      answer: "Depends on platform",
+      answer: "4 bytes",
       hint: "32-bit or 64-bit.",
       blank: "xxxxxxx xx xxxxxxxx",
-      review: "https://en.cppreference.com/w/c/language/arithmetic_types",
+      review: "",
     },
     {
       category: "C Programming",
