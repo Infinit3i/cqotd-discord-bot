@@ -39,7 +39,3 @@ cd CQOTD-DISCORD-BOT-MAIN
 npm install discord.js
 node src/index.js
 ```
-
-## TODO
-- if a user selects a specific category keep them on that question until they do not answer for 30 minutes
-- convert all to typescript
